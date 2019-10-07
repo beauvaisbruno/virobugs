@@ -1,0 +1,15 @@
+https://docs.viromedia.com/docs/quick-start-windows
+
+"C:\Program Files\nodejs\node.exe" C:\Users\bruno\AppData\Roaming\npm\node_modules\react-native-cli\index.js init virobugs --version=0.59.3
+
+npm install -S -E react-viro
+
+Copy the files from node_modules\react-viro\bin\files\javascript\* to the root of your directory.
+
+Native project config files and the changes needed to add Viro React. And add the proper lines to your Android Manifest
+and Gradle files: https://gist.github.com/achuvm/fe0136818158bec2cdf4d1cd11053f6d
+
+Note: If you aren't developing for Samsung Gear(OVR) you can ignore the OVR related changes specified in the Git gist.
+
+Change app name in graddle ViroSample-ar => virobugs and in index.js and index.android.js
+

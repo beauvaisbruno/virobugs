@@ -1,0 +1,31 @@
+{
+  "name": "virobugs",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android reload": "adb shell input text \"RR\"",
+    "android": "cd android && gradlew clean && cd .. && adb reverse tcp:8097 tcp:8097 && adb reverse tcp:9090 tcp:9090 && react-native run-android --variant=arDebug",
+    "metro wifi": "react-native start --port=8081 --reset-cache",
+    "android open debug menu": "adb shell input keyevent 82",
+    "android build": "cd android && gradlew assembleArRelease",
+    "android start release": "cd android && gradlew clean && cd .. && adb reverse tcp:8097 tcp:8097 && adb reverse tcp:9090 tcp:9090 && react-native run-android --variant=arRelease ",
+    "android log": "adb logcat",
+    "android clean": "cd android && gradlew clean"
+  },
+  "dependencies": {
+    "react": "16.8.3",
+    "react-native": "0.59.3",
+    "react-viro": "2.16.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.2",
+    "@babel/runtime": "^7.6.2",
+    "babel-jest": "^24.9.0",
+    "jest": "^24.9.0",
+    "metro-react-native-babel-preset": "^0.56.0",
+    "react-test-renderer": "16.8.3"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
