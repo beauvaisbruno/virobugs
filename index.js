@@ -3,30 +3,29 @@ import {Viro3DObject, ViroAmbientLight, ViroARScene, ViroARSceneNavigator} from 
 import React from "react";
 
 const Navigator = ()=>{
+
+  const objects = [];
+  for (let i = 0; i < 20; i++) {
+    objects.push(<Viro3DObject
+      source={require("./res/cube.glb")}
+      type="GLB"
+      position={[-2 + i*0.2, 0, -1]}
+      key={i}
+    />);
+  }
+
   return  <View style={{ flex:1}}><ViroARSceneNavigator
     initialScene={{scene:  () => {
         return  <ViroARScene>
           <ViroAmbientLight color={"#aaaaaa"} />
-          <Viro3DObject
-            source={require("./res/outside.glb")}
-            type="GLB"
-            position={[0, 0, -1]}
-            onClick={()=> {
-              console.log("Clicked outside");
-            }}
-          />
-          <Viro3DObject
-            source={require("./res/inside.glb")}
-            type="GLB"
-            position={[0, 0, -1]}
-            onClick={()=> {
-              console.log("Clicked inside");
-            }}
-          />
+          {objects}
         </ViroARScene>;
       }}}
     //https://viromedia.com/signup/
-    apiKey={"SOME_API_KEY"} />
+    apiKey={"BDF01DAC-4F97-4D5D-8C8A-DD8C609019B1"}
+    // apiKey={"SOME_API_KEY"}
+  />
+
   </View>;
 }
 

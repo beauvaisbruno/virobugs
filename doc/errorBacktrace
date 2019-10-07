@@ -1,0 +1,30 @@
+A/DEBUG: *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+A/DEBUG: Build fingerprint: 'HUAWEI/EML-L09/HWEML:9/HUAWEIEML-L09/328C109:user/release-keys'
+A/DEBUG: Revision: '0'
+A/DEBUG: ABI: 'arm64'
+A/DEBUG: Happend: 'Mon Oct  7 11:28:43 2019
+    '
+A/DEBUG: SYSVMTYPE: Art
+    APPVMTYPE: Art
+A/DEBUG: pid: 17184, tid: 17410, name: pool-3-thread-1  >>> com.virobugs <<<
+A/DEBUG: signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x0
+A/DEBUG: Cause: null pointer dereference
+A/DEBUG:     x0  0000000000000000  x1  00000079e14c5e10  x2  00000079e1208ec4  x3  00000079b9458c88
+A/DEBUG:     x4  0000000000000010  x5  fffffffffffffffd  x6  0000000000000004  x7  7f7f7f7f7fffff7f
+A/DEBUG:     x8  0101010101010101  x9  0000000000000001  x10 0000000000004001  x11 0000000000000000
+A/DEBUG:     x12 0000000000000001  x13 ffffffffffffffff  x14 0000000000000000  x15 aaaaaaaaaaaaaaab
+A/DEBUG:     x16 00000079e1b611a8  x17 00000079e1b40910  x18 0000007a00490450  x19 00000079b9458c90
+A/DEBUG:     x20 00000079b9459150  x21 00000079f9c430c0  x22 0000000000000001  x23 00000079b9458c78
+A/DEBUG:     x24 00000079b9458c80  x25 00000079b9458c88  x26 00000079e0b44f4c  x27 0000000000000001
+A/DEBUG:     x28 00000079e142e740  x29 00000079b9458bd0
+A/DEBUG:     sp  00000079b9458bd0  lr  00000079e1b3156c  pc  00000079e1b3157c
+A/DEBUG: backtrace:
+A/DEBUG:     #00 pc 000000000002d57c  /data/app/com.virobugs--j4IaXdJLkEAWPdTJ9VlIw==/lib/arm64/libLinearMath.so (__gxx_personality_v0+1160)
+A/DEBUG:     #01 pc 000000000003df48  /data/app/com.virobugs--j4IaXdJLkEAWPdTJ9VlIw==/lib/arm64/libLinearMath.so (_Unwind_RaiseException+180)
+A/DEBUG:     #02 pc 00000000009c3274  /data/app/com.virobugs--j4IaXdJLkEAWPdTJ9VlIw==/lib/arm64/libviro_renderer.so (__cxa_throw+112)
+A/DEBUG:     #03 pc 000000000028ecb8  /data/app/com.virobugs--j4IaXdJLkEAWPdTJ9VlIw==/lib/arm64/libviro_renderer.so (std::__ndk1::__vector_base_common<true>::__throw_out_of_range() const+72)
+A/DEBUG:     #04 pc 000000000032d4a8  /data/app/com.virobugs--j4IaXdJLkEAWPdTJ9VlIw==/lib/arm64/libviro_renderer.so (tinygltf::TinyGLTF::LoadBinaryFromFile(tinygltf::Model*, std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char>>*, std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char>> const&, std::__ndk1::map<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char>>, std::__ndk1::basic_string<char, std:
+A/DEBUG:     #05 pc 00000000003676e8  /data/app/com.virobugs--j4IaXdJLkEAWPdTJ9VlIw==/lib/arm64/libviro_renderer.so
+A/DEBUG:     #06 pc 00000000002ffed4  /data/app/com.virobugs--j4IaXdJLkEAWPdTJ9VlIw==/lib/arm64/libviro_renderer.so (VROPlatformRunTask(int)+436)
+A/DEBUG:     #07 pc 000000000002d608  /data/app/com.virobugs--j4IaXdJLkEAWPdTJ9VlIw==/oat/arm64/base.odex (offset 0x26000) (com.google.vr.ndk.base.GvrApi.nativeSetDynamicLibraryLoadingEnabled [DEDUPED]+152)
+A/DEBUG:     #08 pc 000000000000be24  /dev/ashmem/dalvik-jit-code-cache (deleted)

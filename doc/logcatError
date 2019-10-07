@@ -1,0 +1,472 @@
+2019-10-07 11:28:41.378 763-763/? E/Thermal-daemon: [battery] temp_new :35  temp_old :36
+2019-10-07 11:28:41.380 763-763/? E/Thermal-daemon: Report temperature: [battery] temp :35  report_threshold:1
+2019-10-07 11:28:41.383 763-763/? E/Thermal-daemon: [ap] temp_new :43  temp_old :42
+2019-10-07 11:28:41.384 763-763/? E/Thermal-daemon: Report temperature: [ap] temp :43  report_threshold:1
+2019-10-07 11:28:42.283 1846-1860/? E/DollieActivityManagerAdapter: HwActivityNotifierEx null uid
+2019-10-07 11:28:42.289 784-902/? E/JankService: specialActionEntryHandler: should reset and not report
+2019-10-07 11:28:42.296 3559-3581/? E/AppLifeChangeSensor:  CAWARENESS: activityPaused mAppLifeChangeCallback is null
+2019-10-07 11:28:42.314 1110-1837/? E/ProcessInfoCollector: getProcessInfo: failed to find this proc
+2019-10-07 11:28:42.321 17184-17184/? E/com.virobugs: Not starting debugger since process cannot load the jdwp agent.
+2019-10-07 11:28:42.340 1956-2681/? E/AwareLog: SPKSchedFeature: Uid has been sent, ignore.
+2019-10-07 11:28:42.340 1956-2681/? E/AwareLog: SPKEQSchedFeature: Uid has been sent, ignore.
+2019-10-07 11:28:42.342 1846-2274/? E/XEngineMpipControl: Invalid SubId
+2019-10-07 11:28:42.347 1956-2757/? E/AwareLog: GameSdkConfigReader: GameSdkLog: idNameMap: null
+2019-10-07 11:28:42.353 1846-2274/? E/Hicom_PolicyCenterService: enableAppLevelMP. null == mMultipathAppsMap
+2019-10-07 11:28:42.371 17184-17197/? E/MemoryLeakMonitorManager: MemoryLeakMonitor.jar is not exist!
+2019-10-07 11:28:42.373 17184-17201/? E/AwareLog: AtomicFileUtils: readFileLines file not exist: android.util.AtomicFile@1557e94
+2019-10-07 11:28:42.374 17184-17201/? E/AwareLog: AtomicFileUtils: readFileLines file not exist: android.util.AtomicFile@8702d3d
+2019-10-07 11:28:42.398 1846-13036/? E/HsmCoreServiceImpl: onTransact in code is: 103
+2019-10-07 11:28:42.432 3559-3581/? E/AppLifeChangeSensor:  CAWARENESS: activityResumed mAppLifeChangeCallback is null
+2019-10-07 11:28:42.438 1846-3191/? E/DollieAdapterService: notifyActivityState pkg:com.virobugs/com.virobugs.MainActivity state:2 fg:true mUid:10306
+2019-10-07 11:28:42.447 17184-17205/? E/Manish: createNativeModules
+2019-10-07 11:28:42.448 650-1125/? E/BufferQueueProducer: [] mConsumerName == NULL!!!!!!
+2019-10-07 11:28:42.452 650-1125/? E/BufferQueueProducer: [] mConsumerName == NULL!!!!!!
+2019-10-07 11:28:42.455 650-1125/? E/BufferQueueProducer: [] mConsumerName == NULL!!!!!!
+2019-10-07 11:28:42.484 10199-10207/? E/DataBuffer: Internal data leak within a DataBuffer object detected!  Be sure to explicitly call release() on all DataBuffer extending objects when you are done with them. (internal object: com.google.android.gms.common.data.DataHolder@a750616)
+2019-10-07 11:28:42.496 17184-17205/? E/Manish: AnimationManager constructor
+2019-10-07 11:28:42.598 1846-3191/? E/DollieAdapterService: notifyActivityState pkg:com.huawei.android.launcher/com.huawei.android.launcher.unihome.UniHomeLauncher state:5 fg:false mUid:10104
+2019-10-07 11:28:42.639 1110-1530/? E/WindowManager: win=Window{a1712f u0 Splash Screen com.virobugs EXITING} destroySurfaces: appStopped=false win.mWindowRemovalAllowed=true win.mRemoveOnExit=true
+2019-10-07 11:28:42.643 1110-6514/? E/WindowManager: win=Window{f11fab0 u0 com.huawei.android.launcher/com.huawei.android.launcher.unihome.UniHomeLauncher} destroySurfaces: appStopped=true win.mWindowRemovalAllowed=false win.mRemoveOnExit=false
+2019-10-07 11:28:42.644 1110-6514/? E/WindowManager: win=Window{4daa0f0 u0 com.huawei.android.launcher/com.huawei.android.launcher.unihome.UniHomeLauncher} destroySurfaces: appStopped=true win.mWindowRemovalAllowed=false win.mRemoveOnExit=false
+2019-10-07 11:28:42.645 1956-2757/? E/AwareLog: GameSdkConfigReader: GameSdkLog: idNameMap: null
+2019-10-07 11:28:42.876 609-1250/? E/audio_hw_effect: unsupported sws effect version!
+2019-10-07 11:28:42.876 609-1250/? E/audio_hw_effect: sws set parameter func:[8] err: [-61]
+2019-10-07 11:28:42.876 609-1250/? E/audio_hw_effect: unsupported sws effect version!
+2019-10-07 11:28:42.876 609-1250/? E/audio_hw_effect: sws set parameter func:[8] err: [-61]
+2019-10-07 11:28:42.885 516-516/? E/SELinux: avc:  denied  { find } for interface=vendor.huawei.hardware.sensors::ISensors sid=u:r:untrusted_app:s0:c50,c257,c512,c768 pid=17184 scontext=u:r:untrusted_app:s0:c50,c257,c512,c768 tcontext=u:object_r:default_hisi_hwservice:s0 tclass=hwservice_manager permissive=0
+2019-10-07 11:28:42.908 609-10198/? E/smartpakit: unsurpport cmd = 27
+2019-10-07 11:28:42.908 609-10198/? E/smartpakit: smartpa_algo_control: cmd = 27 execute failed!
+2019-10-07 11:28:42.908 609-10198/? E/smartpakit: set_contain_sco_and_speaker_to_dsp: set BT-SCO and speaker to dsp, failed!
+2019-10-07 11:28:42.982 17184-17184/? E/ACameraMetadata: isNdkSupportedCapability: Unknonwn capability 11
+2019-10-07 11:28:42.982 17184-17184/? E/ACameraMetadata: isNdkSupportedCapability: Unknonwn capability 11
+2019-10-07 11:28:43.068 17184-17184/? E/ACameraMetadata: isNdkSupportedCapability: Unknonwn capability 11
+2019-10-07 11:28:43.068 17184-17184/? E/ACameraMetadata: isNdkSupportedCapability: Unknonwn capability 11
+2019-10-07 11:28:43.113 17184-17184/? E/ACameraMetadata: isNdkSupportedCapability: Unknonwn capability 11
+2019-10-07 11:28:43.118 779-779/? E/Sensors@1.0-impl: open extendSensorActivate FLK_SENSOR fd fail!
+2019-10-07 11:28:43.119 766-1295/? E/FlickerSensorImpl: enableSensor: activate FAILED
+2019-10-07 11:28:43.123 752-828/? E/dubaid: [DubaiUtils.h] parseMessage# Value of this tag(name=) is blank
+2019-10-07 11:28:43.123 752-828/? E/dubaid: [CameraHandler.cpp] saveConnectParams# Failed to parse name: -2
+2019-10-07 11:28:43.123 752-828/? E/dubaid: [CameraHandler.cpp] handleOnDisconnected# Failed to save connect message parameter: -19
+2019-10-07 11:28:43.128 3407-17378/? E/NfcNci:HwCustNfcService: applyRouting -1.1
+2019-10-07 11:28:43.131 17184-17184/? E/ACameraMetadata: isNdkSupportedCapability: Unknonwn capability 11
+2019-10-07 11:28:43.224 766-1294/? E/DataTable: metadata(2147483648) capability(2147549184) id(2147484346) set com.huawei.capture.metadata dfFactoryMode failed. (254)
+2019-10-07 11:28:43.225 766-17389/? E/HISP160OisController: doLoadFirmware() get SENSOR_OTP_OIS failed!
+2019-10-07 11:28:43.225 766-17389/? E/HISPOisController: handleMessage ois down load firmware fail!
+2019-10-07 11:28:43.226 766-1294/? E/HwaUtils: [3c6ca2b_64E] getAttributeValue() mFirstLevelElement Is NULL
+2019-10-07 11:28:43.226 766-1294/? E/HwaUtils: [3c6ca2b_64E] getAttributeValue() mFirstLevelElement Is NULL
+2019-10-07 11:28:43.226 766-1294/? E/HwaUtils: [3c6ca2b_64E] FirstLevelXmlParser() LoadFile /odm/etc/camera/misc/video_fps_params.xml Failed
+2019-10-07 11:28:43.226 766-1294/? E/HwaUtils: [3c6ca2b_64E] getAttributeValue() mFirstLevelElement Is NULL
+2019-10-07 11:28:43.226 766-1294/? E/Misc____: [3c6ca2b_64E] get supportChangeVideoFps fail
+2019-10-07 11:28:43.227 766-1294/? E/HwaUtils: [3c6ca2b_64E] str2float(), input or value is NULL
+2019-10-07 11:28:43.227 766-1294/? E/HwaUtils: [3c6ca2b_64E] str2float(), input or value is NULL
+2019-10-07 11:28:43.229 766-1294/? E/HwaPPExecuter: [3c6ca2b_64E] enter LoadPPAlgoMaxMemConfig() loadFile /odm/etc/camera/pp_max_mem_config/pp_max_mem_config.xml fail
+2019-10-07 11:28:43.238 766-1294/? E/HISPMsgController: registerListener: It has registerListener Listener already !
+2019-10-07 11:28:43.270 17184-17410/? A/libc: Fatal signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x0 in tid 17410 (pool-3-thread-1), pid 17184 (com.virobugs)
+2019-10-07 11:28:43.284 752-828/? E/dubaid: [CameraHandler.cpp] handleOnDisconnected# Invalid tag: 1
+2019-10-07 11:28:43.358 17416-17416/? A/DEBUG: *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+2019-10-07 11:28:43.358 17416-17416/? A/DEBUG: Build fingerprint: 'HUAWEI/EML-L09/HWEML:9/HUAWEIEML-L09/328C109:user/release-keys'
+2019-10-07 11:28:43.358 17416-17416/? A/DEBUG: Revision: '0'
+2019-10-07 11:28:43.358 17416-17416/? A/DEBUG: ABI: 'arm64'
+2019-10-07 11:28:43.358 17416-17416/? A/DEBUG: Happend: 'Mon Oct  7 11:28:43 2019
+    '
+2019-10-07 11:28:43.358 17416-17416/? A/DEBUG: SYSVMTYPE: Art
+    APPVMTYPE: Art
+2019-10-07 11:28:43.358 17416-17416/? A/DEBUG: pid: 17184, tid: 17410, name: pool-3-thread-1  >>> com.virobugs <<<
+2019-10-07 11:28:43.358 17416-17416/? A/DEBUG: signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x0
+2019-10-07 11:28:43.358 17416-17416/? A/DEBUG: Cause: null pointer dereference
+2019-10-07 11:28:43.358 17416-17416/? A/DEBUG:     x0  0000000000000000  x1  00000079e14c5e10  x2  00000079e1208ec4  x3  00000079b9458c88
+2019-10-07 11:28:43.358 17416-17416/? A/DEBUG:     x4  0000000000000010  x5  fffffffffffffffd  x6  0000000000000004  x7  7f7f7f7f7fffff7f
+2019-10-07 11:28:43.358 17416-17416/? A/DEBUG:     x8  0101010101010101  x9  0000000000000001  x10 0000000000004001  x11 0000000000000000
+2019-10-07 11:28:43.358 17416-17416/? A/DEBUG:     x12 0000000000000001  x13 ffffffffffffffff  x14 0000000000000000  x15 aaaaaaaaaaaaaaab
+2019-10-07 11:28:43.358 17416-17416/? A/DEBUG:     x16 00000079e1b611a8  x17 00000079e1b40910  x18 0000007a00490450  x19 00000079b9458c90
+2019-10-07 11:28:43.358 17416-17416/? A/DEBUG:     x20 00000079b9459150  x21 00000079f9c430c0  x22 0000000000000001  x23 00000079b9458c78
+2019-10-07 11:28:43.358 17416-17416/? A/DEBUG:     x24 00000079b9458c80  x25 00000079b9458c88  x26 00000079e0b44f4c  x27 0000000000000001
+2019-10-07 11:28:43.358 17416-17416/? A/DEBUG:     x28 00000079e142e740  x29 00000079b9458bd0
+2019-10-07 11:28:43.358 17416-17416/? A/DEBUG:     sp  00000079b9458bd0  lr  00000079e1b3156c  pc  00000079e1b3157c
+2019-10-07 11:28:43.363 17416-17416/? A/DEBUG: backtrace:
+2019-10-07 11:28:43.363 17416-17416/? A/DEBUG:     #00 pc 000000000002d57c  /data/app/com.virobugs--j4IaXdJLkEAWPdTJ9VlIw==/lib/arm64/libLinearMath.so (__gxx_personality_v0+1160)
+2019-10-07 11:28:43.363 17416-17416/? A/DEBUG:     #01 pc 000000000003df48  /data/app/com.virobugs--j4IaXdJLkEAWPdTJ9VlIw==/lib/arm64/libLinearMath.so (_Unwind_RaiseException+180)
+2019-10-07 11:28:43.363 17416-17416/? A/DEBUG:     #02 pc 00000000009c3274  /data/app/com.virobugs--j4IaXdJLkEAWPdTJ9VlIw==/lib/arm64/libviro_renderer.so (__cxa_throw+112)
+2019-10-07 11:28:43.363 17416-17416/? A/DEBUG:     #03 pc 000000000028ecb8  /data/app/com.virobugs--j4IaXdJLkEAWPdTJ9VlIw==/lib/arm64/libviro_renderer.so (std::__ndk1::__vector_base_common<true>::__throw_out_of_range() const+72)
+2019-10-07 11:28:43.363 17416-17416/? A/DEBUG:     #04 pc 000000000032d4a8  /data/app/com.virobugs--j4IaXdJLkEAWPdTJ9VlIw==/lib/arm64/libviro_renderer.so (tinygltf::TinyGLTF::LoadBinaryFromFile(tinygltf::Model*, std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char>>*, std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char>> const&, std::__ndk1::map<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char>>, std::__ndk1::basic_string<char, std:
+2019-10-07 11:28:43.363 17416-17416/? A/DEBUG:     #05 pc 00000000003676e8  /data/app/com.virobugs--j4IaXdJLkEAWPdTJ9VlIw==/lib/arm64/libviro_renderer.so
+2019-10-07 11:28:43.363 17416-17416/? A/DEBUG:     #06 pc 00000000002ffed4  /data/app/com.virobugs--j4IaXdJLkEAWPdTJ9VlIw==/lib/arm64/libviro_renderer.so (VROPlatformRunTask(int)+436)
+2019-10-07 11:28:43.363 17416-17416/? A/DEBUG:     #07 pc 000000000002d608  /data/app/com.virobugs--j4IaXdJLkEAWPdTJ9VlIw==/oat/arm64/base.odex (offset 0x26000) (com.google.vr.ndk.base.GvrApi.nativeSetDynamicLibraryLoadingEnabled [DEDUPED]+152)
+2019-10-07 11:28:43.363 17416-17416/? A/DEBUG:     #08 pc 000000000000be24  /dev/ashmem/dalvik-jit-code-cache (deleted)
+2019-10-07 11:28:43.370 766-1294/? E/HwaPPExecuter: [3c6ca2b_64E] enter LoadPPAlgoMaxMemConfig() loadFile /odm/etc/camera/pp_max_mem_config/pp_max_mem_config.xml fail
+2019-10-07 11:28:43.374 766-17405/? E/OisMgr: [3c6ca2b_64E] loadACameraOisMgrConfig(), config file error! value=THRESHOLD
+2019-10-07 11:28:43.374 766-17405/? E/OisMgr: [3c6ca2b_64E] loadACameraOisMgrConfig(), config file error! value=OIS_MODE
+2019-10-07 11:28:43.374 766-17405/? E/OisMgr: [3c6ca2b_64E] loadACameraOisMgrConfig(), config file error! value=THRESHOLD
+2019-10-07 11:28:43.374 766-17405/? E/OisMgr: [3c6ca2b_64E] loadACameraOisMgrConfig(), config file error! value=OIS_MODE
+2019-10-07 11:28:43.377 766-17393/? E/HwaUtils: [3c6ca2b_64E] FirstLevelXmlParser() LoadFile /odm/etc/camera/rawhdr/config.xml Failed
+2019-10-07 11:28:43.377 766-17393/? E/HwaUtils: [3c6ca2b_64E] getAttributeValue() mFirstLevelElement Is NULL
+2019-10-07 11:28:43.377 766-17398/? E/cie: AiEngineObjectDetection::loadXmlConfig::load config file err
+2019-10-07 11:28:43.377 766-17398/? E/cie: AiEngineObjectDetection::ObjectDetectionAlgo::ALGO DISABLED!
+2019-10-07 11:28:43.377 766-17398/? E/cie: SceneStabilization::LoadStabilizationConfigXml::load config file error
+2019-10-07 11:28:43.377 766-17398/? E/cie: SceneStabilization::SceneStabilization::load stabilization config fail! disable stabilization process!
+2019-10-07 11:28:43.378 766-17398/? E/cie: FoodRecognition::FoodRecognition::ALGO DISABLED!
+2019-10-07 11:28:43.378 766-17398/? E/cie: HiTracking::loadXmlConfig::load config file err
+2019-10-07 11:28:43.378 766-17398/? E/cie: HiTracking::HiTracking::ALGO DISABLED!
+2019-10-07 11:28:43.378 766-17398/? E/cie: FaceStoryAlgo::LoadXmlConfig::load config file err
+2019-10-07 11:28:43.378 766-17398/? E/cie: FaceStoryAlgo::FaceStoryAlgo::ALGO DISABLED!
+2019-10-07 11:28:43.380 17184-17366/? E/ion: ioctl c0044901 failed with code -1: Invalid argument
+2019-10-07 11:28:43.391 766-17393/? E/libc: Access denied finding property "ro.board.boardid"
+2019-10-07 11:28:43.391 766-17393/? E/HwaUtils: [3c6ca2b_64E] get_chip_config_value open dts file failed
+2019-10-07 11:28:43.400 766-17397/? E/MotionDetect: get mfFilterDisable fail!
+2019-10-07 11:28:43.419 766-17391/? E/HwaUtils: [3c6ca2b_64E] getConfigPath Can't Open config pathResult file!use default pathResult: /odm/etc/camera/fullsize_binning_config/device.config
+2019-10-07 11:28:43.419 766-17391/? E/HwaUtils: [3c6ca2b_64E] FirstLevelXmlParser() LoadFile /odm/etc/camera/fullsize_binning_change.xml Failed
+2019-10-07 11:28:43.419 766-17391/? E/HwaUtils: [3c6ca2b_64E] getAttributeValue() mFirstLevelElement Is NULL
+2019-10-07 11:28:43.419 766-17391/? E/HwaUtils: [3c6ca2b_64E] getAttributeValue() mFirstLevelElement Is NULL
+2019-10-07 11:28:43.961 17184-17184/? E/native: status.cc:153 ArStatusErrorSpace::AR_ERROR_NOT_TRACKING: Cannot create anchors while the camera is not tracking.;  at third_party/arcore/ar/core/session.cc:1676
+2019-10-07 11:28:43.961 17184-17184/? E/Viro: Failed to create an anchored node at position [-2.0, 0.0, -1.0]
+2019-10-07 11:28:43.964 17184-17184/? E/native: status.cc:153 ArStatusErrorSpace::AR_ERROR_NOT_TRACKING: Cannot create anchors while the camera is not tracking.;  at third_party/arcore/ar/core/session.cc:1676
+2019-10-07 11:28:43.964 17184-17184/? E/Viro: Failed to create an anchored node at position [-1.8, 0.0, -1.0]
+2019-10-07 11:28:43.965 17184-17184/? E/native: status.cc:153 ArStatusErrorSpace::AR_ERROR_NOT_TRACKING: Cannot create anchors while the camera is not tracking.;  at third_party/arcore/ar/core/session.cc:1676
+2019-10-07 11:28:43.966 17184-17184/? E/Viro: Failed to create an anchored node at position [-1.6, 0.0, -1.0]
+2019-10-07 11:28:43.966 17184-17184/? E/native: status.cc:153 ArStatusErrorSpace::AR_ERROR_NOT_TRACKING: Cannot create anchors while the camera is not tracking.;  at third_party/arcore/ar/core/session.cc:1676
+2019-10-07 11:28:43.967 17184-17184/? E/Viro: Failed to create an anchored node at position [-1.4, 0.0, -1.0]
+2019-10-07 11:28:44.033 17184-17184/? E/native: status.cc:153 ArStatusErrorSpace::AR_ERROR_NOT_TRACKING: Cannot create anchors while the camera is not tracking.;  at third_party/arcore/ar/core/session.cc:1676
+2019-10-07 11:28:44.033 17184-17184/? E/Viro: Failed to create an anchored node at position [-1.2, 0.0, -1.0]
+2019-10-07 11:28:44.035 17184-17184/? E/native: status.cc:153 ArStatusErrorSpace::AR_ERROR_NOT_TRACKING: Cannot create anchors while the camera is not tracking.;  at third_party/arcore/ar/core/session.cc:1676
+2019-10-07 11:28:44.035 17184-17184/? E/Viro: Failed to create an anchored node at position [-1.0, 0.0, -1.0]
+2019-10-07 11:28:44.035 17184-17184/? E/native: status.cc:153 ArStatusErrorSpace::AR_ERROR_NOT_TRACKING: Cannot create anchors while the camera is not tracking.;  at third_party/arcore/ar/core/session.cc:1676
+2019-10-07 11:28:44.035 17184-17184/? E/Viro: Failed to create an anchored node at position [-0.8, 0.0, -1.0]
+2019-10-07 11:28:44.035 17184-17184/? E/native: status.cc:153 ArStatusErrorSpace::AR_ERROR_NOT_TRACKING: Cannot create anchors while the camera is not tracking.;  at third_party/arcore/ar/core/session.cc:1676
+2019-10-07 11:28:44.035 17184-17184/? E/Viro: Failed to create an anchored node at position [-0.6, 0.0, -1.0]
+2019-10-07 11:28:44.036 17184-17184/? E/native: status.cc:153 ArStatusErrorSpace::AR_ERROR_NOT_TRACKING: Cannot create anchors while the camera is not tracking.;  at third_party/arcore/ar/core/session.cc:1676
+2019-10-07 11:28:44.036 17184-17184/? E/Viro: Failed to create an anchored node at position [-0.4, 0.0, -1.0]
+2019-10-07 11:28:44.036 17184-17184/? E/native: status.cc:153 ArStatusErrorSpace::AR_ERROR_NOT_TRACKING: Cannot create anchors while the camera is not tracking.;  at third_party/arcore/ar/core/session.cc:1676
+2019-10-07 11:28:44.036 17184-17184/? E/Viro: Failed to create an anchored node at position [-0.2, 0.0, -1.0]
+2019-10-07 11:28:44.036 17184-17184/? E/native: status.cc:153 ArStatusErrorSpace::AR_ERROR_NOT_TRACKING: Cannot create anchors while the camera is not tracking.;  at third_party/arcore/ar/core/session.cc:1676
+2019-10-07 11:28:44.036 17184-17184/? E/Viro: Failed to create an anchored node at position [0.0, 0.0, -1.0]
+2019-10-07 11:28:44.037 17184-17184/? E/native: status.cc:153 ArStatusErrorSpace::AR_ERROR_NOT_TRACKING: Cannot create anchors while the camera is not tracking.;  at third_party/arcore/ar/core/session.cc:1676
+2019-10-07 11:28:44.037 17184-17184/? E/Viro: Failed to create an anchored node at position [0.2, 0.0, -1.0]
+2019-10-07 11:28:44.037 17184-17184/? E/native: status.cc:153 ArStatusErrorSpace::AR_ERROR_NOT_TRACKING: Cannot create anchors while the camera is not tracking.;  at third_party/arcore/ar/core/session.cc:1676
+2019-10-07 11:28:44.037 17184-17184/? E/Viro: Failed to create an anchored node at position [0.4, 0.0, -1.0]
+2019-10-07 11:28:44.037 17184-17184/? E/native: status.cc:153 ArStatusErrorSpace::AR_ERROR_NOT_TRACKING: Cannot create anchors while the camera is not tracking.;  at third_party/arcore/ar/core/session.cc:1676
+2019-10-07 11:28:44.037 17184-17184/? E/Viro: Failed to create an anchored node at position [0.6, 0.0, -1.0]
+2019-10-07 11:28:44.038 17184-17184/? E/native: status.cc:153 ArStatusErrorSpace::AR_ERROR_NOT_TRACKING: Cannot create anchors while the camera is not tracking.;  at third_party/arcore/ar/core/session.cc:1676
+2019-10-07 11:28:44.038 17184-17184/? E/Viro: Failed to create an anchored node at position [0.8, 0.0, -1.0]
+2019-10-07 11:28:44.038 17184-17184/? E/native: status.cc:153 ArStatusErrorSpace::AR_ERROR_NOT_TRACKING: Cannot create anchors while the camera is not tracking.;  at third_party/arcore/ar/core/session.cc:1676
+2019-10-07 11:28:44.038 17184-17184/? E/Viro: Failed to create an anchored node at position [1.0, 0.0, -1.0]
+2019-10-07 11:28:44.038 17184-17184/? E/native: status.cc:153 ArStatusErrorSpace::AR_ERROR_NOT_TRACKING: Cannot create anchors while the camera is not tracking.;  at third_party/arcore/ar/core/session.cc:1676
+2019-10-07 11:28:44.039 17184-17184/? E/Viro: Failed to create an anchored node at position [1.2, 0.0, -1.0]
+2019-10-07 11:28:44.039 17184-17184/? E/native: status.cc:153 ArStatusErrorSpace::AR_ERROR_NOT_TRACKING: Cannot create anchors while the camera is not tracking.;  at third_party/arcore/ar/core/session.cc:1676
+2019-10-07 11:28:44.039 17184-17184/? E/Viro: Failed to create an anchored node at position [1.4, 0.0, -1.0]
+2019-10-07 11:28:44.057 785-785/? E//system/bin/tombstoned: Tombstone written to: /data/tombstones/tombstone_00
+2019-10-07 11:28:44.059 784-2925/? E/iMonitor: FaultDetect: DUMPTOOL_PRINTF return.
+2019-10-07 11:28:44.060 784-2925/? E/iMonitor: FaultDetect: DUMPTOOL_PRINTF return.
+2019-10-07 11:28:44.060 784-2925/? E/iMonitor: FaultDetect: DUMPTOOL_PRINTF return.
+2019-10-07 11:28:44.068 1110-1276/? E/Process: file_read open file failed, errno = 2
+2019-10-07 11:28:44.068 1110-1276/? E/Process: set_aware_cpu_policy file_read failed!
+2019-10-07 11:28:44.068 1110-1276/? E/Process: file_read open file failed, errno = 2
+2019-10-07 11:28:44.068 1110-1276/? E/Process: set_aware_cpu_policy file_read failed!
+2019-10-07 11:28:44.070 1110-1276/? E/Process: file_read open file failed, errno = 2
+2019-10-07 11:28:44.071 1110-1276/? E/Process: set_aware_cpu_policy file_read failed!
+2019-10-07 11:28:44.072 768-796/? E/AwareLog: iawared: change_property_content open /proc/17184/task/17208/static_vip fail errno(2)!
+2019-10-07 11:28:44.079 1956-2681/? E/AwareLog: SPKSchedFeature: Uid has been sent, ignore.
+2019-10-07 11:28:44.089 1956-2757/? E/AwareLog: GameSdkConfigReader: GameSdkLog: idNameMap: null
+2019-10-07 11:28:44.105 752-1227/? E/dubaid: [DubaiUtils.h] parseMessage# Failed to find second tag: uid=
+2019-10-07 11:28:44.105 752-1227/? E/dubaid: [SystemHandler.cpp] parsePartialWakelockAcquiredMessage# Failed to parse count: lock=75303130 tag=IntentOp:.common.broadcast.BackgroundBroadcastReceiverSupport$PersistentReceiverIntentOperation count=0
+2019-10-07 11:28:44.105 752-1227/? E/dubaid: [SystemHandler.cpp] onPartialWakelockAcquireMessage# Failed to parse message
+2019-10-07 11:28:44.110 752-1227/? E/dubaid: [DubaiUtils.h] parseMessage# Failed to find second tag: uid=
+2019-10-07 11:28:44.110 752-1227/? E/dubaid: [SystemHandler.cpp] parsePartialWakelockAcquiredMessage# Failed to parse count: lock=76243211 tag=IntentOp:.common.broadcast.BackgroundBroadcastReceiverSupport$PersistentReceiverIntentOperation count=0
+2019-10-07 11:28:44.110 752-1227/? E/dubaid: [SystemHandler.cpp] onPartialWakelockAcquireMessage# Failed to parse message
+2019-10-07 11:28:44.110 752-1227/? E/dubaid: [DubaiUtils.h] parseMessage# Failed to find second tag: uid=
+2019-10-07 11:28:44.110 752-1227/? E/dubaid: [SystemHandler.cpp] parsePartialWakelockAcquiredMessage# Failed to parse count: lock=7068648 tag=IntentOp:.common.broadcast.BackgroundBroadcastReceiverSupport$GmsReceiverIntentOperation count=0
+2019-10-07 11:28:44.110 752-1227/? E/dubaid: [SystemHandler.cpp] onPartialWakelockAcquireMessage# Failed to parse message
+2019-10-07 11:28:44.119 752-1227/? E/dubaid: [DubaiUtils.h] parseMessage# Failed to find second tag: uid=
+2019-10-07 11:28:44.119 752-1227/? E/dubaid: [SystemHandler.cpp] parsePartialWakelockAcquiredMessage# Failed to parse count: lock=187881638 tag=IntentOp:.common.broadcast.BackgroundBroadcastReceiverSupport$GmsReceiverIntentOperation count=0
+2019-10-07 11:28:44.119 752-1227/? E/dubaid: [SystemHandler.cpp] onPartialWakelockAcquireMessage# Failed to parse message
+2019-10-07 11:28:44.119 752-1227/? E/dubaid: [SystemHandler.cpp] onPartialWakelockReleaseMessage# Already released, lock: 7068648
+2019-10-07 11:28:44.120 752-1227/? E/dubaid: [SystemHandler.cpp] onPartialWakelockReleaseMessage# Already released, lock: 75303130
+2019-10-07 11:28:44.128 752-1227/? E/dubaid: [SystemHandler.cpp] onPartialWakelockReleaseMessage# Already released, lock: 187881638
+2019-10-07 11:28:44.131 752-1227/? E/dubaid: [SystemHandler.cpp] onPartialWakelockReleaseMessage# Already released, lock: 76243211
+2019-10-07 11:28:44.164 1846-13036/? E/HsmCoreServiceImpl: onTransact in code is: 103
+2019-10-07 11:28:44.240 1110-1582/? E/InputDispatcher: channel '4c8636c com.virobugs/com.virobugs.MainActivity (server)' ~ Channel is unrecoverably broken and will be disposed!
+2019-10-07 11:28:44.241 749-1317/? E/Surface: queueBuffer: error queuing buffer to SurfaceTexture, -32
+2019-10-07 11:28:44.241 749-1317/? E/Camera3-OutputStream: returnBufferCheckedLocked: Stream 0: Error queueing buffer to native window: Broken pipe (-32)
+2019-10-07 11:28:44.243 749-17375/? E/Camera3-OutputStream: getBufferLockedCommon: Stream 0: Can't dequeue next output buffer: Broken pipe (-32)
+2019-10-07 11:28:44.243 749-17375/? E/Camera3-Device: RequestThread: Can't get output buffer, skipping request: Broken pipe (-32)
+2019-10-07 11:28:44.243 749-1317/? E/Camera3-Device: Can't return buffer to its stream: (0xee35d280), error: Broken pipe (-32)
+2019-10-07 11:28:44.243 749-17375/? E/Camera3-OutputStream: getBufferLockedCommon: Stream 0: Can't dequeue next output buffer: Broken pipe (-32)
+2019-10-07 11:28:44.243 749-17375/? E/Camera3-Device: RequestThread: Can't get output buffer, skipping request: Broken pipe (-32)
+2019-10-07 11:28:44.243 749-17375/? E/Camera3-OutputStream: getBufferLockedCommon: Stream 0: Can't dequeue next output buffer: Broken pipe (-32)
+2019-10-07 11:28:44.243 749-17375/? E/Camera3-Device: RequestThread: Can't get output buffer, skipping request: Broken pipe (-32)
+2019-10-07 11:28:44.243 749-17375/? E/Camera3-OutputStream: getBufferLockedCommon: Stream 0: Can't dequeue next output buffer: Broken pipe (-32)
+2019-10-07 11:28:44.243 749-17375/? E/Camera3-Device: RequestThread: Can't get output buffer, skipping request: Broken pipe (-32)
+2019-10-07 11:28:44.243 749-17375/? E/Camera3-OutputStream: getBufferLockedCommon: Stream 0: Can't dequeue next output buffer: Broken pipe (-32)
+2019-10-07 11:28:44.243 749-17375/? E/Camera3-Device: RequestThread: Can't get output buffer, skipping request: Broken pipe (-32)
+2019-10-07 11:28:44.243 749-17375/? E/Camera3-OutputStream: getBufferLockedCommon: Stream 0: Can't dequeue next output buffer: Broken pipe (-32)
+2019-10-07 11:28:44.243 749-17375/? E/Camera3-Device: RequestThread: Can't get output buffer, skipping request: Broken pipe (-32)
+2019-10-07 11:28:44.243 749-17375/? E/Camera3-OutputStream: getBufferLockedCommon: Stream 0: Can't dequeue next output buffer: Broken pipe (-32)
+2019-10-07 11:28:44.243 749-17375/? E/Camera3-Device: RequestThread: Can't get output buffer, skipping request: Broken pipe (-32)
+2019-10-07 11:28:44.243 749-17375/? E/Camera3-OutputStream: getBufferLockedCommon: Stream 0: Can't dequeue next output buffer: Broken pipe (-32)
+2019-10-07 11:28:44.243 749-17375/? E/Camera3-Device: RequestThread: Can't get output buffer, skipping request: Broken pipe (-32)
+2019-10-07 11:28:44.243 749-17375/? E/Camera3-OutputStream: getBufferLockedCommon: Stream 0: Can't dequeue next output buffer: Broken pipe (-32)
+2019-10-07 11:28:44.244 749-17375/? E/Camera3-Device: RequestThread: Can't get output buffer, skipping request: Broken pipe (-32)
+2019-10-07 11:28:44.244 749-17375/? E/Camera3-OutputStream: getBufferLockedCommon: Stream 0: Can't dequeue next output buffer: Broken pipe (-32)
+2019-10-07 11:28:44.244 749-17375/? E/Camera3-Device: RequestThread: Can't get output buffer, skipping request: Broken pipe (-32)
+2019-10-07 11:28:44.244 749-17375/? E/Camera3-OutputStream: getBufferLockedCommon: Stream 0: Can't dequeue next output buffer: Broken pipe (-32)
+2019-10-07 11:28:44.244 749-17375/? E/Camera3-Device: RequestThread: Can't get output buffer, skipping request: Broken pipe (-32)
+2019-10-07 11:28:44.244 749-17375/? E/Camera3-OutputStream: getBufferLockedCommon: Stream 0: Can't dequeue next output buffer: Broken pipe (-32)
+2019-10-07 11:28:44.244 749-17375/? E/Camera3-Device: RequestThread: Can't get output buffer, skipping request: Broken pipe (-32)
+2019-10-07 11:28:44.244 749-17375/? E/Camera3-OutputStream: getBufferLockedCommon: Stream 0: Can't dequeue next output buffer: Broken pipe (-32)
+2019-10-07 11:28:44.244 749-17375/? E/Camera3-Device: RequestThread: Can't get output buffer, skipping request: Broken pipe (-32)
+2019-10-07 11:28:44.244 749-17375/? E/Camera3-OutputStream: getBufferLockedCommon: Stream 0: Can't dequeue next output buffer: Broken pipe (-32)
+2019-10-07 11:28:44.244 749-17375/? E/Camera3-Device: RequestThread: Can't get output buffer, skipping request: Broken pipe (-32)
+2019-10-07 11:28:44.244 749-17375/? E/Camera3-OutputStream: getBufferLockedCommon: Stream 0: Can't dequeue next output buffer: Broken pipe (-32)
+2019-10-07 11:28:44.244 749-17375/? E/Camera3-Device: RequestThread: Can't get output buffer, skipping request: Broken pipe (-32)
+2019-10-07 11:28:44.244 749-17375/? E/Camera3-OutputStream: getBufferLockedCommon: Stream 0: Can't dequeue next output buffer: Broken pipe (-32)
+2019-10-07 11:28:44.244 749-17375/? E/Camera3-Device: RequestThread: Can't get output buffer, skipping request: Broken pipe (-32)
+2019-10-07 11:28:44.244 749-17375/? E/Camera3-OutputStream: getBufferLockedCommon: Stream 0: Can't dequeue next output buffer: Broken pipe (-32)
+2019-10-07 11:28:44.244 749-17375/? E/Camera3-Device: RequestThread: Can't get output buffer, skipping request: Broken pipe (-32)
+2019-10-07 11:28:44.244 749-17375/? E/Camera3-OutputStream: getBufferLockedCommon: Stream 0: Can't dequeue next output buffer: Broken pipe (-32)
+2019-10-07 11:28:44.244 749-17375/? E/Camera3-Device: RequestThread: Can't get output buffer, skipping request: Broken pipe (-32)
+2019-10-07 11:28:44.244 749-17375/? E/Camera3-OutputStream: getBufferLockedCommon: Stream 0: Can't dequeue next output buffer: Broken pipe (-32)
+2019-10-07 11:28:44.244 749-17375/? E/Camera3-Device: RequestThread: Can't get output buffer, skipping request: Broken pipe (-32)
+2019-10-07 11:28:44.245 749-17375/? E/Camera3-OutputStream: getBufferLockedCommon: Stream 0: Can't dequeue next output buffer: Broken pipe (-32)
+2019-10-07 11:28:44.245 749-17375/? E/Camera3-Device: RequestThread: Can't get output buffer, skipping request: Broken pipe (-32)
+2019-10-07 11:28:44.245 749-17375/? E/Camera3-OutputStream: getBufferLockedCommon: Stream 0: Can't dequeue next output buffer: Broken pipe (-32)
+2019-10-07 11:28:44.245 749-17375/? E/Camera3-Device: RequestThread: Can't get output buffer, skipping request: Broken pipe (-32)
+2019-10-07 11:28:44.245 749-17375/? E/Camera3-OutputStream: getBufferLockedCommon: Stream 0: Can't dequeue next output buffer: Broken pipe (-32)
+2019-10-07 11:28:44.245 749-17375/? E/Camera3-Device: RequestThread: Can't get output buffer, skipping request: Broken pipe (-32)
+2019-10-07 11:28:44.245 749-17375/? E/Camera3-OutputStream: getBufferLockedCommon: Stream 0: Can't dequeue next output buffer: Broken pipe (-32)
+2019-10-07 11:28:44.245 749-17375/? E/Camera3-Device: RequestThread: Can't get output buffer, skipping request: Broken pipe (-32)
+2019-10-07 11:28:44.245 749-17375/? E/Camera3-OutputStream: getBufferLockedCommon: Stream 0: Can't dequeue next output buffer: Broken pipe (-32)
+2019-10-07 11:28:44.245 749-17375/? E/Camera3-Device: RequestThread: Can't get output buffer, skipping request: Broken pipe (-32)
+2019-10-07 11:28:44.245 749-17375/? E/Camera3-OutputStream: getBufferLockedCommon: Stream 0: Can't dequeue next output buffer: Broken pipe (-32)
+2019-10-07 11:28:44.245 749-17375/? E/Camera3-Device: RequestThread: Can't get output buffer, skipping request: Broken pipe (-32)
+2019-10-07 11:28:44.245 749-17375/? E/Camera3-OutputStream: getBufferLockedCommon: Stream 0: Can't dequeue next output buffer: Broken pipe (-32)
+2019-10-07 11:28:44.245 749-17375/? E/Camera3-Device: RequestThread: Can't get output buffer, skipping request: Broken pipe (-32)
+2019-10-07 11:28:44.245 749-17375/? E/Camera3-OutputStream: getBufferLockedCommon: Stream 0: Can't dequeue next output buffer: Broken pipe (-32)
+2019-10-07 11:28:44.245 749-17375/? E/Camera3-Device: RequestThread: Can't get output buffer, skipping request: Broken pipe (-32)
+2019-10-07 11:28:44.245 749-17375/? E/Camera3-OutputStream: getBufferLockedCommon: Stream 0: Can't dequeue next output buffer: Broken pipe (-32)
+2019-10-07 11:28:44.245 749-17375/? E/Camera3-Device: RequestThread: Can't get output buffer, skipping request: Broken pipe (-32)
+2019-10-07 11:28:44.245 749-17375/? E/Camera3-OutputStream: getBufferLockedCommon: Stream 0: Can't dequeue next output buffer: Broken pipe (-32)
+2019-10-07 11:28:44.245 749-17375/? E/Camera3-Device: RequestThread: Can't get output buffer, skipping request: Broken pipe (-32)
+2019-10-07 11:28:44.245 749-17375/? E/Camera3-OutputStream: getBufferLockedCommon: Stream 0: Can't dequeue next output buffer: Broken pipe (-32)
+2019-10-07 11:28:44.245 749-17375/? E/Camera3-Device: RequestThread: Can't get output buffer, skipping request: Broken pipe (-32)
+2019-10-07 11:28:44.245 749-17375/? E/Camera3-OutputStream: getBufferLockedCommon: Stream 0: Can't dequeue next output buffer: Broken pipe (-32)
+2019-10-07 11:28:44.245 749-17375/? E/Camera3-Device: RequestThread: Can't get output buffer, skipping request: Broken pipe (-32)
+2019-10-07 11:28:44.245 749-17375/? E/Camera3-OutputStream: getBufferLockedCommon: Stream 0: Can't dequeue next output buffer: Broken pipe (-32)
+2019-10-07 11:28:44.245 749-17375/? E/Camera3-Device: RequestThread: Can't get output buffer, skipping request: Broken pipe (-32)
+2019-10-07 11:28:44.246 749-17375/? E/Camera3-OutputStream: getBufferLockedCommon: Stream 0: Can't dequeue next output buffer: Broken pipe (-32)
+2019-10-07 11:28:44.246 749-17375/? E/Camera3-Device: RequestThread: Can't get output buffer, skipping request: Broken pipe (-32)
+2019-10-07 11:28:44.246 749-17375/? E/Camera3-OutputStream: getBufferLockedCommon: Stream 0: Can't dequeue next output buffer: Broken pipe (-32)
+2019-10-07 11:28:44.246 749-17375/? E/Camera3-Device: RequestThread: Can't get output buffer, skipping request: Broken pipe (-32)
+2019-10-07 11:28:44.246 749-17375/? E/Camera3-OutputStream: getBufferLockedCommon: Stream 0: Can't dequeue next output buffer: Broken pipe (-32)
+2019-10-07 11:28:44.246 749-17375/? E/Camera3-Device: RequestThread: Can't get output buffer, skipping request: Broken pipe (-32)
+2019-10-07 11:28:44.246 749-17375/? E/Camera3-OutputStream: getBufferLockedCommon: Stream 0: Can't dequeue next output buffer: Broken pipe (-32)
+2019-10-07 11:28:44.246 749-17375/? E/Camera3-Device: RequestThread: Can't get output buffer, skipping request: Broken pipe (-32)
+2019-10-07 11:28:44.246 749-17375/? E/Camera3-OutputStream: getBufferLockedCommon: Stream 0: Can't dequeue next output buffer: Broken pipe (-32)
+2019-10-07 11:28:44.246 749-17375/? E/Camera3-Device: RequestThread: Can't get output buffer, skipping request: Broken pipe (-32)
+2019-10-07 11:28:44.246 749-17375/? E/Camera3-OutputStream: getBufferLockedCommon: Stream 0: Can't dequeue next output buffer: Broken pipe (-32)
+2019-10-07 11:28:44.246 749-17375/? E/Camera3-Device: RequestThread: Can't get output buffer, skipping request: Broken pipe (-32)
+2019-10-07 11:28:44.246 749-17375/? E/Camera3-OutputStream: getBufferLockedCommon: Stream 0: Can't dequeue next output buffer: Broken pipe (-32)
+2019-10-07 11:28:44.246 749-17375/? E/Camera3-Device: RequestThread: Can't get output buffer, skipping request: Broken pipe (-32)
+2019-10-07 11:28:44.246 749-17375/? E/Camera3-OutputStream: getBufferLockedCommon: Stream 0: Can't dequeue next output buffer: Broken pipe (-32)
+2019-10-07 11:28:44.246 749-17375/? E/Camera3-Device: RequestThread: Can't get output buffer, skipping request: Broken pipe (-32)
+2019-10-07 11:28:44.246 749-17375/? E/Camera3-OutputStream: getBufferLockedCommon: Stream 0: Can't dequeue next output buffer: Broken pipe (-32)
+2019-10-07 11:28:44.246 749-17375/? E/Camera3-Device: RequestThread: Can't get output buffer, skipping request: Broken pipe (-32)
+2019-10-07 11:28:44.246 749-17375/? E/Camera3-OutputStream: getBufferLockedCommon: Stream 0: Can't dequeue next output buffer: Broken pipe (-32)
+2019-10-07 11:28:44.246 749-17375/? E/Camera3-Device: RequestThread: Can't get output buffer, skipping request: Broken pipe (-32)
+2019-10-07 11:28:44.246 749-17375/? E/Camera3-OutputStream: getBufferLockedCommon: Stream 0: Can't dequeue next output buffer: Broken pipe (-32)
+2019-10-07 11:28:44.246 749-17375/? E/Camera3-Device: RequestThread: Can't get output buffer, skipping request: Broken pipe (-32)
+2019-10-07 11:28:44.246 749-17375/? E/Camera3-OutputStream: getBufferLockedCommon: Stream 0: Can't dequeue next output buffer: Broken pipe (-32)
+2019-10-07 11:28:44.246 749-17375/? E/Camera3-Device: RequestThread: Can't get output buffer, skipping request: Broken pipe (-32)
+2019-10-07 11:28:44.246 749-17375/? E/Camera3-OutputStream: getBufferLockedCommon: Stream 0: Can't dequeue next output buffer: Broken pipe (-32)
+2019-10-07 11:28:44.246 749-17375/? E/Camera3-Device: RequestThread: Can't get output buffer, skipping request: Broken pipe (-32)
+2019-10-07 11:28:44.246 749-17375/? E/Camera3-OutputStream: getBufferLockedCommon: Stream 0: Can't dequeue next output buffer: Broken pipe (-32)
+2019-10-07 11:28:44.247 749-17375/? E/Camera3-Device: RequestThread: Can't get output buffer, skipping request: Broken pipe (-32)
+2019-10-07 11:28:44.247 749-17375/? E/Camera3-OutputStream: getBufferLockedCommon: Stream 0: Can't dequeue next output buffer: Broken pipe (-32)
+2019-10-07 11:28:44.247 749-17375/? E/Camera3-Device: RequestThread: Can't get output buffer, skipping request: Broken pipe (-32)
+2019-10-07 11:28:44.247 749-17375/? E/Camera3-OutputStream: getBufferLockedCommon: Stream 0: Can't dequeue next output buffer: Broken pipe (-32)
+2019-10-07 11:28:44.247 749-17375/? E/Camera3-Device: RequestThread: Can't get output buffer, skipping request: Broken pipe (-32)
+2019-10-07 11:28:44.247 749-17375/? E/Camera3-OutputStream: getBufferLockedCommon: Stream 0: Can't dequeue next output buffer: Broken pipe (-32)
+2019-10-07 11:28:44.247 749-17375/? E/Camera3-Device: RequestThread: Can't get output buffer, skipping request: Broken pipe (-32)
+2019-10-07 11:28:44.247 749-17375/? E/Camera3-OutputStream: getBufferLockedCommon: Stream 0: Can't dequeue next output buffer: Broken pipe (-32)
+2019-10-07 11:28:44.247 749-17375/? E/Camera3-Device: RequestThread: Can't get output buffer, skipping request: Broken pipe (-32)
+2019-10-07 11:28:44.247 749-17375/? E/Camera3-OutputStream: getBufferLockedCommon: Stream 0: Can't dequeue next output buffer: Broken pipe (-32)
+2019-10-07 11:28:44.247 749-17375/? E/Camera3-Device: RequestThread: Can't get output buffer, skipping request: Broken pipe (-32)
+2019-10-07 11:28:44.247 749-17375/? E/Camera3-OutputStream: getBufferLockedCommon: Stream 0: Can't dequeue next output buffer: Broken pipe (-32)
+2019-10-07 11:28:44.247 749-17375/? E/Camera3-Device: RequestThread: Can't get output buffer, skipping request: Broken pipe (-32)
+2019-10-07 11:28:44.247 749-17375/? E/Camera3-OutputStream: getBufferLockedCommon: Stream 0: Can't dequeue next output buffer: Broken pipe (-32)
+2019-10-07 11:28:44.247 749-17375/? E/Camera3-Device: RequestThread: Can't get output buffer, skipping request: Broken pipe (-32)
+2019-10-07 11:28:44.247 749-17375/? E/Camera3-OutputStream: getBufferLockedCommon: Stream 0: Can't dequeue next output buffer: Broken pipe (-32)
+2019-10-07 11:28:44.247 749-17375/? E/Camera3-Device: RequestThread: Can't get output buffer, skipping request: Broken pipe (-32)
+2019-10-07 11:28:44.247 749-17375/? E/Camera3-OutputStream: getBufferLockedCommon: Stream 0: Can't dequeue next output buffer: Broken pipe (-32)
+2019-10-07 11:28:44.247 749-17375/? E/Camera3-Device: RequestThread: Can't get output buffer, skipping request: Broken pipe (-32)
+2019-10-07 11:28:44.247 749-17375/? E/Camera3-OutputStream: getBufferLockedCommon: Stream 0: Can't dequeue next output buffer: Broken pipe (-32)
+2019-10-07 11:28:44.247 749-17375/? E/Camera3-Device: RequestThread: Can't get output buffer, skipping request: Broken pipe (-32)
+2019-10-07 11:28:44.247 749-17375/? E/Camera3-OutputStream: getBufferLockedCommon: Stream 0: Can't dequeue next output buffer: Broken pipe (-32)
+2019-10-07 11:28:44.247 749-17375/? E/Camera3-Device: RequestThread: Can't get output buffer, skipping request: Broken pipe (-32)
+2019-10-07 11:28:44.247 749-17375/? E/Camera3-OutputStream: getBufferLockedCommon: Stream 0: Can't dequeue next output buffer: Broken pipe (-32)
+2019-10-07 11:28:44.247 749-17375/? E/Camera3-Device: RequestThread: Can't get output buffer, skipping request: Broken pipe (-32)
+2019-10-07 11:28:44.247 749-17375/? E/Camera3-OutputStream: getBufferLockedCommon: Stream 0: Can't dequeue next output buffer: Broken pipe (-32)
+2019-10-07 11:28:44.247 749-17375/? E/Camera3-Device: RequestThread: Can't get output buffer, skipping request: Broken pipe (-32)
+2019-10-07 11:28:44.247 749-17375/? E/Camera3-OutputStream: getBufferLockedCommon: Stream 0: Can't dequeue next output buffer: Broken pipe (-32)
+2019-10-07 11:28:44.248 749-17375/? E/Camera3-Device: RequestThread: Can't get output buffer, skipping request: Broken pipe (-32)
+2019-10-07 11:28:44.248 749-17375/? E/Camera3-OutputStream: getBufferLockedCommon: Stream 0: Can't dequeue next output buffer: Broken pipe (-32)
+2019-10-07 11:28:44.248 749-17375/? E/Camera3-Device: RequestThread: Can't get output buffer, skipping request: Broken pipe (-32)
+2019-10-07 11:28:44.248 749-17375/? E/Camera3-OutputStream: getBufferLockedCommon: Stream 0: Can't dequeue next output buffer: Broken pipe (-32)
+2019-10-07 11:28:44.248 749-17375/? E/Camera3-Device: RequestThread: Can't get output buffer, skipping request: Broken pipe (-32)
+2019-10-07 11:28:44.248 749-17375/? E/Camera3-OutputStream: getBufferLockedCommon: Stream 0: Can't dequeue next output buffer: Broken pipe (-32)
+2019-10-07 11:28:44.248 749-17375/? E/Camera3-Device: RequestThread: Can't get output buffer, skipping request: Broken pipe (-32)
+2019-10-07 11:28:44.248 749-17375/? E/Camera3-OutputStream: getBufferLockedCommon: Stream 0: Can't dequeue next output buffer: Broken pipe (-32)
+2019-10-07 11:28:44.248 749-17375/? E/Camera3-Device: RequestThread: Can't get output buffer, skipping request: Broken pipe (-32)
+2019-10-07 11:28:44.248 749-17375/? E/Camera3-OutputStream: getBufferLockedCommon: Stream 0: Can't dequeue next output buffer: Broken pipe (-32)
+2019-10-07 11:28:44.248 749-17375/? E/Camera3-Device: RequestThread: Can't get output buffer, skipping request: Broken pipe (-32)
+2019-10-07 11:28:44.248 749-17375/? E/Camera3-OutputStream: getBufferLockedCommon: Stream 0: Can't dequeue next output buffer: Broken pipe (-32)
+2019-10-07 11:28:44.248 749-17375/? E/Camera3-Device: RequestThread: Can't get output buffer, skipping request: Broken pipe (-32)
+2019-10-07 11:28:44.248 749-17375/? E/Camera3-OutputStream: getBufferLockedCommon: Stream 0: Can't dequeue next output buffer: Broken pipe (-32)
+2019-10-07 11:28:44.248 749-17375/? E/Camera3-Device: RequestThread: Can't get output buffer, skipping request: Broken pipe (-32)
+2019-10-07 11:28:44.248 749-17375/? E/Camera3-OutputStream: getBufferLockedCommon: Stream 0: Can't dequeue next output buffer: Broken pipe (-32)
+2019-10-07 11:28:44.248 749-17375/? E/Camera3-Device: RequestThread: Can't get output buffer, skipping request: Broken pipe (-32)
+2019-10-07 11:28:44.248 749-17375/? E/Camera3-OutputStream: getBufferLockedCommon: Stream 0: Can't dequeue next output buffer: Broken pipe (-32)
+2019-10-07 11:28:44.248 749-17375/? E/Camera3-Device: RequestThread: Can't get output buffer, skipping request: Broken pipe (-32)
+2019-10-07 11:28:44.248 749-17375/? E/Camera3-OutputStream: getBufferLockedCommon: Stream 0: Can't dequeue next output buffer: Broken pipe (-32)
+2019-10-07 11:28:44.248 749-17375/? E/Camera3-Device: RequestThread: Can't get output buffer, skipping request: Broken pipe (-32)
+2019-10-07 11:28:44.248 749-17375/? E/Camera3-OutputStream: getBufferLockedCommon: Stream 0: Can't dequeue next output buffer: Broken pipe (-32)
+2019-10-07 11:28:44.248 749-17375/? E/Camera3-Device: RequestThread: Can't get output buffer, skipping request: Broken pipe (-32)
+2019-10-07 11:28:44.248 749-17375/? E/Camera3-OutputStream: getBufferLockedCommon: Stream 0: Can't dequeue next output buffer: Broken pipe (-32)
+2019-10-07 11:28:44.248 749-17375/? E/Camera3-Device: RequestThread: Can't get output buffer, skipping request: Broken pipe (-32)
+2019-10-07 11:28:44.248 749-17375/? E/Camera3-OutputStream: getBufferLockedCommon: Stream 0: Can't dequeue next output buffer: Broken pipe (-32)
+2019-10-07 11:28:44.248 749-17375/? E/Camera3-Device: RequestThread: Can't get output buffer, skipping request: Broken pipe (-32)
+2019-10-07 11:28:44.249 749-17375/? E/Camera3-OutputStream: getBufferLockedCommon: Stream 0: Can't dequeue next output buffer: Broken pipe (-32)
+2019-10-07 11:28:44.249 749-17375/? E/Camera3-Device: RequestThread: Can't get output buffer, skipping request: Broken pipe (-32)
+2019-10-07 11:28:44.249 749-17375/? E/Camera3-OutputStream: getBufferLockedCommon: Stream 0: Can't dequeue next output buffer: Broken pipe (-32)
+2019-10-07 11:28:44.249 749-17375/? E/Camera3-Device: RequestThread: Can't get output buffer, skipping request: Broken pipe (-32)
+2019-10-07 11:28:44.249 749-17375/? E/Camera3-OutputStream: getBufferLockedCommon: Stream 0: Can't dequeue next output buffer: Broken pipe (-32)
+2019-10-07 11:28:44.249 749-17375/? E/Camera3-Device: RequestThread: Can't get output buffer, skipping request: Broken pipe (-32)
+2019-10-07 11:28:44.249 749-17375/? E/Camera3-OutputStream: getBufferLockedCommon: Stream 0: Can't dequeue next output buffer: Broken pipe (-32)
+2019-10-07 11:28:44.249 749-17375/? E/Camera3-Device: RequestThread: Can't get output buffer, skipping request: Broken pipe (-32)
+2019-10-07 11:28:44.249 749-17375/? E/Camera3-OutputStream: getBufferLockedCommon: Stream 0: Can't dequeue next output buffer: Broken pipe (-32)
+2019-10-07 11:28:44.249 749-17375/? E/Camera3-Device: RequestThread: Can't get output buffer, skipping request: Broken pipe (-32)
+2019-10-07 11:28:44.249 749-17375/? E/Camera3-OutputStream: getBufferLockedCommon: Stream 0: Can't dequeue next output buffer: Broken pipe (-32)
+2019-10-07 11:28:44.249 749-17375/? E/Camera3-Device: RequestThread: Can't get output buffer, skipping request: Broken pipe (-32)
+2019-10-07 11:28:44.249 749-17375/? E/Camera3-OutputStream: getBufferLockedCommon: Stream 0: Can't dequeue next output buffer: Broken pipe (-32)
+2019-10-07 11:28:44.249 749-17375/? E/Camera3-Device: RequestThread: Can't get output buffer, skipping request: Broken pipe (-32)
+2019-10-07 11:28:44.249 749-17375/? E/Camera3-OutputStream: getBufferLockedCommon: Stream 0: Can't dequeue next output buffer: Broken pipe (-32)
+2019-10-07 11:28:44.249 749-17375/? E/Camera3-Device: RequestThread: Can't get output buffer, skipping request: Broken pipe (-32)
+2019-10-07 11:28:44.249 749-17375/? E/Camera3-OutputStream: getBufferLockedCommon: Stream 0: Can't dequeue next output buffer: Broken pipe (-32)
+2019-10-07 11:28:44.249 749-17375/? E/Camera3-Device: RequestThread: Can't get output buffer, skipping request: Broken pipe (-32)
+2019-10-07 11:28:44.249 749-17375/? E/Camera3-OutputStream: getBufferLockedCommon: Stream 0: Can't dequeue next output buffer: Broken pipe (-32)
+2019-10-07 11:28:44.249 749-17375/? E/Camera3-Device: RequestThread: Can't get output buffer, skipping request: Broken pipe (-32)
+2019-10-07 11:28:44.249 749-17375/? E/Camera3-OutputStream: getBufferLockedCommon: Stream 0: Can't dequeue next output buffer: Broken pipe (-32)
+2019-10-07 11:28:44.249 749-17375/? E/Camera3-Device: RequestThread: Can't get output buffer, skipping request: Broken pipe (-32)
+2019-10-07 11:28:44.249 749-17375/? E/Camera3-OutputStream: getBufferLockedCommon: Stream 0: Can't dequeue next output buffer: Broken pipe (-32)
+2019-10-07 11:28:44.249 749-17375/? E/Camera3-Device: RequestThread: Can't get output buffer, skipping request: Broken pipe (-32)
+2019-10-07 11:28:44.249 749-17375/? E/Camera3-OutputStream: getBufferLockedCommon: Stream 0: Can't dequeue next output buffer: Broken pipe (-32)
+2019-10-07 11:28:44.249 749-17375/? E/Camera3-Device: RequestThread: Can't get output buffer, skipping request: Broken pipe (-32)
+2019-10-07 11:28:44.249 749-1317/? E/Surface: queueBuffer: error queuing buffer to SurfaceTexture, -32
+2019-10-07 11:28:44.250 749-1317/? E/Camera3-OutputStream: returnBufferCheckedLocked: Stream 1: Error queueing buffer to native window: Broken pipe (-32)
+2019-10-07 11:28:44.250 749-1317/? E/Camera3-Device: Can't return buffer to its stream: (0xee5bc600), error: Broken pipe (-32)
+2019-10-07 11:28:44.250 749-17375/? E/Camera3-OutputStream: getBufferLockedCommon: Stream 0: Can't dequeue next output buffer: Broken pipe (-32)
+2019-10-07 11:28:44.250 749-17375/? E/Camera3-Device: RequestThread: Can't get output buffer, skipping request: Broken pipe (-32)
+2019-10-07 11:28:44.250 749-17375/? E/Camera3-OutputStream: getBufferLockedCommon: Stream 0: Can't dequeue next output buffer: Broken pipe (-32)
+2019-10-07 11:28:44.250 749-17375/? E/Camera3-Device: RequestThread: Can't get output buffer, skipping request: Broken pipe (-32)
+2019-10-07 11:28:44.250 749-17375/? E/Camera3-OutputStream: getBufferLockedCommon: Stream 0: Can't dequeue next output buffer: Broken pipe (-32)
+2019-10-07 11:28:44.250 749-17375/? E/Camera3-Device: RequestThread: Can't get output buffer, skipping request: Broken pipe (-32)
+2019-10-07 11:28:44.250 749-17375/? E/Camera3-OutputStream: getBufferLockedCommon: Stream 0: Can't dequeue next output buffer: Broken pipe (-32)
+2019-10-07 11:28:44.250 749-17375/? E/Camera3-Device: RequestThread: Can't get output buffer, skipping request: Broken pipe (-32)
+2019-10-07 11:28:44.250 749-17375/? E/Camera3-OutputStream: getBufferLockedCommon: Stream 0: Can't dequeue next output buffer: Broken pipe (-32)
+2019-10-07 11:28:44.250 749-17375/? E/Camera3-Device: RequestThread: Can't get output buffer, skipping request: Broken pipe (-32)
+2019-10-07 11:28:44.259 1846-3431/? E/HsmCoreServiceImpl: onTransact in code is: 102
+2019-10-07 11:28:44.260 749-1317/? E/Surface: queueBuffer: error queuing buffer to SurfaceTexture, -32
+2019-10-07 11:28:44.260 749-1317/? E/Camera3-OutputStream: returnBufferCheckedLocked: Stream 1: Error queueing buffer to native window: Broken pipe (-32)
+2019-10-07 11:28:44.260 749-1317/? E/Camera3-Device: Can't return buffer to its stream: (0xee5bc600), error: Broken pipe (-32)
+2019-10-07 11:28:44.262 749-916/? E/Surface: queueBuffer: error queuing buffer to SurfaceTexture, -32
+2019-10-07 11:28:44.262 749-916/? E/Camera3-OutputStream: returnBufferCheckedLocked: Stream 1: Error queueing buffer to native window: Broken pipe (-32)
+2019-10-07 11:28:44.262 749-916/? E/Camera3-Device: Can't return buffer to its stream: (0xee5bc600), error: Broken pipe (-32)
+2019-10-07 11:28:44.263 749-1317/? E/Surface: queueBuffer: error queuing buffer to SurfaceTexture, -32
+2019-10-07 11:28:44.263 749-1317/? E/Camera3-OutputStream: returnBufferCheckedLocked: Stream 1: Error queueing buffer to native window: Broken pipe (-32)
+2019-10-07 11:28:44.263 749-1317/? E/Camera3-Device: Can't return buffer to its stream: (0xee5bc600), error: Broken pipe (-32)
+2019-10-07 11:28:44.263 1956-2757/? E/AwareLog: GameSdkConfigReader: GameSdkLog: idNameMap: null
+2019-10-07 11:28:44.266 1846-2274/? E/Hicom_PolicyCenterService: handleAppDied. null == mMultipathAppsMap
+2019-10-07 11:28:44.269 749-1317/? E/Surface: queueBuffer: error queuing buffer to SurfaceTexture, -32
+2019-10-07 11:28:44.269 749-1317/? E/Camera3-OutputStream: returnBufferCheckedLocked: Stream 0: Error queueing buffer to native window: Broken pipe (-32)
+2019-10-07 11:28:44.269 749-1317/? E/Camera3-Device: Can't return buffer to its stream: (0xee35d280), error: Broken pipe (-32)
+2019-10-07 11:28:44.270 1110-9115/? E/WindowManager: win=Window{4c8636c u0 com.virobugs/com.virobugs.MainActivity EXITING} destroySurfaces: appStopped=false win.mWindowRemovalAllowed=true win.mRemoveOnExit=true
+2019-10-07 11:28:44.283 1110-1152/? E/AwareLog: CPUKeyBackground: checkIsTargetGroup read catch IOException msg = /proc/17184/cpuset (No such file or directory)
+2019-10-07 11:28:44.293 749-916/? E/Surface: queueBuffer: error queuing buffer to SurfaceTexture, -32
+2019-10-07 11:28:44.293 749-916/? E/Camera3-OutputStream: returnBufferCheckedLocked: Stream 0: Error queueing buffer to native window: Broken pipe (-32)
+2019-10-07 11:28:44.293 749-916/? E/Camera3-Device: Can't return buffer to its stream: (0xee35d280), error: Broken pipe (-32)
+2019-10-07 11:28:44.293 749-916/? E/Surface: queueBuffer: error queuing buffer to SurfaceTexture, -32
+2019-10-07 11:28:44.293 749-916/? E/Camera3-OutputStream: returnBufferCheckedLocked: Stream 1: Error queueing buffer to native window: Broken pipe (-32)
+2019-10-07 11:28:44.293 749-916/? E/Camera3-Device: Can't return buffer to its stream: (0xee5bc600), error: Broken pipe (-32)
+2019-10-07 11:28:44.300 749-916/? E/Surface: queueBuffer: error queuing buffer to SurfaceTexture, -32
+2019-10-07 11:28:44.300 749-916/? E/Camera3-OutputStream: returnBufferCheckedLocked: Stream 0: Error queueing buffer to native window: Broken pipe (-32)
+2019-10-07 11:28:44.300 749-916/? E/Camera3-Device: Can't return buffer to its stream: (0xee35d280), error: Broken pipe (-32)
+2019-10-07 11:28:44.305 749-916/? E/Surface: queueBuffer: error queuing buffer to SurfaceTexture, -32
+2019-10-07 11:28:44.305 749-916/? E/Camera3-OutputStream: returnBufferCheckedLocked: Stream 0: Error queueing buffer to native window: Broken pipe (-32)
+2019-10-07 11:28:44.305 749-916/? E/Camera3-Device: Can't return buffer to its stream: (0xee35d280), error: Broken pipe (-32)
+2019-10-07 11:28:44.312 749-916/? E/Surface: queueBuffer: error queuing buffer to SurfaceTexture, -32
+2019-10-07 11:28:44.312 749-916/? E/Camera3-OutputStream: returnBufferCheckedLocked: Stream 0: Error queueing buffer to native window: Broken pipe (-32)
+2019-10-07 11:28:44.312 749-916/? E/Camera3-Device: Can't return buffer to its stream: (0xee35d280), error: Broken pipe (-32)
+2019-10-07 11:28:44.319 752-828/? E/dubaid: [CameraHandler.cpp] handleOnDisconnected# Invalid tag: 2
+2019-10-07 11:28:44.320 1846-2274/? E/XEngineMpipControl: Invalid SubId
+2019-10-07 11:28:44.331 766-949/? E/HISPMsgController: procMsgAck: can't match api:0x201c
+2019-10-07 11:28:44.347 1995-2068/? E/HwLauncher: SettingsEx , no such field.
+2019-10-07 11:28:44.360 1846-3191/? E/DollieAdapterService: notifyActivityState pkg:com.virobugs/com.virobugs.MainActivity state:18 fg:false mUid:10306
+2019-10-07 11:28:44.371 3559-3581/? E/AppLifeChangeSensor:  CAWARENESS: activityResumed mAppLifeChangeCallback is null
+2019-10-07 11:28:44.371 1846-3191/? E/DollieAdapterService: notifyActivityState pkg:com.huawei.android.launcher/com.huawei.android.launcher.unihome.UniHomeLauncher state:2 fg:true mUid:10104
+2019-10-07 11:28:44.397 752-828/? E/dubaid: [CameraHandler.cpp] handleOnDisconnected# Invalid tag: 4
+2019-10-07 11:28:44.400 749-10654/? E/HwCameraServiceEx: binderDied: Java client's binder died, removing it from the list of active clients
+2019-10-07 11:28:44.403 3407-17438/? E/NfcNci:HwCustNfcService: applyRouting -1.1
+2019-10-07 11:28:44.434 779-905/? E/SensorHub: get_acc_convert_coff = 1000.000000
+2019-10-07 11:28:44.475 766-1294/? E/FNFaceDetect: [3c6ca2b_64E] onDestroy fail. ai facedetection proxy!
+2019-10-07 11:28:44.476 766-1294/? E/IppAlgoSmartAE: [3c6ca2b_64E] onUnloadLibrary() mSmartAESoState is unloaded ,so we not Uninit it!
+2019-10-07 11:28:44.943 17439-17439/? E/JankService: child Thread receive to stop
+2019-10-07 11:28:45.082 784-901/? E/JankService: all data read ok
+2019-10-07 11:28:46.061 784-2925/? E/iMonitor: FaultDetect: DUMPTOOL_PRINTF return.
+2019-10-07 11:28:46.069 784-2925/? E/iMonitor: FaultDetect: DUMPTOOL_PRINTF return.
+2019-10-07 11:28:47.202 609-1250/? E/smartpakit: unsurpport cmd = 27
+2019-10-07 11:28:47.202 609-1250/? E/smartpakit: smartpa_algo_control: cmd = 27 execute failed!
+2019-10-07 11:28:47.202 609-1250/? E/smartpakit: set_contain_sco_and_speaker_to_dsp: set BT-SCO and speaker to dsp, failed!
+2019-10-07 11:28:48.070 784-2925/? E/iMonitor: FaultDetect: DUMPTOOL_PRINTF return.
+2019-10-07 11:28:48.074 784-2925/? E/iMonitor: FaultDetect: DUMPTOOL_PRINTF return.
+2019-10-07 11:28:48.127 784-2925/? E/iMonitor: FaultDetect: DUMPTOOL_PRINTF return.
+2019-10-07 11:28:48.128 784-3166/? E/iMonitor: FaultDetect: DUMPTOOL_PRINTF return.
+2019-10-07 11:28:48.130 784-3166/? E/iMonitor: FaultDetect: DUMPTOOL_PRINTF return.
+2019-10-07 11:28:48.180 784-3166/? E/iMonitor: FaultDetect: DUMPTOOL_PRINTF return.
+2019-10-07 11:28:48.207 784-3166/? E/iMonitor: FaultDetect: DUMPTOOL_PRINTF return.
+2019-10-07 11:28:48.607 1846-2270/? E/HwModemCapability: isCapabilitySupport java.lang.StringIndexOutOfBoundsException: length=7; index=7
+2019-10-07 11:28:48.806 784-3166/? E/iMonitor: FaultDetect: DUMPTOOL_PRINTF return.
+2019-10-07 11:28:48.808 784-3166/? E/iMonitor: FaultDetect: DUMPTOOL_PRINTF return.
+2019-10-07 11:28:48.808 784-3167/? E/iMonitor: FaultDetect: DUMPTOOL_PRINTF return.
+2019-10-07 11:28:48.812 784-3167/? E/iMonitor: FaultDetect: DUMPTOOL_PRINTF return.
+2019-10-07 11:28:48.816 784-3167/? E/iMonitor: FaultDetect: DUMPTOOL_PRINTF return.
+2019-10-07 11:28:48.832 784-3167/? E/iMonitor: FaultDetect: DUMPTOOL_PRINTF return.
+2019-10-07 11:28:48.849 784-3167/? E/iMonitor: FaultDetect: DUMPTOOL_PRINTF return.
+2019-10-07 11:28:48.920 784-3167/? E/iMonitor: FaultDetect: DUMPTOOL_PRINTF return.
+2019-10-07 11:28:48.920 784-3168/? E/iMonitor: FaultDetect: DUMPTOOL_PRINTF return.
+2019-10-07 11:28:48.920 784-3168/? E/iMonitor: FaultDetect: DUMPTOOL_PRINTF return.
+2019-10-07 11:28:48.920 784-3168/? E/iMonitor: FaultDetect: DUMPTOOL_PRINTF return.
+2019-10-07 11:28:48.921 784-3168/? E/iMonitor: FaultDetect: DUMPTOOL_PRINTF return.
+2019-10-07 11:28:48.921 784-3168/? E/iMonitor: FaultDetect: DUMPTOOL_PRINTF return.
+2019-10-07 11:28:49.345 10199-10207/? E/DataBuffer: Internal data leak within a DataBuffer object detected!  Be sure to explicitly call release() on all DataBuffer extending objects when you are done with them. (internal object: com.google.android.gms.common.data.DataHolder@a97ce13)
+2019-10-07 11:28:51.388 763-763/? E/Thermal-daemon: [charger_ic] temp_new :40  temp_old :41
+2019-10-07 11:28:51.391 763-763/? E/Thermal-daemon: Report temperature: [charger_ic] temp :40  report_threshold:1
+2019-10-07 11:28:51.394 763-763/? E/Thermal-daemon: [ap] temp_new :42  temp_old :43
+2019-10-07 11:28:51.395 763-763/? E/Thermal-daemon: Report temperature: [ap] temp :42  report_threshold:1
+2019-10-07 11:28:52.145 763-2840/? E/Thermal-daemon: current_STD > IT_STD, result invalid.
+2019-10-07 11:28:52.146 763-2840/? E/Thermal-daemon: device current too high (-168), during charging or current std is invalid.
+2019-10-07 11:28:52.146 763-2840/? E/Thermal-daemon: latest temp -40000 at 2019/10/7, 9h:28m:52s.
+2019-10-07 11:28:52.146 763-2840/? E/Thermal-daemon: write_fd_value: /sys/class/hw_thermal/temp/ambient failed. count = -1, sizeof(data) = 4096
+2019-10-07 11:28:52.146 763-2840/? E/Thermal-daemon: write amebient temp to node failed.
+2019-10-07 11:29:00.028 1709-1709/? E/DateView: DateView,mCurrentTime: 1570440540028
+2019-10-07 11:29:00.057 1995-2068/? E/HwLauncher: SettingsEx , no such field.
+2019-10-07 11:29:01.399 763-763/? E/Thermal-daemon: [charger_ic] temp_new :39  temp_old :40
+2019-10-07 11:29:01.401 763-763/? E/Thermal-daemon: Report temperature: [charger_ic] temp :39  report_threshold:1
+2019-10-07 11:29:01.402 763-763/? E/Thermal-daemon: [ap] temp_new :41  temp_old :42
+2019-10-07 11:29:01.403 763-763/? E/Thermal-daemon: Report temperature: [ap] temp :41  report_threshold:1
+2019-10-07 11:29:05.181 1846-2248/? E/HsmCoreServiceImpl: onTransact in code is: 102
+2019-10-07 11:29:10.175 1956-2062/? E/SQLiteDatabase: Error inserting UNIQUE constraint failed: appusage.appname (Sqlite code 1555 SQLITE_CONSTRAINT_PRIMARYKEY), (OS error - 0:Success)
+2019-10-07 11:29:10.175 1956-2062/? E/IntelligentProvider: insert failed! uri=content://com.huawei.powergenie.stats/appusage
+2019-10-07 11:29:10.208 17444-17444/? E/JankService: child Thread receive to stop
+2019-10-07 11:29:10.336 784-901/? E/JankService: all data read ok
+2019-10-07 11:29:21.416 763-763/? E/Thermal-daemon: [pa_0] temp_new :37  temp_old :38
+2019-10-07 11:29:21.418 763-763/? E/Thermal-daemon: Report temperature: [pa_0] temp :37  report_threshold:1
+2019-10-07 11:29:21.418 763-763/? E/Thermal-daemon: [ap] temp_new :40  temp_old :41
+2019-10-07 11:29:21.419 763-763/? E/Thermal-daemon: Report temperature: [ap] temp :40  report_threshold:1
