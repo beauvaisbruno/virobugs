@@ -1,0 +1,161 @@
+2019-10-07 17:58:10.326 1922-1922/? E/CHR_RilMsgTunnelManager: processRilUnsolData: eventID Error! -> 305
+2019-10-07 17:58:10.411 1975-1975/? E/HwCustPhoneGlobalsImpl: Settings Exception get default 4G/3G slot
+2019-10-07 17:58:10.414 1975-1975/? E/Mapcon  : MapconSMManager: getStateMachineByIpsecId fail, ipsecId=4!!!!!!!!!!
+2019-10-07 17:58:10.787 1846-20368/? E/HsmCoreServiceImpl: onTransact in code is: 102
+2019-10-07 17:58:11.040 1110-1819/? E/HwReportTool: This is not beta user build
+2019-10-07 17:58:11.049 1110-1629/? E/HwXmlLogParse: mfile is null.
+2019-10-07 17:58:11.057 2136-9219/? E/HSM_SEC_BG: BMNCaller:is not PermissionEnabled.
+2019-10-07 17:58:11.066 1846-1872/? E/HsmCoreServiceImpl: onTransact in code is: 102
+2019-10-07 17:58:11.067 1110-1819/? E/HwReportTool: This is not beta user build
+2019-10-07 17:58:11.067 1110-1629/? E/HwXmlLogParse: mfile is null.
+2019-10-07 17:58:11.068 2136-9219/? E/HSM_SEC_BG: BMNCaller:is not PermissionEnabled.
+2019-10-07 17:58:11.087 1846-19507/? E/HsmCoreServiceImpl: onTransact in code is: 102
+2019-10-07 17:58:11.127 1110-1837/? E/ProcessInfoCollector: getProcessInfo: failed to find this proc
+2019-10-07 17:58:11.148 1110-1837/? E/ProcessInfoCollector: getProcessInfo: failed to find this proc
+2019-10-07 17:58:11.167 29122-29122/? E/.gms.persisten: Not starting debugger since process cannot load the jdwp agent.
+2019-10-07 17:58:11.169 29117-29117/? E/chtype.swiftke: Not starting debugger since process cannot load the jdwp agent.
+2019-10-07 17:58:11.201 1922-1922/? E/CHR_RilMsgTunnelManager: processRilUnsolData: eventID Error! -> 305
+2019-10-07 17:58:11.220 763-763/? E/Thermal-daemon: [battery] temp_new :39  temp_old :38
+2019-10-07 17:58:11.221 763-763/? E/Thermal-daemon: Report temperature: [battery] temp :39  report_threshold:1
+2019-10-07 17:58:11.354 1975-1975/? E/HwCustPhoneGlobalsImpl: Settings Exception get default 4G/3G slot
+2019-10-07 17:58:11.361 1975-1975/? E/Mapcon  : MapconSMManager: getStateMachineByIpsecId fail, ipsecId=4!!!!!!!!!!
+2019-10-07 17:58:11.440 1110-1252/? E/PackageManager: Optimistic bind failed.
+    java.util.concurrent.TimeoutException: [Optimistic Bind] Didn't bind to resolver in time!
+        at com.android.server.pm.InstantAppResolverConnection.waitForBindLocked(InstantAppResolverConnection.java:160)
+        at com.android.server.pm.InstantAppResolverConnection.bind(InstantAppResolverConnection.java:225)
+        at com.android.server.pm.InstantAppResolverConnection.lambda$optimisticBind$0(InstantAppResolverConnection.java:255)
+        at com.android.server.pm.-$$Lambda$InstantAppResolverConnection$D-JKXi4qrYjnPQMOwj8UtfZenps.run(Unknown Source:2)
+        at android.os.Handler.handleCallback(Handler.java:907)
+        at android.os.Handler.dispatchMessage(Handler.java:105)
+        at android.os.Looper.loop(Looper.java:216)
+        at android.os.HandlerThread.run(HandlerThread.java:65)
+2019-10-07 17:58:11.486 26614-26614/com.virobugs E/ACameraMetadata: isNdkSupportedCapability: Unknonwn capability 11
+2019-10-07 17:58:11.486 26614-26614/com.virobugs E/ACameraMetadata: isNdkSupportedCapability: Unknonwn capability 11
+2019-10-07 17:58:11.600 1110-1837/? E/ProcessInfoCollector: getProcessInfo: failed to find this proc
+2019-10-07 17:58:11.605 29171-29171/? E/ocess.gservice: Not starting debugger since process cannot load the jdwp agent.
+2019-10-07 17:58:11.674 26614-26614/com.virobugs E/ACameraMetadata: isNdkSupportedCapability: Unknonwn capability 11
+2019-10-07 17:58:11.675 26614-26614/com.virobugs E/ACameraMetadata: isNdkSupportedCapability: Unknonwn capability 11
+2019-10-07 17:58:11.761 26614-26614/com.virobugs E/ACameraMetadata: isNdkSupportedCapability: Unknonwn capability 11
+2019-10-07 17:58:11.770 749-3370/? E/HwCameraServiceEx: CameraService::connect evicting conflicting client for camera ID 0, packageName
+2019-10-07 17:58:11.783 29171-29186/? E/MemoryLeakMonitorManager: MemoryLeakMonitor.jar is not exist!
+2019-10-07 17:58:11.824 26614-28186/com.virobugs E/native: camera_image_stream.cc:269 generic::failed_precondition: Failed to extract the native metadata, status=generic::deadline_exceeded: Timed out waiting for metadata.
+2019-10-07 17:58:11.854 29117-29147/? E/MemoryLeakMonitorManager: MemoryLeakMonitor.jar is not exist!
+2019-10-07 17:58:11.857 26614-28186/com.virobugs E/native: camera_image_stream.cc:269 generic::failed_precondition: Failed to extract the native metadata, status=generic::deadline_exceeded: Timed out waiting for metadata.
+2019-10-07 17:58:11.887 29213-29213/? E/keyconfigurato: Not starting debugger since process cannot load the jdwp agent.
+2019-10-07 17:58:11.889 1110-1837/? E/ProcessInfoCollector: getProcessInfo: failed to find this proc
+2019-10-07 17:58:11.891 26614-28186/com.virobugs E/native: camera_image_stream.cc:269 generic::failed_precondition: Failed to extract the native metadata, status=generic::deadline_exceeded: Timed out waiting for metadata.
+2019-10-07 17:58:11.924 26614-28186/com.virobugs E/native: camera_image_stream.cc:269 generic::failed_precondition: Failed to extract the native metadata, status=generic::deadline_exceeded: Timed out waiting for metadata.
+2019-10-07 17:58:11.960 26614-28186/com.virobugs E/native: camera_image_stream.cc:269 generic::failed_precondition: Failed to extract the native metadata, status=generic::deadline_exceeded: Timed out waiting for metadata.
+2019-10-07 17:58:11.965 29213-29228/? E/MemoryLeakMonitorManager: MemoryLeakMonitor.jar is not exist!
+2019-10-07 17:58:11.992 26614-28186/com.virobugs E/native: camera_image_stream.cc:269 generic::failed_precondition: Failed to extract the native metadata, status=generic::deadline_exceeded: Timed out waiting for metadata.
+2019-10-07 17:58:12.028 26614-28186/com.virobugs E/native: camera_image_stream.cc:269 generic::failed_precondition: Failed to extract the native metadata, status=generic::deadline_exceeded: Timed out waiting for metadata.
+2019-10-07 17:58:12.039 752-828/? E/dubaid: [CameraHandler.cpp] handleOnDisconnected# Invalid tag: 2
+2019-10-07 17:58:12.050 766-949/? E/HISPMsgController: procMsgAck: can't match api:0x201c
+2019-10-07 17:58:12.188 752-828/? E/dubaid: [CameraHandler.cpp] handleOnDisconnected# Invalid tag: 4
+2019-10-07 17:58:12.201 3407-29237/? E/NfcNci:HwCustNfcService: applyRouting -1.1
+2019-10-07 17:58:12.229 752-828/? E/dubaid: [DubaiUtils.h] parseMessage# Value of this tag(name=) is blank
+2019-10-07 17:58:12.229 752-828/? E/dubaid: [CameraHandler.cpp] saveConnectParams# Failed to parse name: -2
+2019-10-07 17:58:12.229 752-828/? E/dubaid: [CameraHandler.cpp] handleOnDisconnected# Failed to save connect message parameter: -19
+2019-10-07 17:58:12.233 3407-29242/? E/NfcNci:HwCustNfcService: applyRouting -1.1
+2019-10-07 17:58:12.247 26614-26614/com.virobugs E/ACameraMetadata: isNdkSupportedCapability: Unknonwn capability 11
+2019-10-07 17:58:12.254 766-1294/? E/FNFaceDetect: [3c6ca2b_64E] onDestroy fail. ai facedetection proxy!
+2019-10-07 17:58:12.268 766-1294/? E/IppAlgoSmartAE: [3c6ca2b_64E] onUnloadLibrary() mSmartAESoState is unloaded ,so we not Uninit it!
+2019-10-07 17:58:12.339 779-905/? E/Sensors@1.0-impl: open extendSensorActivate FLK_SENSOR fd fail!
+2019-10-07 17:58:12.340 766-1295/? E/FlickerSensorImpl: enableSensor: activate FAILED
+2019-10-07 17:58:12.372 29122-29146/? E/MemoryLeakMonitorManager: MemoryLeakMonitor.jar is not exist!
+2019-10-07 17:58:12.445 784-902/? E/JankService: logCaptureFilter: not the beta version or delimitation frozen, no need to capture log
+2019-10-07 17:58:12.446 784-902/? E/JankService: ### JankSchedHwRead error!
+2019-10-07 17:58:12.450 784-902/? E/JankService: update dlm info failed
+2019-10-07 17:58:12.501 766-1294/? E/DataTable: metadata(2147483648) capability(2147549184) id(2147484346) set com.huawei.capture.metadata dfFactoryMode failed. (254)
+2019-10-07 17:58:12.504 766-29268/? E/HISP160OisController: doLoadFirmware() get SENSOR_OTP_OIS failed!
+2019-10-07 17:58:12.505 766-29268/? E/HISPOisController: handleMessage ois down load firmware fail!
+2019-10-07 17:58:12.540 766-1294/? E/HwaUtils: [3c6ca2b_64E] getAttributeValue() mFirstLevelElement Is NULL
+2019-10-07 17:58:12.540 766-1294/? E/HwaUtils: [3c6ca2b_64E] getAttributeValue() mFirstLevelElement Is NULL
+2019-10-07 17:58:12.563 766-1294/? E/HwaUtils: [3c6ca2b_64E] FirstLevelXmlParser() LoadFile /odm/etc/camera/misc/video_fps_params.xml Failed
+2019-10-07 17:58:12.563 766-1294/? E/HwaUtils: [3c6ca2b_64E] getAttributeValue() mFirstLevelElement Is NULL
+2019-10-07 17:58:12.563 766-1294/? E/Misc____: [3c6ca2b_64E] get supportChangeVideoFps fail
+2019-10-07 17:58:12.582 766-1294/? E/HwaUtils: [3c6ca2b_64E] str2float(), input or value is NULL
+2019-10-07 17:58:12.582 766-1294/? E/HwaUtils: [3c6ca2b_64E] str2float(), input or value is NULL
+2019-10-07 17:58:12.595 766-1294/? E/HwaPPExecuter: [3c6ca2b_64E] enter LoadPPAlgoMaxMemConfig() loadFile /odm/etc/camera/pp_max_mem_config/pp_max_mem_config.xml fail
+2019-10-07 17:58:12.617 29270-29270/? E/gle.android.gm: Not starting debugger since process cannot load the jdwp agent.
+2019-10-07 17:58:12.624 1110-1837/? E/ProcessInfoCollector: getProcessInfo: failed to find this proc
+2019-10-07 17:58:12.688 1846-20368/? E/HsmCoreServiceImpl: onTransact in code is: 102
+2019-10-07 17:58:12.692 766-1294/? E/HISPMsgController: registerListener: It has registerListener Listener already !
+2019-10-07 17:58:12.786 752-828/? E/dubaid: [CameraHandler.cpp] handleOnDisconnected# Invalid tag: 1
+2019-10-07 17:58:12.883 766-1294/? E/HwaPPExecuter: [3c6ca2b_64E] enter LoadPPAlgoMaxMemConfig() loadFile /odm/etc/camera/pp_max_mem_config/pp_max_mem_config.xml fail
+2019-10-07 17:58:12.900 766-29304/? E/OisMgr: [3c6ca2b_64E] loadACameraOisMgrConfig(), config file error! value=THRESHOLD
+2019-10-07 17:58:12.900 766-29304/? E/OisMgr: [3c6ca2b_64E] loadACameraOisMgrConfig(), config file error! value=OIS_MODE
+2019-10-07 17:58:12.901 766-29304/? E/OisMgr: [3c6ca2b_64E] loadACameraOisMgrConfig(), config file error! value=THRESHOLD
+2019-10-07 17:58:12.901 766-29304/? E/OisMgr: [3c6ca2b_64E] loadACameraOisMgrConfig(), config file error! value=OIS_MODE
+2019-10-07 17:58:12.905 766-29292/? E/HwaUtils: [3c6ca2b_64E] FirstLevelXmlParser() LoadFile /odm/etc/camera/rawhdr/config.xml Failed
+2019-10-07 17:58:12.905 766-29292/? E/HwaUtils: [3c6ca2b_64E] getAttributeValue() mFirstLevelElement Is NULL
+2019-10-07 17:58:12.953 766-29296/? E/MotionDetect: get mfFilterDisable fail!
+2019-10-07 17:58:13.062 766-29292/? E/libc: Access denied finding property "ro.board.boardid"
+2019-10-07 17:58:13.063 766-29292/? E/HwaUtils: [3c6ca2b_64E] get_chip_config_value open dts file failed
+2019-10-07 17:58:13.076 26614-29204/com.virobugs E/native: camera_image_stream.cc:230 Camera Image Stream failed to dequeue Image from ImageReader. status=ImageReaderStatusErrorSpaceClass::AMEDIA_IMGREADER_NO_BUFFER_AVAILABLE: AImageReader_acquireLatestImage acquired_image_count=2
+2019-10-07 17:58:13.081 26614-29204/com.virobugs E/native: camera_image_stream.cc:230 Camera Image Stream failed to dequeue Image from ImageReader. status=ImageReaderStatusErrorSpaceClass::AMEDIA_IMGREADER_NO_BUFFER_AVAILABLE: AImageReader_acquireLatestImage acquired_image_count=3
+2019-10-07 17:58:13.081 26614-29204/com.virobugs E/native: camera_image_stream.cc:230 Camera Image Stream failed to dequeue Image from ImageReader. status=ImageReaderStatusErrorSpaceClass::AMEDIA_IMGREADER_NO_BUFFER_AVAILABLE: AImageReader_acquireLatestImage acquired_image_count=3
+2019-10-07 17:58:13.088 766-29297/? E/cie: AiEngineObjectDetection::loadXmlConfig::load config file err
+2019-10-07 17:58:13.088 766-29297/? E/cie: AiEngineObjectDetection::ObjectDetectionAlgo::ALGO DISABLED!
+2019-10-07 17:58:13.090 766-29297/? E/cie: SceneStabilization::LoadStabilizationConfigXml::load config file error
+2019-10-07 17:58:13.090 766-29297/? E/cie: SceneStabilization::SceneStabilization::load stabilization config fail! disable stabilization process!
+2019-10-07 17:58:13.095 766-29297/? E/cie: FoodRecognition::FoodRecognition::ALGO DISABLED!
+2019-10-07 17:58:13.095 766-29297/? E/cie: HiTracking::loadXmlConfig::load config file err
+2019-10-07 17:58:13.095 766-29297/? E/cie: HiTracking::HiTracking::ALGO DISABLED!
+2019-10-07 17:58:13.095 766-29297/? E/cie: FaceStoryAlgo::LoadXmlConfig::load config file err
+2019-10-07 17:58:13.095 766-29297/? E/cie: FaceStoryAlgo::FaceStoryAlgo::ALGO DISABLED!
+2019-10-07 17:58:13.140 766-29290/? E/HwaUtils: [3c6ca2b_64E] getConfigPath Can't Open config pathResult file!use default pathResult: /odm/etc/camera/fullsize_binning_config/device.config
+2019-10-07 17:58:13.140 766-29290/? E/HwaUtils: [3c6ca2b_64E] FirstLevelXmlParser() LoadFile /odm/etc/camera/fullsize_binning_change.xml Failed
+2019-10-07 17:58:13.140 766-29290/? E/HwaUtils: [3c6ca2b_64E] getAttributeValue() mFirstLevelElement Is NULL
+2019-10-07 17:58:13.140 766-29290/? E/HwaUtils: [3c6ca2b_64E] getAttributeValue() mFirstLevelElement Is NULL
+2019-10-07 17:58:13.468 26614-26614/com.virobugs E/native: status.cc:153 ArStatusErrorSpace::AR_ERROR_NOT_TRACKING: Cannot create anchors while the camera is not tracking.;  at third_party/arcore/ar/core/session.cc:1676
+2019-10-07 17:58:13.470 26614-26614/com.virobugs E/Viro: Failed to create an anchored node at position [0.0, 0.0, 0.0]
+2019-10-07 17:58:13.794 29122-29331/? E/ActivityThread: Failed to find provider info for instantapp-dev-manager
+2019-10-07 17:58:13.839 29117-29117/? E/SyncLoggingListener: /data/user/0/com.touchtype.swiftkey/files/access-stack-auth_1.json (No such file or directory)
+2019-10-07 17:58:14.738 784-902/? E/JankService: logCaptureFilter: not the beta version or delimitation frozen, no need to capture log
+2019-10-07 17:58:14.740 784-902/? E/JankService: ### JankSchedHwRead error!
+2019-10-07 17:58:14.748 784-902/? E/JankService: update dlm info failed
+2019-10-07 17:58:14.959 29270-29311/? E/MemoryLeakMonitorManager: MemoryLeakMonitor.jar is not exist!
+2019-10-07 17:58:14.982 29122-29348/? E/TaskInfo: Failed to construct Task from database: java.lang.IllegalArgumentException: Window start must be shorter than window end.
+2019-10-07 17:58:14.984 1110-1837/? E/ProcessInfoCollector: getProcessInfo: failed to find this proc
+2019-10-07 17:58:15.009 29350-29350/? E/e.process.gapp: Not starting debugger since process cannot load the jdwp agent.
+2019-10-07 17:58:15.161 1110-9112/? E/WifiService: enforceCanAccessScanResults: hiding ssid and bssidLocation mode is disabled for the device
+2019-10-07 17:58:15.288 29350-29364/? E/MemoryLeakMonitorManager: MemoryLeakMonitor.jar is not exist!
+2019-10-07 17:58:15.512 1110-1617/? E/HwConnectivityService: NOT support internet or NOT mobile!
+2019-10-07 17:58:15.512 1110-1617/? E/HwConnectivityService: NOT support internet or NOT mobile!
+2019-10-07 17:58:15.517 1110-1617/? E/HwConnectivityService: network request is NOT bip!
+2019-10-07 17:58:15.523 752-1227/? E/dubaid: [DubaiUtils.h] parseMessage# Failed to find second tag: uid=
+2019-10-07 17:58:15.524 752-1227/? E/dubaid: [SystemHandler.cpp] parsePartialWakelockAcquiredMessage# Failed to parse count: lock=81251876 tag=GCM_CONN_ALARM count=0
+2019-10-07 17:58:15.524 752-1227/? E/dubaid: [SystemHandler.cpp] onPartialWakelockAcquireMessage# Failed to parse message
+2019-10-07 17:58:15.615 752-1227/? E/dubaid: [DubaiUtils.h] parseMessage# Failed to find second tag: uid=
+2019-10-07 17:58:15.615 752-1227/? E/dubaid: [SystemHandler.cpp] parsePartialWakelockAcquiredMessage# Failed to parse count: lock=244072773 tag=Wakeful StateMachine: GeofencerStateMachine count=0
+2019-10-07 17:58:15.615 752-1227/? E/dubaid: [SystemHandler.cpp] onPartialWakelockAcquireMessage# Failed to parse message
+2019-10-07 17:58:15.618 752-1227/? E/dubaid: [SystemHandler.cpp] onPartialWakelockReleaseMessage# Already released, lock: 244072773
+2019-10-07 17:58:15.654 1110-1629/? E/HwXmlLogParse: mfile is null.
+2019-10-07 17:58:15.672 2136-14576/? E/HSM_SEC_BG: BMNCaller:is not PermissionEnabled.
+2019-10-07 17:58:15.731 752-1227/? E/dubaid: [DubaiUtils.h] parseMessage# Failed to find second tag: uid=
+2019-10-07 17:58:15.731 752-1227/? E/dubaid: [SystemHandler.cpp] parsePartialWakelockAcquiredMessage# Failed to parse count: lock=249605872 tag=NlpWakeLock count=0
+2019-10-07 17:58:15.731 752-1227/? E/dubaid: [SystemHandler.cpp] onPartialWakelockAcquireMessage# Failed to parse message
+2019-10-07 17:58:15.751 749-898/? E/Surface: queueBuffer: error queuing buffer to SurfaceTexture, -32
+2019-10-07 17:58:15.759 749-898/? E/Camera3-OutputStream: returnBufferCheckedLocked: Stream 1: Error queueing buffer to native window: Broken pipe (-32)
+2019-10-07 17:58:15.759 749-898/? E/Camera3-Device: Can't return buffer to its stream: (0xee35b480), error: Broken pipe (-32)
+2019-10-07 17:58:15.764 749-916/? E/Surface: queueBuffer: error queuing buffer to SurfaceTexture, -32
+2019-10-07 17:58:15.764 749-916/? E/Camera3-OutputStream: returnBufferCheckedLocked: Stream 0: Error queueing buffer to native window: Broken pipe (-32)
+2019-10-07 17:58:15.764 749-29240/? E/Camera3-OutputStream: getBufferLockedCommon: Stream 0: Can't dequeue next output buffer: Broken pipe (-32)
+2019-10-07 17:58:15.764 749-29240/? E/Camera3-Device: RequestThread: Can't get output buffer, skipping request: Broken pipe (-32)
+2019-10-07 17:58:15.764 749-916/? E/Camera3-Device: Can't return buffer to its stream: (0xee5bc180), error: Broken pipe (-32)
+2019-10-07 17:58:15.764 749-29240/? E/Camera3-OutputStream: getBufferLockedCommon: Stream 0: Can't dequeue next output buffer: Broken pipe (-32)
+2019-10-07 17:58:15.764 749-29240/? E/Camera3-Device: RequestThread: Can't get output buffer, skipping request: Broken pipe (-32)
+2019-10-07 17:58:15.764 749-29240/? E/Camera3-OutputStream: getBufferLockedCommon: Stream 0: Can't dequeue next output buffer: Broken pipe (-32)
+2019-10-07 17:58:15.764 749-29240/? E/Camera3-Device: RequestThread: Can't get output buffer, skipping request: Broken pipe (-32)
+2019-10-07 17:58:15.764 749-29240/? E/Camera3-OutputStream: getBufferLockedCommon: Stream 0: Can't dequeue next output buffer: Broken pipe (-32)
+2019-10-07 17:58:15.905 1846-2274/? E/Hicom_PolicyCenterService: handleAppDied. null == mMultipathAppsMap
+2019-10-07 17:58:15.908 749-1317/? E/Surface: queueBuffer: error queuing buffer to SurfaceTexture, -32
+2019-10-07 17:58:15.908 749-1317/? E/Camera3-OutputStream: returnBufferCheckedLocked: Stream 0: Error queueing buffer to native window: Broken pipe (-32)
+2019-10-07 17:58:15.908 749-1317/? E/Camera3-Device: Can't return buffer to its stream: (0xee5bc180), error: Broken pipe (-32)
+2019-10-07 17:58:15.914 749-1317/? E/Surface: queueBuffer: error queuing buffer to SurfaceTexture, -32
+2019-10-07 17:58:15.915 749-1317/? E/Camera3-OutputStream: returnBufferCheckedLocked: Stream 0: Error queueing buffer to native window: Broken pipe (-32)
+2019-10-07 17:58:15.915 749-1317/? E/Camera3-Device: Can't return buffer to its stream: (0xee5bc180), error: Broken pipe (-32)
+2019-10-07 17:58:15.961 752-828/? E/dubaid: [CameraHandler.cpp] handleOnDisconnected# Invalid tag: 2
+2019-10-07 17:58:15.979 766-949/? E/HISPMsgController: procMsgAck: can't match api:0x201c
+2019-10-07 17:58:16.056 1956-2681/? E/AwareLog: SPKSchedFeature: Uid has been sent, ignore.

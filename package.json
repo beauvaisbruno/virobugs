@@ -10,11 +10,18 @@
     "android build": "cd android && gradlew assembleArRelease",
     "android start release": "cd android && gradlew clean && cd .. && adb reverse tcp:8097 tcp:8097 && adb reverse tcp:9090 tcp:9090 && react-native run-android --variant=arRelease ",
     "android log": "adb logcat",
-    "android clean": "cd android && gradlew clean"
+    "android clean": "cd android && gradlew clean",
+    "postinstall": "jetify"
   },
   "dependencies": {
+    "jetifier": "^1.6.4",
     "react": "16.8.3",
     "react-native": "0.59.3",
+    "react-native-gesture-handler": "^1.4.1",
+    "react-native-reanimated": "^1.3.0",
+    "react-native-screens": "1.0.0-alpha.23",
+    "react-navigation": "^4.0.10",
+    "react-navigation-stack": "^1.9.3",
     "react-viro": "2.16.0"
   },
   "devDependencies": {
