@@ -44,7 +44,7 @@ const Navigator = () => {
   return <View style={{flex: 1}}><ViroARSceneNavigator
     initialScene={{scene: SceneOne}}
     //https://viromedia.com/signup/
-    apiKey={"BDF01DAC-4F97-4D5D-8C8A-DD8C609019B1"}/>
+    apiKey={"SOME_API_KEY"}/>
   </View>;
 };
 
