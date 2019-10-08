@@ -1,5 +1,5 @@
-import React, { useState, useRef, useEffect } from "react";
-import { Text, View,TouchableOpacity } from "react-native";
+import React, {useEffect} from "react";
+import {Text, TouchableOpacity, View} from "react-native";
 import {navTo} from "./Navigation";
 
 const ScreenOne = () => {
@@ -11,13 +11,25 @@ const ScreenOne = () => {
     };
   }, []);
   return (
-    <View style={{ flex:1 }}>
+    <View style={{flex: 1}}>
       <Text>ScreenOne</Text>
       <TouchableOpacity
         onPress={() => {
           navTo("ScreenTwo");
         }}
       ><Text>ScreenTwo</Text>
+      </TouchableOpacity>
+      <TouchableOpacity
+        onPress={() => {
+          navTo("EnigmaOne");
+        }}
+      ><Text>EnigmaOne</Text>
+      </TouchableOpacity>
+      <TouchableOpacity
+        onPress={() => {
+          navTo("EnigmaTwo");
+        }}
+      ><Text>EnigmaTwo</Text>
       </TouchableOpacity>
     </View>
   );
