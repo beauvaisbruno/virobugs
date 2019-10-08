@@ -1,0 +1,13 @@
+
+faire les composants
+
+App utilisé le nouv comp Navigation qui prends screens
+
+un seul arNavigator, un seul 3dNavigator
+
+les navigator navigue entre eux
+
+utiliser onTrackingUpdated pour cacher les objets
+persistance de l'état de navigation
+
+essayer la trnasition
