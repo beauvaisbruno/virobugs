@@ -12,24 +12,24 @@ const ScreenTwo = () => {
   }, []);
   return (
     <View style={{flex: 1}}>
-      <Text>ScreenTwo</Text>
+      <Text style={{ fontSize:30 }}>ScreenTwo</Text>
       <TouchableOpacity
         onPress={() => {
           navTo("ScreenOne");
         }}
-      ><Text>ScreenOne</Text>
+      ><Text style={{ fontSize:30 }}>ScreenOne</Text>
       </TouchableOpacity>
       <TouchableOpacity
         onPress={() => {
           navTo("EnigmaOne");
         }}
-      ><Text>EnigmaOne</Text>
+      ><Text style={{ fontSize:30 }}>EnigmaOne</Text>
       </TouchableOpacity>
       <TouchableOpacity
         onPress={() => {
           navTo("EnigmaTwo");
         }}
-      ><Text>EnigmaTwo</Text>
+      ><Text style={{ fontSize:30 }}>EnigmaTwo</Text>
       </TouchableOpacity>
     </View>
   );

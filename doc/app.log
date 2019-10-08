@@ -1,0 +1,790 @@
+2019-10-08 17:47:02.999 32246-32246/? I/com.virobugs: Late-enabling -Xcheck:jni
+2019-10-08 17:47:03.023 32246-32246/? I/com.virobugs: Reinit property: dalvik.vm.checkjni= false
+2019-10-08 17:47:03.034 32246-32246/? D/ZrHung.AppEyeUiProbe: AppEyeUIP created.
+2019-10-08 17:47:03.038 32246-32246/? D/ActivityThread: Attach thread to application
+2019-10-08 17:47:03.099 32246-32266/com.virobugs I/HwApiCacheMangerEx: apicache path=/storage/emulated/0 state=mounted key=com.virobugs#10330#256
+2019-10-08 17:47:03.100 32246-32266/com.virobugs I/HwApiCacheMangerEx: apicache path=/storage/emulated/0 state=mounted key=com.virobugs#10330#0
+2019-10-08 17:47:03.430 32246-32266/com.virobugs I/AwareBitmapCacher: init processName:com.virobugs pid=32246 uid=10330
+2019-10-08 17:47:03.432 32246-32246/com.virobugs D/SoLoader: init start
+2019-10-08 17:47:03.432 32246-32246/com.virobugs D/SoLoader: adding system library source: /vendor/lib
+2019-10-08 17:47:03.433 32246-32246/com.virobugs D/SoLoader: adding system library source: /system/lib
+2019-10-08 17:47:03.433 32246-32275/com.virobugs E/AwareLog: AtomicFileUtils: readFileLines file not exist: android.util.AtomicFile@adce1ec
+2019-10-08 17:47:03.433 32246-32246/com.virobugs D/SoLoader: adding application source: com.facebook.soloader.DirectorySoSource[root = /data/app/com.virobugs-K3VF_k0J5ZFJH17nojinRg==/lib/arm64 flags = 0]
+2019-10-08 17:47:03.433 32246-32275/com.virobugs E/AwareLog: AtomicFileUtils: readFileLines file not exist: android.util.AtomicFile@56a49b5
+2019-10-08 17:47:03.435 32246-32246/com.virobugs D/SoLoader: adding backup source from : com.facebook.soloader.ApkSoSource[root = /data/data/com.virobugs/lib-main flags = 1]
+2019-10-08 17:47:03.435 32246-32246/com.virobugs D/SoLoader: Preparing SO source: com.facebook.soloader.DirectorySoSource[root = /system/lib flags = 2]
+2019-10-08 17:47:03.435 32246-32246/com.virobugs D/SoLoader: Preparing SO source: com.facebook.soloader.DirectorySoSource[root = /vendor/lib flags = 2]
+2019-10-08 17:47:03.435 32246-32246/com.virobugs D/SoLoader: Preparing SO source: com.facebook.soloader.DirectorySoSource[root = /data/app/com.virobugs-K3VF_k0J5ZFJH17nojinRg==/lib/arm64 flags = 0]
+2019-10-08 17:47:03.435 32246-32246/com.virobugs D/SoLoader: Preparing SO source: com.facebook.soloader.ApkSoSource[root = /data/data/com.virobugs/lib-main flags = 1]
+2019-10-08 17:47:03.436 32246-32246/com.virobugs V/fb-UnpackingSoSource: locked dso store /data/user/0/com.virobugs/lib-main
+2019-10-08 17:47:03.437 32246-32246/com.virobugs I/fb-UnpackingSoSource: dso store is up-to-date: /data/user/0/com.virobugs/lib-main
+2019-10-08 17:47:03.437 32246-32246/com.virobugs V/fb-UnpackingSoSource: releasing dso store lock for /data/user/0/com.virobugs/lib-main
+2019-10-08 17:47:03.437 32246-32246/com.virobugs D/SoLoader: init finish: 4 SO sources prepared
+2019-10-08 17:47:03.437 32246-32246/com.virobugs D/SoLoader: init exiting
+2019-10-08 17:47:03.438 32246-32266/com.virobugs E/MemoryLeakMonitorManager: MemoryLeakMonitor.jar is not exist!
+2019-10-08 17:47:03.440 32246-32246/com.virobugs D/ZrHung.AppEyeUiProbe: notify runnable to start.
+2019-10-08 17:47:03.440 32246-32276/com.virobugs D/ZrHung.AppEyeUiProbe: Runnable thread started.
+2019-10-08 17:47:03.440 32246-32276/com.virobugs D/IMonitor: Load library imonitor_jni
+2019-10-08 17:47:03.444 32246-32276/com.virobugs W/ZrHung.AppEyeUiProbe: Failed to get config from zrhung
+2019-10-08 17:47:03.454 32246-32246/com.virobugs V/ActivityThread: Skipping new config:{1.0 208mcc1mnc [fr_FR,en_US] ldltr sw360dp w360dp h677dp 480dpi nrml long hdr port finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 0, 0) mAppBounds=Rect(0, 85 - 1080, 2116) mWindowingMode=fullscreen mActivityType=undefined} nonFullScreen=0 suim:1 s.8}, config:{1.0 208mcc1mnc [fr_FR,en_US] ldltr sw360dp w360dp h677dp 480dpi nrml long hdr port finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 0, 0) mAppBounds=Rect(0, 85 - 1080, 2116) mWindowingMode=fullscreen mActivityType=undefined} nonFullScreen=0 suim:1 s.8} for app:com.virobugs
+2019-10-08 17:47:03.486 32246-32246/com.virobugs V/HwPolicyFactory: : success to get AllImpl object and return....
+2019-10-08 17:47:03.489 32246-32246/com.virobugs V/ActivityThread: callActivityOnCreate
+2019-10-08 17:47:03.515 32246-32246/com.virobugs I/HwApsImpl: APS: new HwApsImpl created
+2019-10-08 17:47:03.530 32246-32246/com.virobugs D/ReactNative: ReactInstanceManager.ctor()
+2019-10-08 17:47:03.530 32246-32246/com.virobugs D/SoLoader: init exiting
+2019-10-08 17:47:03.555 32246-32246/com.virobugs D/NetworkSecurityConfig: No Network Security Config specified, using platform default
+2019-10-08 17:47:03.557 32246-32246/com.virobugs W/com.virobugs: Accessing hidden method Ldalvik/system/CloseGuard;->get()Ldalvik/system/CloseGuard; (light greylist, reflection)
+2019-10-08 17:47:03.557 32246-32246/com.virobugs W/com.virobugs: Accessing hidden method Ldalvik/system/CloseGuard;->open(Ljava/lang/String;)V (light greylist, reflection)
+2019-10-08 17:47:03.557 32246-32246/com.virobugs W/com.virobugs: Accessing hidden method Ldalvik/system/CloseGuard;->warnIfOpen()V (light greylist, reflection)
+2019-10-08 17:47:03.573 32246-32246/com.virobugs D/ReactNative: ReactInstanceManager.createReactContextInBackground()
+2019-10-08 17:47:03.573 32246-32246/com.virobugs D/ReactNative: ReactInstanceManager.recreateReactContextInBackgroundInner()
+2019-10-08 17:47:03.595 32246-32246/com.virobugs V/HwWidgetFactory: : successes to get AllImpl object and return....
+2019-10-08 17:47:03.597 32246-32246/com.virobugs I/HwPhoneWindow: updateLayoutParamsColor false mSpecialSet=false, mForcedNavigationBarColor=false, navigationBarColor=0, mNavBarShow=false, mIsFloating=false
+2019-10-08 17:47:03.598 32246-32246/com.virobugs I/HwPhoneWindow: updateLayoutParamsColor true mSpecialSet=false, mForcedNavigationBarColor=false, navigationBarColor=ff000000, mNavBarShow=false, mIsFloating=false
+2019-10-08 17:47:03.604 32246-32285/com.virobugs W/unknown:InspectorPackagerConnection: Couldn't connect to packager, will silently retry
+2019-10-08 17:47:03.627 32246-32246/com.virobugs W/com.virobugs: Accessing hidden method Landroid/view/View;->computeFitSystemWindows(Landroid/graphics/Rect;Landroid/graphics/Rect;)Z (light greylist, reflection)
+2019-10-08 17:47:03.628 32246-32246/com.virobugs W/com.virobugs: Accessing hidden method Landroid/view/ViewGroup;->makeOptionalFitsSystemWindows()V (light greylist, reflection)
+2019-10-08 17:47:03.632 32246-32246/com.virobugs D/ActivityThread: add activity client record, r= ActivityRecord{f5ae677 token=android.os.BinderProxy@b5533bb {com.virobugs/com.virobugs.MainActivity}} token= android.os.BinderProxy@b5533bb
+2019-10-08 17:47:03.637 32246-32246/com.virobugs D/ZrHung.AppEyeUiProbe: notify runnable to start.
+2019-10-08 17:47:03.640 32246-32246/com.virobugs D/OpenGLRenderer: Skia GL Pipeline
+2019-10-08 17:47:03.641 32246-32246/com.virobugs I/HwSecImmHelper: mSecurityInputMethodService is null
+2019-10-08 17:47:03.646 32246-32246/com.virobugs D/HwAppInnerBoostImpl: set config for com.virobugs BOOST_FLAG=false REPORT_DURATION_CLICK=1000 REPORT_TIMES_CLICK=3 REPORT_DURATION_SLIDE=5000 REPORT_TIMES_SLIDE=16
+2019-10-08 17:47:03.647 32246-32246/com.virobugs D/OpenGLRenderer:   HWUI Binary is  enabled
+2019-10-08 17:47:03.657 32246-32246/com.virobugs D/ReactNative: ReactInstanceManager.onReloadWithJSDebugger()
+2019-10-08 17:47:03.658 32246-32246/com.virobugs D/ReactNative: ReactInstanceManager.recreateReactContextInBackground()
+2019-10-08 17:47:03.658 32246-32246/com.virobugs D/ReactNative: ReactInstanceManager.runCreateReactContextOnNewThread()
+2019-10-08 17:47:03.660 32246-32294/com.virobugs D/SoLoader: About to load: libreactnativejni.so
+2019-10-08 17:47:03.661 32246-32294/com.virobugs D/SoLoader: libreactnativejni.so not found on /data/data/com.virobugs/lib-main
+2019-10-08 17:47:03.661 32246-32294/com.virobugs D/SoLoader: libreactnativejni.so found on /data/app/com.virobugs-K3VF_k0J5ZFJH17nojinRg==/lib/arm64
+2019-10-08 17:47:03.661 32246-32294/com.virobugs D/SoLoader: Not resolving dependencies for libreactnativejni.so
+2019-10-08 17:47:03.664 32246-32246/com.virobugs W/unknown:ReactNative: Packager connection already open, nooping.
+2019-10-08 17:47:03.666 32246-32246/com.virobugs I/HwPhoneWindow: updateLayoutParamsColor false mSpecialSet=false, mForcedNavigationBarColor=false, navigationBarColor=ff000000, mNavBarShow=true, mIsFloating=false
+2019-10-08 17:47:03.672 32246-32295/com.virobugs I/HiTouch_HiTouchSensor: enabledInPad = false,isPcCastMode = false
+2019-10-08 17:47:03.673 32246-32295/com.virobugs D/HiTouch_PressGestureDetector: onAttached, package=com.virobugs, windowType=1, mHiTouchRestricted=false
+2019-10-08 17:47:03.677 32246-32294/com.virobugs D/JavaScriptCore.Version: 236355.1.0
+2019-10-08 17:47:03.679 32246-32294/com.virobugs D/SoLoader: Loaded: libreactnativejni.so
+2019-10-08 17:47:03.682 32246-32293/com.virobugs I/ConfigStore: android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasWideColorDisplay retrieved: 0
+2019-10-08 17:47:03.682 32246-32293/com.virobugs I/ConfigStore: android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasHDRDisplay retrieved: 0
+2019-10-08 17:47:03.683 32246-32293/com.virobugs I/iGraphics: [0020080c] pn: com.virobugs, p: 32246
+2019-10-08 17:47:03.683 32246-32293/com.virobugs I/iGraphics: [0030080c] no spt app: com.virobugs
+2019-10-08 17:47:03.683 32246-32293/com.virobugs I/OpenGLRenderer: Initialized EGL, version 1.4, mEglDisplay 0x1
+2019-10-08 17:47:03.683 32246-32293/com.virobugs D/OpenGLRenderer: Swap behavior 2
+2019-10-08 17:47:03.690 32246-32246/com.virobugs D/TextView: get Display Panel Type is : 0
+2019-10-08 17:47:03.692 32246-32293/com.virobugs D/mali_winsys: EGLint new_window_surface(egl_winsys_display *, void *, EGLSurface, EGLConfig, egl_winsys_surface **, EGLBoolean) returns 0x3000
+2019-10-08 17:47:03.699 32246-32293/com.virobugs D/OpenGLRenderer:   HWUI Binary is  enabled
+2019-10-08 17:47:03.707 32246-32294/com.virobugs D/SoLoader: About to load: libfb.so
+2019-10-08 17:47:03.707 32246-32294/com.virobugs D/SoLoader: libfb.so not found on /data/data/com.virobugs/lib-main
+2019-10-08 17:47:03.707 32246-32294/com.virobugs D/SoLoader: libfb.so found on /data/app/com.virobugs-K3VF_k0J5ZFJH17nojinRg==/lib/arm64
+2019-10-08 17:47:03.707 32246-32294/com.virobugs D/SoLoader: Not resolving dependencies for libfb.so
+2019-10-08 17:47:03.709 32246-32294/com.virobugs D/SoLoader: About to load: libfb.so
+2019-10-08 17:47:03.709 32246-32294/com.virobugs D/SoLoader: libfb.so not found on /data/data/com.virobugs/lib-main
+2019-10-08 17:47:03.709 32246-32294/com.virobugs D/SoLoader: libfb.so found on /data/app/com.virobugs-K3VF_k0J5ZFJH17nojinRg==/lib/arm64
+2019-10-08 17:47:03.709 32246-32294/com.virobugs D/SoLoader: Not resolving dependencies for libfb.so
+2019-10-08 17:47:03.709 32246-32294/com.virobugs I/com.virobugs: Thread[28,tid=32294,Native,Thread*=0x73a064f000,peer=0x12c3a760,"create_react_context"] recursive attempt to load library "/data/app/com.virobugs-K3VF_k0J5ZFJH17nojinRg==/lib/arm64/libfb.so"
+2019-10-08 17:47:03.709 32246-32294/com.virobugs D/SoLoader: Loaded: libfb.so
+2019-10-08 17:47:03.709 32246-32294/com.virobugs D/SoLoader: Loaded: libfb.so
+2019-10-08 17:47:03.711 32246-32294/com.virobugs D/ReactNative: ReactInstanceManager.createReactContext()
+2019-10-08 17:47:03.728 32246-32293/com.virobugs D/mali_winsys: EGLint new_window_surface(egl_winsys_display *, void *, EGLSurface, EGLConfig, egl_winsys_surface **, EGLBoolean) returns 0x3000
+2019-10-08 17:47:03.729 32246-32246/com.virobugs I/ViewRootImpl: jank_removeInvalidNode jank list is null
+2019-10-08 17:47:03.730 32246-32246/com.virobugs W/InputMethodManager: startInputReason = 1
+2019-10-08 17:47:03.740 32246-32293/com.virobugs D/OpenGLRenderer:   HWUI Binary is  enabled
+2019-10-08 17:47:03.741 32246-32293/com.virobugs W/libEGL: EGLNativeWindowType 0x738de52010 disconnect failed
+2019-10-08 17:47:03.748 32246-32294/com.virobugs E/Manish: createNativeModules
+2019-10-08 17:47:03.758 32246-32246/com.virobugs W/InputMethodManager: startInputReason = 5
+2019-10-08 17:47:03.787 32246-32294/com.virobugs W/native: commandlineflags.cc:942 Ignoring RegisterValidateFunction() for flag pointer 0x737e98d968: no flag found at that address
+2019-10-08 17:47:03.790 32246-32294/com.virobugs E/Manish: AnimationManager constructor
+2019-10-08 17:47:03.798 32246-32294/com.virobugs D/ReactNative: Initializing React Xplat Bridge.
+2019-10-08 17:47:03.801 32246-32294/com.virobugs D/ReactNative: Initializing React Xplat Bridge before initializeBridge
+2019-10-08 17:47:03.803 32246-32294/com.virobugs D/ReactNative: Initializing React Xplat Bridge after initializeBridge
+2019-10-08 17:47:03.803 32246-32294/com.virobugs D/ReactNative: CatalystInstanceImpl.runJSBundle()
+2019-10-08 17:47:03.804 32246-32314/com.virobugs D/ReactNative: ReactInstanceManager.setupReactContext()
+2019-10-08 17:47:03.804 32246-32314/com.virobugs D/ReactNative: CatalystInstanceImpl.initialize()
+2019-10-08 17:47:03.805 32246-32246/com.virobugs W/unknown:ReactNative: Packager connection already open, nooping.
+2019-10-08 17:47:03.806 32246-32314/com.virobugs D/ReactNative: ReactInstanceManager.attachRootViewToInstance()
+2019-10-08 17:47:03.851 32246-32314/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.art.ARTGroupViewManager
+2019-10-08 17:47:03.853 32246-32314/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.art.ARTGroupShadowNode
+2019-10-08 17:47:03.856 32246-32314/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.art.ARTShapeViewManager
+2019-10-08 17:47:03.857 32246-32314/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.art.ARTShapeShadowNode
+2019-10-08 17:47:03.858 32246-32314/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.art.ARTTextViewManager
+2019-10-08 17:47:03.859 32246-32314/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.art.ARTTextShadowNode
+2019-10-08 17:47:03.860 32246-32314/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.checkbox.ReactCheckBoxManager
+2019-10-08 17:47:03.864 32246-32314/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.uimanager.LayoutShadowNode
+2019-10-08 17:47:03.870 32246-32314/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.picker.ReactDialogPickerManager
+2019-10-08 17:47:03.873 32246-32314/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.drawer.ReactDrawerLayoutManager
+2019-10-08 17:47:03.875 32246-32314/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.picker.ReactDropdownPickerManager
+2019-10-08 17:47:03.877 32246-32314/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.scroll.ReactHorizontalScrollViewManager
+2019-10-08 17:47:03.882 32246-32314/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.scroll.ReactHorizontalScrollContainerViewManager
+2019-10-08 17:47:03.883 32246-32314/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.progressbar.ReactProgressBarViewManager
+2019-10-08 17:47:03.884 32246-32314/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.progressbar.ProgressBarShadowNode
+2019-10-08 17:47:03.886 32246-32314/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.scroll.ReactScrollViewManager
+2019-10-08 17:47:03.890 32246-32314/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.slider.ReactSliderManager
+2019-10-08 17:47:03.892 32246-32314/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.slider.ReactSliderManager$ReactSliderShadowNode
+2019-10-08 17:47:03.893 32246-32314/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.switchview.ReactSwitchManager
+2019-10-08 17:47:03.895 32246-32314/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.switchview.ReactSwitchManager$ReactSwitchShadowNode
+2019-10-08 17:47:03.896 32246-32314/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.toolbar.ReactToolbarManager
+2019-10-08 17:47:03.898 32246-32314/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.webview.ReactWebViewManager
+2019-10-08 17:47:03.901 32246-32314/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager
+2019-10-08 17:47:03.903 32246-32314/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.art.ARTSurfaceViewManager
+2019-10-08 17:47:03.903 32246-32314/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.art.ARTSurfaceViewShadowNode
+2019-10-08 17:47:03.904 32246-32314/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.frescosupport.FrescoBasedReactTextInlineImageViewManager
+2019-10-08 17:47:03.905 32246-32314/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.frescosupport.FrescoBasedReactTextInlineImageShadowNode
+2019-10-08 17:47:03.907 32246-32314/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.image.ReactImageManager
+2019-10-08 17:47:03.909 32246-32314/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.modal.ReactModalHostManager
+2019-10-08 17:47:03.910 32246-32314/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.modal.ModalHostShadowNode
+2019-10-08 17:47:03.911 32246-32314/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactRawTextManager
+2019-10-08 17:47:03.912 32246-32314/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactRawTextShadowNode
+2019-10-08 17:47:03.912 32246-32314/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.textinput.ReactTextInputManager
+2019-10-08 17:47:03.918 32246-32314/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.textinput.ReactTextInputShadowNode
+2019-10-08 17:47:03.922 32246-32314/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactTextViewManager
+2019-10-08 17:47:03.924 32246-32314/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactTextShadowNode
+2019-10-08 17:47:03.925 32246-32314/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.view.ReactViewManager
+2019-10-08 17:47:03.929 32246-32314/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.viewpager.ReactViewPagerManager
+2019-10-08 17:47:03.930 32246-32314/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactVirtualTextViewManager
+2019-10-08 17:47:03.930 32246-32314/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactVirtualTextShadowNode
+2019-10-08 17:47:03.932 32246-32314/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.viromedia.bridge.component.VRTSceneNavigatorManager
+2019-10-08 17:47:03.933 32246-32314/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.viromedia.bridge.component.VRTVRSceneNavigatorManager
+2019-10-08 17:47:03.935 32246-32314/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.viromedia.bridge.component.node.VRTSceneManagerImpl
+2019-10-08 17:47:03.937 32246-32314/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.viromedia.bridge.component.VRT3DSceneNavigatorManager
+2019-10-08 17:47:03.939 32246-32314/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.viromedia.bridge.component.node.control.VRTBoxManager
+2019-10-08 17:47:03.943 32246-32314/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.viromedia.bridge.component.node.VRTNodeManager$FlexEnabledShadowNode
+2019-10-08 17:47:03.945 32246-32314/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.viromedia.bridge.component.node.control.VRTGeometryManager
+2019-10-08 17:47:03.947 32246-32314/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.viromedia.bridge.component.node.control.VRTVideoSurfaceManager
+2019-10-08 17:47:03.949 32246-32314/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.viromedia.bridge.component.VRT360VideoManager
+2019-10-08 17:47:03.950 32246-32314/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.viromedia.bridge.component.node.VRTNodeManagerImpl
+2019-10-08 17:47:03.951 32246-32314/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.viromedia.bridge.component.node.VRTCameraManager
+2019-10-08 17:47:03.952 32246-32314/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.viromedia.bridge.component.node.VRTOrbitCameraManager
+2019-10-08 17:47:03.952 32246-32314/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.viromedia.bridge.component.node.control.VRTSphereManager
+2019-10-08 17:47:03.954 32246-32314/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.viromedia.bridge.component.node.control.VRTImageManager
+2019-10-08 17:47:03.955 32246-32314/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.viromedia.bridge.component.VRT360ImageManager
+2019-10-08 17:47:03.956 32246-32314/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.viromedia.bridge.component.VRTSkyBoxManager
+2019-10-08 17:47:03.957 32246-32314/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.viromedia.bridge.component.node.VRTFlexViewManager
+2019-10-08 17:47:03.958 32246-32314/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.viromedia.bridge.component.VRTAnimatedComponentManager
+2019-10-08 17:47:03.958 32246-32314/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.viromedia.bridge.component.node.control.VRTQuadManager
+2019-10-08 17:47:03.959 32246-32314/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.viromedia.bridge.component.node.control.VRTAnimatedImageManager
+2019-10-08 17:47:03.961 32246-32314/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.viromedia.bridge.component.node.control.VRTPolygonManager
+2019-10-08 17:47:03.962 32246-32314/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.viromedia.bridge.component.VRTDirectionalLightManager
+2019-10-08 17:47:03.963 32246-32314/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.viromedia.bridge.component.VRTAmbientLightManager
+2019-10-08 17:47:03.963 32246-32314/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.viromedia.bridge.component.VRTSpotLightManager
+2019-10-08 17:47:03.965 32246-32314/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.viromedia.bridge.component.VRTOmniLightManager
+2019-10-08 17:47:03.966 32246-32314/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.viromedia.bridge.component.VRTSoundManager
+2019-10-08 17:47:03.966 32246-32314/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.viromedia.bridge.component.VRTSoundFieldManager
+2019-10-08 17:47:03.967 32246-32314/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.viromedia.bridge.component.VRTSpatialSoundManager
+2019-10-08 17:47:03.968 32246-32314/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.viromedia.bridge.component.node.control.VRTTextManager
+2019-10-08 17:47:03.970 32246-32314/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.viromedia.bridge.component.node.control.VRT3DObjectManager
+2019-10-08 17:47:03.971 32246-32314/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.viromedia.bridge.component.VRTControllerManager
+2019-10-08 17:47:03.972 32246-32314/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.viromedia.bridge.component.node.control.VRTPolylineManager
+2019-10-08 17:47:03.973 32246-32314/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.viromedia.bridge.component.node.control.VRTParticleEmitterManager
+2019-10-08 17:47:03.974 32246-32314/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.viromedia.bridge.component.node.VRTPortalSceneManager
+2019-10-08 17:47:03.974 32246-32314/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.viromedia.bridge.component.node.VRTPortalManager
+2019-10-08 17:47:03.975 32246-32314/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.viromedia.bridge.component.VRTLightingEnvironmentManager
+2019-10-08 17:47:03.975 32246-32314/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.viromedia.bridge.component.VRTMaterialVideoManager
+2019-10-08 17:47:03.976 32246-32314/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.viromedia.bridge.component.VRTARSceneNavigatorManager
+2019-10-08 17:47:03.977 32246-32314/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.viromedia.bridge.component.node.VRTARSceneManager
+2019-10-08 17:47:03.978 32246-32314/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.viromedia.bridge.component.node.VRTARPlaneManager
+2019-10-08 17:47:03.979 32246-32314/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.viromedia.bridge.component.node.VRTARImageMarkerManager
+2019-10-08 17:47:03.979 32246-32314/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.viromedia.bridge.component.node.VRTARObjectMarkerManager
+2019-10-08 17:47:03.991 32246-32314/com.virobugs D/SoLoader: About to load: libyoga.so
+2019-10-08 17:47:03.992 32246-32314/com.virobugs D/SoLoader: libyoga.so not found on /data/data/com.virobugs/lib-main
+2019-10-08 17:47:03.992 32246-32314/com.virobugs D/SoLoader: libyoga.so found on /data/app/com.virobugs-K3VF_k0J5ZFJH17nojinRg==/lib/arm64
+2019-10-08 17:47:03.992 32246-32314/com.virobugs D/SoLoader: Not resolving dependencies for libyoga.so
+2019-10-08 17:47:03.993 32246-32314/com.virobugs D/SoLoader: Loaded: libyoga.so
+2019-10-08 17:47:04.011 32246-32314/com.virobugs D/SoLoader: init exiting
+2019-10-08 17:47:04.793 32246-32314/com.virobugs I/WebViewFactory: Loading com.android.chrome version 77.0.3865.92 (code 386509237)
+2019-10-08 17:47:04.901 32246-32314/com.virobugs I/cr_LibraryLoader: Time to load native libraries: 6 ms (timestamps 6425-6431)
+2019-10-08 17:47:04.915 32246-32314/com.virobugs I/chromium: [INFO:library_loader_hooks.cc(51)] Chromium logging enabled: level = 0, default verbosity = 0
+2019-10-08 17:47:04.917 32246-32314/com.virobugs I/cr_LibraryLoader: Expected native library version number "77.0.3865.92", actual native library version number "77.0.3865.92"
+2019-10-08 17:47:04.934 32246-32314/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.viromedia.bridge.component.VRTViroViewGroupManager$ViroLayoutShadowNode
+2019-10-08 17:47:04.966 32246-32246/com.virobugs W/com.virobugs: Accessing hidden method Landroid/text/SpannableStringInternal;->length()I (light greylist, linking)
+2019-10-08 17:47:04.967 32246-32246/com.virobugs W/com.virobugs: Accessing hidden field Landroid/view/View;->mAccessibilityDelegate:Landroid/view/View$AccessibilityDelegate; (light greylist, reflection)
+2019-10-08 17:47:05.132 32246-32246/com.virobugs D/CognitoCachingCredentialsProvider: Loading credentials from SharedPreferences
+2019-10-08 17:47:05.270 32246-32246/com.virobugs W/Viro: Attempted to add font [file: NotoSerifEthiopic-Regular.otf, typeface: NotoSerifEthiopic] to font family with typeface [NotoSansEthiopic] -- typefaces do not match, font will be ignored
+2019-10-08 17:47:05.270 32246-32246/com.virobugs W/Viro: Attempted to add font [file: NotoSerifEthiopic-Bold.otf, typeface: NotoSerifEthiopic] to font family with typeface [NotoSansEthiopic] -- typefaces do not match, font will be ignored
+2019-10-08 17:47:05.271 32246-32246/com.virobugs W/Viro: Attempted to add font [file: NotoSerifHebrew-Regular.ttf, typeface: NotoSerifHebrew] to font family with typeface [NotoSansHebrew] -- typefaces do not match, font will be ignored
+2019-10-08 17:47:05.271 32246-32246/com.virobugs W/Viro: Attempted to add font [file: NotoSerifHebrew-Bold.ttf, typeface: NotoSerifHebrew] to font family with typeface [NotoSansHebrew] -- typefaces do not match, font will be ignored
+2019-10-08 17:47:05.271 32246-32246/com.virobugs W/Viro: Attempted to add font [file: NotoSerifThai-Regular.ttf, typeface: NotoSerifThai] to font family with typeface [NotoSansThai] -- typefaces do not match, font will be ignored
+2019-10-08 17:47:05.271 32246-32246/com.virobugs W/Viro: Attempted to add font [file: NotoSerifThai-Bold.ttf, typeface: NotoSerifThai] to font family with typeface [NotoSansThai] -- typefaces do not match, font will be ignored
+2019-10-08 17:47:05.271 32246-32246/com.virobugs W/Viro: Attempted to add font [file: NotoSerifArmenian-Regular.ttf, typeface: NotoSerifArmenian] to font family with typeface [NotoSansArmenian] -- typefaces do not match, font will be ignored
+2019-10-08 17:47:05.271 32246-32246/com.virobugs W/Viro: Attempted to add font [file: NotoSerifArmenian-Bold.ttf, typeface: NotoSerifArmenian] to font family with typeface [NotoSansArmenian] -- typefaces do not match, font will be ignored
+2019-10-08 17:47:05.271 32246-32246/com.virobugs W/Viro: Attempted to add font [file: NotoSerifGeorgian-Regular.ttf, typeface: NotoSerifGeorgian] to font family with typeface [NotoSansGeorgian] -- typefaces do not match, font will be ignored
+2019-10-08 17:47:05.271 32246-32246/com.virobugs W/Viro: Attempted to add font [file: NotoSerifGeorgian-Bold.ttf, typeface: NotoSerifGeorgian] to font family with typeface [NotoSansGeorgian] -- typefaces do not match, font will be ignored
+2019-10-08 17:47:05.271 32246-32246/com.virobugs W/Viro: Attempted to add font [file: NotoSerifDevanagari-Regular.ttf, typeface: NotoSerifDevanagari] to font family with typeface [NotoSansDevanagari] -- typefaces do not match, font will be ignored
+2019-10-08 17:47:05.271 32246-32246/com.virobugs W/Viro: Attempted to add font [file: NotoSerifDevanagari-Bold.ttf, typeface: NotoSerifDevanagari] to font family with typeface [NotoSansDevanagari] -- typefaces do not match, font will be ignored
+2019-10-08 17:47:05.271 32246-32246/com.virobugs W/Viro: Attempted to add font [file: NotoSerifGujarati-Regular.ttf, typeface: NotoSerifGujarati] to font family with typeface [NotoSansGujarati] -- typefaces do not match, font will be ignored
+2019-10-08 17:47:05.271 32246-32246/com.virobugs W/Viro: Attempted to add font [file: NotoSerifGujarati-Bold.ttf, typeface: NotoSerifGujarati] to font family with typeface [NotoSansGujarati] -- typefaces do not match, font will be ignored
+2019-10-08 17:47:05.271 32246-32246/com.virobugs W/Viro: Attempted to add font [file: NotoSerifGurmukhi-Regular.otf, typeface: NotoSerifGurmukhi] to font family with typeface [NotoSansGurmukhi] -- typefaces do not match, font will be ignored
+2019-10-08 17:47:05.271 32246-32246/com.virobugs W/Viro: Attempted to add font [file: NotoSerifGurmukhi-Bold.otf, typeface: NotoSerifGurmukhi] to font family with typeface [NotoSansGurmukhi] -- typefaces do not match, font will be ignored
+2019-10-08 17:47:05.272 32246-32246/com.virobugs W/Viro: Attempted to add font [file: NotoSerifTamil-Regular.ttf, typeface: NotoSerifTamil] to font family with typeface [NotoSansTamil] -- typefaces do not match, font will be ignored
+2019-10-08 17:47:05.272 32246-32246/com.virobugs W/Viro: Attempted to add font [file: NotoSerifTamil-Bold.ttf, typeface: NotoSerifTamil] to font family with typeface [NotoSansTamil] -- typefaces do not match, font will be ignored
+2019-10-08 17:47:05.272 32246-32246/com.virobugs W/Viro: Attempted to add font [file: NotoSerifMalayalam-Regular.ttf, typeface: NotoSerifMalayalam] to font family with typeface [NotoSansMalayalam] -- typefaces do not match, font will be ignored
+2019-10-08 17:47:05.272 32246-32246/com.virobugs W/Viro: Attempted to add font [file: NotoSerifMalayalam-Bold.ttf, typeface: NotoSerifMalayalam] to font family with typeface [NotoSansMalayalam] -- typefaces do not match, font will be ignored
+2019-10-08 17:47:05.272 32246-32246/com.virobugs W/Viro: Attempted to add font [file: NotoSerifBengali-Regular.ttf, typeface: NotoSerifBengali] to font family with typeface [NotoSansBengali] -- typefaces do not match, font will be ignored
+2019-10-08 17:47:05.272 32246-32246/com.virobugs W/Viro: Attempted to add font [file: NotoSerifBengali-Bold.ttf, typeface: NotoSerifBengali] to font family with typeface [NotoSansBengali] -- typefaces do not match, font will be ignored
+2019-10-08 17:47:05.272 32246-32246/com.virobugs W/Viro: Attempted to add font [file: NotoSerifTelugu-Regular.ttf, typeface: NotoSerifTelugu] to font family with typeface [NotoSansTelugu] -- typefaces do not match, font will be ignored
+2019-10-08 17:47:05.272 32246-32246/com.virobugs W/Viro: Attempted to add font [file: NotoSerifTelugu-Bold.ttf, typeface: NotoSerifTelugu] to font family with typeface [NotoSansTelugu] -- typefaces do not match, font will be ignored
+2019-10-08 17:47:05.272 32246-32246/com.virobugs W/Viro: Attempted to add font [file: NotoSerifKannada-Regular.ttf, typeface: NotoSerifKannada] to font family with typeface [NotoSansKannada] -- typefaces do not match, font will be ignored
+2019-10-08 17:47:05.272 32246-32246/com.virobugs W/Viro: Attempted to add font [file: NotoSerifKannada-Bold.ttf, typeface: NotoSerifKannada] to font family with typeface [NotoSansKannada] -- typefaces do not match, font will be ignored
+2019-10-08 17:47:05.273 32246-32246/com.virobugs W/Viro: Attempted to add font [file: NotoSerifSinhala-Regular.otf, typeface: NotoSerifSinhala] to font family with typeface [NotoSansSinhala] -- typefaces do not match, font will be ignored
+2019-10-08 17:47:05.273 32246-32246/com.virobugs W/Viro: Attempted to add font [file: NotoSerifSinhala-Bold.otf, typeface: NotoSerifSinhala] to font family with typeface [NotoSansSinhala] -- typefaces do not match, font will be ignored
+2019-10-08 17:47:05.273 32246-32246/com.virobugs W/Viro: Attempted to add font [file: NotoSerifKhmer-Regular.otf, typeface: NotoSerifKhmer] to font family with typeface [NotoSansKhmer] -- typefaces do not match, font will be ignored
+2019-10-08 17:47:05.273 32246-32246/com.virobugs W/Viro: Attempted to add font [file: NotoSerifKhmer-Bold.otf, typeface: NotoSerifKhmer] to font family with typeface [NotoSansKhmer] -- typefaces do not match, font will be ignored
+2019-10-08 17:47:05.273 32246-32246/com.virobugs W/Viro: Attempted to add font [file: NotoSerifLao-Regular.ttf, typeface: NotoSerifLao] to font family with typeface [NotoSansLao] -- typefaces do not match, font will be ignored
+2019-10-08 17:47:05.273 32246-32246/com.virobugs W/Viro: Attempted to add font [file: NotoSerifLao-Bold.ttf, typeface: NotoSerifLao] to font family with typeface [NotoSansLao] -- typefaces do not match, font will be ignored
+2019-10-08 17:47:05.273 32246-32246/com.virobugs W/Viro: Attempted to add font [file: NotoSerifMyanmar-Regular.otf, typeface: NotoSerifMyanmar] to font family with typeface [NotoSansMyanmar] -- typefaces do not match, font will be ignored
+2019-10-08 17:47:05.273 32246-32246/com.virobugs W/Viro: Attempted to add font [file: NotoSerifMyanmar-Bold.otf, typeface: NotoSerifMyanmar] to font family with typeface [NotoSansMyanmar] -- typefaces do not match, font will be ignored
+2019-10-08 17:47:05.276 32246-32246/com.virobugs W/Viro: Attempted to add font [file: HwChinese-Medium.ttf, typeface: HwChinese] to font family with typeface [DroidSansChinese.ttf] -- typefaces do not match, font will be ignored
+2019-10-08 17:47:05.276 32246-32246/com.virobugs W/Viro: Attempted to add font [file: NotoSerifCJK-Regular.ttc, typeface: NotoSerifCJK] to font family with typeface [NotoSansCJK] -- typefaces do not match, font will be ignored
+2019-10-08 17:47:05.276 32246-32246/com.virobugs I/chatty: uid=10330(com.virobugs) identical 1 line
+2019-10-08 17:47:05.277 32246-32246/com.virobugs W/Viro: Attempted to add font [file: NotoSerifCJK-Regular.ttc, typeface: NotoSerifCJK] to font family with typeface [NotoSansCJK] -- typefaces do not match, font will be ignored
+2019-10-08 17:47:05.281 32246-32246/com.virobugs W/Viro: Didn't create default family (most likely, non-Minikin build)
+    java.lang.NullPointerException: Attempt to invoke virtual method 'com.viro.core.internal.font.FontFamily$Font com.viro.core.internal.font.FontFamily.getFont(boolean, int)' on a null object reference
+        at com.viro.core.internal.font.SystemFontLoader.init(SystemFontLoader.java:145)
+        at com.viro.core.internal.PlatformUtil.<init>(PlatformUtil.java:113)
+        at com.viro.core.ViroViewARCore.init(ViroViewARCore.java:536)
+        at com.viro.core.ViroViewARCore.<init>(ViroViewARCore.java:446)
+        at com.viro.core.ViroViewARCore.<init>(ViroViewARCore.java:418)
+        at com.viromedia.bridge.component.VRTARSceneNavigator.createViroView(VRTARSceneNavigator.java:95)
+        at com.viromedia.bridge.component.VRT3DSceneNavigator.<init>(VRT3DSceneNavigator.java:165)
+        at com.viromedia.bridge.component.VRTARSceneNavigator.<init>(VRTARSceneNavigator.java:73)
+        at com.viromedia.bridge.component.VRTARSceneNavigatorManager.createViewInstance(VRTARSceneNavigatorManager.java:30)
+        at com.viromedia.bridge.component.VRTARSceneNavigatorManager.createViewInstance(VRTARSceneNavigatorManager.java:17)
+        at com.facebook.react.uimanager.ViewManager.createView(ViewManager.java:47)
+        at com.facebook.react.uimanager.NativeViewHierarchyManager.createView(NativeViewHierarchyManager.java:256)
+        at com.facebook.react.uimanager.UIViewOperationQueue$CreateViewOperation.execute(UIViewOperationQueue.java:200)
+        at com.facebook.react.uimanager.UIViewOperationQueue$1.run(UIViewOperationQueue.java:911)
+        at com.facebook.react.uimanager.UIViewOperationQueue.flushPendingBatches(UIViewOperationQueue.java:1025)
+        at com.facebook.react.uimanager.UIViewOperationQueue.access$2600(UIViewOperationQueue.java:46)
+        at com.facebook.react.uimanager.UIViewOperationQueue$DispatchUIFrameCallback.doFrameGuarded(UIViewOperationQueue.java:1085)
+        at com.facebook.react.uimanager.GuardedFrameCallback.doFrame(GuardedFrameCallback.java:29)
+        at com.facebook.react.modules.core.ReactChoreographer$ReactChoreographerDispatcher.doFrame(ReactChoreographer.java:166)
+        at com.facebook.react.modules.core.ChoreographerCompat$FrameCallback$1.doFrame(ChoreographerCompat.java:84)
+        at android.view.Choreographer$CallbackRecord.run(Choreographer.java:1090)
+        at android.view.Choreographer.doCallbacks(Choreographer.java:893)
+        at android.view.Choreographer.doFrame(Choreographer.java:809)
+        at android.view.Choreographer$FrameDisplayEventReceiver.run(Choreographer.java:1078)
+        at android.os.Handler.handleCallback(Handler.java:907)
+        at android.os.Handler.dispatchMessage(Handler.java:105)
+        at android.os.Looper.loop(Looper.java:216)
+        at android.app.ActivityThread.main(ActivityThread.java:7625)
+        at java.lang.reflect.Method.invoke(Native Method)
+        at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:524)
+        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:987)
+2019-10-08 17:47:05.287 32246-32246/com.virobugs V/AudioManager: getProperty  key: android.media.property.OUTPUT_SAMPLE_RATE
+2019-10-08 17:47:05.289 32246-32246/com.virobugs V/AudioManager: getProperty  key: android.media.property.OUTPUT_FRAMES_PER_BUFFER
+2019-10-08 17:47:05.289 32246-32246/com.virobugs V/AudioManager: getProperty  key: android.media.property.OUTPUT_SAMPLE_RATE
+2019-10-08 17:47:05.289 32246-32246/com.virobugs V/AudioManager: getProperty  key: android.media.property.OUTPUT_FRAMES_PER_BUFFER
+2019-10-08 17:47:05.289 32246-32246/com.virobugs V/AudioManager: getProperty  key: android.media.property.OUTPUT_SAMPLE_RATE
+2019-10-08 17:47:05.290 32246-32246/com.virobugs V/AudioManager: getProperty  key: android.media.property.OUTPUT_FRAMES_PER_BUFFER
+2019-10-08 17:47:05.294 32246-32246/com.virobugs W/libOpenSLES: class OutputMix interface 0 requested but unavailable MPH=28
+2019-10-08 17:47:05.295 32246-32246/com.virobugs I/libOpenSLES: Emulating old channel mask behavior (ignoring positional mask 0x3, using default mask 0x3 based on channel count of 2)
+2019-10-08 17:47:05.302 32246-32246/com.virobugs W/AudioTrack: AUDIO_OUTPUT_FLAG_FAST denied by server; frameCount 0 -> 1924
+2019-10-08 17:47:05.344 32246-32246/com.virobugs I/AudioSystem-JNI: listAudioPorts AudioSystem::listAudioPorts numPorts 8 generation 27 generation1 27
+2019-10-08 17:47:05.429 32246-32419/com.virobugs D/AWS4Signer: AWS4 Canonical Request: '"POST
+    /
+
+    host:dynamodb.us-west-2.amazonaws.com
+    x-amz-date:20191008T154705Z
+    x-amz-security-token:AgoJb3JpZ2luX2VjEKf//////////wEaCXVzLXdlc3QtMiJHMEUCIGvaTPqZLseJlJD2BN6DLjr+KTeWLFHWv12EAsxFSkdXAiEAwkrzRLFceuZ0IBG05cRDMkDetNDOkHdsmdUkcaUqVIIq7AYIkP//////////ARAAGgwwMjgzMTkzNjk0NTciDI6UAGAKzVO5DlQ/EirABoPpG+hjs/dfuxvPfH6XkT26RF04ZORQUwJ3aKHTT0wUOZIBzSTQEoc0FRYTWLmzC/+v/60tuXiszgMNdwnVLgJM5BI2QDZK9DFykUL/d24F51aCdW3yJLrv0H3GxsdJL65bDMCLTsEizODaUqSwh5uau8eqKG/Jlw1Mvn2jv4Hty7deh8boeG2/18MZNPYxLiqGCDtkcbu91PwQikbXJfcZkSjwzkAmlPBI8IkQI5cV7w2mc0L92vwm8Qh5lgYm7Uz18A6QJ1SuaBHUQNnbu+v/M172o9yOkVU+iDSpvVchDbjZStkZT/4Q2Bk0VSuoDECr/vvAOCc3XUOFZaXn3DwXKHm4XKKDl740/7cs2cWqCxeVmVDxiQoXP09Moev3g+MOg6yo1I/UcK9dx/gbNvRnvBiUB+c58SOvp8lpEzeJmcEE8ghRzCx7dY3WAp42zj46kiWUDZ3zV0kqcXf9Ul5ktlj8AG9vq8fuxT9VyaWSG9lfWd7+UdrwgX5Wif2oqpGgp516hlzWto7vCm8HJVGxALTikAtmLQbQdLrHQ7hO2DXjK0ihPkaD+vvy5aZfIrittwFLRmSXO41IAn3XxCFDB7IRzdbPV53S8q0iw9JZkFt3a+8YsBzbzahipwzbbmWxqrYu4xH23dHmtS4xNdREuBb7v8g5kM1Brd5zGvCwPKTylCN3zcgWJIvtS4+O53c2eTV8HQP+ovjnBTf9pHq94yZuLFmyQw+v3Kk7JDzfffIz6UJq8CRnzpK0WohV6Dy048mSWkHJ1HuFYUNBqozda+51apejTfQ5F9Rc1aNg3J6WBp61wEnQTAERrvQQ3iNLi4UiUBJEzru/CGyJxM2blm1/nL2UFfv2EYGSIAKVjT1uEnh65pY34+MFEAgUSOm8UMxMdSJiW4tPN4BgwVzJyYkTgP4hwHb7MAxr8U7/wXKqQOeLiJzYd13c6+fj7jzn7V4N2ur5Aq+tkuTp4n5WeG4HsjH+JsOgQQP5J6iphiAHeg+tjot0AXc6otmE14BtzWIJyjO9h7+mvLQvD8FaUYIRH0PmBM7ndf0DVFzRS5nqzZkiS+z3+/3KkpgKDT42KZLsFy7Q4HtQ9iSq7E4wxtDy7AU6tAHbegqmUxwNvE/0SUdqTsnhQ31PCEXy8MhUuxp88eIfWNpiQkHBtz4Um0KhnAqEHyFdGmWGbdmTSzXU+n3hKUVi786S/4iA3kteVMZe6ph1YIuQVoKExLCr8YdgNjt9NdLAh3aqjBpaXyUJcNr1bwil8KB6FDOSrtzfk0VJBY4+ADQ/17VcUrAyGF/85AeMNx0ZG7ejV/S3Nd856WPyI6CG80h6dUlg+IOIZaQGAEjGNucF38Y=
+    x-amz-target:DynamoDB_20120810.GetItem
+
+    host;x-amz-date;x-amz-security-token;x-amz-target
+    fe60b2b147bef2c932f53c58d1815f0d5a49d07e8163481377525092ceb62bec"
+2019-10-08 17:47:05.429 32246-32419/com.virobugs D/AWS4Signer: AWS4 String to Sign: '"AWS4-HMAC-SHA256
+    20191008T154705Z
+    20191008/us-west-2/dynamodb/aws4_request
+    28633bdbd84b93288603624e7b9bf12d2589b85ee5be910d8c248a25c8b37ec1"
+2019-10-08 17:47:05.465 32246-32328/com.virobugs W/GLSurfaceView: Warning, !readyToDraw() but waiting for draw finished! Early reporting draw finished.
+2019-10-08 17:47:05.468 32246-32246/com.virobugs I/ViewRootImpl: jank_removeInvalidNode jank list is null
+2019-10-08 17:47:05.506 32246-32246/com.virobugs I/Viro: ARCore installed on device
+2019-10-08 17:47:05.507 32246-32246/com.virobugs I/third_party/arcore/ar/core/android/sdk/session_create.cc: Entering ArSession_create
+2019-10-08 17:47:05.511 32246-32246/com.virobugs I/third_party/arcore/ar/core/android/sdk/session_create.cc: ARCore Version: APK version code: 190826106
+2019-10-08 17:47:05.511 32246-32246/com.virobugs I/third_party/arcore/ar/core/android/sdk/session_create.cc: ARCore Version: SDK build name: 1.10
+2019-10-08 17:47:05.542 32246-32246/com.virobugs I/native: version_check.cc:23 ARCore Version: APK version:1.12.190826106
+2019-10-08 17:47:05.542 32246-32246/com.virobugs I/native: version_check.cc:24 ARCore Version: emulated SDK version:1.10.190519000
+2019-10-08 17:47:05.543 32246-32246/com.virobugs I/third_party/arcore/ar/core/android/sdk/session_create.cc: Dynamite load ok.
+2019-10-08 17:47:05.543 32246-32246/com.virobugs I/third_party/arcore/java/com/google/vr/dynamite/client/native/dynamite_client.cc: Attempting to load native library arcore_c from package com.google.ar.core
+2019-10-08 17:47:05.566 32246-32246/com.virobugs I/third_party/arcore/java/com/google/vr/dynamite/client/native/dynamite_client.cc: Dynamite::LoadNativeRemoteLibrary handle=7114330894351830357
+2019-10-08 17:47:05.568 32246-32246/com.virobugs I/native: session_create_implementation.cc:65 Entering createImplementationWithFeaturesAndSettings. ARCore SDK version: [1.10.190519000].
+2019-10-08 17:47:05.581 32246-32425/com.virobugs V/third_party/redwood/base/jni_common/jni_helper.cc: JniHelper: attached thread (Called from line 300).
+2019-10-08 17:47:05.582 32246-32246/com.virobugs W/com.virobugs: Accessing hidden method Landroid/hardware/camera2/CameraCharacteristics$Key;-><init>(Ljava/lang/String;Ljava/lang/Class;)V (light greylist, reflection)
+2019-10-08 17:47:05.583 32246-32246/com.virobugs I/CameraManagerGlobal: Connecting to camera service
+2019-10-08 17:47:05.608 32246-32246/com.virobugs I/native: session_create_implementation_shared.cc:767 Persistent online recalibration is enabled by Phenotype.
+2019-10-08 17:47:05.609 32246-32246/com.virobugs I/native: online_calibration_manager.cc:53 OnlineCalibrationManager: Could not open /data/user/0/com.virobugs/cache/arcore-online-recalibration for reading.
+2019-10-08 17:47:05.612 32246-32246/com.virobugs I/native: feature_provider.cc:82 Doing adaptive frequency feature extraction using KLT.
+2019-10-08 17:47:05.612 32246-32246/com.virobugs I/native: device_profile_conversions.cc:143 used_active_calibration: 2
+2019-10-08 17:47:05.613 32246-32246/com.virobugs I/native: device_profile_conversions.cc:143 used_active_calibration: 2
+2019-10-08 17:47:05.613 32246-32246/com.virobugs I/native: session_create_implementation_shared.cc:944 Datasource created with timeout = 4s, should_wait = false
+2019-10-08 17:47:05.613 32246-32246/com.virobugs I/native: android_camera.cc:141 Camera start operation timeout set to 4000 ms.
+2019-10-08 17:47:05.613 32246-32246/com.virobugs I/native: android_camera.cc:1644 Initializing camera manager.
+2019-10-08 17:47:05.619 32246-32246/com.virobugs E/ACameraMetadata: isNdkSupportedCapability: Unknonwn capability 11
+2019-10-08 17:47:05.620 32246-32246/com.virobugs E/ACameraMetadata: isNdkSupportedCapability: Unknonwn capability 11
+2019-10-08 17:47:05.623 32246-32246/com.virobugs I/native: android_camera.cc:1669 Camera manager initialized successfully with 4 cameras.
+2019-10-08 17:47:05.625 32246-32246/com.virobugs I/native: android_sensors.cc:82 Using uncalibrated accelerometer.
+2019-10-08 17:47:05.626 32246-32246/com.virobugs I/native: android_sensors.cc:120 Using uncalibrated magnetometer.
+2019-10-08 17:47:05.626 32246-32246/com.virobugs W/native: android_sensors.cc:132 Could not find pressure sensor.
+2019-10-08 17:47:05.629 32246-32246/com.virobugs I/native: android_platform_checks.cc:194 IsZeroRotationLandscape = false
+2019-10-08 17:47:05.629 32246-32246/com.virobugs I/native: device_profile_conversions.cc:143 used_active_calibration: 2
+2019-10-08 17:47:05.629 32246-32246/com.virobugs I/native: create_pursuit_tracker.cc:18 AugmentedRegion downsample mode from Phenotype: true
+2019-10-08 17:47:05.629 32246-32246/com.virobugs I/native: session_create_implementation_shared.cc:1170 CPU Image enable frame delay to compensate delay: false
+2019-10-08 17:47:05.634 32246-32246/com.virobugs I/native: legacy_calibration_provider_helpers.cc:96 Legacy IMU sigma values are used
+2019-10-08 17:47:05.635 32246-32246/com.virobugs I/native: config_helpers.cc:208 Failed to find IMU intrinsic covariance matrix in profile for id: 100
+2019-10-08 17:47:05.635 32246-32246/com.virobugs I/native: config_helpers.cc:61 Does not find camera intrinsic covariance matrix in profile for id 0
+2019-10-08 17:47:05.635 32246-32246/com.virobugs I/native: config_helpers.cc:134 Does not find extrinsic covariance matrix in profile for IMU id 100
+2019-10-08 17:47:05.635 32246-32246/com.virobugs I/native: vio_helper.cc:34 Use calibrated IMU scale factors.
+2019-10-08 17:47:05.635 32246-32246/com.virobugs I/native: vio_helper.cc:46 Use calibrated IMU misalignment factors.
+2019-10-08 17:47:05.636 32246-32246/com.virobugs I/native: feature_matcher_and_filter.cc:88 Enabled the robustification to large-sized and fast-moving objects on this mono-camera device.
+2019-10-08 17:47:05.751 32246-32246/com.virobugs I/native: android_camera.cc:141 Camera start operation timeout set to 4000 ms.
+2019-10-08 17:47:05.751 32246-32246/com.virobugs I/native: android_camera.cc:1644 Initializing camera manager.
+2019-10-08 17:47:05.753 32246-32246/com.virobugs E/ACameraMetadata: isNdkSupportedCapability: Unknonwn capability 11
+2019-10-08 17:47:05.754 32246-32246/com.virobugs E/ACameraMetadata: isNdkSupportedCapability: Unknonwn capability 11
+2019-10-08 17:47:05.759 32246-32246/com.virobugs I/native: android_camera.cc:1669 Camera manager initialized successfully with 4 cameras.
+2019-10-08 17:47:05.759 32246-32246/com.virobugs I/native: android_camera.cc:675 Camera 0: State CLOSED: Reset cleanly got to CLOSED state.
+2019-10-08 17:47:05.760 32246-32246/com.virobugs I/native: android_camera.cc:675 Camera 3: State CLOSED: Reset cleanly got to CLOSED state.
+2019-10-08 17:47:05.760 32246-32246/com.virobugs I/native: android_camera.cc:675 Camera 2: State CLOSED: Reset cleanly got to CLOSED state.
+2019-10-08 17:47:05.761 32246-32246/com.virobugs I/native: android_camera.cc:675 Camera 1: State CLOSED: Reset cleanly got to CLOSED state.
+2019-10-08 17:47:05.769 32246-32246/com.virobugs W/com.virobugs: Accessing hidden field Ljava/nio/Buffer;->address:J (light greylist, reflection)
+2019-10-08 17:47:05.785 32246-32246/com.virobugs W/ARCore-ContextUtils: The API key for use with the Google AR service could not be obtained!
+2019-10-08 17:47:05.821 32246-32246/com.virobugs I/tflite: Initialized TensorFlow Lite runtime.
+2019-10-08 17:47:05.822 32246-32246/com.virobugs I/native: planar_target_tracking_manager.h:109 Config of PlanarTargetTrackingManager:
+    -pose_refinement_with_detection_interval_ns: 0
+    -min_interval_between_detections_ns: 500000000
+    -filter_parallax: false
+    -filter_result: true
+    -multiple_targets: true
+    -mini_detection: true
+    -tracking_mode: 1
+2019-10-08 17:47:05.830 32246-32246/com.virobugs I/native: session_create_implementation.cc:251 createImplementationWithFeaturesAndSettings returning OK.
+2019-10-08 17:47:05.841 32246-32246/com.virobugs I/native: session.cc:925 Entering Session::Resume.
+2019-10-08 17:47:05.842 32246-32246/com.virobugs I/native: android_camera.cc:675 Camera 0: State CLOSED: Reset cleanly got to CLOSED state.
+2019-10-08 17:47:05.853 32246-32246/com.virobugs I/native: android_sensors.cc:150 Starting thread.
+2019-10-08 17:47:05.853 32246-32246/com.virobugs I/native: cameras.cc:1118 Selected camera 0 stream 0 as feature extraction stream.
+2019-10-08 17:47:05.855 32246-32454/com.virobugs I/native: android_sensors.cc:28 Gyro min delay 2ms requesting 5ms
+2019-10-08 17:47:05.857 32246-32246/com.virobugs E/ACameraMetadata: isNdkSupportedCapability: Unknonwn capability 11
+2019-10-08 17:47:05.861 32246-32454/com.virobugs I/native: android_sensors.cc:28 Accel min delay 5ms requesting 5ms
+2019-10-08 17:47:05.881 32246-32246/com.virobugs E/ACameraMetadata: isNdkSupportedCapability: Unknonwn capability 11
+2019-10-08 17:47:05.888 32246-32428/com.virobugs I/native: cameras.cc:1269 Camera changed state from CLOSED to OPEN: Camera 0: State CLOSED: Camera device opened successfully.
+2019-10-08 17:47:05.888 32246-32246/com.virobugs I/native: session.cc:1070 Session::ResumeWithAnalytics returning OK.
+2019-10-08 17:47:05.889 32246-32428/com.virobugs I/native: cameras.cc:1269 Camera changed state from OPEN to CAPTURING: Started capture session.
+2019-10-08 17:47:05.889 32246-32246/com.virobugs I/Viro: AR session resumed
+2019-10-08 17:47:05.893 32246-32328/com.virobugs D/mali_winsys: EGLint new_window_surface(egl_winsys_display *, void *, EGLSurface, EGLConfig, egl_winsys_surface **, EGLBoolean) returns 0x3000
+2019-10-08 17:47:05.893 32246-32328/com.virobugs I/Viro: Acquired sRGB framebuffer
+2019-10-08 17:47:05.905 32246-32328/com.virobugs I/native: device_provider.cc:1606 Identified device type: kHweml
+2019-10-08 17:47:05.905 32246-32328/com.virobugs I/Viro: Successfully configured AR session [lighting 1, planes 1, update 0, focus 0]
+2019-10-08 17:47:05.905 32246-32328/com.virobugs I/native: session.cc:925 Entering Session::Resume.
+2019-10-08 17:47:05.905 32246-32328/com.virobugs I/native: session.cc:954 Session::ResumeWithAnalytics returning OK.
+2019-10-08 17:47:05.906 32246-32328/com.virobugs I/native: session.cc:925 Entering Session::Resume.
+2019-10-08 17:47:05.906 32246-32328/com.virobugs I/native: session.cc:954 Session::ResumeWithAnalytics returning OK.
+2019-10-08 17:47:05.906 32246-32328/com.virobugs I/Viro: AR session resumed
+2019-10-08 17:47:05.975 32246-32328/com.virobugs D/HwGalleryCacheManagerImpl: mIsEffect:false
+2019-10-08 17:47:05.977 32246-32328/com.virobugs I/Viro: GPU vendor [ARM], renderer [Mali-G72]
+2019-10-08 17:47:05.977 32246-32328/com.virobugs I/Viro:    Detected Mali GPU, sRGB framebuffer assumed
+2019-10-08 17:47:05.977 32246-32328/com.virobugs I/Viro: Creating render targets with configuration:
+2019-10-08 17:47:05.977 32246-32328/com.virobugs I/Viro: [MRT supported:   1]
+2019-10-08 17:47:05.977 32246-32328/com.virobugs I/Viro: [Shadows enabled: 1]
+2019-10-08 17:47:05.977 32246-32328/com.virobugs I/Viro: [HDR supported:   1, HDR enabled:   1]
+2019-10-08 17:47:05.977 32246-32328/com.virobugs I/Viro: [PBR supported:   1, PBR enabled:   1]
+2019-10-08 17:47:05.977 32246-32328/com.virobugs I/Viro: [Bloom supported: 1, Bloom enabled: 1]
+2019-10-08 17:47:05.978 32246-32328/com.virobugs W/Viro: Font loader not initialized, default font will be used
+2019-10-08 17:47:05.978 32246-32328/com.virobugs I/Viro: Loading font face [name: Helvetica, index: -1]
+2019-10-08 17:47:05.978 32246-32328/com.virobugs I/Viro: Failed to find suitable face matching [Helvetica], defaulting to system font
+2019-10-08 17:47:06.014 32246-32328/com.virobugs I/Viro: No gamma correction enabled in tone-mapper
+2019-10-08 17:47:06.131 32246-32455/com.virobugs E/ion: ioctl c0044901 failed with code -1: Invalid argument
+2019-10-08 17:47:06.131 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:06.131 32246-32455/com.virobugs I/native: timebase_helpers.cc:168 Timebase offset intialized to 0
+2019-10-08 17:47:06.154 32246-32426/com.virobugs W/native: freak_compact_dataset_recorder.cc:96 Failed to create pose node: generic::failed_precondition: VIO is not tracking.
+2019-10-08 17:47:06.154 32246-32442/com.virobugs W/native: gyro_helper.cc:44 Gyro samples do not cover << [ 0 ; 30242.8695030000017 ] sec. Use identity R. Gyro samples cover [ 30242.847288844001 ; 30242.9195029063339 ] sec.
+2019-10-08 17:47:06.155 32246-32443/com.virobugs I/native: vio_initializer.cc:693 Not accepting frame as first BA keyframe.
+2019-10-08 17:47:06.162 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:06.201 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:06.221 32246-32419/com.virobugs V/com.amazonaws.request: Parsing service response JSON
+2019-10-08 17:47:06.221 32246-32419/com.virobugs D/com.amazonaws.request: CRC32Checksum = 1025057464
+2019-10-08 17:47:06.221 32246-32419/com.virobugs D/com.amazonaws.request: content encoding = null
+2019-10-08 17:47:06.225 32246-32419/com.virobugs V/com.amazonaws.request: Done parsing service response
+2019-10-08 17:47:06.237 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:06.239 32246-32506/com.virobugs D/Viro: Attempt #0, performing metrics recording in 0 milliseconds
+2019-10-08 17:47:06.244 32246-32506/com.virobugs D/AWS4Signer: AWS4 Canonical Request: '"POST
+    /
+
+    host:dynamodb.us-west-2.amazonaws.com
+    x-amz-date:20191008T154706Z
+    x-amz-security-token:AgoJb3JpZ2luX2VjEKf//////////wEaCXVzLXdlc3QtMiJHMEUCIGvaTPqZLseJlJD2BN6DLjr+KTeWLFHWv12EAsxFSkdXAiEAwkrzRLFceuZ0IBG05cRDMkDetNDOkHdsmdUkcaUqVIIq7AYIkP//////////ARAAGgwwMjgzMTkzNjk0NTciDI6UAGAKzVO5DlQ/EirABoPpG+hjs/dfuxvPfH6XkT26RF04ZORQUwJ3aKHTT0wUOZIBzSTQEoc0FRYTWLmzC/+v/60tuXiszgMNdwnVLgJM5BI2QDZK9DFykUL/d24F51aCdW3yJLrv0H3GxsdJL65bDMCLTsEizODaUqSwh5uau8eqKG/Jlw1Mvn2jv4Hty7deh8boeG2/18MZNPYxLiqGCDtkcbu91PwQikbXJfcZkSjwzkAmlPBI8IkQI5cV7w2mc0L92vwm8Qh5lgYm7Uz18A6QJ1SuaBHUQNnbu+v/M172o9yOkVU+iDSpvVchDbjZStkZT/4Q2Bk0VSuoDECr/vvAOCc3XUOFZaXn3DwXKHm4XKKDl740/7cs2cWqCxeVmVDxiQoXP09Moev3g+MOg6yo1I/UcK9dx/gbNvRnvBiUB+c58SOvp8lpEzeJmcEE8ghRzCx7dY3WAp42zj46kiWUDZ3zV0kqcXf9Ul5ktlj8AG9vq8fuxT9VyaWSG9lfWd7+UdrwgX5Wif2oqpGgp516hlzWto7vCm8HJVGxALTikAtmLQbQdLrHQ7hO2DXjK0ihPkaD+vvy5aZfIrittwFLRmSXO41IAn3XxCFDB7IRzdbPV53S8q0iw9JZkFt3a+8YsBzbzahipwzbbmWxqrYu4xH23dHmtS4xNdREuBb7v8g5kM1Brd5zGvCwPKTylCN3zcgWJIvtS4+O53c2eTV8HQP+ovjnBTf9pHq94yZuLFmyQw+v3Kk7JDzfffIz6UJq8CRnzpK0WohV6Dy048mSWkHJ1HuFYUNBqozda+51apejTfQ5F9Rc1aNg3J6WBp61wEnQTAERrvQQ3iNLi4UiUBJEzru/CGyJxM2blm1/nL2UFfv2EYGSIAKVjT1uEnh65pY34+MFEAgUSOm8UMxMdSJiW4tPN4BgwVzJyYkTgP4hwHb7MAxr8U7/wXKqQOeLiJzYd13c6+fj7jzn7V4N2ur5Aq+tkuTp4n5WeG4HsjH+JsOgQQP5J6iphiAHeg+tjot0AXc6otmE14BtzWIJyjO9h7+mvLQvD8FaUYIRH0PmBM7ndf0DVFzRS5nqzZkiS+z3+/3KkpgKDT42KZLsFy7Q4HtQ9iSq7E4wxtDy7AU6tAHbegqmUxwNvE/0SUdqTsnhQ31PCEXy8MhUuxp88eIfWNpiQkHBtz4Um0KhnAqEHyFdGmWGbdmTSzXU+n3hKUVi786S/4iA3kteVMZe6ph1YIuQVoKExLCr8YdgNjt9NdLAh3aqjBpaXyUJcNr1bwil8KB6FDOSrtzfk0VJBY4+ADQ/17VcUrAyGF/85AeMNx0ZG7ejV/S3Nd856WPyI6CG80h6dUlg+IOIZaQGAEjGNucF38Y=
+    x-amz-target:DynamoDB_20120810.UpdateItem
+
+    host;x-amz-date;x-amz-security-token;x-amz-target
+    1b8756cbd0d98a039fbe09f32faf39ec9c08c47eec10da129da247d41bf82dab"
+2019-10-08 17:47:06.245 32246-32506/com.virobugs D/AWS4Signer: AWS4 String to Sign: '"AWS4-HMAC-SHA256
+    20191008T154706Z
+    20191008/us-west-2/dynamodb/aws4_request
+    de9528cca2682e9be1b18b3182fba4a49412d3f7d41e41c30e06aa50425c7358"
+2019-10-08 17:47:06.267 32246-32426/com.virobugs W/native: freak_compact_dataset_recorder.cc:96 Failed to create pose node: generic::failed_precondition: VIO is not tracking.
+2019-10-08 17:47:06.270 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:06.290 32246-32443/com.virobugs I/native: vio_initializer.cc:693 Not accepting frame as first BA keyframe.
+2019-10-08 17:47:06.303 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:06.337 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:06.369 32246-32426/com.virobugs W/native: freak_compact_dataset_recorder.cc:96 Failed to create pose node: generic::failed_precondition: VIO is not tracking.
+2019-10-08 17:47:06.370 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:06.376 32246-32443/com.virobugs I/native: vio_initializer.cc:693 Not accepting frame as first BA keyframe.
+2019-10-08 17:47:06.405 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:06.436 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:06.441 32246-32246/com.virobugs E/native: status.cc:153 ArStatusErrorSpace::AR_ERROR_NOT_TRACKING: Cannot create anchors while the camera is not tracking.;  at third_party/arcore/ar/core/session.cc:1676
+2019-10-08 17:47:06.441 32246-32246/com.virobugs I/Viro: Failed to acquire anchor from world position: no anchored node will be created
+2019-10-08 17:47:06.442 32246-32246/com.virobugs E/Viro: Failed to create an anchored node at position [0.0, 0.0, -1.0]
+2019-10-08 17:47:06.444 32246-32426/com.virobugs W/native: freak_compact_dataset_recorder.cc:96 Failed to create pose node: generic::failed_precondition: VIO is not tracking.
+2019-10-08 17:47:06.461 32246-32506/com.virobugs V/com.amazonaws.request: Parsing service response JSON
+2019-10-08 17:47:06.461 32246-32506/com.virobugs D/com.amazonaws.request: CRC32Checksum = 2745614147
+2019-10-08 17:47:06.461 32246-32506/com.virobugs D/com.amazonaws.request: content encoding = null
+2019-10-08 17:47:06.462 32246-32506/com.virobugs V/com.amazonaws.request: Done parsing service response
+2019-10-08 17:47:06.471 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:06.504 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:06.537 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:06.556 32246-32426/com.virobugs W/native: freak_compact_dataset_recorder.cc:96 Failed to create pose node: generic::failed_precondition: VIO is not tracking.
+2019-10-08 17:47:06.570 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:06.605 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:06.637 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:06.648 32246-32426/com.virobugs W/native: freak_compact_dataset_recorder.cc:96 Failed to create pose node: generic::failed_precondition: VIO is not tracking.
+2019-10-08 17:47:06.671 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:06.704 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:06.738 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:06.759 32246-32426/com.virobugs W/native: freak_compact_dataset_recorder.cc:96 Failed to create pose node: generic::failed_precondition: VIO is not tracking.
+2019-10-08 17:47:06.773 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:06.773 32246-32443/com.virobugs I/native: ba_initialization_helpers.cc:371 Number of landmarks before eliminating short tracks 1321, and after elimination 450
+2019-10-08 17:47:06.773 32246-32443/com.virobugs I/native: ba_initialization_helpers.cc:518 num_frames_for_dsolver: 4
+2019-10-08 17:47:06.773 32246-32443/com.virobugs I/native: ba_initialization_helpers.cc:519 number_of_landmarks_for_dsolver: 50
+2019-10-08 17:47:06.773 32246-32443/com.virobugs I/native: ba_initialization_helpers.cc:526 maximum_cam_meas_displacement_squared: 0.0012305
+2019-10-08 17:47:06.773 32246-32443/com.virobugs W/native: ba_initialization_helpers.cc:534 Maximum displacement of landmark measurements: 0.0350784
+2019-10-08 17:47:06.773 32246-32443/com.virobugs W/native: ba_initialization_helpers.cc:536 Motion is close to static motion, use pure propagation to initialize small scale BA
+2019-10-08 17:47:06.774 32246-32443/com.virobugs I/native: ba_initialization.cc:606 Deterministic initialization
+2019-10-08 17:47:06.780 32246-32443/com.virobugs I/native: ba_initialization_helpers.cc:675 Num. landmarks before pruning 448
+2019-10-08 17:47:06.780 32246-32443/com.virobugs I/native: ba_initialization_helpers.cc:676 Num. landmarks uninitialized: 2
+2019-10-08 17:47:06.780 32246-32443/com.virobugs I/native: ba_initialization_helpers.cc:688 Num. landmarks initialized after pruning 60
+2019-10-08 17:47:06.780 32246-32443/com.virobugs I/native: ba_initialization_helpers.cc:690 Num. landmarks uninitialized: 390
+2019-10-08 17:47:06.780 32246-32443/com.virobugs I/native: ba_initialization.cc:175 Intrinsic vector size of the camera 0 is 7
+2019-10-08 17:47:06.799 32246-32443/com.virobugs I/native: ba_initialization.cc:366 Initializer did not converge: Maximum number of iterations reached. Number of iterations: 18.
+2019-10-08 17:47:06.799 32246-32443/com.virobugs I/native: ba_initialization_helpers.h:168 Number of measurements used in BA initialization for temporal landmarks: 240
+2019-10-08 17:47:06.799 32246-32443/com.virobugs I/native: ba_initialization_helpers.h:170 Number of good measurements (i.e., reprojection errors <= 3 pixels) in BA initialization for temporal landmarks: 228
+2019-10-08 17:47:06.802 32246-32443/com.virobugs I/native: visual_inertial_filter.cc:773 VIO sliding window is initialized, with sliding window size 4
+2019-10-08 17:47:06.805 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:06.839 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:06.848 32246-32426/com.virobugs W/native: freak_compact_dataset_recorder.cc:96 Failed to create pose node: generic::failed_precondition: VIO is not tracking.
+2019-10-08 17:47:06.855 32246-32444/com.virobugs W/native: map_utils.cc:409 MapManager: Overwriting rolling shutter time from 0.00715158 to 0.007166
+2019-10-08 17:47:06.875 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:06.908 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:06.945 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:06.969 32246-32501/com.virobugs I/Viro: Downloaded URL [http://localhost:8081/assets/res/clickable.glb?platform=android&hash=85fac45c57b3e5d8471932192786b623] to file [/data/user/0/com.virobugs/cache/Viro4947679209268990781tmp]
+2019-10-08 17:47:06.976 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:07.008 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:07.016 32246-32328/com.virobugs W/Viro: Unable to generate missing tangents for this model
+2019-10-08 17:47:07.042 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:07.080 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:07.106 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:07.145 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:07.178 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:07.212 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:07.245 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:07.277 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:07.312 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:07.344 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:07.380 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:07.410 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:07.445 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:07.481 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:07.511 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:07.541 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:07.579 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:07.609 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:07.647 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:07.681 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:07.709 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:07.749 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:07.777 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:07.813 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:07.846 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:07.876 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:07.910 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:07.948 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:07.979 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:08.007 32246-32246/com.virobugs W/Settings: Setting device_provisioned has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
+2019-10-08 17:47:08.007 32246-32246/com.virobugs V/HiTouch_HiTouchSensor: User setup is finished.
+2019-10-08 17:47:08.013 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:08.044 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:08.081 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:08.110 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:08.151 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:08.187 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:08.187 32246-32328/com.virobugs W/GLSurfaceView: Warning, !readyToDraw() but waiting for draw finished! Early reporting draw finished.
+2019-10-08 17:47:08.213 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:08.246 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:08.285 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:08.320 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:08.327 32246-32246/com.virobugs D/CognitoCachingCredentialsProvider: Loading credentials from SharedPreferences
+2019-10-08 17:47:08.350 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:08.373 32246-32246/com.virobugs W/Viro: Attempted to add font [file: NotoSerifEthiopic-Regular.otf, typeface: NotoSerifEthiopic] to font family with typeface [NotoSansEthiopic] -- typefaces do not match, font will be ignored
+2019-10-08 17:47:08.373 32246-32246/com.virobugs W/Viro: Attempted to add font [file: NotoSerifEthiopic-Bold.otf, typeface: NotoSerifEthiopic] to font family with typeface [NotoSansEthiopic] -- typefaces do not match, font will be ignored
+2019-10-08 17:47:08.374 32246-32246/com.virobugs W/Viro: Attempted to add font [file: NotoSerifHebrew-Regular.ttf, typeface: NotoSerifHebrew] to font family with typeface [NotoSansHebrew] -- typefaces do not match, font will be ignored
+2019-10-08 17:47:08.374 32246-32246/com.virobugs W/Viro: Attempted to add font [file: NotoSerifHebrew-Bold.ttf, typeface: NotoSerifHebrew] to font family with typeface [NotoSansHebrew] -- typefaces do not match, font will be ignored
+2019-10-08 17:47:08.374 32246-32246/com.virobugs W/Viro: Attempted to add font [file: NotoSerifThai-Regular.ttf, typeface: NotoSerifThai] to font family with typeface [NotoSansThai] -- typefaces do not match, font will be ignored
+2019-10-08 17:47:08.374 32246-32246/com.virobugs W/Viro: Attempted to add font [file: NotoSerifThai-Bold.ttf, typeface: NotoSerifThai] to font family with typeface [NotoSansThai] -- typefaces do not match, font will be ignored
+2019-10-08 17:47:08.374 32246-32246/com.virobugs W/Viro: Attempted to add font [file: NotoSerifArmenian-Regular.ttf, typeface: NotoSerifArmenian] to font family with typeface [NotoSansArmenian] -- typefaces do not match, font will be ignored
+2019-10-08 17:47:08.374 32246-32246/com.virobugs W/Viro: Attempted to add font [file: NotoSerifArmenian-Bold.ttf, typeface: NotoSerifArmenian] to font family with typeface [NotoSansArmenian] -- typefaces do not match, font will be ignored
+2019-10-08 17:47:08.374 32246-32246/com.virobugs W/Viro: Attempted to add font [file: NotoSerifGeorgian-Regular.ttf, typeface: NotoSerifGeorgian] to font family with typeface [NotoSansGeorgian] -- typefaces do not match, font will be ignored
+2019-10-08 17:47:08.374 32246-32246/com.virobugs W/Viro: Attempted to add font [file: NotoSerifGeorgian-Bold.ttf, typeface: NotoSerifGeorgian] to font family with typeface [NotoSansGeorgian] -- typefaces do not match, font will be ignored
+2019-10-08 17:47:08.374 32246-32246/com.virobugs W/Viro: Attempted to add font [file: NotoSerifDevanagari-Regular.ttf, typeface: NotoSerifDevanagari] to font family with typeface [NotoSansDevanagari] -- typefaces do not match, font will be ignored
+2019-10-08 17:47:08.374 32246-32246/com.virobugs W/Viro: Attempted to add font [file: NotoSerifDevanagari-Bold.ttf, typeface: NotoSerifDevanagari] to font family with typeface [NotoSansDevanagari] -- typefaces do not match, font will be ignored
+2019-10-08 17:47:08.374 32246-32246/com.virobugs W/Viro: Attempted to add font [file: NotoSerifGujarati-Regular.ttf, typeface: NotoSerifGujarati] to font family with typeface [NotoSansGujarati] -- typefaces do not match, font will be ignored
+2019-10-08 17:47:08.374 32246-32246/com.virobugs W/Viro: Attempted to add font [file: NotoSerifGujarati-Bold.ttf, typeface: NotoSerifGujarati] to font family with typeface [NotoSansGujarati] -- typefaces do not match, font will be ignored
+2019-10-08 17:47:08.374 32246-32246/com.virobugs W/Viro: Attempted to add font [file: NotoSerifGurmukhi-Regular.otf, typeface: NotoSerifGurmukhi] to font family with typeface [NotoSansGurmukhi] -- typefaces do not match, font will be ignored
+2019-10-08 17:47:08.375 32246-32246/com.virobugs W/Viro: Attempted to add font [file: NotoSerifGurmukhi-Bold.otf, typeface: NotoSerifGurmukhi] to font family with typeface [NotoSansGurmukhi] -- typefaces do not match, font will be ignored
+2019-10-08 17:47:08.375 32246-32246/com.virobugs W/Viro: Attempted to add font [file: NotoSerifTamil-Regular.ttf, typeface: NotoSerifTamil] to font family with typeface [NotoSansTamil] -- typefaces do not match, font will be ignored
+2019-10-08 17:47:08.375 32246-32246/com.virobugs W/Viro: Attempted to add font [file: NotoSerifTamil-Bold.ttf, typeface: NotoSerifTamil] to font family with typeface [NotoSansTamil] -- typefaces do not match, font will be ignored
+2019-10-08 17:47:08.375 32246-32246/com.virobugs W/Viro: Attempted to add font [file: NotoSerifMalayalam-Regular.ttf, typeface: NotoSerifMalayalam] to font family with typeface [NotoSansMalayalam] -- typefaces do not match, font will be ignored
+2019-10-08 17:47:08.375 32246-32246/com.virobugs W/Viro: Attempted to add font [file: NotoSerifMalayalam-Bold.ttf, typeface: NotoSerifMalayalam] to font family with typeface [NotoSansMalayalam] -- typefaces do not match, font will be ignored
+2019-10-08 17:47:08.375 32246-32246/com.virobugs W/Viro: Attempted to add font [file: NotoSerifBengali-Regular.ttf, typeface: NotoSerifBengali] to font family with typeface [NotoSansBengali] -- typefaces do not match, font will be ignored
+2019-10-08 17:47:08.375 32246-32246/com.virobugs W/Viro: Attempted to add font [file: NotoSerifBengali-Bold.ttf, typeface: NotoSerifBengali] to font family with typeface [NotoSansBengali] -- typefaces do not match, font will be ignored
+2019-10-08 17:47:08.375 32246-32246/com.virobugs W/Viro: Attempted to add font [file: NotoSerifTelugu-Regular.ttf, typeface: NotoSerifTelugu] to font family with typeface [NotoSansTelugu] -- typefaces do not match, font will be ignored
+2019-10-08 17:47:08.375 32246-32246/com.virobugs W/Viro: Attempted to add font [file: NotoSerifTelugu-Bold.ttf, typeface: NotoSerifTelugu] to font family with typeface [NotoSansTelugu] -- typefaces do not match, font will be ignored
+2019-10-08 17:47:08.375 32246-32246/com.virobugs W/Viro: Attempted to add font [file: NotoSerifKannada-Regular.ttf, typeface: NotoSerifKannada] to font family with typeface [NotoSansKannada] -- typefaces do not match, font will be ignored
+2019-10-08 17:47:08.375 32246-32246/com.virobugs W/Viro: Attempted to add font [file: NotoSerifKannada-Bold.ttf, typeface: NotoSerifKannada] to font family with typeface [NotoSansKannada] -- typefaces do not match, font will be ignored
+2019-10-08 17:47:08.376 32246-32246/com.virobugs W/Viro: Attempted to add font [file: NotoSerifSinhala-Regular.otf, typeface: NotoSerifSinhala] to font family with typeface [NotoSansSinhala] -- typefaces do not match, font will be ignored
+2019-10-08 17:47:08.376 32246-32246/com.virobugs W/Viro: Attempted to add font [file: NotoSerifSinhala-Bold.otf, typeface: NotoSerifSinhala] to font family with typeface [NotoSansSinhala] -- typefaces do not match, font will be ignored
+2019-10-08 17:47:08.376 32246-32246/com.virobugs W/Viro: Attempted to add font [file: NotoSerifKhmer-Regular.otf, typeface: NotoSerifKhmer] to font family with typeface [NotoSansKhmer] -- typefaces do not match, font will be ignored
+2019-10-08 17:47:08.376 32246-32246/com.virobugs W/Viro: Attempted to add font [file: NotoSerifKhmer-Bold.otf, typeface: NotoSerifKhmer] to font family with typeface [NotoSansKhmer] -- typefaces do not match, font will be ignored
+2019-10-08 17:47:08.376 32246-32246/com.virobugs W/Viro: Attempted to add font [file: NotoSerifLao-Regular.ttf, typeface: NotoSerifLao] to font family with typeface [NotoSansLao] -- typefaces do not match, font will be ignored
+2019-10-08 17:47:08.376 32246-32246/com.virobugs W/Viro: Attempted to add font [file: NotoSerifLao-Bold.ttf, typeface: NotoSerifLao] to font family with typeface [NotoSansLao] -- typefaces do not match, font will be ignored
+2019-10-08 17:47:08.376 32246-32246/com.virobugs W/Viro: Attempted to add font [file: NotoSerifMyanmar-Regular.otf, typeface: NotoSerifMyanmar] to font family with typeface [NotoSansMyanmar] -- typefaces do not match, font will be ignored
+2019-10-08 17:47:08.376 32246-32246/com.virobugs W/Viro: Attempted to add font [file: NotoSerifMyanmar-Bold.otf, typeface: NotoSerifMyanmar] to font family with typeface [NotoSansMyanmar] -- typefaces do not match, font will be ignored
+2019-10-08 17:47:08.379 32246-32246/com.virobugs W/Viro: Attempted to add font [file: HwChinese-Medium.ttf, typeface: HwChinese] to font family with typeface [DroidSansChinese.ttf] -- typefaces do not match, font will be ignored
+2019-10-08 17:47:08.379 32246-32246/com.virobugs W/Viro: Attempted to add font [file: NotoSerifCJK-Regular.ttc, typeface: NotoSerifCJK] to font family with typeface [NotoSansCJK] -- typefaces do not match, font will be ignored
+2019-10-08 17:47:08.379 32246-32246/com.virobugs I/chatty: uid=10330(com.virobugs) identical 1 line
+2019-10-08 17:47:08.379 32246-32246/com.virobugs W/Viro: Attempted to add font [file: NotoSerifCJK-Regular.ttc, typeface: NotoSerifCJK] to font family with typeface [NotoSansCJK] -- typefaces do not match, font will be ignored
+2019-10-08 17:47:08.384 32246-32246/com.virobugs W/Viro: Didn't create default family (most likely, non-Minikin build)
+    java.lang.NullPointerException: Attempt to invoke virtual method 'com.viro.core.internal.font.FontFamily$Font com.viro.core.internal.font.FontFamily.getFont(boolean, int)' on a null object reference
+        at com.viro.core.internal.font.SystemFontLoader.init(SystemFontLoader.java:145)
+        at com.viro.core.internal.PlatformUtil.<init>(PlatformUtil.java:113)
+        at com.viro.core.ViroViewScene.init(ViroViewScene.java:308)
+        at com.viro.core.ViroViewScene.<init>(ViroViewScene.java:244)
+        at com.viromedia.bridge.component.VRT3DSceneNavigator.createViroView(VRT3DSceneNavigator.java:199)
+        at com.viromedia.bridge.component.VRT3DSceneNavigator.<init>(VRT3DSceneNavigator.java:165)
+        at com.viromedia.bridge.component.VRT3DSceneNavigatorManager.createViewInstance(VRT3DSceneNavigatorManager.java:37)
+        at com.viromedia.bridge.component.VRT3DSceneNavigatorManager.createViewInstance(VRT3DSceneNavigatorManager.java:20)
+        at com.facebook.react.uimanager.ViewManager.createView(ViewManager.java:47)
+        at com.facebook.react.uimanager.NativeViewHierarchyManager.createView(NativeViewHierarchyManager.java:256)
+        at com.facebook.react.uimanager.UIViewOperationQueue$CreateViewOperation.execute(UIViewOperationQueue.java:200)
+        at com.facebook.react.uimanager.UIViewOperationQueue$1.run(UIViewOperationQueue.java:911)
+        at com.facebook.react.uimanager.UIViewOperationQueue.flushPendingBatches(UIViewOperationQueue.java:1025)
+        at com.facebook.react.uimanager.UIViewOperationQueue.access$2600(UIViewOperationQueue.java:46)
+        at com.facebook.react.uimanager.UIViewOperationQueue$DispatchUIFrameCallback.doFrameGuarded(UIViewOperationQueue.java:1085)
+        at com.facebook.react.uimanager.GuardedFrameCallback.doFrame(GuardedFrameCallback.java:29)
+        at com.facebook.react.modules.core.ReactChoreographer$ReactChoreographerDispatcher.doFrame(ReactChoreographer.java:166)
+        at com.facebook.react.modules.core.ChoreographerCompat$FrameCallback$1.doFrame(ChoreographerCompat.java:84)
+        at android.view.Choreographer$CallbackRecord.run(Choreographer.java:1090)
+        at android.view.Choreographer.doCallbacks(Choreographer.java:893)
+        at android.view.Choreographer.doFrame(Choreographer.java:809)
+        at android.view.Choreographer$FrameDisplayEventReceiver.run(Choreographer.java:1078)
+        at android.os.Handler.handleCallback(Handler.java:907)
+        at android.os.Handler.dispatchMessage(Handler.java:105)
+        at android.os.Looper.loop(Looper.java:216)
+        at android.app.ActivityThread.main(ActivityThread.java:7625)
+        at java.lang.reflect.Method.invoke(Native Method)
+        at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:524)
+        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:987)
+2019-10-08 17:47:08.387 32246-32246/com.virobugs V/AudioManager: getProperty  key: android.media.property.OUTPUT_SAMPLE_RATE
+2019-10-08 17:47:08.388 32246-32246/com.virobugs V/AudioManager: getProperty  key: android.media.property.OUTPUT_FRAMES_PER_BUFFER
+2019-10-08 17:47:08.388 32246-32246/com.virobugs V/AudioManager: getProperty  key: android.media.property.OUTPUT_SAMPLE_RATE
+2019-10-08 17:47:08.388 32246-32246/com.virobugs V/AudioManager: getProperty  key: android.media.property.OUTPUT_FRAMES_PER_BUFFER
+2019-10-08 17:47:08.388 32246-32246/com.virobugs V/AudioManager: getProperty  key: android.media.property.OUTPUT_SAMPLE_RATE
+2019-10-08 17:47:08.389 32246-32246/com.virobugs V/AudioManager: getProperty  key: android.media.property.OUTPUT_FRAMES_PER_BUFFER
+2019-10-08 17:47:08.389 32246-32246/com.virobugs W/libOpenSLES: class OutputMix interface 0 requested but unavailable MPH=28
+2019-10-08 17:47:08.389 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:08.390 32246-32246/com.virobugs I/libOpenSLES: Emulating old channel mask behavior (ignoring positional mask 0x3, using default mask 0x3 based on channel count of 2)
+2019-10-08 17:47:08.395 32246-32246/com.virobugs W/AudioTrack: AUDIO_OUTPUT_FLAG_FAST denied by server; frameCount 0 -> 1924
+2019-10-08 17:47:08.402 32246-32273/com.virobugs I/com.virobugs: Waiting for a blocking GC ProfileSaver
+2019-10-08 17:47:08.419 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:08.430 32246-32273/com.virobugs I/com.virobugs: WaitForGcToComplete blocked ProfileSaver on HeapTrim for 27.991ms
+2019-10-08 17:47:08.445 32246-32509/com.virobugs W/Viro: For object 0x736f47c638, current thread [0] does not match object's thread restriction [1]. Method: addLight
+2019-10-08 17:47:08.445 32246-32509/com.virobugs W/Viro: For object 0x736f47c638, current thread [0] does not match object's thread restriction [1]. Method: addChildNode
+2019-10-08 17:47:08.446 32246-32509/com.virobugs W/Viro: For object 0x736061c838, current thread [0] does not match object's thread restriction [1]. Method: setHidden
+2019-10-08 17:47:08.446 32246-32509/com.virobugs W/Viro: For object 0x73791f6fd8, current thread [0] does not match object's thread restriction [1]. Method: attachInputController
+2019-10-08 17:47:08.446 32246-32509/com.virobugs W/Viro: For object 0x736f47c638, current thread [0] does not match object's thread restriction [1]. Method: addChildNode
+2019-10-08 17:47:08.446 32246-32509/com.virobugs W/Viro: For object 0x736f47c638, current thread [0] does not match object's thread restriction [1]. Method: setOpacity
+2019-10-08 17:47:08.446 32246-32509/com.virobugs W/Viro: For object 0x736f47c638, current thread [0] does not match object's thread restriction [1]. Method: setOpacity
+2019-10-08 17:47:08.446 32246-32509/com.virobugs W/Viro: For object 0x736f47c638, current thread [0] does not match object's thread restriction [1]. Method: setHidden
+2019-10-08 17:47:08.446 32246-32509/com.virobugs W/Viro: For object 0x736061c838, current thread [0] does not match object's thread restriction [1]. Method: setHidden
+2019-10-08 17:47:08.448 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:08.455 32246-32561/com.virobugs D/AWS4Signer: AWS4 Canonical Request: '"POST
+    /
+
+    host:dynamodb.us-west-2.amazonaws.com
+    x-amz-date:20191008T154708Z
+    x-amz-security-token:AgoJb3JpZ2luX2VjEKf//////////wEaCXVzLXdlc3QtMiJHMEUCIGvaTPqZLseJlJD2BN6DLjr+KTeWLFHWv12EAsxFSkdXAiEAwkrzRLFceuZ0IBG05cRDMkDetNDOkHdsmdUkcaUqVIIq7AYIkP//////////ARAAGgwwMjgzMTkzNjk0NTciDI6UAGAKzVO5DlQ/EirABoPpG+hjs/dfuxvPfH6XkT26RF04ZORQUwJ3aKHTT0wUOZIBzSTQEoc0FRYTWLmzC/+v/60tuXiszgMNdwnVLgJM5BI2QDZK9DFykUL/d24F51aCdW3yJLrv0H3GxsdJL65bDMCLTsEizODaUqSwh5uau8eqKG/Jlw1Mvn2jv4Hty7deh8boeG2/18MZNPYxLiqGCDtkcbu91PwQikbXJfcZkSjwzkAmlPBI8IkQI5cV7w2mc0L92vwm8Qh5lgYm7Uz18A6QJ1SuaBHUQNnbu+v/M172o9yOkVU+iDSpvVchDbjZStkZT/4Q2Bk0VSuoDECr/vvAOCc3XUOFZaXn3DwXKHm4XKKDl740/7cs2cWqCxeVmVDxiQoXP09Moev3g+MOg6yo1I/UcK9dx/gbNvRnvBiUB+c58SOvp8lpEzeJmcEE8ghRzCx7dY3WAp42zj46kiWUDZ3zV0kqcXf9Ul5ktlj8AG9vq8fuxT9VyaWSG9lfWd7+UdrwgX5Wif2oqpGgp516hlzWto7vCm8HJVGxALTikAtmLQbQdLrHQ7hO2DXjK0ihPkaD+vvy5aZfIrittwFLRmSXO41IAn3XxCFDB7IRzdbPV53S8q0iw9JZkFt3a+8YsBzbzahipwzbbmWxqrYu4xH23dHmtS4xNdREuBb7v8g5kM1Brd5zGvCwPKTylCN3zcgWJIvtS4+O53c2eTV8HQP+ovjnBTf9pHq94yZuLFmyQw+v3Kk7JDzfffIz6UJq8CRnzpK0WohV6Dy048mSWkHJ1HuFYUNBqozda+51apejTfQ5F9Rc1aNg3J6WBp61wEnQTAERrvQQ3iNLi4UiUBJEzru/CGyJxM2blm1/nL2UFfv2EYGSIAKVjT1uEnh65pY34+MFEAgUSOm8UMxMdSJiW4tPN4BgwVzJyYkTgP4hwHb7MAxr8U7/wXKqQOeLiJzYd13c6+fj7jzn7V4N2ur5Aq+tkuTp4n5WeG4HsjH+JsOgQQP5J6iphiAHeg+tjot0AXc6otmE14BtzWIJyjO9h7+mvLQvD8FaUYIRH0PmBM7ndf0DVFzRS5nqzZkiS+z3+/3KkpgKDT42KZLsFy7Q4HtQ9iSq7E4wxtDy7AU6tAHbegqmUxwNvE/0SUdqTsnhQ31PCEXy8MhUuxp88eIfWNpiQkHBtz4Um0KhnAqEHyFdGmWGbdmTSzXU+n3hKUVi786S/4iA3kteVMZe6ph1YIuQVoKExLCr8YdgNjt9NdLAh3aqjBpaXyUJcNr1bwil8KB6FDOSrtzfk0VJBY4+ADQ/17VcUrAyGF/85AeMNx0ZG7ejV/S3Nd856WPyI6CG80h6dUlg+IOIZaQGAEjGNucF38Y=
+    x-amz-target:DynamoDB_20120810.GetItem
+
+    host;x-amz-date;x-amz-security-token;x-amz-target
+    fe60b2b147bef2c932f53c58d1815f0d5a49d07e8163481377525092ceb62bec"
+2019-10-08 17:47:08.455 32246-32561/com.virobugs D/AWS4Signer: AWS4 String to Sign: '"AWS4-HMAC-SHA256
+    20191008T154708Z
+    20191008/us-west-2/dynamodb/aws4_request
+    7b752f24bf740b013590a42a6033c30bb926776654c731a1a19ec88f2db4291e"
+2019-10-08 17:47:08.460 32246-32509/com.virobugs D/mali_winsys: EGLint new_window_surface(egl_winsys_display *, void *, EGLSurface, EGLConfig, egl_winsys_surface **, EGLBoolean) returns 0x3000
+2019-10-08 17:47:08.461 32246-32509/com.virobugs I/Viro: Acquired sRGB framebuffer
+2019-10-08 17:47:08.466 32246-32509/com.virobugs I/Viro:    Detected Mali GPU, sRGB framebuffer assumed
+2019-10-08 17:47:08.466 32246-32509/com.virobugs I/Viro: Creating render targets with configuration:
+2019-10-08 17:47:08.466 32246-32509/com.virobugs I/Viro: [MRT supported:   1]
+2019-10-08 17:47:08.466 32246-32509/com.virobugs I/Viro: [Shadows enabled: 1]
+2019-10-08 17:47:08.466 32246-32509/com.virobugs I/Viro: [HDR supported:   1, HDR enabled:   1]
+2019-10-08 17:47:08.466 32246-32509/com.virobugs I/Viro: [PBR supported:   1, PBR enabled:   1]
+2019-10-08 17:47:08.466 32246-32509/com.virobugs I/Viro: [Bloom supported: 1, Bloom enabled: 1]
+2019-10-08 17:47:08.466 32246-32246/com.virobugs D/AwareBitmapCacher: handleInit switch not opened pid=32246
+2019-10-08 17:47:08.468 32246-32509/com.virobugs W/Viro: Font loader not initialized, default font will be used
+2019-10-08 17:47:08.468 32246-32509/com.virobugs I/Viro: Loading font face [name: Helvetica, index: -1]
+2019-10-08 17:47:08.468 32246-32509/com.virobugs I/Viro: Failed to find suitable face matching [Helvetica], defaulting to system font
+2019-10-08 17:47:08.481 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:08.518 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:08.526 32246-32509/com.virobugs I/Viro: No gamma correction enabled in tone-mapper
+2019-10-08 17:47:08.547 32246-32599/com.virobugs I/Viro: Downloaded URL [http://localhost:8081/assets/res/clickable.glb?platform=android&hash=85fac45c57b3e5d8471932192786b623] to file [/data/user/0/com.virobugs/cache/Viro2220559325363122309tmp]
+2019-10-08 17:47:08.548 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:08.556 32246-32509/com.virobugs W/Viro: Unable to generate missing tangents for this model
+2019-10-08 17:47:08.580 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:08.615 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:08.647 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:08.683 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:08.686 32246-32561/com.virobugs V/com.amazonaws.request: Parsing service response JSON
+2019-10-08 17:47:08.686 32246-32561/com.virobugs D/com.amazonaws.request: CRC32Checksum = 1025057464
+2019-10-08 17:47:08.686 32246-32561/com.virobugs D/com.amazonaws.request: content encoding = null
+2019-10-08 17:47:08.687 32246-32561/com.virobugs V/com.amazonaws.request: Done parsing service response
+2019-10-08 17:47:08.694 32246-32601/com.virobugs D/Viro: Attempt #0, performing metrics recording in 0 milliseconds
+2019-10-08 17:47:08.700 32246-32601/com.virobugs D/AWS4Signer: AWS4 Canonical Request: '"POST
+    /
+
+    host:dynamodb.us-west-2.amazonaws.com
+    x-amz-date:20191008T154708Z
+    x-amz-security-token:AgoJb3JpZ2luX2VjEKf//////////wEaCXVzLXdlc3QtMiJHMEUCIGvaTPqZLseJlJD2BN6DLjr+KTeWLFHWv12EAsxFSkdXAiEAwkrzRLFceuZ0IBG05cRDMkDetNDOkHdsmdUkcaUqVIIq7AYIkP//////////ARAAGgwwMjgzMTkzNjk0NTciDI6UAGAKzVO5DlQ/EirABoPpG+hjs/dfuxvPfH6XkT26RF04ZORQUwJ3aKHTT0wUOZIBzSTQEoc0FRYTWLmzC/+v/60tuXiszgMNdwnVLgJM5BI2QDZK9DFykUL/d24F51aCdW3yJLrv0H3GxsdJL65bDMCLTsEizODaUqSwh5uau8eqKG/Jlw1Mvn2jv4Hty7deh8boeG2/18MZNPYxLiqGCDtkcbu91PwQikbXJfcZkSjwzkAmlPBI8IkQI5cV7w2mc0L92vwm8Qh5lgYm7Uz18A6QJ1SuaBHUQNnbu+v/M172o9yOkVU+iDSpvVchDbjZStkZT/4Q2Bk0VSuoDECr/vvAOCc3XUOFZaXn3DwXKHm4XKKDl740/7cs2cWqCxeVmVDxiQoXP09Moev3g+MOg6yo1I/UcK9dx/gbNvRnvBiUB+c58SOvp8lpEzeJmcEE8ghRzCx7dY3WAp42zj46kiWUDZ3zV0kqcXf9Ul5ktlj8AG9vq8fuxT9VyaWSG9lfWd7+UdrwgX5Wif2oqpGgp516hlzWto7vCm8HJVGxALTikAtmLQbQdLrHQ7hO2DXjK0ihPkaD+vvy5aZfIrittwFLRmSXO41IAn3XxCFDB7IRzdbPV53S8q0iw9JZkFt3a+8YsBzbzahipwzbbmWxqrYu4xH23dHmtS4xNdREuBb7v8g5kM1Brd5zGvCwPKTylCN3zcgWJIvtS4+O53c2eTV8HQP+ovjnBTf9pHq94yZuLFmyQw+v3Kk7JDzfffIz6UJq8CRnzpK0WohV6Dy048mSWkHJ1HuFYUNBqozda+51apejTfQ5F9Rc1aNg3J6WBp61wEnQTAERrvQQ3iNLi4UiUBJEzru/CGyJxM2blm1/nL2UFfv2EYGSIAKVjT1uEnh65pY34+MFEAgUSOm8UMxMdSJiW4tPN4BgwVzJyYkTgP4hwHb7MAxr8U7/wXKqQOeLiJzYd13c6+fj7jzn7V4N2ur5Aq+tkuTp4n5WeG4HsjH+JsOgQQP5J6iphiAHeg+tjot0AXc6otmE14BtzWIJyjO9h7+mvLQvD8FaUYIRH0PmBM7ndf0DVFzRS5nqzZkiS+z3+/3KkpgKDT42KZLsFy7Q4HtQ9iSq7E4wxtDy7AU6tAHbegqmUxwNvE/0SUdqTsnhQ31PCEXy8MhUuxp88eIfWNpiQkHBtz4Um0KhnAqEHyFdGmWGbdmTSzXU+n3hKUVi786S/4iA3kteVMZe6ph1YIuQVoKExLCr8YdgNjt9NdLAh3aqjBpaXyUJcNr1bwil8KB6FDOSrtzfk0VJBY4+ADQ/17VcUrAyGF/85AeMNx0ZG7ejV/S3Nd856WPyI6CG80h6dUlg+IOIZaQGAEjGNucF38Y=
+    x-amz-target:DynamoDB_20120810.UpdateItem
+
+    host;x-amz-date;x-amz-security-token;x-amz-target
+    afbb4cb4c5dab036ca42871c9a5f2ca92d6d1a9a20f630b202040edab8cb3365"
+2019-10-08 17:47:08.701 32246-32601/com.virobugs D/AWS4Signer: AWS4 String to Sign: '"AWS4-HMAC-SHA256
+    20191008T154708Z
+    20191008/us-west-2/dynamodb/aws4_request
+    6aba03a8a30967444d935ee338ba6a22f7464fbfbebcfc6a35933b5699bb639d"
+2019-10-08 17:47:08.716 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:08.748 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:08.783 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:08.818 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:08.846 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:08.884 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:08.916 32246-32601/com.virobugs V/com.amazonaws.request: Parsing service response JSON
+2019-10-08 17:47:08.916 32246-32601/com.virobugs D/com.amazonaws.request: CRC32Checksum = 2745614147
+2019-10-08 17:47:08.916 32246-32601/com.virobugs D/com.amazonaws.request: content encoding = null
+2019-10-08 17:47:08.917 32246-32601/com.virobugs V/com.amazonaws.request: Done parsing service response
+2019-10-08 17:47:08.920 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:08.950 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:08.982 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:09.015 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:09.051 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:09.083 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:09.117 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:09.147 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:09.184 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:09.219 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:09.247 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:09.285 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:09.316 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:09.354 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:09.386 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:09.419 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:09.454 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:09.486 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:09.520 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:09.550 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:09.587 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:09.623 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:09.653 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:09.688 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:09.720 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:09.754 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:09.787 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:09.820 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:09.855 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:09.887 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:09.920 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:09.956 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:09.986 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:10.021 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:10.052 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:10.089 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:10.119 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:10.155 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:10.191 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:10.223 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:10.256 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:10.289 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:10.318 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:10.356 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:10.388 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:10.424 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:10.455 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:10.489 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:10.523 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:10.558 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:10.593 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:10.625 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:10.655 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:10.690 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:10.724 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:10.758 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:10.793 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:10.822 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:10.860 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:10.892 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:10.927 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:10.960 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:10.990 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:11.024 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:11.059 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:11.091 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:11.127 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:11.160 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:11.190 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:11.227 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:11.258 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:11.292 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:11.333 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:11.366 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:11.391 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:11.425 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:11.463 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:11.495 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:11.526 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:11.550 32246-32509/com.virobugs W/libEGL: EGLNativeWindowType 0x7352d25010 disconnect failed
+2019-10-08 17:47:11.559 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:11.568 32246-32246/com.virobugs D/AudioTrack: stop() called with 150720 frames delivered
+2019-10-08 17:47:11.575 32246-32246/com.virobugs I/Window: window clear KeepScreenOnFlag for com.virobugs
+2019-10-08 17:47:11.596 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:11.604 32246-32246/com.virobugs I/ViewRootImpl: jank_removeInvalidNode all the node in jank list is out of time
+2019-10-08 17:47:11.634 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:11.661 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:11.699 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:11.711 32246-32328/com.virobugs W/libEGL: EGLNativeWindowType 0x7378ed2010 disconnect failed
+2019-10-08 17:47:11.713 32246-32328/com.virobugs D/mali_winsys: EGLint new_window_surface(egl_winsys_display *, void *, EGLSurface, EGLConfig, egl_winsys_surface **, EGLBoolean) returns 0x3000
+2019-10-08 17:47:11.731 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:11.759 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:11.793 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:11.823 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:11.861 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:11.891 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:11.926 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:11.963 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:11.993 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:12.026 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:12.058 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:12.095 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:12.126 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:12.165 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:12.196 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:12.227 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:12.261 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:12.261 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:12.299 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:12.328 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:12.363 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:12.396 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
+2019-10-08 17:47:12.428 32246-32455/com.virobugs I/GRALLOC: LockFlexLayout: baseFormat: 11, yStride: 640, ySize: 307200, uOffset: 307200,  uStride: 640
