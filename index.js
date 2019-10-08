@@ -1,7 +1,52 @@
 import {AppRegistry, View} from 'react-native';
 import {Viro3DObject, ViroAmbientLight, ViroARScene, ViroARSceneNavigator} from "react-viro";
 import React from "react";
-import App from "./src/App";
 
-AppRegistry.registerComponent('virobugs', () => App);
+
+const SceneOne = ({sceneNavigator}) => {
+  return <ViroARScene>
+    <ViroAmbientLight color={"#aaaaaa"}/>
+    <Viro3DObject
+      source={require("./res/heavy0.glb")}
+      type="GLB"
+      position={[0, 0, -2]}
+    />
+    <Viro3DObject
+      source={require("./res/clickable0.glb")}
+      type="GLB"
+      position={[0, 0, -1]}
+      onClick={() => {
+        sceneNavigator.replace({scene: SceneTwo});
+      }}
+    />
+  </ViroARScene>;
+};
+const SceneTwo = ({sceneNavigator}) => {
+  return <ViroARScene>
+    <ViroAmbientLight color={"#aaaaaa"}/>
+    <Viro3DObject
+      source={require("./res/heavy1.glb")}
+      type="GLB"
+      position={[0, 0, -2]}
+    />
+    <Viro3DObject
+      source={require("./res/clickable1.glb")}
+      type="GLB"
+      position={[0, 0, -1]}
+      onClick={() => {
+        sceneNavigator.replace({scene: SceneOne});
+      }}
+    />
+  </ViroARScene>;
+};
+
+const Navigator = () => {
+  return <View style={{flex: 1}}><ViroARSceneNavigator
+    initialScene={{scene: SceneOne}}
+    //https://viromedia.com/signup/
+    apiKey={"BDF01DAC-4F97-4D5D-8C8A-DD8C609019B1"}/>
+  </View>;
+};
+
+AppRegistry.registerComponent('virobugs', () => Navigator);
 

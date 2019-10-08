@@ -1,0 +1,110 @@
+2019-10-08 09:55:56.171 26456-26456/? E/HSM_SEC_BG: HoldService:get uid of csp fail.
+2019-10-08 09:55:56.292 1173-1834/? E/ProcessInfoCollector: getProcessInfo: failed to find this proc
+2019-10-08 09:55:56.317 26985-26985/? E/ocess.gservice: Not starting debugger since process cannot load the jdwp agent.
+2019-10-08 09:55:56.534 26952-26952/? E/SQLiteLog: (1)
+2019-10-08 09:55:56.537 26952-26952/? E/HwLauncher: LauncherProvider getTabbleContentCursor Exception tableName=simple_favorites3x4 no such table: simple_favorites3x4 (Sqlite code 1 SQLITE_ERROR): , while compiling: SELECT COUNT(_id) FROM simple_favorites3x4, (OS error - 88:Socket operation on non-socket)
+2019-10-08 09:55:56.538 26952-26952/? E/SQLiteLog: (1)
+2019-10-08 09:55:56.539 26952-26952/? E/HwLauncher: LauncherProvider getTabbleContentCursor Exception tableName=drawer_favorites5x6 no such table: drawer_favorites5x6 (Sqlite code 1 SQLITE_ERROR): , while compiling: SELECT COUNT(_id) FROM drawer_favorites5x6, (OS error - 88:Socket operation on non-socket)
+2019-10-08 09:55:56.546 26952-26952/? E/SQLiteLog: (1)
+2019-10-08 09:55:56.546 26952-26952/? E/HwLauncher: LauncherProvider getTabbleContentCursor Exception tableName=streetmode no such table: streetmode (Sqlite code 1 SQLITE_ERROR): , while compiling: SELECT COUNT(_id) FROM streetmode, (OS error - 88:Socket operation on non-socket)
+2019-10-08 09:55:56.555 26952-26952/? E/SQLiteLog: (1)
+2019-10-08 09:55:56.555 26952-26952/? E/HwLauncher: LauncherProvider getTabbleContentCursor Exception tableName=drawer_favorites5x6 no such table: drawer_favorites5x6 (Sqlite code 1 SQLITE_ERROR): , while compiling: SELECT COUNT(_id) FROM drawer_favorites5x6, (OS error - 88:Socket operation on non-socket)
+2019-10-08 09:55:56.591 26985-27000/? E/MemoryLeakMonitorManager: MemoryLeakMonitor.jar is not exist!
+2019-10-08 09:55:56.712 1173-1834/? E/ProcessInfoCollector: getProcessInfo: failed to find this proc
+2019-10-08 09:55:56.714 27014-27014/? E/i.engineservic: Not starting debugger since process cannot load the jdwp agent.
+2019-10-08 09:55:56.760 26952-26967/? E/MemoryLeakMonitorManager: MemoryLeakMonitor.jar is not exist!
+2019-10-08 09:55:56.774 26952-27031/? E/HwLauncher: Launcher.Utilities  invokeHwActivityNotifier sucess. type =1
+2019-10-08 09:55:56.839 1859-1875/? E/HsmCoreServiceImpl: onTransact in code is: 103
+2019-10-08 09:55:56.914 27014-27030/? E/MemoryLeakMonitorManager: MemoryLeakMonitor.jar is not exist!
+2019-10-08 09:55:57.192 741-741/? E/Thermal-daemon: [ap] temp_new :49  temp_old :48
+2019-10-08 09:55:57.196 741-741/? E/Thermal-daemon: Report temperature: [ap] temp :49  report_threshold:1
+2019-10-08 09:55:57.711 1927-1950/? E/d[ODMF]: [52][b] Execute SaveRequest failed : A SQLiteException occurred when save
+2019-10-08 09:55:57.711 1927-1950/? E/a[ODMF]: [53][a] Flush failed : Execute SaveRequest failed : UNIQUE constraint failed: CollectSwitch.mDataName, CollectSwitch.mModuleName (Sqlite code 1555), (OS error - 11:Try again)
+2019-10-08 09:55:57.713 1927-1950/? E/HwNaturalBase: [Binder:1927_2]: dsCollectEncrypt-0: Failed to execute operation, error: Execute SaveRequest failed : UNIQUE constraint failed: CollectSwitch.mDataName, CollectSwitch.mModuleName (Sqlite code 1555), (OS error - 11:Try again).
+2019-10-08 09:55:57.717 27014-27047/? E/HwNaturalBaseClient: Failed to execute insert, error: service operation failed.
+2019-10-08 09:55:57.750 27014-27047/? E/OdmfHelper:  CAWARENESS: subscribe ret=true
+2019-10-08 09:55:57.961 1859-1875/? E/HsmCoreServiceImpl: onTransact in code is: 102
+2019-10-08 09:55:57.991 1859-2356/? E/HsmCoreServiceImpl: onTransact in code is: 102
+2019-10-08 09:55:58.039 763-939/? E/JankService: logCaptureFilter: not the beta version or delimitation frozen, no need to capture log
+2019-10-08 09:55:58.041 763-939/? E/JankService: ### JankSchedHwRead error!
+2019-10-08 09:55:58.046 763-939/? E/JankService: update dlm info failed
+2019-10-08 09:55:58.142 1173-1834/? E/ProcessInfoCollector: getProcessInfo: failed to find this proc
+2019-10-08 09:55:58.186 27065-27065/? E/ndroid.launche: Not starting debugger since process cannot load the jdwp agent.
+2019-10-08 09:55:58.186 27065-27065/? E/ndroid.launche: Not starting debugger since process cannot load the jdwp agent.
+2019-10-08 09:55:58.421 26456-26710/? E/HSM_BG: NormalTrafficAnalysis:alert byte = 0, so return
+2019-10-08 09:55:58.808 26925-26951/? E/MemoryLeakMonitorManager: MemoryLeakMonitor.jar is not exist!
+2019-10-08 09:55:59.008 1173-1834/? E/ProcessInfoCollector: getProcessInfo: failed to find this proc
+2019-10-08 09:55:59.031 27091-27091/? E/i.engineservic: Not starting debugger since process cannot load the jdwp agent.
+2019-10-08 09:55:59.035 27065-27065/? E/SQLiteLog: (1)
+2019-10-08 09:55:59.037 27065-27065/? E/HwLauncher: LauncherProvider getTabbleContentCursor Exception tableName=simple_favorites3x4 no such table: simple_favorites3x4 (Sqlite code 1 SQLITE_ERROR): , while compiling: SELECT COUNT(_id) FROM simple_favorites3x4, (OS error - 88:Socket operation on non-socket)
+2019-10-08 09:55:59.037 27065-27065/? E/SQLiteLog: (1)
+2019-10-08 09:55:59.037 27065-27065/? E/HwLauncher: LauncherProvider getTabbleContentCursor Exception tableName=drawer_favorites5x6 no such table: drawer_favorites5x6 (Sqlite code 1 SQLITE_ERROR): , while compiling: SELECT COUNT(_id) FROM drawer_favorites5x6, (OS error - 88:Socket operation on non-socket)
+2019-10-08 09:55:59.041 27065-27065/? E/SQLiteLog: (1)
+2019-10-08 09:55:59.042 27065-27065/? E/HwLauncher: LauncherProvider getTabbleContentCursor Exception tableName=streetmode no such table: streetmode (Sqlite code 1 SQLITE_ERROR): , while compiling: SELECT COUNT(_id) FROM streetmode, (OS error - 88:Socket operation on non-socket)
+2019-10-08 09:55:59.049 27065-27065/? E/SQLiteLog: (1)
+2019-10-08 09:55:59.049 27065-27065/? E/HwLauncher: LauncherProvider getTabbleContentCursor Exception tableName=drawer_favorites5x6 no such table: drawer_favorites5x6 (Sqlite code 1 SQLITE_ERROR): , while compiling: SELECT COUNT(_id) FROM drawer_favorites5x6, (OS error - 88:Socket operation on non-socket)
+2019-10-08 09:55:59.292 27065-27080/? E/MemoryLeakMonitorManager: MemoryLeakMonitor.jar is not exist!
+2019-10-08 09:55:59.306 27065-27116/? E/HwLauncher: Launcher.Utilities  invokeHwActivityNotifier sucess. type =1
+2019-10-08 09:55:59.352 27091-27105/? E/MemoryLeakMonitorManager: MemoryLeakMonitor.jar is not exist!
+2019-10-08 09:55:59.377 1859-10650/? E/HsmCoreServiceImpl: onTransact in code is: 103
+2019-10-08 09:55:59.873 634-1347/? E/AudioFlinger: writing blocked, write to hal costs: 69 ms
+2019-10-08 09:56:03.707 681-681/? E/aptouch_daemon: update_frame, thp_afe_get_frame return nullptr
+2019-10-08 09:56:03.860 681-681/? E/aptouch_daemon: update_frame, thp_afe_get_frame return nullptr
+2019-10-08 09:56:03.864 681-27150/? E/aptouch_daemon: Error:1, zrhung_send_event disabled
+2019-10-08 09:56:03.876 723-22429/? E/Camera3-Stream: getBuffer: wait for output buffer return timed out after 3000ms (max_buffers 7)
+2019-10-08 09:56:03.877 723-22429/? E/Camera3-Device: RequestThread: Can't get output buffer, skipping request: Connection timed out (-110)
+2019-10-08 09:56:03.880 763-941/? E/iMonitor: Invalid value for varchar type
+2019-10-08 09:56:03.894 741-741/? E/Thermal-daemon: [shell_frame] temp_new :37  temp_old :36
+2019-10-08 09:56:03.924 741-741/? E/Thermal-daemon: Report temperature: [shell_frame] temp :37  report_threshold:1
+2019-10-08 09:56:03.924 741-741/? E/Thermal-daemon: [battery] temp_new :38  temp_old :37
+2019-10-08 09:56:03.930 741-741/? E/Thermal-daemon: Report temperature: [battery] temp :38  report_threshold:1
+2019-10-08 09:56:03.935 741-741/? E/Thermal-daemon: [ap] temp_new :48  temp_old :49
+2019-10-08 09:56:03.936 741-741/? E/Thermal-daemon: Report temperature: [ap] temp :48  report_threshold:1
+2019-10-08 09:56:03.973 763-939/? E/JankService: logCaptureFilter: not the beta version or delimitation frozen, no need to capture log
+2019-10-08 09:56:03.974 763-939/? E/JankService: ### JankSchedHwRead error!
+2019-10-08 09:56:03.976 763-939/? E/JankService: update dlm info failed
+2019-10-08 09:56:04.100 1173-1834/? E/HwActivityManagerServiceEx: getProcessRecordFromMTM process info is null ,mUid :27065
+2019-10-08 09:56:04.133 1859-10650/? E/HsmCoreServiceImpl: onTransact in code is: 102
+2019-10-08 09:56:04.143 763-939/? E/JankService: logCaptureFilter: not the beta version or delimitation frozen, no need to capture log
+2019-10-08 09:56:04.144 763-939/? E/JankService: ### JankSchedHwRead error!
+2019-10-08 09:56:04.144 763-939/? E/JankService: update dlm info failed
+2019-10-08 09:56:04.187 1927-2020/? E/d[ODMF]: [54][b] Execute SaveRequest failed : A SQLiteException occurred when save
+2019-10-08 09:56:04.187 1693-1693/? E/DateView: DateView,mCurrentTime: 1570521364187
+2019-10-08 09:56:04.189 1927-2020/? E/a[ODMF]: [55][a] Flush failed : Execute SaveRequest failed : UNIQUE constraint failed: CollectSwitch.mDataName, CollectSwitch.mModuleName (Sqlite code 1555), (OS error - 11:Try again)
+2019-10-08 09:56:04.194 1927-2020/? E/HwNaturalBase: [Binder:1927_3]: dsCollectEncrypt-0: Failed to execute operation, error: Execute SaveRequest failed : UNIQUE constraint failed: CollectSwitch.mDataName, CollectSwitch.mModuleName (Sqlite code 1555), (OS error - 11:Try again).
+2019-10-08 09:56:04.198 27091-27129/? E/HwNaturalBaseClient: Failed to execute insert, error: service operation failed.
+2019-10-08 09:56:04.204 1173-1834/? E/ProcessInfoCollector: getProcessInfo: failed to find this proc
+2019-10-08 09:56:04.226 27161-27161/? E/ndroid.launche: Not starting debugger since process cannot load the jdwp agent.
+2019-10-08 09:56:04.232 27091-27129/? E/OdmfHelper:  CAWARENESS: subscribe ret=true
+2019-10-08 09:56:04.329 26925-27177/? E/ActivityThread: Failed to find provider info for instantapp-dev-manager
+2019-10-08 09:56:04.391 26829-26829/? E/SQLiteLog: (1)
+2019-10-08 09:56:04.525 26456-27146/? E/HSM_BG: SimpleXmlParseHelper:No need updateDB from xml!
+2019-10-08 09:56:04.528 26456-27146/? E/HSM_BG: SimpleXmlParseHelper:No need updateDB from xml!
+2019-10-08 09:56:04.530 26456-27146/? E/HSM_BG: SimpleXmlParseHelper:No need updateDB from xml!
+2019-10-08 09:56:04.577 26456-26710/? E/HSM_BG: NormalTrafficAnalysis:alert byte = 0, so return
+2019-10-08 09:56:04.629 26456-26456/? E/HSM_BG: PhoneSimCardInfo:/getDataUsedSimCard: SIM card type: single
+2019-10-08 09:56:04.671 26456-27202/? E/HSM_BG: PhoneSimCardInfo:/getDataUsedSimCard: SIM card type: single
+2019-10-08 09:56:04.672 26456-26456/? E/HSM_BG: PhoneSimCardInfo:/getDataUsedSimCard: SIM card type: single
+2019-10-08 09:56:04.690 26456-27201/? E/HSM_BG: PhoneSimCardInfo:/getDataUsedSimCard: SIM card type: single
+2019-10-08 09:56:04.748 26738-27211/? E/CursorWindow: Failed to read row 0, column 3 from a CursorWindow which has 6 rows, 3 columns.
+2019-10-08 09:56:04.749 26738-27211/? E/ContactsProvider: DeleteContactsReportReceiver report delete contacts info error
+2019-10-08 09:56:04.787 27161-27161/? E/SQLiteLog: (1)
+2019-10-08 09:56:04.787 27161-27161/? E/HwLauncher: LauncherProvider getTabbleContentCursor Exception tableName=simple_favorites3x4 no such table: simple_favorites3x4 (Sqlite code 1 SQLITE_ERROR): , while compiling: SELECT COUNT(_id) FROM simple_favorites3x4, (OS error - 88:Socket operation on non-socket)
+2019-10-08 09:56:04.787 27161-27161/? E/SQLiteLog: (1)
+2019-10-08 09:56:04.788 27161-27161/? E/HwLauncher: LauncherProvider getTabbleContentCursor Exception tableName=drawer_favorites5x6 no such table: drawer_favorites5x6 (Sqlite code 1 SQLITE_ERROR): , while compiling: SELECT COUNT(_id) FROM drawer_favorites5x6, (OS error - 88:Socket operation on non-socket)
+2019-10-08 09:56:04.790 27161-27161/? E/SQLiteLog: (1)
+2019-10-08 09:56:04.791 27161-27161/? E/HwLauncher: LauncherProvider getTabbleContentCursor Exception tableName=streetmode no such table: streetmode (Sqlite code 1 SQLITE_ERROR): , while compiling: SELECT COUNT(_id) FROM streetmode, (OS error - 88:Socket operation on non-socket)
+2019-10-08 09:56:04.794 27161-27161/? E/SQLiteLog: (1)
+2019-10-08 09:56:04.794 27161-27161/? E/HwLauncher: LauncherProvider getTabbleContentCursor Exception tableName=drawer_favorites5x6 no such table: drawer_favorites5x6 (Sqlite code 1 SQLITE_ERROR): , while compiling: SELECT COUNT(_id) FROM drawer_favorites5x6, (OS error - 88:Socket operation on non-socket)
+2019-10-08 09:56:04.797 1173-1554/? E/InputDispatcher: channel '5f76781 com.virobugs/com.virobugs.MainActivity (server)' ~ Channel is unrecoverably broken and will be disposed!
+2019-10-08 09:56:04.798 723-926/? E/Surface: queueBuffer: error queuing buffer to SurfaceTexture, -32
+2019-10-08 09:56:04.798 723-926/? E/Camera3-OutputStream: returnBufferCheckedLocked: Stream 1: Error queueing buffer to native window: Broken pipe (-32)
+2019-10-08 09:56:04.798 723-926/? E/Camera3-Device: Can't return buffer to its stream: (0xe84db180), error: Broken pipe (-32)
+2019-10-08 09:56:04.804 723-926/? E/Surface: queueBuffer: error queuing buffer to SurfaceTexture, -32
+2019-10-08 09:56:04.804 723-926/? E/Camera3-OutputStream: returnBufferCheckedLocked: Stream 0: Error queueing buffer to native window: Broken pipe (-32)
+2019-10-08 09:56:04.804 723-926/? E/Camera3-Device: Can't return buffer to its stream: (0xe84dc800), error: Broken pipe (-32)
+2019-10-08 09:56:04.804 723-22429/? E/Camera3-OutputStream: getBufferLockedCommon: Stream 0: Can't dequeue next output buffer: Broken pipe (-32)
+2019-10-08 09:56:04.804 723-22429/? E/Camera3-Device: RequestThread: Can't get output buffer, skipping request: Broken pipe (-32)
+2019-10-08 09:56:04.804 1943-2759/? E/AwareLog: GameSdkConfigReader: GameSdkLog: idNameMap: null
+2019-10-08 09:56:04.804 723-22429/? E/Camera3-OutputStream: getBufferLockedCommon: Stream 0: Can't dequeue next output buffer: Broken pipe (-32)
+2019-10-08 09:56:04.804 723-22429/? E/Camera3-Device: RequestThread: Can't get output buffer, skipping request: Broken pipe (-32)

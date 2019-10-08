@@ -1,0 +1,269 @@
+2019-10-08 09:43:00.103 1693-1693/? E/DateView: DateView,mCurrentTime: 1570520580102
+2019-10-08 09:43:00.480 1173-1834/? E/ProcessInfoCollector: getProcessInfo: failed to find this proc 
+2019-10-08 09:43:00.572 20943-20943/? E/chtype.swiftke: Not starting debugger since process cannot load the jdwp agent.
+2019-10-08 09:43:01.389 741-741/? E/Thermal-daemon: [charger_ic] temp_new :50  temp_old :51
+2019-10-08 09:43:01.396 741-741/? E/Thermal-daemon: Report temperature: [charger_ic] temp :50  report_threshold:1
+2019-10-08 09:43:01.399 741-741/? E/Thermal-daemon: [ap] temp_new :54  temp_old :55
+2019-10-08 09:43:01.400 741-741/? E/Thermal-daemon: Report temperature: [ap] temp :54  report_threshold:1
+2019-10-08 09:43:01.942 20943-20958/? E/MemoryLeakMonitorManager: MemoryLeakMonitor.jar is not exist!
+2019-10-08 09:43:02.038 20943-20943/? E/SyncLoggingListener: /data/user/0/com.touchtype.swiftkey/files/access-stack-auth_1.json (No such file or directory)
+2019-10-08 09:43:02.100 1173-1834/? E/ProcessInfoCollector: getProcessInfo: failed to find this proc 
+2019-10-08 09:43:02.163 20979-20979/? E/keyconfigurato: Not starting debugger since process cannot load the jdwp agent.
+2019-10-08 09:43:03.420 1173-1834/? E/ProcessInfoCollector: getProcessInfo: failed to find this proc 
+2019-10-08 09:43:03.476 21001-21001/? E/d.process.acor: Not starting debugger since process cannot load the jdwp agent.
+2019-10-08 09:43:03.513 20697-20697/? E/HSM_BG: NatTrafficNotifyService:vsim_enabled_subid
+2019-10-08 09:43:04.803 20697-20697/? E/HSM_BG: NetAssistantService:cursor valid
+2019-10-08 09:43:04.979 20697-20697/? E/HSM_BG: NetAppManager:sysncRoamingData no data
+2019-10-08 09:43:05.395 20697-20697/? E/HSM_BG: PhoneSimCardInfo:/getDataUsedSimCard: SIM card type: single
+2019-10-08 09:43:05.550 20697-21031/? E/HSM_BG: PhoneSimCardInfo:/getDataUsedSimCard: SIM card type: single
+2019-10-08 09:43:05.624 20697-21032/? E/HSM_BG: PhoneSimCardInfo:/getDataUsedSimCard: SIM card type: single
+2019-10-08 09:43:06.086 21001-21017/? E/MemoryLeakMonitorManager: MemoryLeakMonitor.jar is not exist!
+2019-10-08 09:43:06.321 20697-20929/? E/HSM_SEC_BG: GoogleBlackListContract:num has been added
+2019-10-08 09:43:06.350 20697-20929/? E/HSM_SEC_BG: GoogleBlackListContract:num has been added
+2019-10-08 09:43:06.385 20697-20929/? E/HSM_SEC_BG: GoogleBlackListContract:num has been added
+2019-10-08 09:43:06.385 20697-20929/? E/HSM_SEC_BG: GoogleBlackListContract:num has been added
+2019-10-08 09:43:06.410 20697-20929/? E/HSM_SEC_BG: GoogleBlackListContract:num has been added
+2019-10-08 09:43:06.473 20697-20929/? E/HSM_SEC_BG: GoogleBlackListContract:num has been added
+2019-10-08 09:43:06.493 20697-20929/? E/HSM_SEC_BG: GoogleBlackListContract:num has been added
+2019-10-08 09:43:06.523 20697-20929/? E/HSM_SEC_BG: GoogleBlackListContract:num has been added
+2019-10-08 09:43:06.544 20697-20929/? E/HSM_SEC_BG: GoogleBlackListContract:num has been added
+2019-10-08 09:43:06.566 20697-20929/? E/HSM_SEC_BG: GoogleBlackListContract:num has been added
+2019-10-08 09:43:06.597 20697-20929/? E/HSM_SEC_BG: GoogleBlackListContract:num has been added
+2019-10-08 09:43:06.621 20697-20929/? E/HSM_SEC_BG: GoogleBlackListContract:num has been added
+2019-10-08 09:43:06.640 20697-20929/? E/HSM_SEC_BG: GoogleBlackListContract:num has been added
+2019-10-08 09:43:06.665 20697-20929/? E/HSM_SEC_BG: GoogleBlackListContract:num has been added
+2019-10-08 09:43:06.721 20697-20929/? E/HSM_SEC_BG: GoogleBlackListContract:num has been added
+2019-10-08 09:43:07.000 681-681/? E/aptouch_daemon: update_frame, thp_afe_get_frame return nullptr
+2019-10-08 09:43:07.095 634-1347/? E/AudioFlinger: writing blocked, write to hal costs: 110 ms
+2019-10-08 09:43:07.313 17711-17950/com.virobugs E/native: camera_image_stream.cc:230 Camera Image Stream failed to dequeue Image from ImageReader. status=ImageReaderStatusErrorSpaceClass::AMEDIA_IMGREADER_NO_BUFFER_AVAILABLE: AImageReader_acquireLatestImage acquired_image_count=9
+2019-10-08 09:43:07.325 17711-17950/com.virobugs E/native: camera_image_stream.cc:230 Camera Image Stream failed to dequeue Image from ImageReader. status=ImageReaderStatusErrorSpaceClass::AMEDIA_IMGREADER_NO_BUFFER_AVAILABLE: AImageReader_acquireLatestImage acquired_image_count=9
+2019-10-08 09:43:07.326 17711-17950/com.virobugs E/native: camera_image_stream.cc:230 Camera Image Stream failed to dequeue Image from ImageReader. status=ImageReaderStatusErrorSpaceClass::AMEDIA_IMGREADER_NO_BUFFER_AVAILABLE: AImageReader_acquireLatestImage acquired_image_count=9
+2019-10-08 09:43:07.483 17711-17950/com.virobugs E/native: camera_image_stream.cc:230 Camera Image Stream failed to dequeue Image from ImageReader. status=ImageReaderStatusErrorSpaceClass::AMEDIA_IMGREADER_NO_BUFFER_AVAILABLE: AImageReader_acquireLatestImage acquired_image_count=9
+2019-10-08 09:43:07.498 1859-1873/? E/HsmCoreServiceImpl: onTransact in code is: 102
+2019-10-08 09:43:07.502 1173-1834/? E/HwActivityManagerServiceEx: getProcessRecordFromMTM process info is null ,mUid :20634
+2019-10-08 09:43:07.536 1859-10650/? E/HsmCoreServiceImpl: onTransact in code is: 102
+2019-10-08 09:43:07.555 1859-1873/? E/HsmCoreServiceImpl: onTransact in code is: 102
+2019-10-08 09:43:07.559 1859-1873/? E/HsmCoreServiceImpl: onTransact in code is: 102
+2019-10-08 09:43:07.660 763-939/? E/JankService: logCaptureFilter: not the beta version or delimitation frozen, no need to capture log
+2019-10-08 09:43:07.662 763-939/? E/JankService: ### JankSchedHwRead error!
+2019-10-08 09:43:07.672 763-939/? E/JankService: update dlm info failed
+2019-10-08 09:43:07.865 634-1347/? E/AudioFlinger: writing blocked, write to hal costs: 117 ms
+2019-10-08 09:43:08.152 1173-1822/? E/HwReportTool: This is not beta user build
+2019-10-08 09:43:08.155 1173-6534/? E/StubController: service = null
+2019-10-08 09:43:08.164 1173-1611/? E/HwXmlLogParse: mfile is null.
+2019-10-08 09:43:08.166 1173-1822/? E/HwReportTool: This is not beta user build
+2019-10-08 09:43:08.166 1173-8921/? E/StubController: service = null
+2019-10-08 09:43:08.167 1173-1611/? E/HwXmlLogParse: mfile is null.
+2019-10-08 09:43:08.303 1911-1911/? E/CHR_RilMsgTunnelManager: processRilUnsolData: eventID Error! -> 305
+2019-10-08 09:43:08.349 1173-1834/? E/ProcessInfoCollector: getProcessInfo: failed to find this proc 
+2019-10-08 09:43:08.368 21046-21046/? E/manager:servic: Not starting debugger since process cannot load the jdwp agent.
+2019-10-08 09:43:08.390 1173-1834/? E/ProcessInfoCollector: getProcessInfo: failed to find this proc 
+2019-10-08 09:43:08.409 21057-21057/? E/.gms.persisten: Not starting debugger since process cannot load the jdwp agent.
+2019-10-08 09:43:08.446 21072-21072/? E/ndroid.launche: Not starting debugger since process cannot load the jdwp agent.
+2019-10-08 09:43:08.495 1173-1834/? E/ProcessInfoCollector: getProcessInfo: failed to find this proc 
+2019-10-08 09:43:08.562 1173-1834/? E/ProcessInfoCollector: getProcessInfo: failed to find this proc 
+2019-10-08 09:43:08.589 21092-21092/? E/i.engineservic: Not starting debugger since process cannot load the jdwp agent.
+2019-10-08 09:43:08.612 1173-1274/? E/PackageManager: Optimistic bind failed.
+    java.util.concurrent.TimeoutException: [Optimistic Bind] Didn't bind to resolver in time!
+        at com.android.server.pm.InstantAppResolverConnection.waitForBindLocked(InstantAppResolverConnection.java:160)
+        at com.android.server.pm.InstantAppResolverConnection.bind(InstantAppResolverConnection.java:225)
+        at com.android.server.pm.InstantAppResolverConnection.lambda$optimisticBind$0(InstantAppResolverConnection.java:255)
+        at com.android.server.pm.-$$Lambda$InstantAppResolverConnection$D-JKXi4qrYjnPQMOwj8UtfZenps.run(Unknown Source:2)
+        at android.os.Handler.handleCallback(Handler.java:907)
+        at android.os.Handler.dispatchMessage(Handler.java:105)
+        at android.os.Looper.loop(Looper.java:216)
+        at android.os.HandlerThread.run(HandlerThread.java:65)
+2019-10-08 09:43:08.625 1173-1834/? E/ProcessInfoCollector: getProcessInfo: failed to find this proc 
+2019-10-08 09:43:08.631 1965-1965/? E/HwCustPhoneGlobalsImpl: Settings Exception get default 4G/3G slot
+2019-10-08 09:43:08.641 1965-1965/? E/Mapcon  : MapconSMManager: getStateMachineByIpsecId fail, ipsecId=4!!!!!!!!!!
+2019-10-08 09:43:08.652 21106-21106/? E/chtype.swiftke: Not starting debugger since process cannot load the jdwp agent.
+2019-10-08 09:43:08.852 21092-21116/? E/MemoryLeakMonitorManager: MemoryLeakMonitor.jar is not exist!
+2019-10-08 09:43:09.048 21106-21121/? E/MemoryLeakMonitorManager: MemoryLeakMonitor.jar is not exist!
+2019-10-08 09:43:09.170 21072-21072/? E/SQLiteLog: (1) 
+2019-10-08 09:43:09.171 21072-21072/? E/HwLauncher: LauncherProvider getTabbleContentCursor Exception tableName=simple_favorites3x4 no such table: simple_favorites3x4 (Sqlite code 1 SQLITE_ERROR): , while compiling: SELECT COUNT(_id) FROM simple_favorites3x4, (OS error - 88:Socket operation on non-socket)
+2019-10-08 09:43:09.171 21072-21072/? E/SQLiteLog: (1) 
+2019-10-08 09:43:09.172 21072-21072/? E/HwLauncher: LauncherProvider getTabbleContentCursor Exception tableName=drawer_favorites5x6 no such table: drawer_favorites5x6 (Sqlite code 1 SQLITE_ERROR): , while compiling: SELECT COUNT(_id) FROM drawer_favorites5x6, (OS error - 88:Socket operation on non-socket)
+2019-10-08 09:43:09.176 21072-21072/? E/SQLiteLog: (1) 
+2019-10-08 09:43:09.176 21072-21072/? E/HwLauncher: LauncherProvider getTabbleContentCursor Exception tableName=streetmode no such table: streetmode (Sqlite code 1 SQLITE_ERROR): , while compiling: SELECT COUNT(_id) FROM streetmode, (OS error - 88:Socket operation on non-socket)
+2019-10-08 09:43:09.182 21072-21072/? E/SQLiteLog: (1) 
+2019-10-08 09:43:09.183 21072-21072/? E/HwLauncher: LauncherProvider getTabbleContentCursor Exception tableName=drawer_favorites5x6 no such table: drawer_favorites5x6 (Sqlite code 1 SQLITE_ERROR): , while compiling: SELECT COUNT(_id) FROM drawer_favorites5x6, (OS error - 88:Socket operation on non-socket)
+2019-10-08 09:43:09.333 21072-21090/? E/MemoryLeakMonitorManager: MemoryLeakMonitor.jar is not exist!
+2019-10-08 09:43:09.338 21072-21165/? E/HwLauncher: Launcher.Utilities  invokeHwActivityNotifier sucess. type =1
+2019-10-08 09:43:09.384 1859-14246/? E/HsmCoreServiceImpl: onTransact in code is: 103
+2019-10-08 09:43:09.561 1927-1950/? E/d[ODMF]: [34][b] Execute SaveRequest failed : A SQLiteException occurred when save
+2019-10-08 09:43:09.563 1927-1950/? E/a[ODMF]: [35][a] Flush failed : Execute SaveRequest failed : UNIQUE constraint failed: CollectSwitch.mDataName, CollectSwitch.mModuleName (Sqlite code 1555), (OS error - 88:Socket operation on non-socket)
+2019-10-08 09:43:09.565 1927-1950/? E/HwNaturalBase: [Binder:1927_2]: dsCollectEncrypt-0: Failed to execute operation, error: Execute SaveRequest failed : UNIQUE constraint failed: CollectSwitch.mDataName, CollectSwitch.mModuleName (Sqlite code 1555), (OS error - 88:Socket operation on non-socket).
+2019-10-08 09:43:09.571 21092-21138/? E/HwNaturalBaseClient: Failed to execute insert, error: service operation failed.
+2019-10-08 09:43:09.610 21092-21138/? E/OdmfHelper:  CAWARENESS: subscribe ret=true
+2019-10-08 09:43:09.614 1173-5822/? E/Process: file_read open file failed, errno = 2
+2019-10-08 09:43:09.615 1173-5822/? E/Process: set_aware_cpu_policy file_read failed!
+2019-10-08 09:43:09.678 21106-21106/? E/FullInputEventModel: onStartInput event aborted: yg2: could not obtain extracted text (class yg2)
+2019-10-08 09:43:09.693 1943-2759/? E/AwareLog: GameSdkConfigReader: GameSdkLog: idNameMap: null
+2019-10-08 09:43:09.701 723-1267/? E/Surface: queueBuffer: error queuing buffer to SurfaceTexture, -32
+2019-10-08 09:43:09.704 1173-1554/? E/InputDispatcher: channel '5677b87 com.virobugs/com.virobugs.MainActivity (server)' ~ Channel is unrecoverably broken and will be disposed!
+2019-10-08 09:43:09.718 723-1267/? E/Camera3-OutputStream: returnBufferCheckedLocked: Stream 1: Error queueing buffer to native window: Broken pipe (-32)
+2019-10-08 09:43:09.718 723-1267/? E/Camera3-Device: Can't return buffer to its stream: (0xe8721780), error: Broken pipe (-32)
+2019-10-08 09:43:09.725 1859-2276/? E/Hicom_PolicyCenterService: handleAppDied. null == mMultipathAppsMap
+2019-10-08 09:43:09.738 723-926/? E/Surface: queueBuffer: error queuing buffer to SurfaceTexture, -32
+2019-10-08 09:43:09.739 723-926/? E/Camera3-OutputStream: returnBufferCheckedLocked: Stream 0: Error queueing buffer to native window: Broken pipe (-32)
+2019-10-08 09:43:09.744 723-926/? E/Camera3-Device: Can't return buffer to its stream: (0xe8722380), error: Broken pipe (-32)
+2019-10-08 09:43:09.744 723-17960/? E/Camera3-OutputStream: getBufferLockedCommon: Stream 0: Can't dequeue next output buffer: Broken pipe (-32)
+2019-10-08 09:43:09.744 723-17960/? E/Camera3-Device: RequestThread: Can't get output buffer, skipping request: Broken pipe (-32)
+2019-10-08 09:43:09.748 1173-1274/? E/HwAudioService: IAware onForegroundActivitiesChanged return data is null
+2019-10-08 09:43:09.758 723-1267/? E/Surface: queueBuffer: error queuing buffer to SurfaceTexture, -32
+2019-10-08 09:43:09.758 723-1267/? E/Camera3-OutputStream: returnBufferCheckedLocked: Stream 1: Error queueing buffer to native window: Broken pipe (-32)
+2019-10-08 09:43:09.758 723-1267/? E/Camera3-Device: Can't return buffer to its stream: (0xe8721780), error: Broken pipe (-32)
+2019-10-08 09:43:09.759 723-1267/? E/Surface: queueBuffer: error queuing buffer to SurfaceTexture, -32
+2019-10-08 09:43:09.759 723-1267/? E/Camera3-OutputStream: returnBufferCheckedLocked: Stream 0: Error queueing buffer to native window: Broken pipe (-32)
+2019-10-08 09:43:09.760 723-1267/? E/Camera3-Device: Can't return buffer to its stream: (0xe8722380), error: Broken pipe (-32)
+2019-10-08 09:43:09.763 723-926/? E/Surface: queueBuffer: error queuing buffer to SurfaceTexture, -32
+2019-10-08 09:43:09.763 723-926/? E/Camera3-OutputStream: returnBufferCheckedLocked: Stream 1: Error queueing buffer to native window: Broken pipe (-32)
+2019-10-08 09:43:09.763 723-926/? E/Camera3-Device: Can't return buffer to its stream: (0xe8721780), error: Broken pipe (-32)
+2019-10-08 09:43:09.767 723-926/? E/Surface: queueBuffer: error queuing buffer to SurfaceTexture, -32
+2019-10-08 09:43:09.767 723-926/? E/Camera3-OutputStream: returnBufferCheckedLocked: Stream 0: Error queueing buffer to native window: Broken pipe (-32)
+2019-10-08 09:43:09.767 723-926/? E/Camera3-Device: Can't return buffer to its stream: (0xe8722380), error: Broken pipe (-32)
+2019-10-08 09:43:09.776 723-926/? E/Surface: queueBuffer: error queuing buffer to SurfaceTexture, -32
+2019-10-08 09:43:09.776 723-926/? E/Camera3-OutputStream: returnBufferCheckedLocked: Stream 1: Error queueing buffer to native window: Broken pipe (-32)
+2019-10-08 09:43:09.777 723-926/? E/Camera3-Device: Can't return buffer to its stream: (0xe8721780), error: Broken pipe (-32)
+2019-10-08 09:43:09.780 723-926/? E/Surface: queueBuffer: error queuing buffer to SurfaceTexture, -32
+2019-10-08 09:43:09.780 723-926/? E/Camera3-OutputStream: returnBufferCheckedLocked: Stream 0: Error queueing buffer to native window: Broken pipe (-32)
+2019-10-08 09:43:09.780 723-926/? E/Camera3-Device: Can't return buffer to its stream: (0xe8722380), error: Broken pipe (-32)
+2019-10-08 09:43:09.783 723-926/? E/Surface: queueBuffer: error queuing buffer to SurfaceTexture, -32
+2019-10-08 09:43:09.783 723-926/? E/Camera3-OutputStream: returnBufferCheckedLocked: Stream 1: Error queueing buffer to native window: Broken pipe (-32)
+2019-10-08 09:43:09.783 723-926/? E/Camera3-Device: Can't return buffer to its stream: (0xe8721780), error: Broken pipe (-32)
+2019-10-08 09:43:09.789 723-926/? E/Surface: queueBuffer: error queuing buffer to SurfaceTexture, -32
+2019-10-08 09:43:09.789 723-926/? E/Camera3-OutputStream: returnBufferCheckedLocked: Stream 1: Error queueing buffer to native window: Broken pipe (-32)
+2019-10-08 09:43:09.789 723-926/? E/Camera3-Device: Can't return buffer to its stream: (0xe8721780), error: Broken pipe (-32)
+2019-10-08 09:43:09.790 723-926/? E/Surface: queueBuffer: error queuing buffer to SurfaceTexture, -32
+2019-10-08 09:43:09.790 723-926/? E/Camera3-OutputStream: returnBufferCheckedLocked: Stream 0: Error queueing buffer to native window: Broken pipe (-32)
+2019-10-08 09:43:09.790 723-926/? E/Camera3-Device: Can't return buffer to its stream: (0xe8722380), error: Broken pipe (-32)
+2019-10-08 09:43:09.798 723-926/? E/Surface: queueBuffer: error queuing buffer to SurfaceTexture, -32
+2019-10-08 09:43:09.798 723-926/? E/Camera3-OutputStream: returnBufferCheckedLocked: Stream 0: Error queueing buffer to native window: Broken pipe (-32)
+2019-10-08 09:43:09.798 723-926/? E/Camera3-Device: Can't return buffer to its stream: (0xe8722380), error: Broken pipe (-32)
+2019-10-08 09:43:09.839 723-926/? E/Surface: queueBuffer: error queuing buffer to SurfaceTexture, -32
+2019-10-08 09:43:09.839 723-926/? E/Camera3-OutputStream: returnBufferCheckedLocked: Stream 1: Error queueing buffer to native window: Broken pipe (-32)
+2019-10-08 09:43:09.839 723-926/? E/Camera3-Device: Can't return buffer to its stream: (0xe8721780), error: Broken pipe (-32)
+2019-10-08 09:43:09.840 723-926/? E/Surface: queueBuffer: error queuing buffer to SurfaceTexture, -32
+2019-10-08 09:43:09.840 723-926/? E/Camera3-OutputStream: returnBufferCheckedLocked: Stream 0: Error queueing buffer to native window: Broken pipe (-32)
+2019-10-08 09:43:09.840 723-926/? E/Camera3-Device: Can't return buffer to its stream: (0xe8722380), error: Broken pipe (-32)
+2019-10-08 09:43:09.867 727-824/? E/dubaid: [CameraHandler.cpp] handleOnDisconnected# Invalid tag: 2
+2019-10-08 09:43:09.891 744-933/? E/HISPMsgController: procMsgAck: can't match api:0x201c
+2019-10-08 09:43:09.913 21072-21084/? E/HwLauncher: ProviderCallUtils  prepareAppSwitch  launcher null
+2019-10-08 09:43:09.948 1859-7161/? E/DollieAdapterService: notifyActivityState pkg:com.virobugs/com.virobugs.MainActivity state:18 fg:false mUid:10319
+2019-10-08 09:43:09.998 1859-2276/? E/XEngineMpipControl: Invalid SubId
+2019-10-08 09:43:09.998 1173-1834/? E/ProcessInfoCollector: getProcessInfo: failed to find this proc 
+2019-10-08 09:43:10.002 21202-21202/? E/gle.android.gm: Not starting debugger since process cannot load the jdwp agent.
+2019-10-08 09:43:10.023 1943-2690/? E/AwareLog: SPKSchedFeature: Uid has been sent, ignore.
+2019-10-08 09:43:10.036 1859-10650/? E/HsmCoreServiceImpl: onTransact in code is: 103
+2019-10-08 09:43:10.062 1943-2759/? E/AwareLog: GameSdkConfigReader: GameSdkLog: idNameMap: null
+2019-10-08 09:43:10.077 1859-2276/? E/Hicom_PolicyCenterService: enableAppLevelMP. null == mMultipathAppsMap
+2019-10-08 09:43:10.084 21072-21072/? E/HwLauncher: DragLayer invokeSetChildrenLayerEnabled:not such method setChildrenLayersEnabled
+2019-10-08 09:43:10.096 1859-10650/? E/coverxcms: getHallState() not support hallType=1
+2019-10-08 09:43:10.118 727-824/? E/dubaid: [CameraHandler.cpp] handleOnDisconnected# Invalid tag: 4
+2019-10-08 09:43:10.125 753-753/? E/SensorHub: get_acc_convert_coff = 1000.000000
+2019-10-08 09:43:10.146 723-1820/? E/HwCameraServiceEx: binderDied: Java client's binder died, removing it from the list of active clients
+2019-10-08 09:43:10.154 3192-21231/? E/NfcNci:HwCustNfcService: applyRouting -1.1
+2019-10-08 09:43:10.156 21046-21085/? E/MemoryLeakMonitorManager: MemoryLeakMonitor.jar is not exist!
+2019-10-08 09:43:10.163 744-1263/? E/FNFaceDetect: [3c6ca2b_64E] onDestroy fail. ai facedetection proxy!
+2019-10-08 09:43:10.169 744-1263/? E/IppAlgoSmartAE: [3c6ca2b_64E] onUnloadLibrary() mSmartAESoState is unloaded ,so we not Uninit it!
+2019-10-08 09:43:10.190 21057-21087/? E/MemoryLeakMonitorManager: MemoryLeakMonitor.jar is not exist!
+2019-10-08 09:43:10.201 1173-1834/? E/ProcessInfoCollector: getProcessInfo: failed to find this proc 
+2019-10-08 09:43:10.207 21072-21157/? E/HwLauncher: ComponentChangeOta Exception HwCfgFilePolicy.getCfgFileList is not find
+2019-10-08 09:43:10.213 21237-21237/? E/earchbox:searc: Not starting debugger since process cannot load the jdwp agent.
+2019-10-08 09:43:10.229 21046-21242/? E/HSM_BG: SimpleXmlParseHelper:No need updateDB from xml!
+2019-10-08 09:43:10.230 21046-21242/? E/HSM_BG: SimpleXmlParseHelper:No need updateDB from xml!
+2019-10-08 09:43:10.233 1173-1834/? E/ProcessInfoCollector: getProcessInfo: failed to find this proc 
+2019-10-08 09:43:10.242 21254-21254/? E/m.huawei.searc: Not starting debugger since process cannot load the jdwp agent.
+2019-10-08 09:43:10.244 21072-21157/? E/HwLauncher: ComponentChangeOta Exception HwCfgFilePolicy.getCfgFileList is not find
+2019-10-08 09:43:10.328 21072-21072/? E/StubController: registMaliAppInfoListener, service = null
+2019-10-08 09:43:10.334 21072-21072/? E/HwLauncher: LauncherGlobalSearchClient isConnected call fun:invoke mSearch is null: true mState:2
+2019-10-08 09:43:10.350 1173-1834/? E/ProcessInfoCollector: getProcessInfo: failed to find this proc 
+2019-10-08 09:43:10.350 21281-21281/? E/ndroid.contact: Not starting debugger since process cannot load the jdwp agent.
+2019-10-08 09:43:10.354 21046-21277/? E/HSM_BG: XmlParsers:xmlRootElement IllegalArgumentException:InputStream parameter can't be null
+2019-10-08 09:43:10.354 21046-21277/? E/HSM_BG: AutoStartupXmlUtils:xmlRootElement parse failed
+2019-10-08 09:43:10.362 1859-7161/? E/DollieAdapterService: notifyActivityState pkg:com.huawei.android.launcher/com.huawei.android.launcher.unihome.UniHomeLauncher state:2 fg:true mUid:10104
+2019-10-08 09:43:10.364 21092-21118/? E/AppLifeChangeSensor:  CAWARENESS: activityResumed mAppLifeChangeCallback is null 
+2019-10-08 09:43:10.382 21254-21272/? E/MemoryLeakMonitorManager: MemoryLeakMonitor.jar is not exist!
+2019-10-08 09:43:10.386 21254-21254/? E/HiSearch19.11.3.304: [LauncherOverlayService]: LAUNCHER_INTERACTION for launcher and overlayStatusChanged mCallback is null. state = 0
+2019-10-08 09:43:10.391 656-2598/? E/BufferQueueProducer: [] mConsumerName == NULL!!!!!!
+2019-10-08 09:43:10.401 656-2598/? E/BufferQueueProducer: [] mConsumerName == NULL!!!!!!
+2019-10-08 09:43:10.402 656-2598/? E/BufferQueueProducer: [] mConsumerName == NULL!!!!!!
+2019-10-08 09:43:10.411 21106-21106/? E/FullInputEventModel: selectionUpdated event aborted: xg2: Unable to get TouchTypeExtractedText from InputConnection. (class xg2)
+2019-10-08 09:43:10.438 21072-21072/? E/HwLauncher: Workspace screenScrolledStandardUI Celllayout null pointer
+2019-10-08 09:43:10.474 21072-21072/? E/HwLauncher: GlobalSearchCallback onServiceStateChanged  overlayAttached = true
+2019-10-08 09:43:10.507 21202-21220/? E/MemoryLeakMonitorManager: MemoryLeakMonitor.jar is not exist!
+2019-10-08 09:43:10.531 21057-21349/? E/ActivityThread: Failed to find provider info for instantapp-dev-manager
+2019-10-08 09:43:10.593 1173-1834/? E/ProcessInfoCollector: getProcessInfo: failed to find this proc 
+2019-10-08 09:43:10.601 21046-21046/? E/HSM_BG: NatTrafficNotifyService:vsim_enabled_subid
+2019-10-08 09:43:10.603 21368-21368/? E/d.process.acor: Not starting debugger since process cannot load the jdwp agent.
+2019-10-08 09:43:10.644 21046-21046/? E/HSM_BG: NetAssistantService:cursor valid
+2019-10-08 09:43:10.650 21237-21270/? E/MemoryLeakMonitorManager: MemoryLeakMonitor.jar is not exist!
+2019-10-08 09:43:10.650 21046-21046/? E/HSM_BG: NetAppManager:sysncRoamingData no data
+2019-10-08 09:43:10.664 21046-21046/? E/HSM_BG: PhoneSimCardInfo:/getDataUsedSimCard: SIM card type: single
+2019-10-08 09:43:10.682 21046-21396/? E/HSM_BG: PhoneSimCardInfo:/getDataUsedSimCard: SIM card type: single
+2019-10-08 09:43:10.695 21046-21395/? E/HSM_BG: PhoneSimCardInfo:/getDataUsedSimCard: SIM card type: single
+2019-10-08 09:43:10.701 21281-21397/? E/Contacts: RcsFeatureManager isRcsEnabled = false
+2019-10-08 09:43:10.754 21237-21237/? E/OverlaySController: Calling with an invalid UID, the interface will not work
+2019-10-08 09:43:10.772 21281-21317/? E/MemoryLeakMonitorManager: MemoryLeakMonitor.jar is not exist!
+2019-10-08 09:43:10.778 21281-21408/? E/StubController: service = null
+2019-10-08 09:43:10.791 1943-1943/? E/PowerKit_Service: onBind.
+2019-10-08 09:43:10.809 21281-21427/? E/StubController: service = null
+2019-10-08 09:43:10.812 21281-21428/? E/StubController: service = null
+2019-10-08 09:43:10.818 21057-21390/? E/TaskInfo: Failed to construct Task from database: java.lang.IllegalArgumentException: Window start must be shorter than window end.
+2019-10-08 09:43:10.833 21046-21046/? E/HSM_SEC_BG: HoldService:get uid of csp fail.
+2019-10-08 09:43:10.862 21046-21242/? E/HSM_BG: SimpleXmlParseHelper:No need updateDB from xml!
+2019-10-08 09:43:10.863 21046-21242/? E/HSM_BG: SimpleXmlParseHelper:No need updateDB from xml!
+2019-10-08 09:43:10.863 21046-21242/? E/HSM_BG: SimpleXmlParseHelper:No need updateDB from xml!
+2019-10-08 09:43:10.886 21072-21072/? E/HwLauncher: NegativeScreenClientCallBack onServiceStateChanged  overlayAttached = true mServiceState = 1
+2019-10-08 09:43:10.915 656-951/? E/BufferQueueProducer: [] mConsumerName == NULL!!!!!!
+2019-10-08 09:43:10.921 656-951/? E/BufferQueueProducer: [] mConsumerName == NULL!!!!!!
+2019-10-08 09:43:10.922 656-951/? E/BufferQueueProducer: [] mConsumerName == NULL!!!!!!
+2019-10-08 09:43:10.960 21237-21405/? E/LauncherUtil: Failed to get system resource ID.
+2019-10-08 09:43:10.991 21046-21046/? E/HSM_BG: PhoneSimCardInfo:/getDataUsedSimCard: SIM card type: single
+2019-10-08 09:43:11.022 21046-21046/? E/HSM_BG: PhoneSimCardInfo:/getDataUsedSimCard: SIM card type: single
+2019-10-08 09:43:11.036 1173-8365/? E/Process: file_read open file failed, errno = 2
+2019-10-08 09:43:11.037 1173-8365/? E/Process: set_aware_cpu_policy file_read failed!
+2019-10-08 09:43:11.042 21046-21481/? E/HSM_BG: PhoneSimCardInfo:/getDataUsedSimCard: SIM card type: single
+2019-10-08 09:43:11.057 21046-21480/? E/HSM_BG: PhoneSimCardInfo:/getDataUsedSimCard: SIM card type: single
+2019-10-08 09:43:11.101 21368-21385/? E/MemoryLeakMonitorManager: MemoryLeakMonitor.jar is not exist!
+2019-10-08 09:43:11.102 611-804/? E/smartpakit: unsurpport cmd = 27
+2019-10-08 09:43:11.102 611-804/? E/smartpakit: smartpa_algo_control: cmd = 27 execute failed!
+2019-10-08 09:43:11.102 611-804/? E/smartpakit: set_contain_sco_and_speaker_to_dsp: set BT-SCO and speaker to dsp, failed!
+2019-10-08 09:43:11.130 21281-21281/? E/Contacts: AlphaScroller Resources.NotFoundException in AlphaScroller
+2019-10-08 09:43:11.145 21281-21281/? E/Contacts: AlphaScroller Resources.NotFoundException in AlphaScroller
+2019-10-08 09:43:11.149 21046-21353/? E/HSM_SEC_BG: GoogleBlackListContract:num has been added
+2019-10-08 09:43:11.168 21046-21353/? E/HSM_SEC_BG: GoogleBlackListContract:num has been added
+2019-10-08 09:43:11.180 21046-21353/? E/HSM_SEC_BG: GoogleBlackListContract:num has been added
+2019-10-08 09:43:11.182 1173-1834/? E/ProcessInfoCollector: getProcessInfo: failed to find this proc 
+2019-10-08 09:43:11.192 21046-21353/? E/HSM_SEC_BG: GoogleBlackListContract:num has been added
+2019-10-08 09:43:11.204 21046-21353/? E/HSM_SEC_BG: GoogleBlackListContract:num has been added
+2019-10-08 09:43:11.213 21504-21504/? E/id.partnersetu: Not starting debugger since process cannot load the jdwp agent.
+2019-10-08 09:43:11.217 1173-1834/? E/ProcessInfoCollector: getProcessInfo: failed to find this proc 
+2019-10-08 09:43:11.222 21046-21353/? E/HSM_SEC_BG: GoogleBlackListContract:num has been added
+2019-10-08 09:43:11.251 21046-21353/? E/HSM_SEC_BG: GoogleBlackListContract:num has been added
+2019-10-08 09:43:11.261 21516-21516/? E/e.process.gapp: Not starting debugger since process cannot load the jdwp agent.
+2019-10-08 09:43:11.263 21046-21353/? E/HSM_SEC_BG: GoogleBlackListContract:num has been added
+2019-10-08 09:43:11.265 21237-21405/? E/NotificationStore: Error reading notifications from disk
+2019-10-08 09:43:11.272 21046-21353/? E/HSM_SEC_BG: GoogleBlackListContract:num has been added
+2019-10-08 09:43:11.291 21046-21353/? E/HSM_SEC_BG: GoogleBlackListContract:num has been added
+2019-10-08 09:43:11.315 21046-21353/? E/HSM_SEC_BG: GoogleBlackListContract:num has been added
+2019-10-08 09:43:11.323 21046-21353/? E/HSM_SEC_BG: GoogleBlackListContract:num has been added
+2019-10-08 09:43:11.342 21046-21353/? E/HSM_SEC_BG: GoogleBlackListContract:num has been added
+2019-10-08 09:43:11.386 21504-21527/? E/MemoryLeakMonitorManager: MemoryLeakMonitor.jar is not exist!
+2019-10-08 09:43:11.453 21516-21538/? E/MemoryLeakMonitorManager: MemoryLeakMonitor.jar is not exist!
+2019-10-08 09:43:11.552 727-1530/? E/dubaid: [DubaiUtils.h] parseMessage# Failed to find second tag: uid=
+2019-10-08 09:43:11.552 727-1530/? E/dubaid: [SystemHandler.cpp] parsePartialWakelockAcquiredMessage# Failed to parse count: lock=63939047 tag=Wakeful StateMachine: GeofencerStateMachine count=0
+2019-10-08 09:43:11.552 727-1530/? E/dubaid: [SystemHandler.cpp] onPartialWakelockAcquireMessage# Failed to parse message
+2019-10-08 09:43:11.557 727-1530/? E/dubaid: [SystemHandler.cpp] onPartialWakelockReleaseMessage# Already released, lock: 63939047
+2019-10-08 09:43:11.825 21072-21569/? E/BD.Reporter: Can't getService HwBDService
+2019-10-08 09:43:11.837 21281-21424/? E/Contacts: AccountDataManager exception in getScaledBitmap: RuntimeException
+2019-10-08 09:43:12.184 21281-21424/? E/Contacts: AccountDataManager exception in getScaledBitmap: RuntimeException
+2019-10-08 09:43:12.260 1173-1834/? E/ProcessInfoCollector: getProcessInfo: failed to find this proc 
+2019-10-08 09:43:12.284 21582-21582/? E/d.process.medi: Not starting debugger since process cannot load the jdwp agent.
+2019-10-08 09:43:12.468 1173-1611/? E/HwXmlLogParse: mfile is null.
+2019-10-08 09:43:12.468 727-1530/? E/dubaid: [DubaiUtils.h] parseMessage# Failed to find second tag: uid=
+2019-10-08 09:43:12.474 727-1530/? E/dubaid: [SystemHandler.cpp] parsePartialWakelockAcquiredMessage# Failed to parse count: lock=152698705 tag=GCoreFlp count=0
+2019-10-08 09:43:12.474 727-1530/? E/dubaid: [SystemHandler.cpp] onPartialWakelockAcquireMessage# Failed to parse message
+2019-10-08 09:43:12.474 21046-21060/? E/HSM_SEC_BG: BMNCaller:is not PermissionEnabled.
+2019-10-08 09:43:12.474 727-1530/? E/dubaid: [SystemHandler.cpp] onPartialWakelockReleaseMessage# Already released, lock: 152698705
+2019-10-08 09:43:12.482 727-1530/? E/dubaid: [DubaiUtils.h] parseMessage# Failed to find second tag: uid=
