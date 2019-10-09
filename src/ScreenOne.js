@@ -1,6 +1,6 @@
-import React, {useEffect} from "react";
+import React, {useContext, useEffect} from "react";
 import {Text, TouchableOpacity, View} from "react-native";
-import {navTo, unmountLastAr} from "./Navigation";
+import {NavigationContext} from "./Navigation";
 import ObjectOne from "./ObjectOne";
 
 const ScreenOne = () => {
@@ -11,6 +11,7 @@ const ScreenOne = () => {
   //     console.log("unmount ScreenOne");
   //   };
   // }, []);
+  const {navToAndMayResetSession, navTo, setARSession} = useContext(NavigationContext);
   return (
     <View style={{flex: 1}}>
       <Text style={{ fontSize:30 }}>ScreenOne</Text>
@@ -28,19 +29,20 @@ const ScreenOne = () => {
       </TouchableOpacity>
       <TouchableOpacity
         onPress={() => {
-          navTo("EnigmaOne");
+          navToAndMayResetSession("EnigmaOne");
+
         }}
       ><Text style={{ fontSize:30 }}>EnigmaOne</Text>
       </TouchableOpacity>
       <TouchableOpacity
         onPress={() => {
-          navTo("EnigmaTwo");
+          navToAndMayResetSession("EnigmaTwo");
         }}
       ><Text style={{ fontSize:30 }}>EnigmaTwo</Text>
       </TouchableOpacity>
       <TouchableOpacity
         onPress={() => {
-          unmountLastAr();
+          setARSession(null);
         }}
       ><Text style={{ fontSize:30 }}>Release AR</Text>
       </TouchableOpacity>

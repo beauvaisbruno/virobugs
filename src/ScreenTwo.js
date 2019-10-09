@@ -1,6 +1,6 @@
-import React, {useEffect} from "react";
+import React, {useContext, useEffect} from "react";
 import {Text, TouchableOpacity, View} from "react-native";
-import {navTo} from "./Navigation";
+import {NavigationContext} from "./Navigation";
 
 const ScreenTwo = () => {
   console.log("render ScreenTwo");
@@ -10,6 +10,7 @@ const ScreenTwo = () => {
       console.log("unmount ScreenTwo");
     };
   }, []);
+  const {navToAndMayResetSession, navTo} = useContext(NavigationContext);
   return (
     <View style={{flex: 1}}>
       <Text style={{ fontSize:30 }}>ScreenTwo</Text>
@@ -21,13 +22,13 @@ const ScreenTwo = () => {
       </TouchableOpacity>
       <TouchableOpacity
         onPress={() => {
-          navTo("EnigmaOne");
+          navToAndMayResetSession("EnigmaOne");
         }}
       ><Text style={{ fontSize:30 }}>EnigmaOne</Text>
       </TouchableOpacity>
       <TouchableOpacity
         onPress={() => {
-          navTo("EnigmaTwo");
+          navToAndMayResetSession("EnigmaTwo");
         }}
       ><Text style={{ fontSize:30 }}>EnigmaTwo</Text>
       </TouchableOpacity>

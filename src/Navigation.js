@@ -1,79 +1,119 @@
-import React, {useEffect, useRef, useState} from "react";
+import React, {useContext, useEffect, useState} from "react";
+import {ViroARScene, ViroARSceneNavigator} from "react-viro";
 import {Text, View} from "react-native";
-import ScreenOne from "./ScreenOne";
 import {getScreens} from "./screens";
 
-let navRef;
-let unmountLastArRef;
 
-function getViroScreen(currentScreenName) {
-  if (currentScreenName.includes("Enigma") || currentScreenName.includes("Object"))
+function getIsViroScreen(screenName) {
+  if (screenName.includes("Enigma") || screenName.includes("Object"))
     return true;
   return false;
 }
 
-export const navTo = (route) => {
-  navRef.current(route);
+const ARNavigator = ({ARScene}) => {
+  console.log("render ARNavigator");
+  useEffect(() => {
+    console.log("mounted ARNavigator");
+    return () => {
+      console.log("unmounted ARNavigator");
+    };
+  }, []);
+  return <ViroARSceneNavigator
+    apiKey={"BDF01DAC-4F97-4D5D-8C8A-DD8C609019B1"}
+    key={"AR"}
+    initialScene={{
+      //ARSessionName != null && currentARName !== undefined && isViro
+      scene: () => {
+        const {currentARName} = useContext(NavigationContext);
+        const {ARScene} = getScreens()[currentARName];
+        console.log("render initialScene: ",currentARName);
+        return <ViroARScene key={"AR"}><ARScene/></ViroARScene>
+      }}
+    }/>
 };
 
-export const unmountLastAr = () => {
-  unmountLastArRef.current();
-};
-
+export const NavigationContext = React.createContext();
 const Navigation = () => {
   const [currentScreenName, setCurrentScreenName] = useState("ScreenOne");
-  const [lastARName, setLastARName] = useState();
-  const [unmountLastAr, setUnmountLastAr] = useState();
+  const [currentARName, setCurrentARName] = useState();
+  const [ARSessionName, setARSessionName] = useState(null);
+  const [showAR, setShowAR] = useState(false);
 
-  navRef = useRef((newScene) => {
-    setCurrentScreenName(newScene);
-  });
-  unmountLastArRef = useRef(() => {
-    setUnmountLastAr(true);
-  });
+  console.log("----\ncurrentScreenName: ", currentScreenName);
+  console.log("currentARName: ", currentARName);
+  console.log("ARSessionName: ", ARSessionName);
+  console.log("showAR: ", showAR, "\n----");
 
-  let isViroScreen = getViroScreen(currentScreenName);
-
-  useEffect(() => {
-    if (!isViroScreen && unmountLastAr) {
-      setLastARName(undefined);
-      setUnmountLastAr(false);
-    }
-  });
+  const isViroScreen = getIsViroScreen(currentScreenName);
 
   useEffect(() => {
-    if (isViroScreen && currentScreenName !== lastARName) {
+    if (isViroScreen && !showAR) {
       const clear = setTimeout(() => {
-        setLastARName(currentScreenName);
+        setShowAR(true);
         clearTimeout(clear);
       }, 1);
     }
-
+    if (!isViroScreen){
+      if (ARSessionName != null)
+        setCurrentARName(ARSessionName);
+    }
   }, [currentScreenName]);
 
   const rows = [];
-
   if (!isViroScreen) {
     const Screen2D = getScreens()[currentScreenName];
-    rows.push(<Screen2D key={currentScreenName}/>);
-    if (lastARName !== undefined) {
-      const ARScreen = getScreens()[lastARName];
-      rows.push(<View style={{flex: 1, display: "none"}} key="AR"><ARScreen/></View>);
+    rows.push(<Screen2D
+      key={currentScreenName}
+    />);
+    if (ARSessionName != null && currentARName !== undefined) {
+      rows.push(<View style={{flex: 1, display: "none"}} key="AR">
+        <ARNavigator key="AR"/>
+      </View>);
     }
   }
   if (isViroScreen) {
-    if (currentScreenName === lastARName) {
-      const ARScreen = getScreens()[currentScreenName];
-      rows.push(<View style={{flex: 1}} key="AR"><ARScreen/></View>);
+    if (showAR) {
+      const {Overlay} = getScreens()[currentARName];
+      rows.push(<View style={{flex: 1}} key="AR">
+        <ARNavigator key="AR"/>
+      </View>);
+      rows.push(<Overlay key="Overlay"/>);
     } else {
       rows.push(<View style={{flex: 1}} key="wait"><Text style={{fontSize: 30}}>wait</Text></View>)
     }
   }
 
   return (
-    <View style={{flex: 1}}>
-      {rows}
-    </View>
+    <NavigationContext.Provider value={{
+      currentScreenName:currentScreenName,
+      currentARName:currentARName,
+      ARSessionName:currentARName,
+      navTo: (newScene) => {
+        if (getIsViroScreen(newScene))
+          setCurrentARName(newScene);
+        setCurrentScreenName(newScene);
+      },
+      setARSession: (ARScreen) => {
+        if (ARScreen !== null && !getIsViroScreen(ARScreen))
+          console.error("navToAndMayResetSession must be call with AR screen");
+        setARSessionName(ARScreen);
+      },
+      navToAndMayResetSession: (newARSessionName) => {
+        console.log("navToAndMayReset, ARSessionName: ", ARSessionName, " !==", newARSessionName);
+        if (ARSessionName !== newARSessionName) {
+          setShowAR(false);
+          setARSessionName(null);
+        }
+        if (getIsViroScreen(newARSessionName))
+          setCurrentARName(newARSessionName);
+        setCurrentScreenName(newARSessionName);
+      },
+
+    }}>
+      <View style={{flex: 1}}>
+        {rows}
+      </View>
+    </NavigationContext.Provider>
   );
 };
 

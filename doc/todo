@@ -1,18 +1,22 @@
 
-faire les composants
+release des que possible, plutot un flag keep dans le redux
 
-App utilisé le nouv comp Navigation qui prends screens
+object avec object bloqué sur la caméra
 
-un seul arNavigator, un seul
+ Composant Scene + composant overlay/touch
 
-les navigator navigue entre eux
+ Diamant => setOrigine (utiliser redux)
+
+ error => ne pas afficher
+
+ invisible avant affiche
 
 
-persistance de l'état de navigation
+------------
 
+enlever le wait si vient de 2D et pas de session en arriere plan
 
-utiliser onTrackingUpdated pour cacher les objets
+Object => Object sans session
 
-3DNavigator
-
-essayer la transition
+lien overlay
+afficher avec arriere plan

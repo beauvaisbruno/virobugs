@@ -1,9 +1,9 @@
-import React, { useState, useRef, useEffect } from "react";
+import React, {useState, useRef, useEffect, useContext} from "react";
 import { Text, View } from "react-native";
 import {Viro3DObject, ViroAmbientLight, ViroARScene, ViroARSceneNavigator} from "react-viro";
-import {navTo} from "./Navigation";
+import {NavigationContext} from "./Navigation";
 
-const EnigmaTwo = () => {
+const EnigmaTwo = ({ARNavigator}) => {
   console.log("render EnigmaTwo");
   useEffect(() => {
     console.log("mount EnigmaTwo");
@@ -11,10 +11,10 @@ const EnigmaTwo = () => {
       console.log("unmount EnigmaTwo");
     };
   }, []);
-  return  <ViroARSceneNavigator
-      apiKey={"BDF01DAC-4F97-4D5D-8C8A-DD8C609019B1"}
-      initialScene={{
-        scene: () => {
+  return  <ARNavigator
+    key="AR"
+      Scene={ () => {
+        const {navToAndMayResetSession, navTo, setARSession} = useContext(NavigationContext);
           console.log("render SCENE EnigmaTwo");
           useEffect(() => {
             console.log("mount SCENE EnigmaTwo");
@@ -42,12 +42,12 @@ const EnigmaTwo = () => {
               type="GLB"
               position={[0.3, 0, -1]}
               onClick={()=> {
-                navTo("EnigmaOne");
+                navToAndMayResetSession("EnigmaOne");
               }}
             />
           </ViroARScene>
         }
-      }}
+      }
     />
 };
 
