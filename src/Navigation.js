@@ -37,7 +37,7 @@ const Navigation = () => {
   const [currentScreenName, setCurrentScreenName] = useState("ScreenOne");
   const [currentARName, setCurrentARName] = useState();
   const [ARSessionName, setARSessionName] = useState(null);
-  const [showAR, setShowAR] = useState(false);
+  const [showAR, setShowAR] = useState(true);
 
   console.log("----\ncurrentScreenName: ", currentScreenName);
   console.log("currentARName: ", currentARName);
@@ -99,8 +99,8 @@ const Navigation = () => {
         setARSessionName(ARScreen);
       },
       navToAndMayResetSession: (newARSessionName) => {
-        console.log("navToAndMayReset, ARSessionName: ", ARSessionName, " !==", newARSessionName);
-        if (ARSessionName !== newARSessionName) {
+        if (ARSessionName===null && getIsViroScreen(currentScreenName)
+          || ARSessionName!==null && ARSessionName !== newARSessionName) {
           setShowAR(false);
           setARSessionName(null);
         }

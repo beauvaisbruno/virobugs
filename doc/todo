@@ -16,7 +16,14 @@ object avec object bloqué sur la caméra
 
 enlever le wait si vient de 2D et pas de session en arriere plan
 
-Object => Object sans session
+gerder l'écran 2D
+
+cycle
+
+*Object => Object sans session
+    garder le wait
+
+fond noir
 
 lien overlay
 afficher avec arriere plan
