@@ -1,7 +1,7 @@
 import React, {useContext, useEffect} from "react";
 import {Text, View} from "react-native";
 import {Viro3DObject, ViroAmbientLight, ViroNode} from "react-viro";
-import {NavigationContext} from "./Navigation";
+import {NavigationContext} from "./Contexts";
 
 const ObjectOne = {
   ARScene: () => {

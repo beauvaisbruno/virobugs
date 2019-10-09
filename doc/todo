@@ -1,29 +1,19 @@
 
-release des que possible, plutot un flag keep dans le redux
-
 object avec object bloqué sur la caméra
-
- Composant Scene + composant overlay/touch
-
- Diamant => setOrigine (utiliser redux)
 
  error => ne pas afficher
 
- invisible avant affiche
 
 
 ------------
 
-enlever le wait si vient de 2D et pas de session en arriere plan
 
-gerder l'écran 2D
 
-cycle
+onTrackingUpdated(state, reason) {
+if (state == ViroConstants.TRACKING_NORMAL){
+// Show my AR Scene experience
+} else if (state == ViroConstants.TRACKING_NONE){
+// Prompt user to move phone around
+}
+}
 
-*Object => Object sans session
-    garder le wait
-
-fond noir
-
-lien overlay
-afficher avec arriere plan

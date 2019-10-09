@@ -1,6 +1,6 @@
 import React, {useContext, useEffect} from "react";
 import {Text, TouchableOpacity, View} from "react-native";
-import {NavigationContext} from "./Navigation";
+import {NavigationContext} from "./Contexts";
 
 const ScreenTwo = () => {
   console.log("render ScreenTwo");
@@ -12,7 +12,7 @@ const ScreenTwo = () => {
   }, []);
   const {navToAndMayResetSession, navTo} = useContext(NavigationContext);
   return (
-    <View style={{flex: 1}}>
+    <View style={{flex: 1, backgroundColor:"white"}}>
       <Text style={{ fontSize:30 }}>ScreenTwo</Text>
       <TouchableOpacity
         onPress={() => {

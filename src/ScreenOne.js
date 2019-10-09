@@ -1,7 +1,7 @@
 import React, {useContext, useEffect} from "react";
 import {Text, TouchableOpacity, View} from "react-native";
-import {NavigationContext} from "./Navigation";
 import ObjectOne from "./ObjectOne";
+import {NavigationContext} from "./Contexts";
 
 const ScreenOne = () => {
   // console.log("render ScreenOne");
@@ -13,7 +13,7 @@ const ScreenOne = () => {
   // }, []);
   const {navToAndMayResetSession, navTo, setARSession} = useContext(NavigationContext);
   return (
-    <View style={{flex: 1}}>
+    <View style={{flex: 1, backgroundColor:"white"}}>
       <Text style={{ fontSize:30 }}>ScreenOne</Text>
       <TouchableOpacity
         onPress={() => {

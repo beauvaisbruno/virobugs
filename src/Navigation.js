@@ -1,7 +1,8 @@
-import React, {useContext, useEffect, useState} from "react";
-import {ViroARScene, ViroARSceneNavigator} from "react-viro";
+import React, {useEffect, useState} from "react";
 import {Text, View} from "react-native";
 import {getScreens} from "./screens";
+import {NavigationContext} from "./Contexts";
+import {ARNavigator} from "./ARNavigator";
 
 
 function getIsViroScreen(screenName) {
@@ -10,29 +11,6 @@ function getIsViroScreen(screenName) {
   return false;
 }
 
-const ARNavigator = ({ARScene}) => {
-  console.log("render ARNavigator");
-  useEffect(() => {
-    console.log("mounted ARNavigator");
-    return () => {
-      console.log("unmounted ARNavigator");
-    };
-  }, []);
-  return <ViroARSceneNavigator
-    apiKey={"BDF01DAC-4F97-4D5D-8C8A-DD8C609019B1"}
-    key={"AR"}
-    initialScene={{
-      //ARSessionName != null && currentARName !== undefined && isViro
-      scene: () => {
-        const {currentARName} = useContext(NavigationContext);
-        const {ARScene} = getScreens()[currentARName];
-        console.log("render initialScene: ",currentARName);
-        return <ViroARScene key={"AR"}><ARScene/></ViroARScene>
-      }}
-    }/>
-};
-
-export const NavigationContext = React.createContext();
 const Navigation = () => {
   const [currentScreenName, setCurrentScreenName] = useState("ScreenOne");
   const [currentARName, setCurrentARName] = useState();
@@ -53,41 +31,39 @@ const Navigation = () => {
         clearTimeout(clear);
       }, 1);
     }
-    if (!isViroScreen){
+    if (!isViroScreen) {
       if (ARSessionName != null)
         setCurrentARName(ARSessionName);
     }
   }, [currentScreenName]);
+  let Screen2DComp;
+  let Screen3DComp;
+  let OverlayComp;
 
-  const rows = [];
   if (!isViroScreen) {
     const Screen2D = getScreens()[currentScreenName];
-    rows.push(<Screen2D
-      key={currentScreenName}
-    />);
+    Screen2DComp = <Screen2D key={currentScreenName}/>;
     if (ARSessionName != null && currentARName !== undefined) {
-      rows.push(<View style={{flex: 1, display: "none"}} key="AR">
-        <ARNavigator key="AR"/>
-      </View>);
+      Screen3DComp = <View style={{flex: 1, display: "none"}} key="AR"><ARNavigator key="AR"/></View>;
     }
   }
   if (isViroScreen) {
     if (showAR) {
+
+      Screen3DComp = <View style={{flex: 1, display: "flex"}} key="AR"><ARNavigator key="AR"/></View>;
       const {Overlay} = getScreens()[currentARName];
-      rows.push(<View style={{flex: 1}} key="AR">
-        <ARNavigator key="AR"/>
-      </View>);
-      rows.push(<Overlay key="Overlay"/>);
+      OverlayComp = <Overlay key="Overlay"/>;
     } else {
-      rows.push(<View style={{flex: 1}} key="wait"><Text style={{fontSize: 30}}>wait</Text></View>)
+      Screen2DComp =
+        <View style={{flex: 1, backgroundColor: "black"}} key="wait"><Text style={{fontSize: 30}}>wait</Text></View>;
     }
   }
 
   return (
     <NavigationContext.Provider value={{
-      currentScreenName:currentScreenName,
-      currentARName:currentARName,
-      ARSessionName:currentARName,
+      currentScreenName: currentScreenName,
+      currentARName: currentARName,
+      ARSessionName: currentARName,
       navTo: (newScene) => {
         if (getIsViroScreen(newScene))
           setCurrentARName(newScene);
@@ -99,8 +75,8 @@ const Navigation = () => {
         setARSessionName(ARScreen);
       },
       navToAndMayResetSession: (newARSessionName) => {
-        if (ARSessionName===null && getIsViroScreen(currentScreenName)
-          || ARSessionName!==null && ARSessionName !== newARSessionName) {
+        if (ARSessionName === null && getIsViroScreen(currentScreenName)
+          || ARSessionName !== null && ARSessionName !== newARSessionName) {
           setShowAR(false);
           setARSessionName(null);
         }
@@ -110,8 +86,10 @@ const Navigation = () => {
       },
 
     }}>
-      <View style={{flex: 1}}>
-        {rows}
+      <View style={{flex: 1, backgroundColor: "black"}}>
+        {Screen2DComp}
+        {Screen3DComp}
+        {OverlayComp}
       </View>
     </NavigationContext.Provider>
   );

@@ -1,7 +1,7 @@
 import React, {useContext, useEffect} from "react";
 import {Viro3DObject, ViroAmbientLight, ViroNode} from "react-viro";
-import {NavigationContext} from "./Navigation";
 import {Text, View} from "react-native";
+import {NavigationContext} from "./Contexts";
 
 const EnigmaTwo = {
   ARScene : () => {
