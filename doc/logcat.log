@@ -1,0 +1,1096 @@
+2019-10-10 12:31:02.812 667-667/? I/aptouch_daemon: print_log, touch:1, down:1 (+0)
+2019-10-10 12:31:02.813 1158-1552/? D/libfingersense_wrapper: Calling fingersense_classify_touch()
+2019-10-10 12:31:02.825 1158-1552/? D/libfingersense_wrapper: fingersense_classify_touch() finished
+2019-10-10 12:31:02.826 1158-1552/? D/fingerTest: event.x=:534.0 event.y=:1626.0
+2019-10-10 12:31:02.826 1158-1552/? D/fingerTest: MotionEvent.ACTION_DOWN
+2019-10-10 12:31:02.929 667-667/? I/aptouch_daemon: print_log, touch:0, down:0
+2019-10-10 12:31:02.929 1158-1552/? D/fingerTest: event.x=:534.0 event.y=:1626.0
+2019-10-10 12:31:02.929 1158-1552/? D/fingerTest: MotionEvent.ACTION_UP
+2019-10-10 12:31:02.932 1979-1979/? V/AudioManager: playSoundEffect   effectType: 0
+2019-10-10 12:31:02.932 1979-1979/? V/AudioManager: querySoundEffectsEnabled...
+
+    --------- beginning of system
+2019-10-10 12:31:02.946 1158-3510/? I/ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 hwFlg=0x10 cmp=com.virobugs/.MainActivity bnds=[435,1547][645,1837]} from uid 10104
+2019-10-10 12:31:02.948 1158-3510/? I/ActivityManager: ActivityRecord info: ActivityInfo{b89e280 com.virobugs.MainActivity}
+2019-10-10 12:31:02.950 745-765/? D/AwareLog: iawared: WorkingsetProcessCommand subCmd = 354, userId=10347, pid=0, com.virobugs
+2019-10-10 12:31:02.951 745-765/? D/AwareLog: iawared: WorkingsetSendPrereadMsg com.virobugs
+2019-10-10 12:31:02.951 745-765/? D/AwareLog: iawared: WorkingsetStart com.virobugs in monitor0
+2019-10-10 12:31:02.953 642-696/? I/PF_FREQ_GRP: [recordLimitCmd:65] [GPU] end limit freq 550000000 ~ 767000000
+2019-10-10 12:31:02.954 1941-2227/? I/hibernation: front pkg : com.virobugs launcher: false
+2019-10-10 12:31:02.954 1941-2227/? I/hibernation: above launcher front pkgs: [com.virobugs]
+2019-10-10 12:31:02.956 1158-3510/? V/ActivityManager: addChild: attaching stackId=155 to displayId=0 position=3
+2019-10-10 12:31:02.956 1158-3510/? V/ActivityManager: positionChild stackId=155 to top.
+2019-10-10 12:31:02.960 1941-3889/? I/PGServer: android calls fast hibernateApps
+2019-10-10 12:31:02.960 1941-3889/? I/AppFastHibernation: fast hibernate duration: 1500 reason: start activity
+2019-10-10 12:31:02.961 745-783/? I/Pged-IPgedBinderService: ****action is 1, pid num is 3***
+2019-10-10 12:31:02.961 745-783/? I/Pged-Freezer: freezePids
+2019-10-10 12:31:02.961 745-783/? I/Pged-Freezer: Freeze process: 30152
+2019-10-10 12:31:02.961 1158-3510/? V/WindowManager: addAppToken: AppWindowToken{7b98f75 token=Token{eaa6ac ActivityRecord{a574c5f u0 com.virobugs/.MainActivity t6723}}} controller={TaskWindowContainerController taskId=6723} at 2147483647
+2019-10-10 12:31:02.962 745-783/? I/Pged-Freezer: Freeze process: 30253
+2019-10-10 12:31:02.965 1941-2217/? D/PgedBinderAdapter: frz ok, pid: [30152, 30253]
+2019-10-10 12:31:02.967 1158-1269/? W/HwActivityManagerServiceEx: HwActivityNotifier end call for activityLifeState under user 0 cost 1
+2019-10-10 12:31:02.967 1845-3259/? E/DollieActivityManagerAdapter: HwActivityNotifierEx null uid
+2019-10-10 12:31:02.967 3460-3476/? W/FrameworkRegistry:  CAWARENESS: ActivityNotifier unknown state
+2019-10-10 12:31:02.970 1158-1272/? I/StatusBarDisable: setFlags what=0 which=1 pkg=Window{b087f20 u0 com.huawei.android.launcher/com.huawei.android.launcher.unihome.UniHomeLauncher}
+2019-10-10 12:31:02.971 1979-1979/? W/HwLauncher: TrustSpaceAppManager TrustSpace is not installed.
+2019-10-10 12:31:02.972 1979-1979/? I/ViewRootImpl: jank_removeInvalidNode all the node in jank list is out of time
+2019-10-10 12:31:02.973 23633-23649/? I/HiSearch19.11.3.304: [LauncherOverlayService]: LAUNCHER_INTERACTION from launcher and invoke id = -222
+2019-10-10 12:31:02.973 23633-23649/? I/HiSearch19.11.3.304: [LauncherOverlayService]: isOverlayClosed = true
+2019-10-10 12:31:02.973 23633-23649/? I/HiSearch19.11.3.304: [LauncherOverlayService]: LAUNCHER_INTERACTION from launcher and invoke, overlay closed, return.
+2019-10-10 12:31:02.973 1979-1979/? D/ZrHung.AppEyeUiProbe: stop checker.
+2019-10-10 12:31:02.973 1158-1514/? I/HwPhoneWindow: updateLayoutParamsColor false mSpecialSet=false, mForcedNavigationBarColor=false, navigationBarColor=0, mNavBarShow=false, mIsFloating=false
+2019-10-10 12:31:02.973 1158-1514/? I/HwPhoneWindow: updateLayoutParamsColor true mSpecialSet=false, mForcedNavigationBarColor=false, navigationBarColor=ff000000, mNavBarShow=false, mIsFloating=false
+2019-10-10 12:31:02.974 1158-5659/? W/HwResourcesImpl: icon in Original image 2131361792#com.virobugs is too large.iconSize:190,w*h: 144*144 . so cut,sDefaultSizeWithoutEdge=178; r=Rect(14, 15 - 129, 131) ; isZoomOutIcon=false
+2019-10-10 12:31:02.974 1158-3510/? V/ActivityManager: startProcess: name=com.virobugs app=null knownToBeDead=true thread=null pid=-1
+2019-10-10 12:31:02.974 757-962/? E/JankService: specialActionEntryHandler: should reset and not report
+2019-10-10 12:31:02.974 1158-3510/? V/ActivityManager: startProcess: name=com.virobugs app=null knownToBeDead=true thread=null pid=-1
+2019-10-10 12:31:02.976 1158-3510/? V/ActivityManager: startProcess: name=com.virobugs app=ProcessRecord{ce86857 0:com.virobugs/u0a347} knownToBeDead=true thread=null pid=0
+2019-10-10 12:31:02.977 1158-1272/? I/StatusBarDisable: setFlags what=0 which=1 pkg=Window{b087f20 u0 com.huawei.android.launcher/com.huawei.android.launcher.unihome.UniHomeLauncher}
+2019-10-10 12:31:02.979 1690-1690/? I/HwNavigationBarView: updateAssistantButtonInGuestureMode(), vis=true,isGestureNavEnable=false
+2019-10-10 12:31:02.979 1158-1269/? W/HwActivityManagerServiceEx: HwActivityNotifier end call for activityLifeState under user 0 cost 1
+2019-10-10 12:31:02.979 1845-10398/? D/DollieActivityManagerAdapter: [Paused] pid:1979 uid:10104 ComponentInfo{com.huawei.android.launcher/com.huawei.android.launcher.unihome.UniHomeLauncher}
+2019-10-10 12:31:02.982 3460-3476/? I/AppLifeChangeSensor:  CAWARENESS: activityPaused componentName = ComponentInfo{com.huawei.android.launcher/com.huawei.android.launcher.unihome.UniHomeLauncher}
+2019-10-10 12:31:02.982 3460-3476/? E/AppLifeChangeSensor:  CAWARENESS: activityPaused mAppLifeChangeCallback is null
+2019-10-10 12:31:02.984 745-765/? D/AwareLog: iawared: WorkingsetProcessCommand subCmd = 354, userId=10347, pid=0, com.virobugs
+2019-10-10 12:31:02.984 1158-1514/? V/WindowManager: addWindow: Window{b662a29 u0 Splash Screen com.virobugs}
+2019-10-10 12:31:02.984 745-765/? D/AwareLog: iawared: WorkingsetStart com.virobugs in monitor0
+2019-10-10 12:31:02.985 1158-1514/? D/HwPhoneWindowManager: sensorRotation = 0 lastRotation:0
+2019-10-10 12:31:02.993 14136-3010/? I/PBSessionCacheImpl: Deleted sessionId[62172356131411380] from persistence.
+2019-10-10 12:31:02.993 1964-7464/? D/PhoneInterfaceManager: [PhoneIntfMgr] isUserDataEnabled: subId=0 phoneId=0
+2019-10-10 12:31:02.994 1964-7464/? D/PhoneInterfaceManager: [PhoneIntfMgr] isUserDataEnabled: subId=0 retVal=true
+2019-10-10 12:31:02.994 1158-7849/? I/HwNetworkPolicy: onTransact, code = 14
+2019-10-10 12:31:02.994 578-578/? I/Zygote: say something before unblock SIGCHLD, uid: 10347 pid: 5660, do not delete this log!
+2019-10-10 12:31:02.995 14136-14213/? W/SearchServiceCore: Abort, client detached.
+2019-10-10 12:31:02.995 1158-1514/? I/HwPhoneWindow: updateLayoutParamsColor false mSpecialSet=false, mForcedNavigationBarColor=false, navigationBarColor=ff000000, mNavBarShow=true, mIsFloating=false
+2019-10-10 12:31:02.995 14136-14213/? I/StreamController: cleanUpControllerScope(nowcards-15-8d6515a-a5d5)
+2019-10-10 12:31:02.996 1158-5664/? D/PackageManager: resolve intent for uid:1000, matchs:2, res:ResolveInfo{ea1ae com.huawei.android.launcher/.unihome.UniHomeLauncher m=0x108000}
+2019-10-10 12:31:02.996 1158-5664/? I/HiTouch_HiTouchSensor: enabledInPad = false,isPcCastMode = false
+2019-10-10 12:31:02.997 1158-5664/? D/HiTouch_PressGestureDetector: onAttached, package=com.virobugs, windowType=3, mHiTouchRestricted=false
+2019-10-10 12:31:02.997 1158-1274/? I/ActivityManager: Start proc 5660:com.virobugs/u0a347 for activity com.virobugs/.MainActivity
+2019-10-10 12:31:02.997 1158-1272/? I/StatusBarDisable: setFlags what=0 which=1 pkg=Window{b087f20 u0 com.huawei.android.launcher/com.huawei.android.launcher.unihome.UniHomeLauncher}
+2019-10-10 12:31:02.998 1158-1819/? E/ProcessInfoCollector: getProcessInfo: failed to find this proc
+2019-10-10 12:31:02.998 745-765/? D/AwareLog: iawared: WorkingsetProcessCommand subCmd = 350, userId=10347, pid=5660, com.virobugs
+2019-10-10 12:31:02.999 745-765/? D/AwareLog: iawared: WorkingsetStart com.virobugs in monitor0
+2019-10-10 12:31:02.999 5660-5660/? I/com.virobugs: Late-enabling -Xcheck:jni
+2019-10-10 12:31:03.000 1158-1514/? D/ZrHung.AppEyeFocusWindow: FocusWindowErrorScene CheckFreezeScreen
+2019-10-10 12:31:03.000 1158-1514/? D/ZrHung.AppEyeTransparentWindow: TransparentWindow cancelCheckFreezeScreen
+2019-10-10 12:31:03.000 1158-1272/? I/StatusBarDisable: setFlags what=0 which=1 pkg=Window{b087f20 u0 com.huawei.android.launcher/com.huawei.android.launcher.unihome.UniHomeLauncher}
+2019-10-10 12:31:03.013 598-598/? I/GRALLOC: getCallingPid=649, shrFd=32,fmt=0x1,intFmt=0x1,btStrd=4352,size=9768960,pid=598
+    	 yuv=2,w=1080,h=2244,Stride u=0 v=0,offset u=0 v=0
+    	 iova_size=9768960,conUsg=0x906,proUsg=0x966,	 strd=1088,[afbc]HdrStrd=0 PyldStrd=0 Scrmbl=0,ionhnd = 1
+2019-10-10 12:31:03.026 5660-5660/? I/com.virobugs: Reinit property: dalvik.vm.checkjni= false
+2019-10-10 12:31:03.042 5660-5660/? D/ZrHung.AppEyeUiProbe: AppEyeUIP created.
+2019-10-10 12:31:03.047 5660-5660/? D/ActivityThread: Attach thread to application
+2019-10-10 12:31:03.049 1158-7849/? D/HwPhoneWindowManager: sensorRotation = 0 lastRotation:0
+2019-10-10 12:31:03.051 1158-1272/? I/StatusBarDisable: setFlags what=0 which=1 pkg=Window{b087f20 u0 com.huawei.android.launcher/com.huawei.android.launcher.unihome.UniHomeLauncher}
+2019-10-10 12:31:03.056 1158-7849/? W/HwActivityManagerServiceEx: appSwitch from: com.huawei.android.launcher to: com.virobugs
+2019-10-10 12:31:03.057 1158-1269/? W/HwActivityManagerServiceEx: HwActivityNotifier end call for appSwitch under user 0 cost 0
+2019-10-10 12:31:03.057 1845-3259/? D/AssistantService-901302: registerHwActivityNotifier call fromPackage:com.huawei.android.launcher, toPackage:com.virobugs
+2019-10-10 12:31:03.057 1845-3259/? D/AssistantService-901302: issystemapp:com.huawei.android.launcher
+2019-10-10 12:31:03.057 1845-3259/? D/AssistantService-901302: getAppSDKType packageName:com.virobugs, type:0
+2019-10-10 12:31:03.057 1845-3259/? D/AssistantService-901302: appInJoint:0
+2019-10-10 12:31:03.057 1941-2044/? D/ScenarioService: front pkg : com.virobugs launcher: false
+2019-10-10 12:31:03.057 1941-2044/? D/ScenarioService: new above launcher front pkgs: [com.virobugs]
+2019-10-10 12:31:03.057 1941-2044/? I/AppManager: handleAppFrontEvent: com.virobugs
+2019-10-10 12:31:03.057 1941-2044/? I/AppsUsage: scnOff:false FgAPP:com.virobugs BgAPP:com.huawei.android.launcher
+2019-10-10 12:31:03.057 1941-2667/? E/AwareLog: SPKSchedFeature: Uid has been sent, ignore.
+2019-10-10 12:31:03.057 1941-2667/? E/AwareLog: SPKEQSchedFeature: Uid has been sent, ignore.
+2019-10-10 12:31:03.061 1845-2204/? D/HicomMonitor: notifyAppStarted: begin
+2019-10-10 12:31:03.061 1845-2204/? D/Hicom_SysEnvMonitor: onAppStarted, uid: 10347
+2019-10-10 12:31:03.061 1845-2204/? D/HicomMonitor: onAppStarted: uid = 10347
+2019-10-10 12:31:03.061 1158-1514/? V/WindowManager: Checking 1 opening apps (frozen=false timeout=false), Track: updateconfig performsurface
+2019-10-10 12:31:03.061 1158-1514/? V/WindowManager: Check opening app=AppWindowToken{7b98f75 token=Token{eaa6ac ActivityRecord{a574c5f u0 com.virobugs/.MainActivity t6723}}}: allDrawn=false startingDisplayed=true startingMoved=false isRelaunching()=false startingWindow=Window{b662a29 u0 Splash Screen com.virobugs}
+2019-10-10 12:31:03.062 1158-1514/? I/WindowManager: closing apps count = 1
+2019-10-10 12:31:03.062 1941-2740/? E/AwareLog: GameSdkConfigReader: GameSdkLog: idNameMap: null
+2019-10-10 12:31:03.062 1158-1272/? D/HiDATA_ContentAware: mForegroundAppPackageName: com.virobugs ,score: 0
+2019-10-10 12:31:03.062 1158-1272/? D/HiDATA: APP type: -1 appName= com.virobugs
+2019-10-10 12:31:03.062 1845-2204/? D/Hicom_UXDecisionSystem: isAppCanUseMobileNetwork current forground app is com.huawei.android.launcher
+2019-10-10 12:31:03.062 1845-2204/? E/Hicom_PolicyCenterService: enableAppLevelMP. null == mMultipathAppsMap
+2019-10-10 12:31:03.062 1845-2204/? D/Hicom_EmcomManagerService: forePackage name is com.virobugs
+2019-10-10 12:31:03.062 1845-2204/? D/HicomMonitor: notifyForegroundAppChanged: begin
+2019-10-10 12:31:03.062 1158-1267/? I/HwAudioService: now type = 255,reportForegroundAppType = 255,pkg = null,mVoipOptimizeInGameModetrue
+2019-10-10 12:31:03.062 1845-2204/? D/HicomMonitor: notifyForegroundAppChanged: begin
+2019-10-10 12:31:03.062 1845-2204/? D/XEngineProcessor: onForegroundAppChanged, pkgName:com.virobugs
+2019-10-10 12:31:03.062 1845-2204/? I/XEngineProcessor: Feature is not enable.
+2019-10-10 12:31:03.062 1845-2204/? D/Hicom_SysEnvMonitor: onForegroundAppChanged, pkgName: com.virobugs
+2019-10-10 12:31:03.062 1845-2204/? D/XEngineMpipControl: onForegroundAppChanged, pkgName:com.virobugs
+2019-10-10 12:31:03.062 1845-2204/? D/XEngineMpipControl: Invalid subId
+2019-10-10 12:31:03.062 1845-2204/? E/XEngineMpipControl: Invalid SubId
+2019-10-10 12:31:03.062 1158-1272/? D/HiDATA: no game, APP_TYPE_GAME, appName =com.virobugs
+2019-10-10 12:31:03.062 1845-2204/? D/HicomMonitor: onForegroundAppChanged is called
+2019-10-10 12:31:03.062 1845-2204/? D/Hicom_PolicyCenterService: handleForegroundAppChanged new forground app 10347
+2019-10-10 12:31:03.062 1845-2204/? D/Hicom_AppLifeCycleManager: sAppAllSocketClosed NOT contain: 10104
+2019-10-10 12:31:03.062 1845-2204/? D/Hicom_PolicyCenterService: mCurrentForgroundUid is not policy exist
+2019-10-10 12:31:03.063 1845-3259/? I/BoosterSwitchP: notifyUidState do nothing
+2019-10-10 12:31:03.063 1845-3259/? I/BrowserChrP: notifyUidState
+2019-10-10 12:31:03.064 1158-3230/? I/HwNetworkPolicy: onTransact, code = 203
+2019-10-10 12:31:03.064 2112-2362/? I/HwNetworkPolicyManager: getHwUidPolicy uid = 10347 policy = 0
+2019-10-10 12:31:03.065 1941-2335/? I/PGServer: report state:10010 event type:2 pid:0 uid:0 pkg:com.huawei.android.launcher to pid: 1158
+2019-10-10 12:31:03.065 1941-2335/? I/PGServer: report state:10010 event type:2 pid:0 uid:0 pkg:com.huawei.android.launcher to pid: 1941
+2019-10-10 12:31:03.067 1158-1272/? I/StatusBarDisable: setFlags what=0 which=1 pkg=Window{b087f20 u0 com.huawei.android.launcher/com.huawei.android.launcher.unihome.UniHomeLauncher}
+2019-10-10 12:31:03.068 725-7635/? D/iTouchService: itouch currentPackageName=com.virobugs
+2019-10-10 12:31:03.068 725-7635/? D/iTouchService: itouch appType=-1 appState=1 gameMode=1
+2019-10-10 12:31:03.068 725-7635/? D/iTouchService: g_itouch_reader_monitor empty
+2019-10-10 12:31:03.068 725-7635/? D/iTouchService: g_itouch_reader_monitor Monitor::isReaderMonitorEnable()=0
+2019-10-10 12:31:03.068 725-7635/? D/iTouchService: itouch getCurrentParmID tempPkg=com.xxx
+2019-10-10 12:31:03.068 725-7635/? D/iTouchService: itouch:app com.virobugs is  not game app
+2019-10-10 12:31:03.068 725-7635/? D/iTouchService: itouch:game_switch is disable
+2019-10-10 12:31:03.068 725-7635/? D/iTouchService: itouch:styluspen_switch is disable
+2019-10-10 12:31:03.068 725-7635/? D/iTouchService: itouch:currentAppTypeName =|UNKNOWN|
+2019-10-10 12:31:03.071 1158-1272/? I/StatusBarDisable: setFlags what=0 which=1 pkg=Window{b662a29 u0 Splash Screen com.virobugs}
+2019-10-10 12:31:03.072 1941-2335/? I/SceneReceiver: state type: 10010 eventType:2 pid:0 uid:0 pkg:com.huawei.android.launcher
+2019-10-10 12:31:03.072 1941-2335/? I/PGServer: report state:10000 event type:1 pid:0 uid:0 pkg:com.virobugs to pid: 1158
+2019-10-10 12:31:03.072 1941-2335/? I/PGServer: report state:10000 event type:1 pid:0 uid:0 pkg:com.virobugs to pid: 1941
+2019-10-10 12:31:03.073 1941-9583/? I/PGServer: checkPkgType. calling pkg: android
+2019-10-10 12:31:03.075 1979-15690/? D/HwRecentsTaskUtils: refreshToCache
+2019-10-10 12:31:03.076 1979-15690/? D/HwRecentsTaskUtils: searchFromDate
+2019-10-10 12:31:03.077 1941-2335/? I/SceneReceiver: state type: 10000 eventType:1 pid:0 uid:0 pkg:com.virobugs
+2019-10-10 12:31:03.077 1941-2666/? D/HwThermalStateManager: current foreapp pkg : com.virobugs
+2019-10-10 12:31:03.078 1941-2669/? D/ThermalTrace_ThermalRaise: current pkg:com.huawei.android.launcher
+2019-10-10 12:31:03.083 1845-3259/? E/HsmCoreServiceImpl: onTransact in code is: 103
+2019-10-10 12:31:03.083 1845-3259/? I/MediaProcessHandler: playingUids:
+2019-10-10 12:31:03.084 1979-15690/? I/RecentsTaskLoadPlan: to show tasks size is 2
+2019-10-10 12:31:03.095 1158-3230/? I/PackageManager: getInstalledPackages cost 2 ms, flags: 786432, userId: 0, callingUid: 2000, callingPid: 5688
+2019-10-10 12:31:03.106 5660-5686/com.virobugs I/HwApiCacheMangerEx: apicache path=/storage/emulated/0 state=mounted key=com.virobugs#10347#256
+2019-10-10 12:31:03.108 5660-5686/com.virobugs I/HwApiCacheMangerEx: apicache path=/storage/emulated/0 state=mounted key=com.virobugs#10347#0
+2019-10-10 12:31:03.133 1979-2069/? D/ZrHung.AppEyeUiProbe: Current Activity:false
+2019-10-10 12:31:03.133 1979-2069/? D/ZrHung.AppEyeUiProbe: not watching, wait.
+2019-10-10 12:31:03.306 1845-1845/? D/DaemonMessageAdapter: onMobileSignalStrengthChanged, subId: 0, signalStrength: SignalStrength: 0 755203440 0 0 32767 -1 32767 -1 -109 -16 -2 -1 0 2147483647 0 120 2147483647 255 gsm|lte use_rsrp_and_rssnr_for_lte_level rscp [-128, -118, -108, -98] [-115, -105, -95, -85] 0 0 0 0 0 0
+2019-10-10 12:31:03.309 1941-2227/? I/hibernation: view remove pid:1979 uid:10104
+2019-10-10 12:31:03.310 1845-1845/? D/DaemonMessageAdapter: SignalStrength update result, ss: SignalStrengthInfo: 3574792 mGsmSignalStrength: 0 mWcdmaRscp: 2147483647 mWcdmaEcio: 255 mLteRsrp: -109 mLteRsrq: -16 mCdmaDbm: 0 mCdmaEcio: 0 mEvdoDbm: 32767 mEvdoEcio: -1 mLteRssnr: -2
+2019-10-10 12:31:03.310 1964-1964/? D/Mapcon  : TelephonyTracker: onSignalStrengthsChanged:phoneId=0, level=3
+2019-10-10 12:31:03.312 1158-1272/? I/StatusBarDisable: setFlags what=0 which=1 pkg=Window{b662a29 u0 Splash Screen com.virobugs}
+2019-10-10 12:31:03.313 1845-1845/? D/Hicom_SysEnvMonitor: onMobileSignalStrengthChanged
+2019-10-10 12:31:03.313 1979-2159/? W/libEGL: EGLNativeWindowType 0x7b97d06010 disconnect failed
+2019-10-10 12:31:03.315 1964-2469/? D/Mapcon  : SMVoice-0-Normal: PrepareState:defaultStatehandle msg=CMD_SIGNAL_STRENGTH_CHANED_IND
+2019-10-10 12:31:03.315 1158-1158/? I/MQoS: onSignal: mSubId=0,currDataSubID=0
+2019-10-10 12:31:03.316 1845-1960/? I/HidataAppQoeP: handleStateChanged reason=6
+2019-10-10 12:31:03.316 1158-1158/? I/MQoS: received cell-signal:4
+2019-10-10 12:31:03.316 1158-1272/? I/StatusBarDisable: setFlags what=0 which=1 pkg=Window{b662a29 u0 Splash Screen com.virobugs}
+2019-10-10 12:31:03.318 1158-1283/? I/DebugKeepScreenOn: setHoldScreenLocked newHoldScreen:null currentHoldScreen:Session{8271731 1979:u0a10104} wakeLockState:true
+2019-10-10 12:31:03.318 1158-1283/? I/DebugKeepScreenOn: Releasing screen wakelock, obscured by Window{9dcd159 u0 com.android.systemui.HwImageWallpaper}
+2019-10-10 12:31:03.318 1158-1283/? D/PowerMS: release:L=40446067,F=0x0,T="WindowManager",N=android",WS=WorkSource{10104},U=1000,P=1158
+2019-10-10 12:31:03.318 1158-4670/? I/TrafficMonitor: getStatic,count:0,work status:false
+2019-10-10 12:31:03.318 1158-4670/? I/MQoS: QOS_level:4(4),use RAT:4G;signalLvl:4
+2019-10-10 12:31:03.319 1158-3230/? V/WindowManager: removeIfPossible: Window{5832295 u0 Toast}
+2019-10-10 12:31:03.319 1158-3230/? V/WindowManager: Not removing Window{5832295 u0 Toast EXITING} due to exit animation
+2019-10-10 12:31:03.319 1845-1960/? I/PreDnsQuery: handleStateChanged reason=6
+2019-10-10 12:31:03.320 1845-1960/? I/BrowserChrP: handleStateChanged
+2019-10-10 12:31:03.320 1158-1272/? I/StatusBarDisable: setFlags what=0 which=1 pkg=Window{b662a29 u0 Splash Screen com.virobugs}
+2019-10-10 12:31:03.321 1979-5585/? W/HwLauncher: getDownloadInfo return null!
+2019-10-10 12:31:03.322 1158-3230/? W/NotificationService: Toast already killed. pkg=com.huawei.android.launcher callback=android.app.ITransientNotification$Stub$Proxy@30d3886
+2019-10-10 12:31:03.323 1158-1514/? I/WindowManager: New wallpaper target: null prevTarget: Window{b087f20 u0 com.huawei.android.launcher/com.huawei.android.launcher.unihome.UniHomeLauncher}
+2019-10-10 12:31:03.323 1158-1514/? I/WindowManager: test-wallpaper Updating vis of wallpaper Window{9dcd159 u0 com.android.systemui.HwImageWallpaper}: false from:
+    com.android.server.wm.WallpaperWindowToken.updateWallpaperWindows:138 com.android.server.wm.WallpaperController.updateWallpaperTokens:585 com.android.server.wm.WallpaperController.adjustWallpaperWindows:620 com.android.server.wm.DisplayContent.applySurfaceChangesTransaction:3386
+2019-10-10 12:31:03.324 1690-1829/? I/HwMobileSignalController(0): subId:0 phoneType:1 networktype:13 targetClass:3 masterLevel:3 slaveLevel:-1
+2019-10-10 12:31:03.324 1158-1272/? I/StatusBarDisable: setFlags what=0 which=1 pkg=Window{b662a29 u0 Splash Screen com.virobugs}
+2019-10-10 12:31:03.328 1690-1690/? D/HwCustMobileSignalControllerImpl: value = 4G+, networkTypeIcon = 2131232400 typeIcon = 2131232400
+2019-10-10 12:31:03.328 1690-1690/? D/HwCustMobileSignalControllerImpl: updateDataType, mDataNetType: 19, isCAstate: true
+2019-10-10 12:31:03.328 730-876/? E/dubaid: [CpuHandler.cpp] findUidEntry# Uid(10345) has not package, maybe it's already uninstalled
+2019-10-10 12:31:03.328 730-876/? E/dubaid: [CpuHandler.cpp] setUidCpuTime# Failed to find uid entry
+2019-10-10 12:31:03.333 1979-2159/? W/libEGL: EGLNativeWindowType 0x7b9f4d4010 disconnect failed
+2019-10-10 12:31:03.335 14136-14207/? W/libEGL: EGLNativeWindowType 0x7b9a3a6010 disconnect failed
+2019-10-10 12:31:03.414 1158-1514/? V/WindowManager: Exit animation finished in Window{5832295 u0 Toast EXITING}: remove=true
+2019-10-10 12:31:03.432 1158-1272/? I/StatusBarDisable: setFlags what=0 which=1 pkg=Window{b662a29 u0 Splash Screen com.virobugs}
+2019-10-10 12:31:03.434 1158-1514/? V/WindowManager: postWindowRemoveCleanupLocked: Window{5832295 u0 Toast}
+2019-10-10 12:31:03.434 1158-1514/? V/WindowManager: Removing Window{5832295 u0 Toast} from WindowToken{e56a27f android.os.Binder@b97579e}
+2019-10-10 12:31:03.435 1158-1272/? I/StatusBarDisable: setFlags what=0 which=1 pkg=Window{b662a29 u0 Splash Screen com.virobugs}
+2019-10-10 12:31:03.440 5660-5686/com.virobugs I/AwareBitmapCacher: init processName:com.virobugs pid=5660 uid=10347
+2019-10-10 12:31:03.442 5660-5695/com.virobugs E/AwareLog: AtomicFileUtils: readFileLines file not exist: android.util.AtomicFile@b34c65
+2019-10-10 12:31:03.442 5660-5695/com.virobugs E/AwareLog: AtomicFileUtils: readFileLines file not exist: android.util.AtomicFile@8bc7d3a
+2019-10-10 12:31:03.442 5660-5660/com.virobugs D/SoLoader: init start
+2019-10-10 12:31:03.442 5660-5660/com.virobugs D/SoLoader: adding system library source: /vendor/lib
+2019-10-10 12:31:03.443 5660-5660/com.virobugs D/SoLoader: adding system library source: /system/lib
+2019-10-10 12:31:03.443 5660-5660/com.virobugs D/SoLoader: adding application source: com.facebook.soloader.DirectorySoSource[root = /data/app/com.virobugs-G2e6dFEXAvjbdW9Ub0Aq5g==/lib/arm64 flags = 0]
+2019-10-10 12:31:03.445 5660-5660/com.virobugs D/SoLoader: adding backup source from : com.facebook.soloader.ApkSoSource[root = /data/data/com.virobugs/lib-main flags = 1]
+2019-10-10 12:31:03.445 5660-5660/com.virobugs D/SoLoader: Preparing SO source: com.facebook.soloader.DirectorySoSource[root = /system/lib flags = 2]
+2019-10-10 12:31:03.445 5660-5660/com.virobugs D/SoLoader: Preparing SO source: com.facebook.soloader.DirectorySoSource[root = /vendor/lib flags = 2]
+2019-10-10 12:31:03.445 5660-5660/com.virobugs D/SoLoader: Preparing SO source: com.facebook.soloader.DirectorySoSource[root = /data/app/com.virobugs-G2e6dFEXAvjbdW9Ub0Aq5g==/lib/arm64 flags = 0]
+2019-10-10 12:31:03.445 5660-5660/com.virobugs D/SoLoader: Preparing SO source: com.facebook.soloader.ApkSoSource[root = /data/data/com.virobugs/lib-main flags = 1]
+2019-10-10 12:31:03.446 5660-5660/com.virobugs V/fb-UnpackingSoSource: locked dso store /data/user/0/com.virobugs/lib-main
+2019-10-10 12:31:03.447 5660-5660/com.virobugs I/fb-UnpackingSoSource: dso store is up-to-date: /data/user/0/com.virobugs/lib-main
+2019-10-10 12:31:03.447 5660-5660/com.virobugs V/fb-UnpackingSoSource: releasing dso store lock for /data/user/0/com.virobugs/lib-main
+2019-10-10 12:31:03.447 5660-5660/com.virobugs D/SoLoader: init finish: 4 SO sources prepared
+2019-10-10 12:31:03.447 5660-5660/com.virobugs D/SoLoader: init exiting
+2019-10-10 12:31:03.447 5660-5686/com.virobugs E/MemoryLeakMonitorManager: MemoryLeakMonitor.jar is not exist!
+2019-10-10 12:31:03.450 5660-5660/com.virobugs D/ZrHung.AppEyeUiProbe: notify runnable to start.
+2019-10-10 12:31:03.450 5660-5696/com.virobugs D/ZrHung.AppEyeUiProbe: Runnable thread started.
+2019-10-10 12:31:03.450 5660-5696/com.virobugs D/IMonitor: Load library imonitor_jni
+2019-10-10 12:31:03.452 5660-5696/com.virobugs W/ZrHung.AppEyeUiProbe: Failed to get config from zrhung
+2019-10-10 12:31:03.454 5554-5554/? D/AwareBitmapCacher: handleInit disable com.android.contacts
+2019-10-10 12:31:03.463 5660-5660/com.virobugs V/ActivityThread: Skipping new config:{1.0 208mcc1mnc [fr_FR,en_US] ldltr sw360dp w360dp h677dp 480dpi nrml long hdr port finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 0, 0) mAppBounds=Rect(0, 85 - 1080, 2116) mWindowingMode=fullscreen mActivityType=undefined} nonFullScreen=0 suim:1 s.42}, config:{1.0 208mcc1mnc [fr_FR,en_US] ldltr sw360dp w360dp h677dp 480dpi nrml long hdr port finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 0, 0) mAppBounds=Rect(0, 85 - 1080, 2116) mWindowingMode=fullscreen mActivityType=undefined} nonFullScreen=0 suim:1 s.42} for app:com.virobugs
+2019-10-10 12:31:03.496 5660-5660/com.virobugs V/HwPolicyFactory: : success to get AllImpl object and return....
+2019-10-10 12:31:03.499 5660-5660/com.virobugs V/ActivityThread: callActivityOnCreate
+2019-10-10 12:31:03.523 5660-5660/com.virobugs I/HwApsImpl: APS: new HwApsImpl created
+2019-10-10 12:31:03.539 5660-5660/com.virobugs D/ReactNative: ReactInstanceManager.ctor()
+2019-10-10 12:31:03.539 5660-5660/com.virobugs D/SoLoader: init exiting
+2019-10-10 12:31:03.565 5660-5660/com.virobugs D/NetworkSecurityConfig: No Network Security Config specified, using platform default
+2019-10-10 12:31:03.567 5660-5660/com.virobugs W/com.virobugs: Accessing hidden method Ldalvik/system/CloseGuard;->get()Ldalvik/system/CloseGuard; (light greylist, reflection)
+2019-10-10 12:31:03.567 5660-5660/com.virobugs W/com.virobugs: Accessing hidden method Ldalvik/system/CloseGuard;->open(Ljava/lang/String;)V (light greylist, reflection)
+2019-10-10 12:31:03.567 5660-5660/com.virobugs W/com.virobugs: Accessing hidden method Ldalvik/system/CloseGuard;->warnIfOpen()V (light greylist, reflection)
+2019-10-10 12:31:03.571 515-515/? E/SELinux: avc:  denied  { find } for interface=vendor.huawei.hardware.sensors::ISensors sid=u:r:untrusted_app:s0:c91,c257,c512,c768 pid=5660 scontext=u:r:untrusted_app:s0:c91,c257,c512,c768 tcontext=u:object_r:default_hisi_hwservice:s0 tclass=hwservice_manager permissive=0
+2019-10-10 12:31:03.573 1158-1158/? I/HwNormalizedSpline: DayMode:getBrightnessLevel lux =69.0, mDefaultBrightnessFromLux =38.13444
+2019-10-10 12:31:03.576 751-909/? D/SensorHub: batch called handle:0 sample_ns:66667000 latency_ns:0
+2019-10-10 12:31:03.576 751-909/? D/SensorHub: in batch, handle = 0, flags = 0, period_ns = 66667000, timeout = 0
+2019-10-10 12:31:03.578 1941-2044/? I/SensorState: sensor:0 name:accelerometer enable:true uid:10347
+2019-10-10 12:31:03.578 1941-2044/? I/PGServer: report state:4 event type:1 pid:0 uid:10347 pkg:null to pid: 1158
+2019-10-10 12:31:03.578 1941-2044/? I/SensorState: addSensor,mHandles:{0=1}
+2019-10-10 12:31:03.579 751-909/? I/Sensors@1.0-impl: activate-0 enabled-1 fwkOals-1 camOals-0 fwkOcolor-1 camOcolor-0 fwkOtof-0 camOtof-0
+2019-10-10 12:31:03.579 751-909/? D/SensorHub: enableSensor-> handle: 0 enable : 1
+2019-10-10 12:31:03.579 751-909/? D/SensorHub: Channel activate-> handle: 0, enabled:1, err: 0
+2019-10-10 12:31:03.586 5660-5660/com.virobugs D/ReactNative: ReactInstanceManager.createReactContextInBackground()
+2019-10-10 12:31:03.586 5660-5660/com.virobugs D/ReactNative: ReactInstanceManager.recreateReactContextInBackgroundInner()
+2019-10-10 12:31:03.586 5660-5660/com.virobugs D/ReactNative: ReactInstanceManager.onJSBundleLoadedFromServer()
+2019-10-10 12:31:03.591 5660-5660/com.virobugs D/ReactNative: ReactInstanceManager.recreateReactContextInBackground()
+2019-10-10 12:31:03.591 5660-5660/com.virobugs D/ReactNative: ReactInstanceManager.runCreateReactContextOnNewThread()
+2019-10-10 12:31:03.594 5660-5703/com.virobugs D/SoLoader: About to load: libreactnativejni.so
+2019-10-10 12:31:03.594 5660-5703/com.virobugs D/SoLoader: libreactnativejni.so not found on /data/data/com.virobugs/lib-main
+2019-10-10 12:31:03.594 5660-5703/com.virobugs D/SoLoader: libreactnativejni.so found on /data/app/com.virobugs-G2e6dFEXAvjbdW9Ub0Aq5g==/lib/arm64
+2019-10-10 12:31:03.594 5660-5703/com.virobugs D/SoLoader: Not resolving dependencies for libreactnativejni.so
+2019-10-10 12:31:03.601 5660-5660/com.virobugs V/HwWidgetFactory: : successes to get AllImpl object and return....
+2019-10-10 12:31:03.602 5660-5660/com.virobugs I/HwPhoneWindow: updateLayoutParamsColor false mSpecialSet=false, mForcedNavigationBarColor=false, navigationBarColor=0, mNavBarShow=false, mIsFloating=false
+2019-10-10 12:31:03.603 5660-5660/com.virobugs I/HwPhoneWindow: updateLayoutParamsColor true mSpecialSet=false, mForcedNavigationBarColor=false, navigationBarColor=ff000000, mNavBarShow=false, mIsFloating=false
+2019-10-10 12:31:03.609 5660-5703/com.virobugs D/JavaScriptCore.Version: 236355.1.0
+2019-10-10 12:31:03.610 5660-5703/com.virobugs D/SoLoader: Loaded: libreactnativejni.so
+2019-10-10 12:31:03.611 5660-5703/com.virobugs D/SoLoader: About to load: libfb.so
+2019-10-10 12:31:03.611 5660-5703/com.virobugs D/SoLoader: libfb.so not found on /data/data/com.virobugs/lib-main
+2019-10-10 12:31:03.611 5660-5703/com.virobugs D/SoLoader: libfb.so found on /data/app/com.virobugs-G2e6dFEXAvjbdW9Ub0Aq5g==/lib/arm64
+2019-10-10 12:31:03.611 5660-5703/com.virobugs D/SoLoader: Not resolving dependencies for libfb.so
+2019-10-10 12:31:03.611 577-631/? I/PreDnsController: canPreDnsQuery,persist.sys.predns is false!
+2019-10-10 12:31:03.611 577-631/? I/PreDnsController: canPreDnsQuery,persist.sys.predns is false!
+2019-10-10 12:31:03.612 5660-5703/com.virobugs D/SoLoader: About to load: libfb.so
+2019-10-10 12:31:03.613 5660-5703/com.virobugs D/SoLoader: libfb.so not found on /data/data/com.virobugs/lib-main
+2019-10-10 12:31:03.613 5660-5703/com.virobugs D/SoLoader: libfb.so found on /data/app/com.virobugs-G2e6dFEXAvjbdW9Ub0Aq5g==/lib/arm64
+2019-10-10 12:31:03.613 5660-5703/com.virobugs D/SoLoader: Not resolving dependencies for libfb.so
+2019-10-10 12:31:03.613 5660-5703/com.virobugs I/com.virobugs: Thread[20,tid=5703,Native,Thread*=0x7bb496a400,peer=0x143c45c0,"create_react_context"] recursive attempt to load library "/data/app/com.virobugs-G2e6dFEXAvjbdW9Ub0Aq5g==/lib/arm64/libfb.so"
+2019-10-10 12:31:03.613 5660-5703/com.virobugs D/SoLoader: Loaded: libfb.so
+2019-10-10 12:31:03.613 5660-5703/com.virobugs D/SoLoader: Loaded: libfb.so
+2019-10-10 12:31:03.616 5660-5703/com.virobugs D/SoLoader: About to load: libjscexecutor.so
+2019-10-10 12:31:03.616 5660-5703/com.virobugs D/SoLoader: libjscexecutor.so not found on /data/data/com.virobugs/lib-main
+2019-10-10 12:31:03.616 5660-5703/com.virobugs D/SoLoader: libjscexecutor.so found on /data/app/com.virobugs-G2e6dFEXAvjbdW9Ub0Aq5g==/lib/arm64
+2019-10-10 12:31:03.616 5660-5703/com.virobugs D/SoLoader: Not resolving dependencies for libjscexecutor.so
+2019-10-10 12:31:03.620 5660-5703/com.virobugs D/SoLoader: Loaded: libjscexecutor.so
+2019-10-10 12:31:03.621 5660-5703/com.virobugs D/ReactNative: ReactInstanceManager.createReactContext()
+2019-10-10 12:31:03.621 5660-5704/com.virobugs W/unknown:InspectorPackagerConnection: Couldn't connect to packager, will silently retry
+2019-10-10 12:31:03.631 5660-5660/com.virobugs W/com.virobugs: Accessing hidden method Landroid/view/View;->computeFitSystemWindows(Landroid/graphics/Rect;Landroid/graphics/Rect;)Z (light greylist, reflection)
+2019-10-10 12:31:03.632 5589-5607/? I/d.process.acor: Waiting for a blocking GC ProfileSaver
+2019-10-10 12:31:03.633 5660-5660/com.virobugs W/com.virobugs: Accessing hidden method Landroid/view/ViewGroup;->makeOptionalFitsSystemWindows()V (light greylist, reflection)
+2019-10-10 12:31:03.637 5660-5660/com.virobugs D/ActivityThread: add activity client record, r= ActivityRecord{2e2854 token=android.os.BinderProxy@f345748 {com.virobugs/com.virobugs.MainActivity}} token= android.os.BinderProxy@f345748
+2019-10-10 12:31:03.643 5660-5660/com.virobugs D/ZrHung.AppEyeUiProbe: notify runnable to start.
+2019-10-10 12:31:03.646 5660-5660/com.virobugs D/OpenGLRenderer: Skia GL Pipeline
+2019-10-10 12:31:03.647 5589-5607/? I/d.process.acor: WaitForGcToComplete blocked ProfileSaver on HeapTrim for 15.345ms
+2019-10-10 12:31:03.647 5660-5660/com.virobugs I/HwSecImmHelper: mSecurityInputMethodService is null
+2019-10-10 12:31:03.651 5660-5660/com.virobugs D/HwAppInnerBoostImpl: set config for com.virobugs BOOST_FLAG=false REPORT_DURATION_CLICK=1000 REPORT_TIMES_CLICK=3 REPORT_DURATION_SLIDE=5000 REPORT_TIMES_SLIDE=16
+2019-10-10 12:31:03.653 5660-5660/com.virobugs D/OpenGLRenderer:   HWUI Binary is  enabled
+2019-10-10 12:31:03.658 5660-5703/com.virobugs E/Manish: createNativeModules
+2019-10-10 12:31:03.658 5589-5589/? D/AwareBitmapCacher: handleInit disable android.process.acore
+2019-10-10 12:31:03.660 1158-3510/? V/WindowManager: addWindow: Window{c7fb66a u0 com.virobugs/com.virobugs.MainActivity}
+2019-10-10 12:31:03.662 3460-3476/? I/AppLifeChangeSensor:  CAWARENESS: activityResumed componentName = ComponentInfo{com.virobugs/com.virobugs.MainActivity}
+2019-10-10 12:31:03.662 1158-1269/? W/HwActivityManagerServiceEx: HwActivityNotifier end call for activityLifeState under user 0 cost 1
+2019-10-10 12:31:03.662 3460-3476/? E/AppLifeChangeSensor:  CAWARENESS: activityResumed mAppLifeChangeCallback is null
+2019-10-10 12:31:03.662 1845-10398/? D/DollieActivityManagerAdapter: [Resumed] pid:5660 uid:10347 ComponentInfo{com.virobugs/com.virobugs.MainActivity}
+2019-10-10 12:31:03.662 1158-1284/? D/HwGameAssistantController: UPDATE: mCurFgPkg=com.virobugs, mCurFgPid=5660, mCurIsGame=false
+2019-10-10 12:31:03.662 1690-1690/? I/HwNavigationBarView: updateAssistantButtonInGuestureMode(), vis=true,isGestureNavEnable=false
+2019-10-10 12:31:03.662 1845-10398/? I/HidataAppQoeP: foregroundUidAdd uid: 10347 name: com.virobugs activity state: true
+2019-10-10 12:31:03.664 1158-1582/? D/HwHiCureActivityObserver: handleMessage: msg[0]
+2019-10-10 12:31:03.664 1158-1582/? D/HiData_HwAPPQoEResourceMangerImpl: checkIsMonitorHiCureAppScence input :com.virobugs
+2019-10-10 12:31:03.664 1158-1653/? D/HiDATA_HiStream: activityResumed:pid=5660, uid=10347, component=ComponentInfo{com.virobugs/com.virobugs.MainActivity}
+2019-10-10 12:31:03.664 1158-1653/? D/HiData_HwAPPQoEResourceMangerImpl: checkIsMonitorVideoScence input :com.virobugs,com.virobugs.MainActivity
+2019-10-10 12:31:03.664 1158-1653/? D/HiDATA_HiStream: mHwAPPQoEAPKConfig is null
+2019-10-10 12:31:03.664 1158-4664/? D/HiData_HwAPPQoEActivityMonitor: handleActivityChange,  curPackage:com.virobugs, curClass:com.virobugs.MainActivity
+2019-10-10 12:31:03.664 1158-4664/? D/HiData_HwAPPQoEResourceMangerImpl: checkIsMonitorAPKScence input :com.virobugs,com.virobugs.MainActivity
+2019-10-10 12:31:03.664 1158-4664/? D/HiData_HwAPPQoEResourceMangerImpl: checkIsMonitorAPKScence input :com.virobugs,null
+2019-10-10 12:31:03.664 1158-4664/? D/HiData_HwAPPQoEResourceMangerImpl: checkIsMonitorGameScence input :com.virobugs
+2019-10-10 12:31:03.664 1158-4664/? D/HiData_HwAPPQoEResourceMangerImpl: checkIsMonitorGameScence input :com.virobugs
+2019-10-10 12:31:03.664 1158-4664/? D/HiData_HwAPPQoEActivityMonitor: handleActivityChange, it is not a care app or scence
+2019-10-10 12:31:03.664 1158-4664/? D/HiData_HwAPPQoEActivityMonitor: handleActivityChange,  curr mAppType:-1, lastType:-1
+2019-10-10 12:31:03.665 1845-10398/? I/HidataAppQoeP: sendKernelAppUid, Uid = 10347, period = 2000 name = com.virobugs
+2019-10-10 12:31:03.665 1845-10398/? E/DollieAdapterService: notifyActivityState pkg:com.virobugs/com.virobugs.MainActivity state:2 fg:true mUid:10347
+2019-10-10 12:31:03.666 1158-3510/? D/HwNetworkManagementService: setNetBoosterAppUid,appUid=10347,period=2000
+2019-10-10 12:31:03.666 1158-3510/? D/NetdConnector: SND -> {8406 hwnb appQoe uid 10347 2000}
+2019-10-10 12:31:03.667 1158-1571/? D/NetdConnector: RCV <- {200 8406 appQoe uid cmd succeeded}
+2019-10-10 12:31:03.668 5660-5660/com.virobugs W/unknown:ReactNative: Packager connection already open, nooping.
+2019-10-10 12:31:03.669 5660-5660/com.virobugs I/HwPhoneWindow: updateLayoutParamsColor false mSpecialSet=false, mForcedNavigationBarColor=false, navigationBarColor=ff000000, mNavBarShow=true, mIsFloating=false
+2019-10-10 12:31:03.672 1158-3510/? D/PackageManager: resolve intent for uid:10347, matchs:2, res:ResolveInfo{bf1275b com.huawei.android.launcher/.unihome.UniHomeLauncher m=0x108000}
+2019-10-10 12:31:03.673 5660-5714/com.virobugs I/HiTouch_HiTouchSensor: enabledInPad = false,isPcCastMode = false
+2019-10-10 12:31:03.674 5660-5714/com.virobugs D/HiTouch_PressGestureDetector: onAttached, package=com.virobugs, windowType=1, mHiTouchRestricted=false
+2019-10-10 12:31:03.674 1158-1272/? I/StatusBarDisable: setFlags what=0 which=1 pkg=Window{b662a29 u0 Splash Screen com.virobugs}
+2019-10-10 12:31:03.677 1158-3510/? V/HwPhoneWindowManager: updateSystemUiColorLw window=Window{c7fb66a u0 com.virobugs/com.virobugs.MainActivity},EmuiStyle=0,StatusBarColor=0xff757575,NavigationBarColor=0xff000000, mForceNotchStatusBar=false
+2019-10-10 12:31:03.677 1158-3510/? D/ZrHung.AppEyeFocusWindow: FocusWindowErrorScene cancelCheckFreezeScreen
+2019-10-10 12:31:03.677 1158-3510/? D/ZrHung.AppEyeTransparentWindow: TransparentWindow mHungConfigStatus = 1,mHungConfigEnable =
+2019-10-10 12:31:03.678 1158-1272/? D/HwPhoneWindowManager: Transact:setSystemUIColor to status bar service
+2019-10-10 12:31:03.678 1690-7878/? I/CommandQueue: updateBarBgColor
+2019-10-10 12:31:03.678 1690-7878/? D/CommandQueue: CommandQueue, setBarBackgroundColor
+2019-10-10 12:31:03.678 1690-1690/? D/TintManager: navigationBarIconTint=99ffffff
+2019-10-10 12:31:03.678 1158-1272/? I/StatusBarDisable: setFlags what=0 which=1 pkg=Window{c7fb66a u0 com.virobugs/com.virobugs.MainActivity}
+2019-10-10 12:31:03.681 649-1502/? E/BufferQueueProducer: [] mConsumerName == NULL!!!!!!
+2019-10-10 12:31:03.685 5660-5660/com.virobugs W/InputMethodManager: startInputReason = 1
+2019-10-10 12:31:03.687 598-598/? I/GRALLOC: getCallingPid=649, shrFd=32,fmt=0x1,intFmt=0x200000001,btStrd=4352,size=9973760,pid=598
+    	 yuv=2,w=1080,h=2244,Stride u=0 v=0,offset u=0 v=0
+    	 iova_size=9973760,conUsg=0x900,proUsg=0x900,	 strd=1088,[afbc]HdrStrd=1088 PyldStrd=69632 Scrmbl=2,ionhnd = 1
+2019-10-10 12:31:03.687 649-1502/? E/BufferQueueProducer: [] mConsumerName == NULL!!!!!!
+2019-10-10 12:31:03.688 5660-5660/com.virobugs W/InputMethodManager: startInputReason = 5
+2019-10-10 12:31:03.689 5660-5713/com.virobugs I/ConfigStore: android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasWideColorDisplay retrieved: 0
+2019-10-10 12:31:03.689 5660-5713/com.virobugs I/ConfigStore: android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasHDRDisplay retrieved: 0
+2019-10-10 12:31:03.689 5660-5713/com.virobugs I/iGraphics: [0020080c] pn: com.virobugs, p: 5660
+2019-10-10 12:31:03.689 5660-5713/com.virobugs I/iGraphics: [0030080c] no spt app: com.virobugs
+2019-10-10 12:31:03.689 5660-5713/com.virobugs I/OpenGLRenderer: Initialized EGL, version 1.4, mEglDisplay 0x1
+2019-10-10 12:31:03.689 5660-5713/com.virobugs D/OpenGLRenderer: Swap behavior 2
+2019-10-10 12:31:03.689 598-598/? I/GRALLOC: getCallingPid=649, shrFd=32,fmt=0x1,intFmt=0x200000001,btStrd=4352,size=9973760,pid=598
+    	 yuv=2,w=1080,h=2244,Stride u=0 v=0,offset u=0 v=0
+    	 iova_size=9973760,conUsg=0x900,proUsg=0x900,	 strd=1088,[afbc]HdrStrd=1088 PyldStrd=69632 Scrmbl=2,ionhnd = 1
+2019-10-10 12:31:03.690 649-1502/? E/BufferQueueProducer: [] mConsumerName == NULL!!!!!!
+2019-10-10 12:31:03.692 598-598/? I/GRALLOC: getCallingPid=649, shrFd=32,fmt=0x1,intFmt=0x200000001,btStrd=4352,size=9973760,pid=598
+    	 yuv=2,w=1080,h=2244,Stride u=0 v=0,offset u=0 v=0
+    	 iova_size=9973760,conUsg=0x900,proUsg=0x900,	 strd=1088,[afbc]HdrStrd=1088 PyldStrd=69632 Scrmbl=2,ionhnd = 1
+2019-10-10 12:31:03.701 5660-5703/com.virobugs W/native: commandlineflags.cc:942 Ignoring RegisterValidateFunction() for flag pointer 0x7b9ee0b968: no flag found at that address
+2019-10-10 12:31:03.704 5660-5703/com.virobugs E/Manish: AnimationManager constructor
+2019-10-10 12:31:03.709 5660-5713/com.virobugs D/mali_winsys: EGLint new_window_surface(egl_winsys_display *, void *, EGLSurface, EGLConfig, egl_winsys_surface **, EGLBoolean) returns 0x3000
+2019-10-10 12:31:03.712 5660-5703/com.virobugs D/ReactNative: Initializing React Xplat Bridge.
+2019-10-10 12:31:03.714 598-598/? I/GRALLOC: getCallingPid=649, shrFd=32,fmt=0x1,intFmt=0x200000001,btStrd=4352,size=9973760,pid=598
+    	 yuv=2,w=1080,h=2244,Stride u=0 v=0,offset u=0 v=0
+    	 iova_size=9973760,conUsg=0xb00,proUsg=0xb00,	 strd=1088,[afbc]HdrStrd=1088 PyldStrd=69632 Scrmbl=2,ionhnd = 1
+2019-10-10 12:31:03.716 5660-5703/com.virobugs D/ReactNative: Initializing React Xplat Bridge before initializeBridge
+2019-10-10 12:31:03.723 5660-5660/com.virobugs I/ViewRootImpl: jank_removeInvalidNode jank list is null
+2019-10-10 12:31:03.723 5660-5703/com.virobugs D/ReactNative: Initializing React Xplat Bridge after initializeBridge
+2019-10-10 12:31:03.723 5660-5703/com.virobugs D/ReactNative: CatalystInstanceImpl.runJSBundle()
+2019-10-10 12:31:03.724 5660-5728/com.virobugs D/ReactNative: ReactInstanceManager.setupReactContext()
+2019-10-10 12:31:03.724 5660-5728/com.virobugs D/ReactNative: CatalystInstanceImpl.initialize()
+2019-10-10 12:31:03.725 1158-1272/? I/StatusBarDisable: setFlags what=0 which=1 pkg=Window{c7fb66a u0 com.virobugs/com.virobugs.MainActivity}
+2019-10-10 12:31:03.725 1158-1514/? V/WindowManager_visibility: updateAllDrawn Add AppWindowToken{7b98f75 token=Token{eaa6ac ActivityRecord{a574c5f u0 com.virobugs/.MainActivity t6723}}}
+2019-10-10 12:31:03.727 5660-5660/com.virobugs W/unknown:ReactNative: Packager connection already open, nooping.
+2019-10-10 12:31:03.728 5660-5728/com.virobugs D/ReactNative: ReactInstanceManager.attachRootViewToInstance()
+2019-10-10 12:31:03.729 1158-1514/? V/WindowManager_visibility: updateAllDrawn allDrawn=false interesting=1 drawn=1 relaunchCount=0 for AppWindowToken{7b98f75 token=Token{eaa6ac ActivityRecord{a574c5f u0 com.virobugs/.MainActivity t6723}}}
+2019-10-10 12:31:03.731 1158-1272/? I/StatusBarDisable: setFlags what=0 which=1 pkg=Window{c7fb66a u0 com.virobugs/com.virobugs.MainActivity}
+2019-10-10 12:31:03.737 1158-1272/? I/StatusBarDisable: setFlags what=0 which=1 pkg=Window{c7fb66a u0 com.virobugs/com.virobugs.MainActivity}
+2019-10-10 12:31:03.738 1158-1514/? V/WindowManager: removeIfPossible: Window{b662a29 u0 Splash Screen com.virobugs}
+2019-10-10 12:31:03.738 1158-1283/? I/ActivityManager: Displayed com.virobugs/.MainActivity: +758ms
+2019-10-10 12:31:03.739 1158-1283/? D/ActivityManager: EVENT_APP_ACTIVITY_DISPLAYED_FINISH reportData: com.virobugs/.MainActivity 5660 758
+2019-10-10 12:31:03.740 1158-1514/? V/WindowManager: Not removing Window{b662a29 u0 Splash Screen com.virobugs EXITING} due to exit animation
+2019-10-10 12:31:03.741 1158-1272/? I/StatusBarDisable: setFlags what=0 which=1 pkg=Window{c7fb66a u0 com.virobugs/com.virobugs.MainActivity}
+2019-10-10 12:31:03.745 1158-1821/? D/OpenGLRenderer: eglTerminate mEglDisplay=0x1
+2019-10-10 12:31:03.746 1845-10398/? D/DollieActivityManagerAdapter: [UidStateChanged]  uid:10104 uidState:5
+2019-10-10 12:31:03.746 1845-10398/? E/DollieAdapterService: notifyActivityState pkg:com.huawei.android.launcher/com.huawei.android.launcher.unihome.UniHomeLauncher state:5 fg:false mUid:10104
+2019-10-10 12:31:03.748 1158-1577/? D/NetdConnector: SND -> {8407 firewall set_uid_rule standby 10013 deny}
+2019-10-10 12:31:03.749 1979-1979/? D/ViewRootImpl[UniHomeLauncher]: surface should not be released
+2019-10-10 12:31:03.750 745-765/? D/AwareLog: iawared: WorkingsetProcessCommand subCmd = 351, userId=10347, pid=5660, com.virobugs
+2019-10-10 12:31:03.750 745-765/? D/AwareLog: iawared: WorkingsetPause com.virobugs
+2019-10-10 12:31:03.752 1158-1571/? D/NetdConnector: RCV <- {200 8407 Firewall command succeeded}
+2019-10-10 12:31:03.753 1158-1577/? I/NetworkPolicy: updateRulesForPowerRestrictionsUL(10013), isIdle: true, mRestrictPower: false, mDeviceIdleMode: false, isForeground=false, isWhitelisted=false, oldRule=32 (ALLOW_ALL), newRule=64 (REJECT_ALL), newUidRules=64 (REJECT_ALL), oldUidRules=32 (ALLOW_ALL), mRestrictBackground=false
+2019-10-10 12:31:03.763 1158-3510/? D/NotificationListeners: Removing active service ComponentInfo{com.huawei.android.launcher/com.android.launcher.notification.NotificationListener}
+2019-10-10 12:31:03.766 1158-3510/? V/WindowManager: notifyAppStopped: AppWindowToken{df5a639 token=Token{b298e00 ActivityRecord{736ac83 u0 com.huawei.android.launcher/.unihome.UniHomeLauncher t1}}}
+2019-10-10 12:31:03.766 1158-3510/? E/WindowManager: win=Window{2ff5ba0 u0 com.huawei.android.launcher/com.huawei.android.launcher.unihome.UniHomeLauncher} destroySurfaces: appStopped=true win.mWindowRemovalAllowed=false win.mRemoveOnExit=false
+2019-10-10 12:31:03.766 1158-3510/? E/WindowManager: win=Window{b087f20 u0 com.huawei.android.launcher/com.huawei.android.launcher.unihome.UniHomeLauncher} destroySurfaces: appStopped=true win.mWindowRemovalAllowed=false win.mRemoveOnExit=false
+2019-10-10 12:31:03.768 1941-2740/? E/AwareLog: GameSdkConfigReader: GameSdkLog: idNameMap: null
+2019-10-10 12:31:03.769 1845-25434/? I/BoosterSwitchP: notifyUidState do nothing
+2019-10-10 12:31:03.769 1845-25434/? I/BrowserChrP: notifyUidState
+2019-10-10 12:31:03.770 608-4407/? I/spk_dev_interface: spk_set_parameters: use new smartpakit version
+2019-10-10 12:31:03.770 608-4407/? I/audio_hw_primary: update stream types 0
+2019-10-10 12:31:03.770 608-4407/? I/audio_custom: game mode exit.
+2019-10-10 12:31:03.771 608-4407/? I/dsp_soc: set primary algo bypass 0 succ
+2019-10-10 12:31:03.796 5660-5728/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.art.ARTGroupViewManager
+2019-10-10 12:31:03.798 5660-5728/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.art.ARTGroupShadowNode
+2019-10-10 12:31:03.799 1941-2227/? I/ScalingFreqAdapterUniPerf: ===success setFreq:  gpumax:10->767000000
+2019-10-10 12:31:03.799 622-622/? I/uniperf server: setConfig clientId=1, tagLen=1, tags[0]=10, configs[0]=767000000
+2019-10-10 12:31:03.799 642-1019/? I/PF_MT: [recordCmd:60] Pid:622 Qos:3 mode:0 suspend_mask:0x0 val=332000000
+2019-10-10 12:31:03.800 642-1019/? I/PF_MT: [recordCmd:60] Pid:622 Qos:3 mode:0 suspend_mask:0x0 val=767000000
+2019-10-10 12:31:03.800 5660-5728/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.art.ARTShapeViewManager
+2019-10-10 12:31:03.801 5660-5728/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.art.ARTShapeShadowNode
+2019-10-10 12:31:03.802 5660-5728/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.art.ARTTextViewManager
+2019-10-10 12:31:03.802 5660-5728/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.art.ARTTextShadowNode
+2019-10-10 12:31:03.803 5660-5728/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.checkbox.ReactCheckBoxManager
+2019-10-10 12:31:03.807 5660-5728/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.uimanager.LayoutShadowNode
+2019-10-10 12:31:03.813 5660-5728/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.picker.ReactDialogPickerManager
+2019-10-10 12:31:03.815 5660-5728/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.drawer.ReactDrawerLayoutManager
+2019-10-10 12:31:03.817 5660-5728/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.picker.ReactDropdownPickerManager
+2019-10-10 12:31:03.819 5660-5728/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.scroll.ReactHorizontalScrollViewManager
+2019-10-10 12:31:03.824 5660-5728/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.scroll.ReactHorizontalScrollContainerViewManager
+2019-10-10 12:31:03.825 5660-5728/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.progressbar.ReactProgressBarViewManager
+2019-10-10 12:31:03.826 5660-5728/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.progressbar.ProgressBarShadowNode
+2019-10-10 12:31:03.828 5660-5728/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.scroll.ReactScrollViewManager
+2019-10-10 12:31:03.832 5660-5728/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.slider.ReactSliderManager
+2019-10-10 12:31:03.834 5660-5728/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.slider.ReactSliderManager$ReactSliderShadowNode
+2019-10-10 12:31:03.835 5660-5728/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.switchview.ReactSwitchManager
+2019-10-10 12:31:03.837 5660-5728/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.switchview.ReactSwitchManager$ReactSwitchShadowNode
+2019-10-10 12:31:03.838 5660-5728/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.toolbar.ReactToolbarManager
+2019-10-10 12:31:03.840 5660-5728/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.webview.ReactWebViewManager
+2019-10-10 12:31:03.843 5660-5728/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager
+2019-10-10 12:31:03.845 5660-5728/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.art.ARTSurfaceViewManager
+2019-10-10 12:31:03.846 5660-5728/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.art.ARTSurfaceViewShadowNode
+2019-10-10 12:31:03.847 5660-5728/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.frescosupport.FrescoBasedReactTextInlineImageViewManager
+2019-10-10 12:31:03.847 5660-5728/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.frescosupport.FrescoBasedReactTextInlineImageShadowNode
+2019-10-10 12:31:03.850 1158-1514/? V/WindowManager: Exit animation finished in Window{b662a29 u0 Splash Screen com.virobugs EXITING}: remove=true
+2019-10-10 12:31:03.850 5660-5728/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.image.ReactImageManager
+2019-10-10 12:31:03.850 1158-1514/? E/WindowManager: win=Window{b662a29 u0 Splash Screen com.virobugs EXITING} destroySurfaces: appStopped=false win.mWindowRemovalAllowed=true win.mRemoveOnExit=true
+2019-10-10 12:31:03.850 1158-1514/? V/WindowManager: postWindowRemoveCleanupLocked: Window{b662a29 u0 Splash Screen com.virobugs}
+2019-10-10 12:31:03.850 1158-1514/? V/WindowManager: Removing Window{b662a29 u0 Splash Screen com.virobugs} from AppWindowToken{7b98f75 token=Token{eaa6ac ActivityRecord{a574c5f u0 com.virobugs/.MainActivity t6723}}}
+2019-10-10 12:31:03.852 1158-1272/? I/StatusBarDisable: setFlags what=0 which=1 pkg=Window{c7fb66a u0 com.virobugs/com.virobugs.MainActivity}
+2019-10-10 12:31:03.853 5660-5728/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.modal.ReactModalHostManager
+2019-10-10 12:31:03.854 5660-5728/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.modal.ModalHostShadowNode
+2019-10-10 12:31:03.855 5660-5728/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactRawTextManager
+2019-10-10 12:31:03.855 5660-5728/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactRawTextShadowNode
+2019-10-10 12:31:03.856 5660-5728/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.textinput.ReactTextInputManager
+2019-10-10 12:31:03.862 5660-5728/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.textinput.ReactTextInputShadowNode
+2019-10-10 12:31:03.867 5660-5728/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactTextViewManager
+2019-10-10 12:31:03.867 741-741/? E/Thermal-daemon: [charger_ic] temp_new :38  temp_old :37
+2019-10-10 12:31:03.868 741-741/? E/Thermal-daemon: Report temperature: [charger_ic] temp :38  report_threshold:1
+2019-10-10 12:31:03.868 1941-2666/? D/HwThermalStateManager: Thermal type: 2 cur_temperature:38
+2019-10-10 12:31:03.869 5660-5728/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactTextShadowNode
+2019-10-10 12:31:03.871 5660-5728/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.view.ReactViewManager
+2019-10-10 12:31:03.875 5660-5728/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.viewpager.ReactViewPagerManager
+2019-10-10 12:31:03.877 5660-5728/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactVirtualTextViewManager
+2019-10-10 12:31:03.877 5660-5728/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactVirtualTextShadowNode
+2019-10-10 12:31:03.878 5660-5728/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.viromedia.bridge.component.VRTSceneNavigatorManager
+2019-10-10 12:31:03.880 5660-5728/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.viromedia.bridge.component.VRTVRSceneNavigatorManager
+2019-10-10 12:31:03.883 5660-5728/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.viromedia.bridge.component.node.VRTSceneManagerImpl
+2019-10-10 12:31:03.885 5660-5728/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.viromedia.bridge.component.VRT3DSceneNavigatorManager
+2019-10-10 12:31:03.887 5660-5728/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.viromedia.bridge.component.node.control.VRTBoxManager
+2019-10-10 12:31:03.891 5660-5728/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.viromedia.bridge.component.node.VRTNodeManager$FlexEnabledShadowNode
+2019-10-10 12:31:03.894 5660-5728/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.viromedia.bridge.component.node.control.VRTGeometryManager
+2019-10-10 12:31:03.895 5660-5728/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.viromedia.bridge.component.node.control.VRTVideoSurfaceManager
+2019-10-10 12:31:03.897 5660-5728/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.viromedia.bridge.component.VRT360VideoManager
+2019-10-10 12:31:03.899 5660-5728/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.viromedia.bridge.component.node.VRTNodeManagerImpl
+2019-10-10 12:31:03.900 5660-5728/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.viromedia.bridge.component.node.VRTCameraManager
+2019-10-10 12:31:03.901 5660-5728/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.viromedia.bridge.component.node.VRTOrbitCameraManager
+2019-10-10 12:31:03.902 5660-5728/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.viromedia.bridge.component.node.control.VRTSphereManager
+2019-10-10 12:31:03.903 5660-5728/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.viromedia.bridge.component.node.control.VRTImageManager
+2019-10-10 12:31:03.905 5660-5728/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.viromedia.bridge.component.VRT360ImageManager
+2019-10-10 12:31:03.906 5660-5728/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.viromedia.bridge.component.VRTSkyBoxManager
+2019-10-10 12:31:03.907 5660-5728/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.viromedia.bridge.component.node.VRTFlexViewManager
+2019-10-10 12:31:03.908 5660-5728/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.viromedia.bridge.component.VRTAnimatedComponentManager
+2019-10-10 12:31:03.909 5660-5728/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.viromedia.bridge.component.node.control.VRTQuadManager
+2019-10-10 12:31:03.911 5660-5728/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.viromedia.bridge.component.node.control.VRTAnimatedImageManager
+2019-10-10 12:31:03.912 5660-5728/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.viromedia.bridge.component.node.control.VRTPolygonManager
+2019-10-10 12:31:03.913 5660-5728/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.viromedia.bridge.component.VRTDirectionalLightManager
+2019-10-10 12:31:03.915 5660-5728/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.viromedia.bridge.component.VRTAmbientLightManager
+2019-10-10 12:31:03.916 5660-5728/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.viromedia.bridge.component.VRTSpotLightManager
+2019-10-10 12:31:03.917 1158-7849/? V/BroadcastQueue: Finished with ordered broadcast BroadcastRecord{9f12f3c u0 com.android.internal.telephony.data-stall}
+2019-10-10 12:31:03.918 5660-5728/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.viromedia.bridge.component.VRTOmniLightManager
+2019-10-10 12:31:03.919 5660-5728/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.viromedia.bridge.component.VRTSoundManager
+2019-10-10 12:31:03.920 5660-5728/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.viromedia.bridge.component.VRTSoundFieldManager
+2019-10-10 12:31:03.921 5660-5728/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.viromedia.bridge.component.VRTSpatialSoundManager
+2019-10-10 12:31:03.923 5660-5728/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.viromedia.bridge.component.node.control.VRTTextManager
+2019-10-10 12:31:03.925 5660-5728/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.viromedia.bridge.component.node.control.VRT3DObjectManager
+2019-10-10 12:31:03.926 5660-5728/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.viromedia.bridge.component.VRTControllerManager
+2019-10-10 12:31:03.928 5660-5728/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.viromedia.bridge.component.node.control.VRTPolylineManager
+2019-10-10 12:31:03.928 5660-5728/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.viromedia.bridge.component.node.control.VRTParticleEmitterManager
+2019-10-10 12:31:03.929 5660-5728/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.viromedia.bridge.component.node.VRTPortalSceneManager
+2019-10-10 12:31:03.930 5660-5728/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.viromedia.bridge.component.node.VRTPortalManager
+2019-10-10 12:31:03.931 5660-5728/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.viromedia.bridge.component.VRTLightingEnvironmentManager
+2019-10-10 12:31:03.931 5660-5728/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.viromedia.bridge.component.VRTMaterialVideoManager
+2019-10-10 12:31:03.932 5660-5728/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.viromedia.bridge.component.VRTARSceneNavigatorManager
+2019-10-10 12:31:03.933 5660-5728/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.viromedia.bridge.component.node.VRTARSceneManager
+2019-10-10 12:31:03.935 5660-5728/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.viromedia.bridge.component.node.VRTARPlaneManager
+2019-10-10 12:31:03.936 5660-5728/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.viromedia.bridge.component.node.VRTARImageMarkerManager
+2019-10-10 12:31:03.937 5660-5728/com.virobugs W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.viromedia.bridge.component.node.VRTARObjectMarkerManager
+2019-10-10 12:31:03.950 5660-5728/com.virobugs D/SoLoader: About to load: libyoga.so
+2019-10-10 12:31:03.950 5660-5728/com.virobugs D/SoLoader: libyoga.so not found on /data/data/com.virobugs/lib-main
+2019-10-10 12:31:03.950 5660-5728/com.virobugs D/SoLoader: libyoga.so found on /data/app/com.virobugs-G2e6dFEXAvjbdW9Ub0Aq5g==/lib/arm64
+2019-10-10 12:31:03.950 5660-5728/com.virobugs D/SoLoader: Not resolving dependencies for libyoga.so
+2019-10-10 12:31:03.952 5660-5728/com.virobugs D/SoLoader: Loaded: libyoga.so
+2019-10-10 12:31:03.972 5660-5728/com.virobugs D/SoLoader: init exiting
+2019-10-10 12:31:03.989 1158-1271/? I/ActivityManager: App 10029/com.google.android.googlequicksearchbox targets O+, restricted
+2019-10-10 12:31:04.009 5660-5728/com.virobugs I/WebViewFactory: Loading com.android.chrome version 77.0.3865.92 (code 386509237)
+2019-10-10 12:31:04.014 1158-3510/? I/AppWidgetServiceImpl: Widget is null when scheduleNotifyUpdateAppWidgetLocked
+2019-10-10 12:31:04.029 1158-6698/? V/BroadcastQueue: Finished with ordered broadcast BroadcastRecord{c7d94c5 u0 update-hint}
+2019-10-10 12:31:04.051 5660-5728/com.virobugs I/cr_LibraryLoader: Time to load native libraries: 3 ms (timestamps 6437-6440)
+2019-10-10 12:31:04.060 5660-5728/com.virobugs I/chromium: [INFO:library_loader_hooks.cc(51)] Chromium logging enabled: level = 0, default verbosity = 0
+2019-10-10 12:31:04.060 5660-5728/com.virobugs I/cr_LibraryLoader: Expected native library version number "77.0.3865.92", actual native library version number "77.0.3865.92"
+2019-10-10 12:31:04.067 1158-1158/? D/JobScheduler: Maybe queuing ready jobs...
+2019-10-10 12:31:04.203 5660-5727/? I/ReactNativeJS: Running application "virobugs" with appParams: {"rootTag":1}. __DEV__ === true, development-level warning are ON, performance optimizations are OFF
+2019-10-10 12:31:04.241 5660-5728/? W/unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.viromedia.bridge.component.VRTViroViewGroupManager$ViroLayoutShadowNode
+2019-10-10 12:31:04.256 5660-5660/? W/com.virobugs: Accessing hidden method Landroid/text/SpannableStringInternal;->length()I (light greylist, linking)
+2019-10-10 12:31:04.256 5660-5660/? W/com.virobugs: Accessing hidden field Landroid/view/View;->mAccessibilityDelegate:Landroid/view/View$AccessibilityDelegate; (light greylist, reflection)
+2019-10-10 12:31:04.277 5660-5660/? W/Viro: [******************************** ABORT ********************************]
+2019-10-10 12:31:04.277 5660-5660/? W/Viro:         File: /Users/manish/workspace/ViroRenderer/ViroRenderer/VROPlatformUtil.cpp
+2019-10-10 12:31:04.277 5660-5660/? W/Viro:         Line: 448
+2019-10-10 12:31:04.277 5660-5660/? W/Viro:     Function: getJNIEnv
+2019-10-10 12:31:04.277 5660-5660/? W/Viro:       Reason: ASSERTION FAILED
+      Expression: sVM != nullptr
+2019-10-10 12:31:04.285 5660-5660/? I/Viro: *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+2019-10-10 12:31:04.285 5660-5660/? I/Viro:           #00  pc 000000009aa7ac44  /dev/ashmem/dalvik-non moving space (deleted)
+
+    --------- beginning of crash
+2019-10-10 12:31:04.285 5660-5660/? A/libc: Fatal signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x5279706f436f54 in tid 5660 (com.virobugs), pid 5660 (com.virobugs)
+2019-10-10 12:31:04.314 1845-2204/? D/Hicom_PolicyCenterService: MESSAGE_NETSTATE_CHANGED_PATHSELECTION received
+2019-10-10 12:31:04.344 5753-5753/? I/crash_dump64: obtaining output fd from tombstoned, type: kDebuggerdTombstone
+2019-10-10 12:31:04.344 759-759/? I//system/bin/tombstoned: received crash request for pid 5660
+2019-10-10 12:31:04.345 5753-5753/? I/crash_dump64: performing dump of process 5660 (target tid = 5660)
+2019-10-10 12:31:04.353 5753-5753/? A/DEBUG: *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+2019-10-10 12:31:04.353 5753-5753/? A/DEBUG: Build fingerprint: 'HUAWEI/EML-L09/HWEML:9/HUAWEIEML-L09/328C109:user/release-keys'
+2019-10-10 12:31:04.353 5753-5753/? A/DEBUG: Revision: '0'
+2019-10-10 12:31:04.353 5753-5753/? A/DEBUG: ABI: 'arm64'
+2019-10-10 12:31:04.353 5753-5753/? A/DEBUG: Happend: 'Thu Oct 10 12:31:04 2019
+    '
+2019-10-10 12:31:04.353 5753-5753/? A/DEBUG: SYSVMTYPE: Art
+    APPVMTYPE: Art
+2019-10-10 12:31:04.353 5753-5753/? A/DEBUG: pid: 5660, tid: 5660, name: com.virobugs  >>> com.virobugs <<<
+2019-10-10 12:31:04.353 5753-5753/? A/DEBUG: signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x5279706f436f54
+2019-10-10 12:31:04.354 5753-5753/? A/DEBUG:     x0  0000007b9f1740f1  x1  0000000000000000  x2  0000000000000000  x3  0000000000000000
+2019-10-10 12:31:04.354 5753-5753/? A/DEBUG:     x4  002a2a2a00000000  x5  0000008000000000  x6  4558430000000000  x7  0000000080435845
+2019-10-10 12:31:04.354 5753-5753/? A/DEBUG:     x8  6f5279706f436f54  x9  0000007ba28dd098  x10 0000000000004001  x11 0000000000000000
+2019-10-10 12:31:04.354 5753-5753/? A/DEBUG:     x12 00000000000000b0  x13 0000000000000003  x14 ffffff0000000000  x15 4558430000000000
+2019-10-10 12:31:04.354 5753-5753/? A/DEBUG:     x16 0000007b9fd8a648  x17 0000007b9f31afc4  x18 0000000000000001  x19 000000000000001f
+2019-10-10 12:31:04.354 5753-5753/? A/DEBUG:     x20 0000007fda7d06b8  x21 0000000000000001  x22 0000007b9facb050  x23 0000007bbead0b00
+2019-10-10 12:31:04.354 5753-5753/? A/DEBUG:     x24 0000007b9f3ff240  x25 0000007b9f1740f1  x26 0000007ba28dd098  x27 0000000000000000
+2019-10-10 12:31:04.354 5753-5753/? A/DEBUG:     x28 0000007b9facb096  x29 0000007fda7d0680
+2019-10-10 12:31:04.354 5753-5753/? A/DEBUG:     sp  0000007fda7d05f0  lr  0000007b9f31ae5c  pc  005279706f436f54
+2019-10-10 12:31:04.466 745-783/? I/Pged-IPgedBinderService: ****action is 2, pid num is 3***
+2019-10-10 12:31:04.466 745-783/? I/Pged-Freezer: thawPids
+2019-10-10 12:31:04.470 1941-2217/? D/PgedBinderAdapter: unfrz ok, pid: [30152, 30253]
+2019-10-10 12:31:04.500 5753-5753/? A/DEBUG: backtrace:
+2019-10-10 12:31:04.500 5753-5753/? A/DEBUG:     #00 pc 005279706f436f54  <unknown>
+2019-10-10 12:31:04.500 5753-5753/? A/DEBUG:     #01 pc 0000000000216e58  /data/app/com.virobugs-G2e6dFEXAvjbdW9Ub0Aq5g==/lib/arm64/libviro_renderer.so (log_backtrace(unsigned long*, unsigned long)+236)
+2019-10-10 12:31:04.500 5753-5753/? A/DEBUG:     #02 pc 0000000000216ce0  /data/app/com.virobugs-G2e6dFEXAvjbdW9Ub0Aq5g==/lib/arm64/libviro_renderer.so (DebugStacktrace::logStacktrace(unsigned int)+80)
+2019-10-10 12:31:04.500 5753-5753/? A/DEBUG:     #03 pc 00000000002e2a30  /data/app/com.virobugs-G2e6dFEXAvjbdW9Ub0Aq5g==/lib/arm64/libviro_renderer.so
+2019-10-10 12:31:04.500 5753-5753/? A/DEBUG:     #04 pc 00000000002e2afc  /data/app/com.virobugs-G2e6dFEXAvjbdW9Ub0Aq5g==/lib/arm64/libviro_renderer.so
+2019-10-10 12:31:04.500 5753-5753/? A/DEBUG:     #05 pc 00000000002e2aa0  /data/app/com.virobugs-G2e6dFEXAvjbdW9Ub0Aq5g==/lib/arm64/libviro_renderer.so (_pabort(char const*, int, char const*, char const*, ...)+80)
+2019-10-10 12:31:04.500 5753-5753/? A/DEBUG:     #06 pc 00000000002fb2e8  /data/app/com.virobugs-G2e6dFEXAvjbdW9Ub0Aq5g==/lib/arm64/libviro_renderer.so (VROPlatformGetJNIEnv()+168)
+2019-10-10 12:31:04.500 5753-5753/? A/DEBUG:     #07 pc 00000000002d4314  /data/app/com.virobugs-G2e6dFEXAvjbdW9Ub0Aq5g==/lib/arm64/libviro_renderer.so (ARUtilsCreateFloatArrayFromMatrix(VROMatrix4f)+20)
+2019-10-10 12:31:04.500 5753-5753/? A/DEBUG:     #08 pc 000000000024e298  /data/app/com.virobugs-G2e6dFEXAvjbdW9Ub0Aq5g==/lib/arm64/libviro_renderer.so (Java_com_viro_core_Node_nativeUpdateAtomicUmbrellaBounds+256)
+2019-10-10 12:31:04.500 5753-5753/? A/DEBUG:     #09 pc 0000000000577fe0  /system/lib64/libart.so (art_quick_generic_jni_trampoline+144)
+2019-10-10 12:31:04.500 5753-5753/? A/DEBUG:     #10 pc 000000000056ef88  /system/lib64/libart.so (art_quick_invoke_stub+584)
+2019-10-10 12:31:04.500 5753-5753/? A/DEBUG:     #11 pc 00000000000d4204  /system/lib64/libart.so (art::ArtMethod::Invoke(art::Thread*, unsigned int*, unsigned int, art::JValue*, char const*)+200)
+2019-10-10 12:31:04.500 5753-5753/? A/DEBUG:     #12 pc 0000000000283fa8  /system/lib64/libart.so (art::interpreter::ArtInterpreterToCompiledCodeBridge(art::Thread*, art::ArtMethod*, art::ShadowFrame*, unsigned short, art::JValue*)+344)
+2019-10-10 12:31:04.500 5753-5753/? A/DEBUG:     #13 pc 000000000027f0d4  /system/lib64/libart.so (bool art::interpreter::DoCall<true, false>(art::ArtMethod*, art::Thread*, art::ShadowFrame&, art::Instruction const*, unsigned short, art::JValue*)+748)
+2019-10-10 12:31:04.500 5753-5753/? A/DEBUG:     #14 pc 000000000054160c  /system/lib64/libart.so (MterpInvokeDirectRange+244)
+2019-10-10 12:31:04.500 5753-5753/? A/DEBUG:     #15 pc 0000000000561a14  /system/lib64/libart.so (ExecuteMterpImpl+15252)
+2019-10-10 12:31:04.500 5753-5753/? A/DEBUG:     #16 pc 00000000000088e0  /dev/ashmem/dalvik-classes10.dex extracted in memory from /data/app/com.virobugs-G2e6dFEXAvjbdW9Ub0Aq5g==/base.apk!classes10.dex (deleted) (com.viro.core.Node.updateUmbrellaBounds+16)
+2019-10-10 12:31:04.500 5753-5753/? A/DEBUG:     #17 pc 0000000000257cb4  /system/lib64/libart.so (_ZN3art11interpreterL7ExecuteEPNS_6ThreadERKNS_20CodeItemDataAccessorERNS_11ShadowFrameENS_6JValueEb.llvm.4019025862+488)
+2019-10-10 12:31:04.500 5753-5753/? A/DEBUG:     #18 pc 000000000025d7a8  /system/lib64/libart.so (art::interpreter::ArtInterpreterToInterpreterBridge(art::Thread*, art::CodeItemDataAccessor const&, art::ShadowFrame*, art::JValue*)+216)
+2019-10-10 12:31:04.500 5753-5753/? A/DEBUG:     #19 pc 000000000027df94  /system/lib64/libart.so (bool art::interpreter::DoCall<false, false>(art::ArtMethod*, art::Thread*, art::ShadowFrame&, art::Instruction const*, unsigned short, art::JValue*)+940)
+2019-10-10 12:31:04.500 5753-5753/? A/DEBUG:     #20 pc 000000000053fdd8  /system/lib64/libart.so (MterpInvokeDirect+296)
+2019-10-10 12:31:04.500 5753-5753/? A/DEBUG:     #21 pc 0000000000561714  /system/lib64/libart.so (ExecuteMterpImpl+14484)
+2019-10-10 12:31:04.500 5753-5753/? A/DEBUG:     #22 pc 0000000000008912  /dev/ashmem/dalvik-classes10.dex extracted in memory from /data/app/com.virobugs-G2e6dFEXAvjbdW9Ub0Aq5g==/base.apk!classes10.dex (deleted) (com.viro.core.Node.updateUmbrellaBounds+66)
+2019-10-10 12:31:04.500 5753-5753/? A/DEBUG:     #23 pc 0000000000257cb4  /system/lib64/libart.so (_ZN3art11interpreterL7ExecuteEPNS_6ThreadERKNS_20CodeItemDataAccessorERNS_11ShadowFrameENS_6JValueEb.llvm.4019025862+488)
+2019-10-10 12:31:04.500 5753-5753/? A/DEBUG:     #24 pc 000000000025d7a8  /system/lib64/libart.so (art::interpreter::ArtInterpreterToInterpreterBridge(art::Thread*, art::CodeItemDataAccessor const&, art::ShadowFrame*, art::JValue*)+216)
+2019-10-10 12:31:04.500 5753-5753/? A/DEBUG:     #25 pc 000000000027df94  /system/lib64/libart.so (bool art::interpreter::DoCall<false, false>(art::ArtMethod*, art::Thread*, art::ShadowFrame&, art::Instruction const*, unsigned short, art::JValue*)+940)
+2019-10-10 12:31:04.500 5753-5753/? A/DEBUG:     #26 pc 000000000053fdd8  /system/lib64/libart.so (MterpInvokeDirect+296)
+2019-10-10 12:31:04.500 5753-5753/? A/DEBUG:     #27 pc 0000000000561714  /system/lib64/libart.so (ExecuteMterpImpl+14484)
+2019-10-10 12:31:04.500 5753-5753/? A/DEBUG:     #28 pc 000000000000883a  /dev/ashmem/dalvik-classes10.dex extracted in memory from /data/app/com.virobugs-G2e6dFEXAvjbdW9Ub0Aq5g==/base.apk!classes10.dex (deleted) (com.viro.core.Node.updateUmbrellaBounds+26)
+2019-10-10 12:31:04.501 5753-5753/? A/DEBUG:     #29 pc 0000000000257cb4  /system/lib64/libart.so (_ZN3art11interpreterL7ExecuteEPNS_6ThreadERKNS_20CodeItemDataAccessorERNS_11ShadowFrameENS_6JValueEb.llvm.4019025862+488)
+2019-10-10 12:31:04.501 5753-5753/? A/DEBUG:     #30 pc 000000000025d7a8  /system/lib64/libart.so (art::interpreter::ArtInterpreterToInterpreterBridge(art::Thread*, art::CodeItemDataAccessor const&, art::ShadowFrame*, art::JValue*)+216)
+2019-10-10 12:31:04.501 5753-5753/? A/DEBUG:     #31 pc 000000000027df94  /system/lib64/libart.so (bool art::interpreter::DoCall<false, false>(art::ArtMethod*, art::Thread*, art::ShadowFrame&, art::Instruction const*, unsigned short, art::JValue*)+940)
+2019-10-10 12:31:04.501 5753-5753/? A/DEBUG:     #32 pc 000000000053ea98  /system/lib64/libart.so (MterpInvokeVirtual+588)
+2019-10-10 12:31:04.501 5753-5753/? A/DEBUG:     #33 pc 0000000000561614  /system/lib64/libart.so (ExecuteMterpImpl+14228)
+2019-10-10 12:31:04.501 5753-5753/? A/DEBUG:     #34 pc 0000000000008800  /dev/ashmem/dalvik-classes10.dex extracted in memory from /data/app/com.virobugs-G2e6dFEXAvjbdW9Ub0Aq5g==/base.apk!classes10.dex (deleted) (com.viro.core.Node.updateAllUmbrellaBounds+12)
+2019-10-10 12:31:04.501 5753-5753/? A/DEBUG:     #35 pc 0000000000257cb4  /system/lib64/libart.so (_ZN3art11interpreterL7ExecuteEPNS_6ThreadERKNS_20CodeItemDataAccessorERNS_11ShadowFrameENS_6JValueEb.llvm.4019025862+488)
+2019-10-10 12:31:04.501 5753-5753/? A/DEBUG:     #36 pc 000000000025d7a8  /system/lib64/libart.so (art::interpreter::ArtInterpreterToInterpreterBridge(art::Thread*, art::CodeItemDataAccessor const&, art::ShadowFrame*, art::JValue*)+216)
+2019-10-10 12:31:04.501 5753-5753/? A/DEBUG:     #37 pc 000000000027df94  /system/lib64/libart.so (bool art::interpreter::DoCall<false, false>(art::ArtMethod*, art::Thread*, art::ShadowFrame&, art::Instruction const*, unsigned short, art::JValue*)+940)
+2019-10-10 12:31:04.501 5753-5753/? A/DEBUG:     #38 pc 000000000053ea98  /system/lib64/libart.so (MterpInvokeVirtual+588)
+2019-10-10 12:31:04.501 5753-5753/? A/DEBUG:     #39 pc 0000000000561614  /system/lib64/libart.so (ExecuteMterpImpl+14228)
+2019-10-10 12:31:04.501 5753-5753/? A/DEBUG:     #40 pc 0000000000007904  /dev/ashmem/dalvik-classes10.dex extracted in memory from /data/app/com.virobugs-G2e6dFEXAvjbdW9Ub0Aq5g==/base.apk!classes10.dex (deleted) (com.viro.core.Node.addChildNode+44)
+2019-10-10 12:31:04.501 5753-5753/? A/DEBUG:     #41 pc 0000000000257cb4  /system/lib64/libart.so (_ZN3art11interpreterL7ExecuteEPNS_6ThreadERKNS_20CodeItemDataAccessorERNS_11ShadowFrameENS_6JValueEb.llvm.4019025862+488)
+2019-10-10 12:31:04.501 5753-5753/? A/DEBUG:     #42 pc 000000000025d7a8  /system/lib64/libart.so (art::interpreter::ArtInterpreterToInterpreterBridge(art::Thread*, art::CodeItemDataAccessor const&, art::ShadowFrame*, art::JValue*)+216)
+2019-10-10 12:31:04.501 5753-5753/? A/DEBUG:     #43 pc 000000000027df94  /system/lib64/libart.so (bool art::interpreter::DoCall<false, false>(art::ArtMethod*, art::Thread*, art::ShadowFrame&, art::Instruction const*, unsigned short, art::JValue*)+940)
+2019-10-10 12:31:04.501 5753-5753/? A/DEBUG:     #44 pc 000000000053ea98  /system/lib64/libart.so (MterpInvokeVirtual+588)
+2019-10-10 12:31:04.501 5753-5753/? A/DEBUG:     #45 pc 0000000000561614  /system/lib64/libart.so (ExecuteMterpImpl+14228)
+2019-10-10 12:31:04.501 5753-5753/? A/DEBUG:     #46 pc 00000000000065f8  /dev/ashmem/dalvik-classes11.dex extracted in memory from /data/app/com.virobugs-G2e6dFEXAvjbdW9Ub0Aq5g==/base.apk!classes11.dex (deleted) (com.viromedia.bridge.component.node.VRTCamera.<init>+108)
+2019-10-10 12:31:04.501 5753-5753/? A/DEBUG:     #47 pc 0000000000257cb4  /system/lib64/libart.so (_ZN3art11interpreterL7ExecuteEPNS_6ThreadERKNS_20CodeItemDataAccessorERNS_11ShadowFrameENS_6JValueEb.llvm.4019025862+488)
+2019-10-10 12:31:04.501 5753-5753/? A/DEBUG:     #48 pc 000000000025d7a8  /system/lib64/libart.so (art::interpreter::ArtInterpreterToInterpreterBridge(art::Thread*, art::CodeItemDataAccessor const&, art::ShadowFrame*, art::JValue*)+216)
+2019-10-10 12:31:04.501 5753-5753/? A/DEBUG:     #49 pc 000000000027df94  /system/lib64/libart.so (bool art::interpreter::DoCall<false, false>(art::ArtMethod*, art::Thread*, art::ShadowFrame&, art::Instruction const*, unsigned short, art::JValue*)+940)
+2019-10-10 12:31:04.501 5753-5753/? A/DEBUG:     #50 pc 000000000053fdd8  /system/lib64/libart.so (MterpInvokeDirect+296)
+2019-10-10 12:31:04.501 5753-5753/? A/DEBUG:     #51 pc 0000000000561714  /system/lib64/libart.so (ExecuteMterpImpl+14484)
+2019-10-10 12:31:04.501 5753-5753/? A/DEBUG:     #52 pc 0000000000006dd8  /dev/ashmem/dalvik-classes22.dex extracted in memory from /data/app/com.virobugs-G2e6dFEXAvjbdW9Ub0Aq5g==/base.apk!classes22.dex (deleted) (com.viromedia.bridge.component.node.VRTCameraManager.createViewInstance+4)
+2019-10-10 12:31:04.501 5753-5753/? A/DEBUG:     #53 pc 0000000000257cb4  /system/lib64/libart.so (_ZN3art11interpreterL7ExecuteEPNS_6ThreadERKNS_20CodeItemDataAccessorERNS_11ShadowFrameENS_6JValueEb.llvm.4019025862+488)
+2019-10-10 12:31:04.501 5753-5753/? A/DEBUG:     #54 pc 000000000025d7a8  /system/lib64/libart.so (art::interpreter::ArtInterpreterToInterpreterBridge(art::Thread*, art::CodeItemDataAccessor const&, art::ShadowFrame*, art::JValue*)+216)
+2019-10-10 12:31:04.501 5753-5753/? A/DEBUG:     #55 pc 000000000027df94  /system/lib64/libart.so (bool art::interpreter::DoCall<false, false>(art::ArtMethod*, art::Thread*, art::ShadowFrame&, art::Instruction const*, unsigned short, art::JValue*)+940)
+2019-10-10 12:31:04.501 5753-5753/? A/DEBUG:     #56 pc 000000000053ea98  /system/lib64/libart.so (MterpInvokeVirtual+588)
+2019-10-10 12:31:04.501 5753-5753/? A/DEBUG:     #57 pc 0000000000561614  /system/lib64/libart.so (ExecuteMterpImpl+14228)
+2019-10-10 12:31:04.501 5753-5753/? A/DEBUG:     #58 pc 0000000000006db8  /dev/ashmem/dalvik-classes22.dex extracted in memory from /data/app/com.virobugs-G2e6dFEXAvjbdW9Ub0Aq5g==/base.apk!classes22.dex (deleted) (com.viromedia.bridge.component.node.VRTCameraManager.createViewInstance)
+2019-10-10 12:31:04.501 5753-5753/? A/DEBUG:     #59 pc 0000000000257cb4  /system/lib64/libart.so (_ZN3art11interpreterL7ExecuteEPNS_6ThreadERKNS_20CodeItemDataAccessorERNS_11ShadowFrameENS_6JValueEb.llvm.4019025862+488)
+2019-10-10 12:31:04.501 5753-5753/? A/DEBUG:     #60 pc 000000000025d7a8  /system/lib64/libart.so (art::interpreter::ArtInterpreterToInterpreterBridge(art::Thread*, art::CodeItemDataAccessor const&, art::ShadowFrame*, art::JValue*)+216)
+2019-10-10 12:31:04.501 5753-5753/? A/DEBUG:     #61 pc 000000000027df94  /system/lib64/libart.so (bool art::interpreter::DoCall<false, false>(art::ArtMethod*, art::Thread*, art::ShadowFrame&, art::Instruction const*, unsigned short, art::JValue*)+940)
+2019-10-10 12:31:04.501 5753-5753/? A/DEBUG:     #62 pc 000000000053ea98  /system/lib64/libart.so (MterpInvokeVirtual+588)
+2019-10-10 12:31:04.501 5753-5753/? A/DEBUG:     #63 pc 0000000000561614  /system/lib64/libart.so (ExecuteMterpImpl+14228)
+2019-10-10 12:31:04.501 5753-5753/? A/DEBUG:     #64 pc 00000000003aebbc  /dev/ashmem/dalvik-classes19.dex extracted in memory from /data/app/com.virobugs-G2e6dFEXAvjbdW9Ub0Aq5g==/base.apk!classes19.dex (deleted) (com.facebook.react.uimanager.ViewManager.createView)
+2019-10-10 12:31:04.501 5753-5753/? A/DEBUG:     #65 pc 0000000000257cb4  /system/lib64/libart.so (_ZN3art11interpreterL7ExecuteEPNS_6ThreadERKNS_20CodeItemDataAccessorERNS_11ShadowFrameENS_6JValueEb.llvm.4019025862+488)
+2019-10-10 12:31:04.501 5753-5753/? A/DEBUG:     #66 pc 000000000025d7a8  /system/lib64/libart.so (art::interpreter::ArtInterpreterToInterpreterBridge(art::Thread*, art::CodeItemDataAccessor const&, art::ShadowFrame*, art::JValue*)+216)
+2019-10-10 12:31:04.501 5753-5753/? A/DEBUG:     #67 pc 000000000027df94  /system/lib64/libart.so (bool art::interpreter::DoCall<false, false>(art::ArtMethod*, art::Thread*, art::ShadowFrame&, art::Instruction const*, unsigned short, art::JValue*)+940)
+2019-10-10 12:31:04.501 5753-5753/? A/DEBUG:     #68 pc 000000000053ea98  /system/lib64/libart.so (MterpInvokeVirtual+588)
+2019-10-10 12:31:04.501 5753-5753/? A/DEBUG:     #69 pc 0000000000561614  /system/lib64/libart.so (ExecuteMterpImpl+14228)
+2019-10-10 12:31:04.501 5753-5753/? A/DEBUG:     #70 pc 00000000003a48de  /dev/ashmem/dalvik-classes19.dex extracted in memory from /data/app/com.virobugs-G2e6dFEXAvjbdW9Ub0Aq5g==/base.apk!classes19.dex (deleted) (com.facebook.react.uimanager.NativeViewHierarchyManager.createView+70)
+2019-10-10 12:31:04.501 5753-5753/? A/DEBUG:     #71 pc 0000000000257cb4  /system/lib64/libart.so (_ZN3art11interpreterL7ExecuteEPNS_6ThreadERKNS_20CodeItemDataAccessorERNS_11ShadowFrameENS_6JValueEb.llvm.4019025862+488)
+2019-10-10 12:31:04.501 5753-5753/? A/DEBUG:     #72 pc 000000000025d7a8  /system/lib64/libart.so (art::interpreter::ArtInterpreterToInterpreterBridge(art::Thread*, art::CodeItemDataAccessor const&, art::ShadowFrame*, art::JValue*)+216)
+2019-10-10 12:31:04.501 5753-5753/? A/DEBUG:     #73 pc 000000000027df94  /system/lib64/libart.so (bool art::interpreter::DoCall<false, false>(art::ArtMethod*, art::Thread*, art::ShadowFrame&, art::Instruction const*, unsigned short, art::JValue*)+940)
+2019-10-10 12:31:04.501 5753-5753/? A/DEBUG:     #74 pc 000000000053ea98  /system/lib64/libart.so (MterpInvokeVirtual+588)
+2019-10-10 12:31:04.501 5753-5753/? A/DEBUG:     #75 pc 0000000000561614  /system/lib64/libart.so (ExecuteMterpImpl+14228)
+2019-10-10 12:31:04.501 5753-5753/? A/DEBUG:     #76 pc 00000000003ac662  /dev/ashmem/dalvik-classes19.dex extracted in memory from /data/app/com.virobugs-G2e6dFEXAvjbdW9Ub0Aq5g==/base.apk!classes19.dex (deleted) (com.facebook.react.uimanager.UIViewOperationQueue$CreateViewOperation.execute+46)
+2019-10-10 12:31:04.501 5753-5753/? A/DEBUG:     #77 pc 0000000000257cb4  /system/lib64/libart.so (_ZN3art11interpreterL7ExecuteEPNS_6ThreadERKNS_20CodeItemDataAccessorERNS_11ShadowFrameENS_6JValueEb.llvm.4019025862+488)
+2019-10-10 12:31:04.501 5753-5753/? A/DEBUG:     #78 pc 000000000025d7a8  /system/lib64/libart.so (art::interpreter::ArtInterpreterToInterpreterBridge(art::Thread*, art::CodeItemDataAccessor const&, art::ShadowFrame*, art::JValue*)+216)
+2019-10-10 12:31:04.501 5753-5753/? A/DEBUG:     #79 pc 000000000027df94  /system/lib64/libart.so (bool art::interpreter::DoCall<false, false>(art::ArtMethod*, art::Thread*, art::ShadowFrame&, art::Instruction const*, unsigned short, art::JValue*)+940)
+2019-10-10 12:31:04.501 5753-5753/? A/DEBUG:     #80 pc 000000000053fa14  /system/lib64/libart.so (MterpInvokeInterface+1392)
+2019-10-10 12:31:04.501 5753-5753/? A/DEBUG:     #81 pc 0000000000561814  /system/lib64/libart.so (ExecuteMterpImpl+14740)
+2019-10-10 12:31:04.501 5753-5753/? A/DEBUG:     #82 pc 00000000003ac24e  /dev/ashmem/dalvik-classes19.dex extracted in memory from /data/app/com.virobugs-G2e6dFEXAvjbdW9Ub0Aq5g==/base.apk!classes19.dex (deleted) (com.facebook.react.uimanager.UIViewOperationQueue$1.run+94)
+2019-10-10 12:31:04.501 5753-5753/? A/DEBUG:     #83 pc 0000000000257cb4  /system/lib64/libart.so (_ZN3art11interpreterL7ExecuteEPNS_6ThreadERKNS_20CodeItemDataAccessorERNS_11ShadowFrameENS_6JValueEb.llvm.4019025862+488)
+2019-10-10 12:31:04.501 5753-5753/? A/DEBUG:     #84 pc 000000000025d7a8  /system/lib64/libart.so (art::interpreter::ArtInterpreterToInterpreterBridge(art::Thread*, art::CodeItemDataAccessor const&, art::ShadowFrame*, art::JValue*)+216)
+2019-10-10 12:31:04.501 5753-5753/? A/DEBUG:     #85 pc 000000000027df94  /system/lib64/libart.so (bool art::interpreter::DoCall<false, false>(art::ArtMethod*, art::Thread*, art::ShadowFrame&, art::Instruction const*, unsigned short, art::JValue*)+940)
+2019-10-10 12:31:04.501 5753-5753/? A/DEBUG:     #86 pc 000000000053fa14  /system/lib64/libart.so (MterpInvokeInterface+1392)
+2019-10-10 12:31:04.501 5753-5753/? A/DEBUG:     #87 pc 0000000000561814  /system/lib64/libart.so (ExecuteMterpImpl+14740)
+2019-10-10 12:31:04.501 5753-5753/? A/DEBUG:     #88 pc 00000000003ade46  /dev/ashmem/dalvik-classes19.dex extracted in memory from /data/app/com.virobugs-G2e6dFEXAvjbdW9Ub0Aq5g==/base.apk!classes19.dex (deleted) (com.facebook.react.uimanager.UIViewOperationQueue.flushPendingBatches+106)
+2019-10-10 12:31:04.501 5753-5753/? A/DEBUG:     #89 pc 0000000000257cb4  /system/lib64/libart.so (_ZN3art11interpreterL7ExecuteEPNS_6ThreadERKNS_20CodeItemDataAccessorERNS_11ShadowFrameENS_6JValueEb.llvm.4019025862+488)
+2019-10-10 12:31:04.501 5753-5753/? A/DEBUG:     #90 pc 000000000025d7a8  /system/lib64/libart.so (art::interpreter::ArtInterpreterToInterpreterBridge(art::Thread*, art::CodeItemDataAccessor const&, art::ShadowFrame*, art::JValue*)+216)
+2019-10-10 12:31:04.501 5753-5753/? A/DEBUG:     #91 pc 000000000027df94  /system/lib64/libart.so (bool art::interpreter::DoCall<false, false>(art::ArtMethod*, art::Thread*, art::ShadowFrame&, art::Instruction const*, unsigned short, art::JValue*)+940)
+2019-10-10 12:31:04.501 5753-5753/? A/DEBUG:     #92 pc 000000000053fdd8  /system/lib64/libart.so (MterpInvokeDirect+296)
+2019-10-10 12:31:04.501 5753-5753/? A/DEBUG:     #93 pc 0000000000561714  /system/lib64/libart.so (ExecuteMterpImpl+14484)
+2019-10-10 12:31:04.501 5753-5753/? A/DEBUG:     #94 pc 00000000003ad694  /dev/ashmem/dalvik-classes19.dex extracted in memory from /data/app/com.virobugs-G2e6dFEXAvjbdW9Ub0Aq5g==/base.apk!classes19.dex (deleted) (com.facebook.react.uimanager.UIViewOperationQueue.access$2600)
+2019-10-10 12:31:04.501 5753-5753/? A/DEBUG:     #95 pc 0000000000257cb4  /system/lib64/libart.so (_ZN3art11interpreterL7ExecuteEPNS_6ThreadERKNS_20CodeItemDataAccessorERNS_11ShadowFrameENS_6JValueEb.llvm.4019025862+488)
+2019-10-10 12:31:04.501 5753-5753/? A/DEBUG:     #96 pc 000000000025d7a8  /system/lib64/libart.so (art::interpreter::ArtInterpreterToInterpreterBridge(art::Thread*, art::CodeItemDataAccessor const&, art::ShadowFrame*, art::JValue*)+216)
+2019-10-10 12:31:04.501 5753-5753/? A/DEBUG:     #97 pc 000000000027df94  /system/lib64/libart.so (bool art::interpreter::DoCall<false, false>(art::ArtMethod*, art::Thread*, art::ShadowFrame&, art::Instruction const*, unsigned short, art::JValue*)+940)
+2019-10-10 12:31:04.501 5753-5753/? A/DEBUG:     #98 pc 000000000053ff9c  /system/lib64/libart.so (MterpInvokeStatic+204)
+2019-10-10 12:31:04.501 5753-5753/? A/DEBUG:     #99 pc 0000000000561794  /system/lib64/libart.so (ExecuteMterpImpl+14612)
+2019-10-10 12:31:04.501 5753-5753/? A/DEBUG:     #100 pc 00000000003ac888  /dev/ashmem/dalvik-classes19.dex extracted in memory from /data/app/com.virobugs-G2e6dFEXAvjbdW9Ub0Aq5g==/base.apk!classes19.dex (deleted) (com.facebook.react.uimanager.UIViewOperationQueue$DispatchUIFrameCallback.doFrameGuarded+64)
+2019-10-10 12:31:04.501 5753-5753/? A/DEBUG:     #101 pc 0000000000257cb4  /system/lib64/libart.so (_ZN3art11interpreterL7ExecuteEPNS_6ThreadERKNS_20CodeItemDataAccessorERNS_11ShadowFrameENS_6JValueEb.llvm.4019025862+488)
+2019-10-10 12:31:04.501 5753-5753/? A/DEBUG:     #102 pc 000000000025d7a8  /system/lib64/libart.so (art::interpreter::ArtInterpreterToInterpreterBridge(art::Thread*, art::CodeItemDataAccessor const&, art::ShadowFrame*, art::JValue*)+216)
+2019-10-10 12:31:04.501 5753-5753/? A/DEBUG:     #103 pc 000000000027df94  /system/lib64/libart.so (bool art::interpreter::DoCall<false, false>(art::ArtMethod*, art::Thread*, art::ShadowFrame&, art::Instruction const*, unsigned short, art::JValue*)+940)
+2019-10-10 12:31:04.501 5753-5753/? A/DEBUG:     #104 pc 000000000053ea98  /system/lib64/libart.so (MterpInvokeVirtual+588)
+2019-10-10 12:31:04.501 5753-5753/? A/DEBUG:     #105 pc 0000000000561614  /system/lib64/libart.so (ExecuteMterpImpl+14228)
+2019-10-10 12:31:04.501 5753-5753/? A/DEBUG:     #106 pc 00000000003a0f4c  /dev/ashmem/dalvik-classes19.dex extracted in memory from /data/app/com.virobugs-G2e6dFEXAvjbdW9Ub0Aq5g==/base.apk!classes19.dex (deleted) (com.facebook.react.uimanager.GuardedFrameCallback.doFrame)
+2019-10-10 12:31:04.501 5753-5753/? A/DEBUG:     #107 pc 0000000000257cb4  /system/lib64/libart.so (_ZN3art11interpreterL7ExecuteEPNS_6ThreadERKNS_20CodeItemDataAccessorERNS_11ShadowFrameENS_6JValueEb.llvm.4019025862+488)
+2019-10-10 12:31:04.501 5753-5753/? A/DEBUG:     #108 pc 000000000025d7a8  /system/lib64/libart.so (art::interpreter::ArtInterpreterToInterpreterBridge(art::Thread*, art::CodeItemDataAccessor const&, art::ShadowFrame*, art::JValue*)+216)
+2019-10-10 12:31:04.501 5753-5753/? A/DEBUG:     #109 pc 000000000027df94  /system/lib64/libart.so (bool art::interpreter::DoCall<false, false>(art::ArtMethod*, art::Thread*, art::ShadowFrame&, art::Instruction const*, unsigned short, art::JValue*)+940)
+2019-10-10 12:31:04.501 5753-5753/? A/DEBUG:     #110 pc 000000000053ea98  /system/lib64/libart.so (MterpInvokeVirtual+588)
+2019-10-10 12:31:04.501 5753-5753/? A/DEBUG:     #111 pc 0000000000561614  /system/lib64/libart.so (ExecuteMterpImpl+14228)
+2019-10-10 12:31:04.501 5753-5753/? A/DEBUG:     #112 pc 0000000000391248  /dev/ashmem/dalvik-classes19.dex extracted in memory from /data/app/com.virobugs-G2e6dFEXAvjbdW9Ub0Aq5g==/base.apk!classes19.dex (deleted) (com.facebook.react.modules.core.ReactChoreographer$ReactChoreographerDispatcher.doFrame+132)
+2019-10-10 12:31:04.501 5753-5753/? A/DEBUG:     #113 pc 0000000000257cb4  /system/lib64/libart.so (_ZN3art11interpreterL7ExecuteEPNS_6ThreadERKNS_20CodeItemDataAccessorERNS_11ShadowFrameENS_6JValueEb.llvm.4019025862+488)
+2019-10-10 12:31:04.501 5753-5753/? A/DEBUG:     #114 pc 000000000025d7a8  /system/lib64/libart.so (art::interpreter::ArtInterpreterToInterpreterBridge(art::Thread*, art::CodeItemDataAccessor const&, art::ShadowFrame*, art::JValue*)+216)
+2019-10-10 12:31:04.501 5753-5753/? A/DEBUG:     #115 pc 000000000027df94  /system/lib64/libart.so (bool art::interpreter::DoCall<false, false>(art::ArtMethod*, art::Thread*, art::ShadowFrame&, art::Instruction const*, unsigned short, art::JValue*)+940)
+2019-10-10 12:31:04.501 5753-5753/? A/DEBUG:     #116 pc 000000000053ea98  /system/lib64/libart.so (MterpInvokeVirtual+588)
+2019-10-10 12:31:04.501 5753-5753/? A/DEBUG:     #117 pc 0000000000561614  /system/lib64/libart.so (ExecuteMterpImpl+14228)
+2019-10-10 12:31:04.501 5753-5753/? A/DEBUG:     #118 pc 0000000000390ac0  /dev/ashmem/dalvik-classes19.dex extracted in memory from /data/app/com.virobugs-G2e6dFEXAvjbdW9Ub0Aq5g==/base.apk!classes19.dex (deleted) (com.facebook.react.modules.core.ChoreographerCompat$FrameCallback$1.doFrame+4)
+2019-10-10 12:31:04.501 5753-5753/? A/DEBUG:     #119 pc 0000000000257cb4  /system/lib64/libart.so (_ZN3art11interpreterL7ExecuteEPNS_6ThreadERKNS_20CodeItemDataAccessorERNS_11ShadowFrameENS_6JValueEb.llvm.4019025862+488)
+2019-10-10 12:31:04.501 5753-5753/? A/DEBUG:     #120 pc 000000000025d7a8  /system/lib64/libart.so (art::interpreter::ArtInterpreterToInterpreterBridge(art::Thread*, art::CodeItemDataAccessor const&, art::ShadowFrame*, art::JValue*)+216)
+2019-10-10 12:31:04.501 5753-5753/? A/DEBUG:     #121 pc 000000000027df94  /system/lib64/libart.so (bool art::interpreter::DoCall<false, false>(art::ArtMethod*, art::Thread*, art::ShadowFrame&, art::Instruction const*, unsigned short, art::JValue*)+940)
+2019-10-10 12:31:04.501 5753-5753/? A/DEBUG:     #122 pc 000000000053fa14  /system/lib64/libart.so (MterpInvokeInterface+1392)
+2019-10-10 12:31:04.501 5753-5753/? A/DEBUG:     #123 pc 0000000000561814  /system/lib64/libart.so (ExecuteMterpImpl+14740)
+2019-10-10 12:31:04.501 5753-5753/? A/DEBUG:     #124 pc 0000000000bc73e0  /system/framework/boot-framework.vdex (android.view.Choreographer$CallbackRecord.run+24)
+2019-10-10 12:31:04.501 5753-5753/? A/DEBUG:     #125 pc 0000000000257cb4  /system/lib64/libart.so (_ZN3art11interpreterL7ExecuteEPNS_6ThreadERKNS_20CodeItemDataAccessorERNS_11ShadowFrameENS_6JValueEb.llvm.4019025862+488)
+2019-10-10 12:31:04.501 5753-5753/? A/DEBUG:     #126 pc 000000000025d7a8  /system/lib64/libart.so (art::interpreter::ArtInterpreterToInterpreterBridge(art::Thread*, art::CodeItemDataAccessor const&, art::ShadowFrame*, art::JValue*)+216)
+2019-10-10 12:31:04.501 5753-5753/? A/DEBUG:     #127 pc 000000000027df94  /system/lib64/libart.so (bool art::interpreter::DoCall<false, false>(art::ArtMethod*, art::Thread*, art::ShadowFrame&, art::Instruction const*, unsigned short, art::JValue*)+940)
+2019-10-10 12:31:04.501 5753-5753/? A/DEBUG:     #128 pc 000000000053ea98  /system/lib64/libart.so (MterpInvokeVirtual+588)
+2019-10-10 12:31:04.501 5753-5753/? A/DEBUG:     #129 pc 0000000000561614  /system/lib64/libart.so (ExecuteMterpImpl+14228)
+2019-10-10 12:31:04.501 5753-5753/? A/DEBUG:     #130 pc 0000000000bc78ca  /system/framework/boot-framework.vdex (android.view.Choreographer.doCallbacks+220)
+2019-10-10 12:31:04.501 5753-5753/? A/DEBUG:     #131 pc 0000000000257cb4  /system/lib64/libart.so (_ZN3art11interpreterL7ExecuteEPNS_6ThreadERKNS_20CodeItemDataAccessorERNS_11ShadowFrameENS_6JValueEb.llvm.4019025862+488)
+2019-10-10 12:31:04.502 5753-5753/? A/DEBUG:     #132 pc 000000000025d7a8  /system/lib64/libart.so (art::interpreter::ArtInterpreterToInterpreterBridge(art::Thread*, art::CodeItemDataAccessor const&, art::ShadowFrame*, art::JValue*)+216)
+2019-10-10 12:31:04.502 5753-5753/? A/DEBUG:     #133 pc 000000000027df94  /system/lib64/libart.so (bool art::interpreter::DoCall<false, false>(art::ArtMethod*, art::Thread*, art::ShadowFrame&, art::Instruction const*, unsigned short, art::JValue*)+940)
+2019-10-10 12:31:04.502 5753-5753/? A/DEBUG:     #134 pc 000000000053ea98  /system/lib64/libart.so (MterpInvokeVirtual+588)
+2019-10-10 12:31:04.502 5753-5753/? A/DEBUG:     #135 pc 0000000000561614  /system/lib64/libart.so (ExecuteMterpImpl+14228)
+2019-10-10 12:31:04.502 5753-5753/? A/DEBUG:     #136 pc 0000000000bc7b2e  /system/framework/boot-framework.vdex (android.view.Choreographer.doFrame+356)
+2019-10-10 12:31:04.502 5753-5753/? A/DEBUG:     #137 pc 0000000000257cb4  /system/lib64/libart.so (_ZN3art11interpreterL7ExecuteEPNS_6ThreadERKNS_20CodeItemDataAccessorERNS_11ShadowFrameENS_6JValueEb.llvm.4019025862+488)
+2019-10-10 12:31:04.502 5753-5753/? A/DEBUG:     #138 pc 000000000025d7a8  /system/lib64/libart.so (art::interpreter::ArtInterpreterToInterpreterBridge(art::Thread*, art::CodeItemDataAccessor const&, art::ShadowFrame*, art::JValue*)+216)
+2019-10-10 12:31:04.502 5753-5753/? A/DEBUG:     #139 pc 000000000027df94  /system/lib64/libart.so (bool art::interpreter::DoCall<false, false>(art::ArtMethod*, art::Thread*, art::ShadowFrame&, art::Instruction const*, unsigned short, art::JValue*)+940)
+2019-10-10 12:31:04.502 5753-5753/? A/DEBUG:     #140 pc 000000000053ea98  /system/lib64/libart.so (MterpInvokeVirtual+588)
+2019-10-10 12:31:04.502 5753-5753/? A/DEBUG:     #141 pc 0000000000561614  /system/lib64/libart.so (ExecuteMterpImpl+14228)
+2019-10-10 12:31:04.502 5753-5753/? A/DEBUG:     #142 pc 0000000000bc74e6  /system/framework/boot-framework.vdex (android.view.Choreographer$FrameDisplayEventReceiver.run+18)
+2019-10-10 12:31:04.502 5753-5753/? A/DEBUG:     #143 pc 0000000000257cb4  /system/lib64/libart.so (_ZN3art11interpreterL7ExecuteEPNS_6ThreadERKNS_20CodeItemDataAccessorERNS_11ShadowFrameENS_6JValueEb.llvm.4019025862+488)
+2019-10-10 12:31:04.502 5753-5753/? A/DEBUG:     #144 pc 000000000025d7a8  /system/lib64/libart.so (art::interpreter::ArtInterpreterToInterpreterBridge(art::Thread*, art::CodeItemDataAccessor const&, art::ShadowFrame*, art::JValue*)+216)
+2019-10-10 12:31:04.502 5753-5753/? A/DEBUG:     #145 pc 000000000027df94  /system/lib64/libart.so (bool art::interpreter::DoCall<false, false>(art::ArtMethod*, art::Thread*, art::ShadowFrame&, art::Instruction const*, unsigned short, art::JValue*)+940)
+2019-10-10 12:31:04.502 5753-5753/? A/DEBUG:     #146 pc 000000000053fa14  /system/lib64/libart.so (MterpInvokeInterface+1392)
+2019-10-10 12:31:04.502 5753-5753/? A/DEBUG:     #147 pc 0000000000561814  /system/lib64/libart.so (ExecuteMterpImpl+14740)
+2019-10-10 12:31:04.502 5753-5753/? A/DEBUG:     #148 pc 0000000000ca8662  /system/framework/boot-framework.vdex (android.os.Handler.handleCallback+4)
+2019-10-10 12:31:04.502 5753-5753/? A/DEBUG:     #149 pc 0000000000257cb4  /system/lib64/libart.so (_ZN3art11interpreterL7ExecuteEPNS_6ThreadERKNS_20CodeItemDataAccessorERNS_11ShadowFrameENS_6JValueEb.llvm.4019025862+488)
+2019-10-10 12:31:04.502 5753-5753/? A/DEBUG:     #150 pc 000000000025d7a8  /system/lib64/libart.so (art::interpreter::ArtInterpreterToInterpreterBridge(art::Thread*, art::CodeItemDataAccessor const&, art::ShadowFrame*, art::JValue*)+216)
+2019-10-10 12:31:04.502 5753-5753/? A/DEBUG:     #151 pc 000000000027df94  /system/lib64/libart.so (bool art::interpreter::DoCall<false, false>(art::ArtMethod*, art::Thread*, art::ShadowFrame&, art::Instruction const*, unsigned short, art::JValue*)+940)
+2019-10-10 12:31:04.502 5753-5753/? A/DEBUG:     #152 pc 000000000053ff9c  /system/lib64/libart.so (MterpInvokeStatic+204)
+2019-10-10 12:31:04.502 5753-5753/? A/DEBUG:     #153 pc 0000000000561794  /system/lib64/libart.so (ExecuteMterpImpl+14612)
+2019-10-10 12:31:04.502 5753-5753/? A/DEBUG:     #154 pc 0000000000b44c4c  /system/framework/boot-framework.vdex (android.os.Handler.dispatchMessage+8)
+2019-10-10 12:31:04.502 5753-5753/? A/DEBUG:     #155 pc 0000000000257cb4  /system/lib64/libart.so (_ZN3art11interpreterL7ExecuteEPNS_6ThreadERKNS_20CodeItemDataAccessorERNS_11ShadowFrameENS_6JValueEb.llvm.4019025862+488)
+2019-10-10 12:31:04.502 5753-5753/? A/DEBUG:     #156 pc 000000000025d7a8  /system/lib64/libart.so (art::interpreter::ArtInterpreterToInterpreterBridge(art::Thread*, art::CodeItemDataAccessor const&, art::ShadowFrame*, art::JValue*)+216)
+2019-10-10 12:31:04.502 5753-5753/? A/DEBUG:     #157 pc 000000000027df94  /system/lib64/libart.so (bool art::interpreter::DoCall<false, false>(art::ArtMethod*, art::Thread*, art::ShadowFrame&, art::Instruction const*, unsigned short, art::JValue*)+940)
+2019-10-10 12:31:04.502 5753-5753/? A/DEBUG:     #158 pc 000000000053ea98  /system/lib64/libart.so (MterpInvokeVirtual+588)
+2019-10-10 12:31:04.502 5753-5753/? A/DEBUG:     #159 pc 0000000000561614  /system/lib64/libart.so (ExecuteMterpImpl+14228)
+2019-10-10 12:31:04.502 5753-5753/? A/DEBUG:     #160 pc 0000000000b4ca70  /system/framework/boot-framework.vdex (android.os.Looper.loop+498)
+2019-10-10 12:31:04.502 5753-5753/? A/DEBUG:     #161 pc 0000000000257cb4  /system/lib64/libart.so (_ZN3art11interpreterL7ExecuteEPNS_6ThreadERKNS_20CodeItemDataAccessorERNS_11ShadowFrameENS_6JValueEb.llvm.4019025862+488)
+2019-10-10 12:31:04.502 5753-5753/? A/DEBUG:     #162 pc 000000000025d7a8  /system/lib64/libart.so (art::interpreter::ArtInterpreterToInterpreterBridge(art::Thread*, art::CodeItemDataAccessor const&, art::ShadowFrame*, art::JValue*)+216)
+2019-10-10 12:31:04.502 5753-5753/? A/DEBUG:     #163 pc 000000000027df94  /system/lib64/libart.so (bool art::interpreter::DoCall<false, false>(art::ArtMethod*, art::Thread*, art::ShadowFrame&, art::Instruction const*, unsigned short, art::JValue*)+940)
+2019-10-10 12:31:04.502 5753-5753/? A/DEBUG:     #164 pc 000000000053ff9c  /system/lib64/libart.so (MterpInvokeStatic+204)
+2019-10-10 12:31:04.502 5753-5753/? A/DEBUG:     #165 pc 0000000000561794  /system/lib64/libart.so (ExecuteMterpImpl+14612)
+2019-10-10 12:31:04.502 5753-5753/? A/DEBUG:     #166 pc 00000000003de2ec  /system/framework/boot-framework.vdex (android.app.ActivityThread.main+428)
+2019-10-10 12:31:04.502 5753-5753/? A/DEBUG:     #167 pc 0000000000257cb4  /system/lib64/libart.so (_ZN3art11interpreterL7ExecuteEPNS_6ThreadERKNS_20CodeItemDataAccessorERNS_11ShadowFrameENS_6JValueEb.llvm.4019025862+488)
+2019-10-10 12:31:04.502 5753-5753/? A/DEBUG:     #168 pc 000000000052aa88  /system/lib64/libart.so (artQuickToInterpreterBridge+1020)
+2019-10-10 12:31:04.502 5753-5753/? A/DEBUG:     #169 pc 00000000005780fc  /system/lib64/libart.so (art_quick_to_interpreter_bridge+92)
+2019-10-10 12:31:04.502 5753-5753/? A/DEBUG:     #170 pc 000000000056f24c  /system/lib64/libart.so (art_quick_invoke_static_stub+604)
+2019-10-10 12:31:04.502 5753-5753/? A/DEBUG:     #171 pc 00000000000d4224  /system/lib64/libart.so (art::ArtMethod::Invoke(art::Thread*, unsigned int*, unsigned int, art::JValue*, char const*)+232)
+2019-10-10 12:31:04.502 5753-5753/? A/DEBUG:     #172 pc 0000000000472fd4  /system/lib64/libart.so (art::(anonymous namespace)::InvokeWithArgArray(art::ScopedObjectAccessAlreadyRunnable const&, art::ArtMethod*, art::(anonymous namespace)::ArgArray*, art::JValue*, char const*)+104)
+2019-10-10 12:31:04.502 5753-5753/? A/DEBUG:     #173 pc 0000000000474a28  /system/lib64/libart.so (art::InvokeMethod(art::ScopedObjectAccessAlreadyRunnable const&, _jobject*, _jobject*, _jobject*, unsigned long)+1440)
+2019-10-10 12:31:04.502 5753-5753/? A/DEBUG:     #174 pc 00000000004043ac  /system/lib64/libart.so (art::Method_invoke(_JNIEnv*, _jobject*, _jobject*, _jobjectArray*)+52)
+2019-10-10 12:31:04.502 5753-5753/? A/DEBUG:     #175 pc 00000000001456d4  /system/framework/arm64/boot.oat (offset 0x13b000) (java.lang.Class.getDeclaredMethodInternal [DEDUPED]+180)
+2019-10-10 12:31:04.502 5753-5753/? A/DEBUG:     #176 pc 000000000056ef88  /system/lib64/libart.so (art_quick_invoke_stub+584)
+2019-10-10 12:31:04.502 5753-5753/? A/DEBUG:     #177 pc 00000000000d4204  /system/lib64/libart.so (art::ArtMethod::Invoke(art::Thread*, unsigned int*, unsigned int, art::JValue*, char const*)+200)
+2019-10-10 12:31:04.502 5753-5753/? A/DEBUG:     #178 pc 0000000000283fa8  /system/lib64/libart.so (art::interpreter::ArtInterpreterToCompiledCodeBridge(art::Thread*, art::ArtMethod*, art::ShadowFrame*, unsigned short, art::JValue*)+344)
+2019-10-10 12:31:04.502 5753-5753/? A/DEBUG:     #179 pc 000000000027dfb0  /system/lib64/libart.so (bool art::interpreter::DoCall<false, false>(art::ArtMethod*, art::Thread*, art::ShadowFrame&, art::Instruction const*, unsigned short, art::JValue*)+968)
+2019-10-10 12:31:04.502 5753-5753/? A/DEBUG:     #180 pc 000000000053ea98  /system/lib64/libart.so (MterpInvokeVirtual+588)
+2019-10-10 12:31:04.502 5753-5753/? A/DEBUG:     #181 pc 0000000000561614  /system/lib64/libart.so (ExecuteMterpImpl+14228)
+2019-10-10 12:31:04.502 5753-5753/? A/DEBUG:     #182 pc 000000000122bd7c  /system/framework/boot-framework.vdex (com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run+22)
+2019-10-10 12:31:04.502 5753-5753/? A/DEBUG:     #183 pc 0000000000257cb4  /system/lib64/libart.so (_ZN3art11interpreterL7ExecuteEPNS_6ThreadERKNS_20CodeItemDataAccessorERNS_11ShadowFrameENS_6JValueEb.llvm.4019025862+488)
+2019-10-10 12:31:04.502 5753-5753/? A/DEBUG:     #184 pc 000000000052aa88  /system/lib64/libart.so (artQuickToInterpreterBridge+1020)
+2019-10-10 12:31:04.502 5753-5753/? A/DEBUG:     #185 pc 00000000005780fc  /system/lib64/libart.so (art_quick_to_interpreter_bridge+92)
+2019-10-10 12:31:04.502 5753-5753/? A/DEBUG:     #186 pc 0000000000ee3d8c  /system/framework/arm64/boot-framework.oat (offset 0x415000) (com.android.internal.os.ZygoteInit.main+2540)
+2019-10-10 12:31:04.502 5753-5753/? A/DEBUG:     #187 pc 000000000056f24c  /system/lib64/libart.so (art_quick_invoke_static_stub+604)
+2019-10-10 12:31:04.502 5753-5753/? A/DEBUG:     #188 pc 00000000000d4224  /system/lib64/libart.so (art::ArtMethod::Invoke(art::Thread*, unsigned int*, unsigned int, art::JValue*, char const*)+232)
+2019-10-10 12:31:04.502 5753-5753/? A/DEBUG:     #189 pc 0000000000472fd4  /system/lib64/libart.so (art::(anonymous namespace)::InvokeWithArgArray(art::ScopedObjectAccessAlreadyRunnable const&, art::ArtMethod*, art::(anonymous namespace)::ArgArray*, art::JValue*, char const*)+104)
+2019-10-10 12:31:04.502 5753-5753/? A/DEBUG:     #190 pc 0000000000472c34  /system/lib64/libart.so (art::InvokeWithVarArgs(art::ScopedObjectAccessAlreadyRunnable const&, _jobject*, _jmethodID*, std::__va_list)+424)
+2019-10-10 12:31:04.502 5753-5753/? A/DEBUG:     #191 pc 0000000000367254  /system/lib64/libart.so (art::JNI::CallStaticVoidMethodV(_JNIEnv*, _jclass*, _jmethodID*, std::__va_list)+652)
+2019-10-10 12:31:04.502 5753-5753/? A/DEBUG:     #192 pc 00000000000b9810  /system/lib64/libandroid_runtime.so (_JNIEnv::CallStaticVoidMethod(_jclass*, _jmethodID*, ...)+120)
+2019-10-10 12:31:04.502 5753-5753/? A/DEBUG:     #193 pc 00000000000bc588  /system/lib64/libandroid_runtime.so (android::AndroidRuntime::start(char const*, android::Vector<android::String8> const&, bool)+780)
+2019-10-10 12:31:04.502 5753-5753/? A/DEBUG:     #194 pc 0000000000002368  /system/bin/app_process64 (main+1444)
+2019-10-10 12:31:04.502 5753-5753/? A/DEBUG:     #195 pc 00000000000ae7e4  /system/lib64/libc.so (__libc_init+88)
+2019-10-10 12:31:04.650 1158-3510/? V/BroadcastQueue: Finished with ordered broadcast BroadcastRecord{6f6977d u0 com.huawei.thermal.MSG_CLEAR_DATA}
+2019-10-10 12:31:04.651 1158-3510/? I/ActivityManager: App 10007/com.android.providers.contacts targets O+, restricted
+2019-10-10 12:31:04.659 1158-1540/? W/ActivityManager: Sending non-protected broadcast telephony.dataconnection.DNS_MONITOR_ACTION from system uid 1000 pkg android
+2019-10-10 12:31:04.659 1158-7849/? V/BroadcastQueue: Finished with ordered broadcast BroadcastRecord{2a60f40 u0 null}
+2019-10-10 12:31:04.661 5589-5768/? E/CursorWindow: Failed to read row 0, column 3 from a CursorWindow which has 7 rows, 3 columns.
+2019-10-10 12:31:04.662 5589-5768/? E/ContactsProvider: DeleteContactsReportReceiver report delete contacts info error
+2019-10-10 12:31:04.668 1158-1158/? V/BroadcastQueue: Finished with ordered broadcast BroadcastRecord{4da2e79 u0 telephony.dataconnection.DNS_MONITOR_ACTION}
+2019-10-10 12:31:04.830 1158-1158/? I/MQoS: onSignal: mSubId=0,currDataSubID=0
+2019-10-10 12:31:04.831 1845-1845/? D/DaemonMessageAdapter: onMobileSignalStrengthChanged, subId: 0, signalStrength: SignalStrength: 0 755203440 0 0 32767 -1 32767 -1 -109 -13 -1 -1 0 2147483647 0 120 2147483647 255 gsm|lte use_rsrp_and_rssnr_for_lte_level rscp [-128, -118, -108, -98] [-115, -105, -95, -85] 0 0 0 0 0 0
+2019-10-10 12:31:04.832 1964-1964/? D/Mapcon  : TelephonyTracker: onSignalStrengthsChanged:phoneId=0, level=3
+2019-10-10 12:31:04.832 1158-1158/? I/MQoS: received cell-signal:4
+2019-10-10 12:31:04.833 1964-2469/? D/Mapcon  : SMVoice-0-Normal: PrepareState:defaultStatehandle msg=CMD_SIGNAL_STRENGTH_CHANED_IND
+2019-10-10 12:31:04.833 1845-1845/? D/DaemonMessageAdapter: SignalStrength update result, ss: SignalStrengthInfo: 3574792 mGsmSignalStrength: 0 mWcdmaRscp: 2147483647 mWcdmaEcio: 255 mLteRsrp: -109 mLteRsrq: -13 mCdmaDbm: 0 mCdmaEcio: 0 mEvdoDbm: 32767 mEvdoEcio: -1 mLteRssnr: -1
+2019-10-10 12:31:04.834 1845-1960/? I/HidataAppQoeP: handleStateChanged reason=6
+2019-10-10 12:31:04.838 1845-1960/? I/PreDnsQuery: handleStateChanged reason=6
+2019-10-10 12:31:04.840 1845-1960/? I/BrowserChrP: handleStateChanged
+2019-10-10 12:31:04.841 1690-1829/? I/HwMobileSignalController(0): subId:0 phoneType:1 networktype:13 targetClass:3 masterLevel:3 slaveLevel:-1
+2019-10-10 12:31:05.065 1158-1644/? D/HiDATA: onForegroundAppWifiSleepChange: config:false, sleeptime:-1,type: -1, appname:com.virobugs
+2019-10-10 12:31:05.066 1158-1644/? D/MSSArbitrager: setGameForeground:false
+2019-10-10 12:31:05.066 1158-1644/? D/HiDATA: APP type: -1 appName= com.virobugs
+2019-10-10 12:31:05.066 1158-1644/? D/HiDATA: no game, APP_TYPE_GAME, appName =com.virobugs
+2019-10-10 12:31:05.237 1158-5769/? W/ActivityManager:   finishTopCrashedActivityLocked Force finishing activity com.virobugs/.MainActivity
+2019-10-10 12:31:05.239 1158-5769/? V/ActivityManager: positionChild stackId=0 to top.
+2019-10-10 12:31:05.240 1845-1845/? D/DaemonMessageAdapter: onMobileSignalStrengthChanged, subId: 0, signalStrength: SignalStrength: 0 755203440 0 0 32767 -1 32767 -1 -109 -12 0 -1 0 2147483647 0 120 2147483647 255 gsm|lte use_rsrp_and_rssnr_for_lte_level rscp [-128, -118, -108, -98] [-115, -105, -95, -85] 0 0 0 0 0 0
+2019-10-10 12:31:05.240 759-759/? E//system/bin/tombstoned: Tombstone written to: /data/tombstones/tombstone_01
+2019-10-10 12:31:05.244 1158-1158/? I/MQoS: onSignal: mSubId=0,currDataSubID=0
+2019-10-10 12:31:05.246 1158-1272/? I/StatusBarDisable: setFlags what=0 which=1 pkg=Window{c7fb66a u0 com.virobugs/com.virobugs.MainActivity}
+2019-10-10 12:31:05.250 1845-1845/? D/DaemonMessageAdapter: SignalStrength update result, ss: SignalStrengthInfo: 3574792 mGsmSignalStrength: 0 mWcdmaRscp: 2147483647 mWcdmaEcio: 255 mLteRsrp: -109 mLteRsrq: -12 mCdmaDbm: 0 mCdmaEcio: 0 mEvdoDbm: 32767 mEvdoEcio: -1 mLteRssnr: 0
+2019-10-10 12:31:05.253 757-3025/? E/iMonitor: FaultDetect: DUMPTOOL_PRINTF return.
+2019-10-10 12:31:05.253 757-3025/? E/iMonitor: FaultDetect: DUMPTOOL_PRINTF return.
+2019-10-10 12:31:05.253 1158-1158/? I/MQoS: received cell-signal:4
+2019-10-10 12:31:05.254 757-3025/? E/iMonitor: FaultDetect: DUMPTOOL_PRINTF return.
+2019-10-10 12:31:05.254 1964-1964/? D/Mapcon  : TelephonyTracker: onSignalStrengthsChanged:phoneId=0, level=3
+2019-10-10 12:31:05.257 1845-1960/? I/HidataAppQoeP: handleStateChanged reason=6
+2019-10-10 12:31:05.258 1845-1960/? I/PreDnsQuery: handleStateChanged reason=6
+2019-10-10 12:31:05.258 1964-2469/? D/Mapcon  : SMVoice-0-Normal: PrepareState:defaultStatehandle msg=CMD_SIGNAL_STRENGTH_CHANED_IND
+2019-10-10 12:31:05.263 1845-1960/? I/BrowserChrP: handleStateChanged
+2019-10-10 12:31:05.265 1158-1280/? I/BootReceiver: Copying /data/tombstones/tombstone_01 to DropBox (SYSTEM_TOMBSTONE)
+2019-10-10 12:31:05.269 745-765/? E/AwareLog: iawared: change_property_content open /proc/5660/task/5713/static_vip fail errno(2)!
+2019-10-10 12:31:05.273 1690-1829/? I/HwMobileSignalController(0): subId:0 phoneType:1 networktype:13 targetClass:3 masterLevel:3 slaveLevel:-1
+2019-10-10 12:31:05.277 1941-2667/? E/AwareLog: SPKSchedFeature: Uid has been sent, ignore.
+2019-10-10 12:31:05.292 1158-1272/? W/ActivityManager: Skipping native crash dialog of ProcessRecord{ce86857 5660:com.virobugs/u0a347}
+2019-10-10 12:31:05.293 1941-2740/? E/AwareLog: GameSdkConfigReader: GameSdkLog: idNameMap: null
+2019-10-10 12:31:05.298 1158-1272/? D/HiDATA_ContentAware: mForegroundAppPackageName: com.huawei.android.launcher ,score: 0
+2019-10-10 12:31:05.298 1158-1272/? D/HiDATA: onForegroundAppWifiSleepChange: config:false, sleeptime:-1,type: 255, appname:com.huawei.android.launcher
+2019-10-10 12:31:05.299 1158-1272/? D/MSSArbitrager: setGameForeground:false
+2019-10-10 12:31:05.300 1158-1272/? D/HiDATA: APP type: 255 appName= com.huawei.android.launcher
+2019-10-10 12:31:05.300 1158-1272/? D/HiDATA: no game, APP_TYPE_GAME, appName =com.huawei.android.launcher
+2019-10-10 12:31:05.304 1158-1267/? I/HwAudioService: now type = -1,reportForegroundAppType = 255,pkg = null,mVoipOptimizeInGameModetrue
+2019-10-10 12:31:05.307 1845-25434/? I/BoosterSwitchP: notifyUidState do nothing
+2019-10-10 12:31:05.307 1845-25434/? I/BrowserChrP: notifyUidState
+2019-10-10 12:31:05.309 608-4407/? I/spk_dev_interface: spk_set_parameters: use new smartpakit version
+2019-10-10 12:31:05.310 608-4407/? I/audio_hw_primary: update stream types 0
+2019-10-10 12:31:05.310 608-4407/? I/audio_custom: game mode exit.
+2019-10-10 12:31:05.310 608-4407/? I/dsp_soc: set primary algo bypass 0 succ
+2019-10-10 12:31:05.311 1158-1777/? I/HwNetworkPolicy: onTransact, code = 203
+2019-10-10 12:31:05.311 2112-2362/? I/HwNetworkPolicyManager: getHwUidPolicy uid = 10104 policy = 0
+2019-10-10 12:31:05.346 1158-1577/? D/NetdConnector: SND -> {8408 firewall set_uid_rule standby 10013 allow}
+2019-10-10 12:31:05.355 1158-1571/? D/NetdConnector: RCV <- {200 8408 Firewall command succeeded}
+2019-10-10 12:31:05.358 1158-1577/? I/NetworkPolicy: updateRulesForPowerRestrictionsUL(10013), isIdle: true, mRestrictPower: false, mDeviceIdleMode: false, isForeground=true, isWhitelisted=false, oldRule=64 (REJECT_ALL), newRule=32 (ALLOW_ALL), newUidRules=32 (ALLOW_ALL), oldUidRules=64 (REJECT_ALL), mRestrictBackground=false
+2019-10-10 12:31:05.357 1158-1571/? D/NetdConnector: RCV <- {200 8408 Firewall command succeeded}
+2019-10-10 12:31:05.361 1158-1901/? V/BroadcastQueue: Finished with ordered broadcast BroadcastRecord{bdff01f u0 android.intent.action.DROPBOX_ENTRY_ADDED}
+2019-10-10 12:31:05.368 730-1527/? E/dubaid: [DubaiUtils.h] parseMessage# Failed to find second tag: uid=
+2019-10-10 12:31:05.368 730-1527/? E/dubaid: [SystemHandler.cpp] parsePartialWakelockAcquiredMessage# Failed to parse count: lock=172055021 tag=IntentOp:.common.broadcast.BackgroundBroadcastReceiverSupport$PersistentReceiverIntentOperation count=0
+2019-10-10 12:31:05.368 730-1527/? E/dubaid: [SystemHandler.cpp] onPartialWakelockAcquireMessage# Failed to parse message
+2019-10-10 12:31:05.369 1158-1551/? W/InputDispatcher: channel 'c7fb66a com.virobugs/com.virobugs.MainActivity (server)' ~ Consumer closed input channel or an error occurred.  events=0x9
+2019-10-10 12:31:05.369 1158-1551/? E/InputDispatcher: channel 'c7fb66a com.virobugs/com.virobugs.MainActivity (server)' ~ Channel is unrecoverably broken and will be disposed!
+2019-10-10 12:31:05.373 751-751/? I/Sensors@1.0-impl: activate-0 enabled-0 fwkOals-1 camOals-0 fwkOcolor-1 camOcolor-0 fwkOtof-0 camOtof-0
+2019-10-10 12:31:05.373 578-578/? I/Zygote: Process 5660 exited due to signal (11)
+2019-10-10 12:31:05.373 751-751/? D/SensorHub: enableSensor-> handle: 0 enable : 0
+2019-10-10 12:31:05.374 751-751/? D/SensorHub: Channel activate-> handle: 0, enabled:0, err: 0
+2019-10-10 12:31:05.374 1158-5902/? I/WindowManager: WIN DEATH: Window{c7fb66a u0 com.virobugs/com.virobugs.MainActivity}
+2019-10-10 12:31:05.374 1158-5902/? V/WindowManager: removeIfPossible: Window{c7fb66a u0 com.virobugs/com.virobugs.MainActivity}
+2019-10-10 12:31:05.374 1158-5902/? W/InputDispatcher: Attempted to unregister already unregistered input channel 'c7fb66a com.virobugs/com.virobugs.MainActivity (server)'
+2019-10-10 12:31:05.374 751-751/? D/SensorHub: lib ver is 15
+2019-10-10 12:31:05.374 751-751/? E/SensorHub: get_acc_convert_coff = 1000.000000
+2019-10-10 12:31:05.375 1158-5902/? V/WindowManager: Not removing Window{c7fb66a u0 com.virobugs/com.virobugs.MainActivity EXITING} due to exit animation
+2019-10-10 12:31:05.376 1158-1272/? I/StatusBarDisable: setFlags what=0 which=1 pkg=Window{c7fb66a u0 com.virobugs/com.virobugs.MainActivity EXITING}
+2019-10-10 12:31:05.376 1158-5902/? D/ZrHung.AppEyeFocusWindow: FocusWindowErrorScene CheckFreezeScreen
+2019-10-10 12:31:05.376 1158-5902/? D/ZrHung.AppEyeTransparentWindow: TransparentWindow cancelCheckFreezeScreen
+2019-10-10 12:31:05.382 1941-2044/? I/SensorState: sensor:0 name:accelerometer enable:false uid:10347
+2019-10-10 12:31:05.382 1941-2044/? I/SensorState: sensor stop, total history time:42649
+2019-10-10 12:31:05.382 1941-2044/? I/SensorState: removeSensor,mHandles:{}
+2019-10-10 12:31:05.382 1941-2044/? I/PGServer: report state:4 event type:2 pid:0 uid:10347 pkg:null to pid: 1158
+2019-10-10 12:31:05.385 1158-5579/? E/AwareLog: CPUKeyBackground: checkIsTargetGroup read catch IOException msg = /proc/5660/cpuset (No such file or directory)
+2019-10-10 12:31:05.389 1979-15690/? D/HwRecentsTaskUtils: refreshToCache
+2019-10-10 12:31:05.389 1979-15690/? D/HwRecentsTaskUtils: searchFromDate
+2019-10-10 12:31:05.391 1158-1671/? I/ActivityManager: Process com.virobugs (pid 5660) has died: vis  +99TOP
+2019-10-10 12:31:05.391 1158-1671/? D/ActivityManager: cleanUpApplicationRecord app: ProcessRecord{ce86857 5660:com.virobugs/u0a347}, app.bad: false, restarting: false, allowRestart: true
+2019-10-10 12:31:05.393 1158-1267/? I/HwAudioService: now type = 255,reportForegroundAppType = 255,pkg = null,mVoipOptimizeInGameModetrue
+2019-10-10 12:31:05.393 1941-2740/? E/AwareLog: GameSdkConfigReader: GameSdkLog: idNameMap: null
+2019-10-10 12:31:05.394 1845-25434/? E/HsmCoreServiceImpl: onTransact in code is: 102
+2019-10-10 12:31:05.394 1845-25434/? I/MediaProcessHandler: processOp opType: 1, uid: 10347, pid: 5660
+2019-10-10 12:31:05.394 1845-25434/? W/MediaProcessHandler: remove target not exist, maybe the UI process: uid: 10347, pid: 5660
+2019-10-10 12:31:05.394 1845-25434/? I/MediaProcessHandler: executedCallBack opType: 1 mMediaStatusObservers.size=0
+2019-10-10 12:31:05.394 1845-2204/? D/HicomMonitor: notifyAppDied: begin
+2019-10-10 12:31:05.394 1845-2204/? D/Hicom_SysEnvMonitor: onAppDied, uid:10347
+2019-10-10 12:31:05.394 1845-2204/? D/HicomMonitor: onAppDied: uid = 10347
+2019-10-10 12:31:05.394 1845-2204/? D/Hicom_AppLifeCycleManager: sAppAllSocketClosed rm uid: 10347
+2019-10-10 12:31:05.394 1845-2204/? D/Hicom_SingleTaskDecisionSystem: AllAppPolicyEmpty(), disable MobileData...
+2019-10-10 12:31:05.394 1845-2204/? D/Hicom_MobileDataControl: setMobileData Mobile switch closing,mEnableSourceMask:0
+2019-10-10 12:31:05.394 1845-2204/? D/Hicom_MobileDataControl: stopMobileDataNetwork
+2019-10-10 12:31:05.394 1845-2204/? D/Hicom_MobileDataControl: has already stopMobileDataNetwork
+2019-10-10 12:31:05.394 1158-1671/? V/WindowManager: Exit animation finished in Window{c7fb66a u0 com.virobugs/com.virobugs.MainActivity EXITING}: remove=true
+2019-10-10 12:31:05.395 1845-2204/? E/Hicom_PolicyCenterService: handleAppDied. null == mMultipathAppsMap
+2019-10-10 12:31:05.395 1158-1671/? E/WindowManager: win=Window{c7fb66a u0 com.virobugs/com.virobugs.MainActivity EXITING} destroySurfaces: appStopped=false win.mWindowRemovalAllowed=true win.mRemoveOnExit=true
+2019-10-10 12:31:05.395 1845-3259/? I/BoosterSwitchP: notifyUidState do nothing
+2019-10-10 12:31:05.395 1845-3259/? I/BrowserChrP: notifyUidState
+2019-10-10 12:31:05.395 1158-1275/? W/libprocessgroup: kill(-5660, 9) failed: No such process
+2019-10-10 12:31:05.395 1158-1275/? I/libprocessgroup: Successfully killed process cgroup uid 10347 pid 5660 in 3ms
+2019-10-10 12:31:05.395 1158-1671/? W/WindowManager: Exception thrown when updateSurfaceStatusSurface(name=com.virobugs/com.virobugs.MainActivity)/@0x187b022: android.os.DeadObjectException
+2019-10-10 12:31:05.396 1158-1671/? V/WindowManager: postWindowRemoveCleanupLocked: Window{c7fb66a u0 com.virobugs/com.virobugs.MainActivity}
+2019-10-10 12:31:05.396 1158-1671/? V/WindowManager: Removing Window{c7fb66a u0 com.virobugs/com.virobugs.MainActivity} from AppWindowToken{7b98f75 token=Token{eaa6ac ActivityRecord{a574c5f u0 com.virobugs/.MainActivity t6723}}}
+2019-10-10 12:31:05.403 1158-1671/? V/WindowManager: removeAppToken: AppWindowToken{7b98f75 token=Token{eaa6ac ActivityRecord{a574c5f u0 com.virobugs/.MainActivity t6723}}} delayed=true Callers=com.android.server.wm.DisplayContent.removeAppToken:1086 com.android.server.wm.AppWindowContainerController.removeContainer:315 com.android.server.am.ActivityRecord.removeWindowContainer:1201 com.android.server.am.ActivityStack.removeActivityFromHistoryLocked:4568
+2019-10-10 12:31:05.415 1158-1671/? V/ActivityManager: removeChild: detaching stackId=155 from displayId=0
+2019-10-10 12:31:05.423 1158-1671/? W/HwActivityManagerServiceEx: setResumedActivityUncheckLocked start call, from: ActivityRecord{a574c5f u0 com.virobugs/.MainActivity t-1 f}, to: ActivityRecord{736ac83 u0 com.huawei.android.launcher/.unihome.UniHomeLauncher t1}
+2019-10-10 12:31:05.423 1158-1671/? W/HwActivityManagerServiceEx: appSwitch from: com.virobugs to: com.huawei.android.launcher
+2019-10-10 12:31:05.424 1158-1269/? W/HwActivityManagerServiceEx: HwActivityNotifier end call for returnToHome under user 0 cost 0
+2019-10-10 12:31:05.424 1158-1269/? W/HwActivityManagerServiceEx: HwActivityNotifier end call for appSwitch under user 0 cost 0
+2019-10-10 12:31:05.427 1158-1671/? D/HwPhoneWindowManager: sensorRotation = 0 lastRotation:0
+2019-10-10 12:31:05.428 1845-3259/? D/AssistantService-901302: registerHwActivityNotifier call fromPackage:com.virobugs, toPackage:com.huawei.android.launcher
+2019-10-10 12:31:05.428 1845-3259/? D/AssistantService-901302: getAppSDKType packageName:com.virobugs, type:0
+2019-10-10 12:31:05.428 1845-3259/? D/AssistantService-901302: appInJoint:0
+2019-10-10 12:31:05.428 1845-3259/? D/AssistantService-901302: issystemapp:com.huawei.android.launcher
+2019-10-10 12:31:05.429 1158-1671/? V/WindowManager: notifyAppResumed: wasStopped=true AppWindowToken{df5a639 token=Token{b298e00 ActivityRecord{736ac83 u0 com.huawei.android.launcher/.unihome.UniHomeLauncher t1}}}
+2019-10-10 12:31:05.429 1941-2044/? D/ScenarioService: front pkg : com.huawei.android.launcher launcher: true
+2019-10-10 12:31:05.429 1941-2044/? I/AppManager: handleAppFrontEvent: com.huawei.android.launcher
+2019-10-10 12:31:05.429 1941-2044/? I/AppsUsage: scnOff:false FgAPP:com.huawei.android.launcher BgAPP:com.virobugs
+2019-10-10 12:31:05.429 1979-2663/? D/Activity: pivotX = 540.0, pivotY = 1653.0, iconWidth = 170, iconHeight = 170, iconWidth = 170, flag = 0
+2019-10-10 12:31:05.435 1158-1671/? V/WindowManager: Checking 1 opening apps (frozen=false timeout=false), Track: updateconfig performsurface
+2019-10-10 12:31:05.435 1158-1671/? V/WindowManager: Check opening app=AppWindowToken{df5a639 token=Token{b298e00 ActivityRecord{736ac83 u0 com.huawei.android.launcher/.unihome.UniHomeLauncher t1}}}: allDrawn=false startingDisplayed=false startingMoved=false isRelaunching()=false startingWindow=null
+2019-10-10 12:31:05.438 1845-2204/? D/Hicom_EmcomManagerService: forePackage name is com.huawei.android.launcher
+2019-10-10 12:31:05.438 1845-2204/? D/HicomMonitor: notifyForegroundAppChanged: begin
+2019-10-10 12:31:05.438 1845-2204/? D/XEngineProcessor: onForegroundAppChanged, pkgName:com.huawei.android.launcher
+2019-10-10 12:31:05.438 1845-2204/? I/XEngineProcessor: Feature is not enable.
+2019-10-10 12:31:05.438 1845-2204/? D/Hicom_SysEnvMonitor: onForegroundAppChanged, pkgName: com.huawei.android.launcher
+2019-10-10 12:31:05.438 1845-2204/? D/XEngineMpipControl: onForegroundAppChanged, pkgName:com.huawei.android.launcher
+2019-10-10 12:31:05.438 1845-2204/? D/XEngineMpipControl: Invalid subId
+2019-10-10 12:31:05.438 1845-2204/? E/XEngineMpipControl: Invalid SubId
+2019-10-10 12:31:05.438 1845-2204/? D/HicomMonitor: onForegroundAppChanged is called
+2019-10-10 12:31:05.438 1941-2227/? I/hibernation: front pkg : com.huawei.android.launcher launcher: true
+2019-10-10 12:31:05.439 1845-2204/? D/Hicom_PolicyCenterService: handleForegroundAppChanged new forground app 10104
+2019-10-10 12:31:05.439 1845-2204/? D/Hicom_AppLifeCycleManager: sAppAllSocketClosed NOT contain: 10347
+2019-10-10 12:31:05.439 1845-2204/? D/Hicom_PolicyCenterService: mCurrentForgroundUid is not policy exist
+2019-10-10 12:31:05.443 1941-2335/? I/PGServer: report state:10000 event type:2 pid:0 uid:0 pkg:com.virobugs to pid: 1158
+2019-10-10 12:31:05.444 1979-2052/? E/HwLauncher: SettingsEx , no such field.
+2019-10-10 12:31:05.445 1979-2052/? W/HwLauncher: Clock getDataFormat the getSystemString failed.
+2019-10-10 12:31:05.446 1941-2335/? I/PGServer: report state:10000 event type:2 pid:0 uid:0 pkg:com.virobugs to pid: 1941
+2019-10-10 12:31:05.447 1158-1901/? V/WindowManager: Checking 1 opening apps (frozen=false timeout=false), Track: relayout performsurface
+2019-10-10 12:31:05.447 1158-1901/? V/WindowManager: Check opening app=AppWindowToken{df5a639 token=Token{b298e00 ActivityRecord{736ac83 u0 com.huawei.android.launcher/.unihome.UniHomeLauncher t1}}}: allDrawn=false startingDisplayed=false startingMoved=false isRelaunching()=false startingWindow=null
+2019-10-10 12:31:05.449 1845-10398/? D/DollieActivityManagerAdapter: [UidGone]  uid:10347
+2019-10-10 12:31:05.450 1845-10398/? E/DollieAdapterService: notifyActivityState pkg:com.virobugs/com.virobugs.MainActivity state:18 fg:false mUid:10347
+2019-10-10 12:31:05.451 1845-10398/? I/HidataAppQoeP: foregroundUidRemove uid: 10347 name: com.virobugs
+2019-10-10 12:31:05.451 1845-10398/? I/HidataAppQoeP: sendKernelAppUid, Uid = 0, period = 0 name = null
+2019-10-10 12:31:05.451 1158-1283/? W/ActivityManager: setHasOverlayUi called on unknown pid: 5660
+2019-10-10 12:31:05.451 1845-10398/? I/DollieCore: onQoeInfoChanged :3
+2019-10-10 12:31:05.451 1845-1988/? I/DollieCore: onEvtQoeInfoChanged: QOE_EXPERIENCE_LEVEL_UNKNOW
+2019-10-10 12:31:05.451 1845-1988/? I/DollieCore: notify recovery status no change directly
+2019-10-10 12:31:05.451 1845-3259/? E/HsmCoreServiceImpl: onTransact in code is: 103
+2019-10-10 12:31:05.451 1845-3259/? I/MediaProcessHandler: playingUids:
+2019-10-10 12:31:05.451 1158-3510/? D/HwNetworkManagementService: setNetBoosterAppUid,appUid=0,period=0
+2019-10-10 12:31:05.455 1941-2335/? I/SceneReceiver: state type: 10000 eventType:2 pid:0 uid:0 pkg:com.virobugs
+2019-10-10 12:31:05.455 1941-2335/? I/PGServer: report state:10010 event type:1 pid:0 uid:0 pkg:com.huawei.android.launcher to pid: 1158
+2019-10-10 12:31:05.455 1941-2335/? I/PGServer: report state:10010 event type:1 pid:0 uid:0 pkg:com.huawei.android.launcher to pid: 1941
+2019-10-10 12:31:05.456 1158-3510/? D/NetdConnector: SND -> {8409 hwnb appQoe uid 0 0}
+2019-10-10 12:31:05.456 1941-9583/? I/PGServer: checkPkgType. calling pkg: android
+2019-10-10 12:31:05.457 1158-1571/? D/NetdConnector: RCV <- {200 8409 appQoe uid cmd succeeded}
+2019-10-10 12:31:05.460 14136-14207/? D/mali_winsys: EGLint new_window_surface(egl_winsys_display *, void *, EGLSurface, EGLConfig, egl_winsys_surface **, EGLBoolean) returns 0x3000
+2019-10-10 12:31:05.465 730-1527/? E/dubaid: [DubaiUtils.h] parseMessage# Failed to find second tag: uid=
+2019-10-10 12:31:05.465 730-1527/? E/dubaid: [SystemHandler.cpp] parsePartialWakelockAcquiredMessage# Failed to parse count: lock=96771371 tag=IntentOp:.common.broadcast.BackgroundBroadcastReceiverSupport$GmsReceiverIntentOperation count=0
+2019-10-10 12:31:05.465 730-1527/? E/dubaid: [SystemHandler.cpp] onPartialWakelockAcquireMessage# Failed to parse message
+2019-10-10 12:31:05.469 1979-1979/? D/ZrHung.AppEyeUiProbe: notify runnable to start.
+2019-10-10 12:31:05.471 1979-2069/? D/ZrHung.AppEyeUiProbe: restart watching
+2019-10-10 12:31:05.471 23633-24049/? I/HiSearch19.11.3.304: [LauncherOverlayService]: LAUNCHER_INTERACTION from launcher and invoke id = -111
+2019-10-10 12:31:05.471 23633-24049/? I/HiSearch19.11.3.304: [LauncherOverlayService]: isOverlayClosed = true
+2019-10-10 12:31:05.472 23633-24049/? I/HiSearch19.11.3.304: [LauncherOverlayService]: LAUNCHER_INTERACTION from launcher and invoke, overlay closed, return.
+2019-10-10 12:31:05.477 1158-1582/? D/HwHiCureActivityObserver: handleMessage: msg[0]
+2019-10-10 12:31:05.460 1158-1571/? D/NetdConnector: RCV <- {200 8409 appQoe uid cmd succeeded}
+2019-10-10 12:31:05.477 1158-1269/? W/HwActivityManagerServiceEx: HwActivityNotifier end call for activityLifeState under user 0 cost 0
+2019-10-10 12:31:05.477 1158-1582/? D/HiData_HwAPPQoEResourceMangerImpl: checkIsMonitorHiCureAppScence input :com.huawei.android.launcher
+2019-10-10 12:31:05.478 1158-4664/? D/HiData_HwAPPQoEActivityMonitor: handleActivityChange,  curPackage:com.huawei.android.launcher, curClass:com.huawei.android.launcher.unihome.UniHomeLauncher
+2019-10-10 12:31:05.478 1158-1284/? D/HwGameAssistantController: UPDATE: mCurFgPkg=com.huawei.android.launcher, mCurFgPid=1979, mCurIsGame=false
+2019-10-10 12:31:05.478 1158-4664/? D/HiData_HwAPPQoEResourceMangerImpl: checkIsMonitorAPKScence input :com.huawei.android.launcher,com.huawei.android.launcher.unihome.UniHomeLauncher
+2019-10-10 12:31:05.478 1158-4664/? D/HiData_HwAPPQoEResourceMangerImpl: checkIsMonitorAPKScence input :com.huawei.android.launcher,null
+2019-10-10 12:31:05.478 1158-1653/? D/HiDATA_HiStream: activityResumed:pid=1979, uid=10104, component=ComponentInfo{com.huawei.android.launcher/com.huawei.android.launcher.unihome.UniHomeLauncher}
+2019-10-10 12:31:05.478 1158-4664/? D/HiData_HwAPPQoEResourceMangerImpl: checkIsMonitorGameScence input :com.huawei.android.launcher
+2019-10-10 12:31:05.478 1158-4664/? D/HiData_HwAPPQoEResourceMangerImpl: checkIsMonitorGameScence input :com.huawei.android.launcher
+2019-10-10 12:31:05.478 1158-4664/? D/HiData_HwAPPQoEActivityMonitor: handleActivityChange, it is not a care app or scence
+2019-10-10 12:31:05.478 1158-4664/? D/HiData_HwAPPQoEActivityMonitor: handleActivityChange,  curr mAppType:-1, lastType:-1
+2019-10-10 12:31:05.478 1690-1690/? I/HwNavigationBarView: updateAssistantButtonInGuestureMode(), vis=true,isGestureNavEnable=false
+2019-10-10 12:31:05.478 3460-3476/? I/AppLifeChangeSensor:  CAWARENESS: activityResumed componentName = ComponentInfo{com.huawei.android.launcher/com.huawei.android.launcher.unihome.UniHomeLauncher}
+2019-10-10 12:31:05.478 1158-1653/? D/HiData_HwAPPQoEResourceMangerImpl: checkIsMonitorVideoScence input :com.huawei.android.launcher,com.huawei.android.launcher.unihome.UniHomeLauncher
+2019-10-10 12:31:05.478 3460-3476/? E/AppLifeChangeSensor:  CAWARENESS: activityResumed mAppLifeChangeCallback is null
+2019-10-10 12:31:05.478 1158-1653/? D/HiDATA_HiStream: mHwAPPQoEAPKConfig is null
+2019-10-10 12:31:05.478 1845-10398/? D/DollieActivityManagerAdapter: [Resumed] pid:1979 uid:10104 ComponentInfo{com.huawei.android.launcher/com.huawei.android.launcher.unihome.UniHomeLauncher}
+2019-10-10 12:31:05.478 1845-10398/? E/DollieAdapterService: notifyActivityState pkg:com.huawei.android.launcher/com.huawei.android.launcher.unihome.UniHomeLauncher state:2 fg:true mUid:10104
+2019-10-10 12:31:05.479 1979-15690/? I/RecentsTaskLoadPlan: to show tasks size is 2
+2019-10-10 12:31:05.481 1158-1777/? V/WindowManager: Checking 1 opening apps (frozen=false timeout=false), Track: relayout performsurface
+2019-10-10 12:31:05.481 1158-1777/? V/WindowManager: Check opening app=AppWindowToken{df5a639 token=Token{b298e00 ActivityRecord{736ac83 u0 com.huawei.android.launcher/.unihome.UniHomeLauncher t1}}}: allDrawn=false startingDisplayed=false startingMoved=false isRelaunching()=false startingWindow=null
+2019-10-10 12:31:05.481 1941-2335/? I/SceneReceiver: state type: 10010 eventType:1 pid:0 uid:0 pkg:com.huawei.android.launcher
+2019-10-10 12:31:05.482 598-598/? I/GRALLOC: getCallingPid=649, shrFd=32,fmt=0x1,intFmt=0x200000001,btStrd=4352,size=9973760,pid=598
+    	 yuv=2,w=1080,h=2244,Stride u=0 v=0,offset u=0 v=0
+    	 iova_size=9973760,conUsg=0xb00,proUsg=0xb00,	 strd=1088,[afbc]HdrStrd=1088 PyldStrd=69632 Scrmbl=2,ionhnd = 1
+2019-10-10 12:31:05.482 1941-2669/? D/ThermalTrace_ThermalRaise: current pkg:com.virobugs
+2019-10-10 12:31:05.482 1941-2666/? D/HwThermalStateManager: current foreapp pkg : com.huawei.android.launcher
+2019-10-10 12:31:05.482 649-649/? D/SurfaceFlinger: duplicate layer name: changing com.huawei.android.launcher/com.huawei.android.launcher.unihome.UniHomeLauncher to com.huawei.android.launcher/com.huawei.android.launcher.unihome.UniHomeLauncher#1
+2019-10-10 12:31:05.484 1158-1777/? V/HwPhoneWindowManager: updateSystemUiColorLw window=Window{b087f20 u0 com.huawei.android.launcher/com.huawei.android.launcher.unihome.UniHomeLauncher},EmuiStyle=-1,StatusBarColor=0x0,NavigationBarColor=0x0, mForceNotchStatusBar=false
+2019-10-10 12:31:05.484 1158-1777/? D/ZrHung.AppEyeFocusWindow: FocusWindowErrorScene cancelCheckFreezeScreen
+2019-10-10 12:31:05.484 1158-1777/? D/ZrHung.AppEyeTransparentWindow: TransparentWindow mHungConfigStatus = 1,mHungConfigEnable =
+2019-10-10 12:31:05.482 1158-1158/? W/Binder:1158_1C: type=1400 audit(0.0:35214): avc: granted { read } for path="/data/system/dropbox/data_app_native_crash@1570703465244.txt.gz" dev="sdd64" ino=19327 scontext=u:r:priv_app:s0:c512,c768 tcontext=u:object_r:system_data_file:s0 tclass=file
+2019-10-10 12:31:05.486 598-598/? I/GRALLOC: getCallingPid=649, shrFd=32,fmt=0x1,intFmt=0x200000001,btStrd=4352,size=9973760,pid=598
+    	 yuv=2,w=1080,h=2244,Stride u=0 v=0,offset u=0 v=0
+    	 iova_size=9973760,conUsg=0xb00,proUsg=0xb00,	 strd=1088,[afbc]HdrStrd=1088 PyldStrd=69632 Scrmbl=2,ionhnd = 1
+2019-10-10 12:31:05.487 1979-2159/? D/mali_winsys: EGLint new_window_surface(egl_winsys_display *, void *, EGLSurface, EGLConfig, egl_winsys_surface **, EGLBoolean) returns 0x3000
+2019-10-10 12:31:05.482 1158-1158/? W/Binder:1158_6: type=1400 audit(0.0:35215): avc: granted { read } for path="/data/system/dropbox/SYSTEM_TOMBSTONE@1570703465281.txt.gz" dev="sdd64" ino=19166 scontext=u:r:priv_app:s0:c512,c768 tcontext=u:object_r:system_data_file:s0 tclass=file
+2019-10-10 12:31:05.489 598-2614/? I/GRALLOC: getCallingPid=649, shrFd=32,fmt=0x1,intFmt=0x200000001,btStrd=4352,size=9973760,pid=598
+    	 yuv=2,w=1080,h=2244,Stride u=0 v=0,offset u=0 v=0
+    	 iova_size=9973760,conUsg=0xb00,proUsg=0xb00,	 strd=1088,[afbc]HdrStrd=1088 PyldStrd=69632 Scrmbl=2,ionhnd = 1
+2019-10-10 12:31:05.492 730-1527/? E/dubaid: [DubaiUtils.h] parseMessage# Failed to find second tag: uid=
+2019-10-10 12:31:05.492 730-1527/? E/dubaid: [SystemHandler.cpp] parsePartialWakelockAcquiredMessage# Failed to parse count: lock=191750407 tag=IntentOp:.common.broadcast.BackgroundBroadcastReceiverSupport$GmsReceiverIntentOperation count=0
+2019-10-10 12:31:05.492 730-1527/? E/dubaid: [SystemHandler.cpp] onPartialWakelockAcquireMessage# Failed to parse message
+2019-10-10 12:31:05.493 1979-1979/? W/InputMethodManager: startInputReason = 1
+2019-10-10 12:31:05.494 1158-1514/? V/WindowManager: Checking 1 opening apps (frozen=false timeout=false), Track:  performsurface
+2019-10-10 12:31:05.494 1158-1514/? V/WindowManager: Check opening app=AppWindowToken{df5a639 token=Token{b298e00 ActivityRecord{736ac83 u0 com.huawei.android.launcher/.unihome.UniHomeLauncher t1}}}: allDrawn=false startingDisplayed=false startingMoved=false isRelaunching()=false startingWindow=null
+2019-10-10 12:31:05.495 730-1527/? E/dubaid: [SystemHandler.cpp] onPartialWakelockReleaseMessage# Already released, lock: 172055021
+2019-10-10 12:31:05.496 598-834/? I/GRALLOC: getCallingPid=649, shrFd=32,fmt=0x1,intFmt=0x200000001,btStrd=4352,size=9973760,pid=598
+    	 yuv=2,w=1080,h=2244,Stride u=0 v=0,offset u=0 v=0
+    	 iova_size=9973760,conUsg=0x900,proUsg=0x900,	 strd=1088,[afbc]HdrStrd=1088 PyldStrd=69632 Scrmbl=2,ionhnd = 1
+2019-10-10 12:31:05.497 730-1527/? E/dubaid: [DubaiUtils.h] parseMessage# Failed to find second tag: uid=
+2019-10-10 12:31:05.497 730-1527/? E/dubaid: [SystemHandler.cpp] parsePartialWakelockAcquiredMessage# Failed to parse count: lock=180560436 tag=IntentOp:.common.broadcast.BackgroundBroadcastReceiverSupport$PersistentReceiverIntentOperation count=0
+2019-10-10 12:31:05.497 730-1527/? E/dubaid: [SystemHandler.cpp] onPartialWakelockAcquireMessage# Failed to parse message
+2019-10-10 12:31:05.498 1158-6161/? V/BroadcastQueue: Finished with ordered broadcast BroadcastRecord{811b004 u0 android.intent.action.DROPBOX_ENTRY_ADDED}
+2019-10-10 12:31:05.501 598-834/? I/GRALLOC: getCallingPid=649, shrFd=32,fmt=0x1,intFmt=0x200000001,btStrd=4352,size=9973760,pid=598
+    	 yuv=2,w=1080,h=2244,Stride u=0 v=0,offset u=0 v=0
+    	 iova_size=9973760,conUsg=0x900,proUsg=0x900,	 strd=1088,[afbc]HdrStrd=1088 PyldStrd=69632 Scrmbl=2,ionhnd = 1
+2019-10-10 12:31:05.502 730-1527/? E/dubaid: [SystemHandler.cpp] onPartialWakelockReleaseMessage# Already released, lock: 96771371
+2019-10-10 12:31:05.503 14136-14136/? I/HwPhoneWindow: updateLayoutParamsColor false mSpecialSet=false, mForcedNavigationBarColor=true, navigationBarColor=ffffff, mNavBarShow=false, mIsFloating=false
+2019-10-10 12:31:05.503 14136-14136/? I/HwPhoneWindow: updateLayoutParamsColor false mSpecialSet=false, mForcedNavigationBarColor=true, navigationBarColor=ffffff, mNavBarShow=false, mIsFloating=false
+2019-10-10 12:31:05.504 598-834/? I/GRALLOC: getCallingPid=649, shrFd=32,fmt=0x1,intFmt=0x200000001,btStrd=4352,size=9973760,pid=598
+    	 yuv=2,w=1080,h=2244,Stride u=0 v=0,offset u=0 v=0
+    	 iova_size=9973760,conUsg=0x900,proUsg=0x900,	 strd=1088,[afbc]HdrStrd=1088 PyldStrd=69632 Scrmbl=2,ionhnd = 1
+2019-10-10 12:31:05.505 14136-14136/? W/ThreadPoolDumper: Queue length for executor EventBus is now 11. Perhaps some tasks are too long, or the pool is too small.
+2019-10-10 12:31:05.507 598-834/? I/GRALLOC: getCallingPid=649, shrFd=32,fmt=0x1,intFmt=0x200000001,btStrd=4352,size=9973760,pid=598
+    	 yuv=2,w=1080,h=2244,Stride u=0 v=0,offset u=0 v=0
+    	 iova_size=9973760,conUsg=0xb00,proUsg=0xb00,	 strd=1088,[afbc]HdrStrd=1088 PyldStrd=69632 Scrmbl=2,ionhnd = 1
+2019-10-10 12:31:05.508 1158-1514/? V/WindowManager_visibility: updateAllDrawn Add AppWindowToken{df5a639 token=Token{b298e00 ActivityRecord{736ac83 u0 com.huawei.android.launcher/.unihome.UniHomeLauncher t1}}}
+2019-10-10 12:31:05.508 730-1527/? E/dubaid: [SystemHandler.cpp] onPartialWakelockReleaseMessage# Already released, lock: 191750407
+2019-10-10 12:31:05.509 1158-1514/? V/WindowManager_visibility: updateAllDrawn allDrawn=false interesting=2 drawn=1 relaunchCount=0 for AppWindowToken{df5a639 token=Token{b298e00 ActivityRecord{736ac83 u0 com.huawei.android.launcher/.unihome.UniHomeLauncher t1}}}
+2019-10-10 12:31:05.512 1158-1514/? V/WindowManager: Checking 1 opening apps (frozen=false timeout=false), Track:  performsurface
+2019-10-10 12:31:05.512 1158-1514/? V/WindowManager: Check opening app=AppWindowToken{df5a639 token=Token{b298e00 ActivityRecord{736ac83 u0 com.huawei.android.launcher/.unihome.UniHomeLauncher t1}}}: allDrawn=false startingDisplayed=false startingMoved=false isRelaunching()=false startingWindow=null
+2019-10-10 12:31:05.513 730-1527/? E/dubaid: [SystemHandler.cpp] onPartialWakelockReleaseMessage# Already released, lock: 180560436
+2019-10-10 12:31:05.515 1158-1514/? I/WindowManager: New wallpaper target: Window{b087f20 u0 com.huawei.android.launcher/com.huawei.android.launcher.unihome.UniHomeLauncher} prevTarget: null
+2019-10-10 12:31:05.515 1158-1514/? I/WindowManager: test-wallpaper Updating vis of wallpaper Window{9dcd159 u0 com.android.systemui.HwImageWallpaper}: true from:
+    com.android.server.wm.WallpaperWindowToken.updateWallpaperWindows:138 com.android.server.wm.WallpaperController.updateWallpaperTokens:585 com.android.server.wm.WallpaperController.adjustWallpaperWindows:620 com.android.server.wm.DisplayContent.applySurfaceChangesTransaction:3386
+2019-10-10 12:31:05.519 1158-1514/? V/WindowManager_visibility: updateAllDrawn Add AppWindowToken{df5a639 token=Token{b298e00 ActivityRecord{736ac83 u0 com.huawei.android.launcher/.unihome.UniHomeLauncher t1}}}
+2019-10-10 12:31:05.520 1158-1514/? V/WindowManager_visibility: updateAllDrawn allDrawn=false interesting=2 drawn=2 relaunchCount=0 for AppWindowToken{df5a639 token=Token{b298e00 ActivityRecord{736ac83 u0 com.huawei.android.launcher/.unihome.UniHomeLauncher t1}}}
+2019-10-10 12:31:05.520 1158-1514/? V/WindowManager: Checking 1 opening apps (frozen=false timeout=false), Track:  performsurface
+2019-10-10 12:31:05.520 1158-1514/? V/WindowManager: Check opening app=AppWindowToken{df5a639 token=Token{b298e00 ActivityRecord{736ac83 u0 com.huawei.android.launcher/.unihome.UniHomeLauncher t1}}}: allDrawn=true startingDisplayed=false startingMoved=false isRelaunching()=false startingWindow=null
+2019-10-10 12:31:05.520 1964-7464/? D/PhoneInterfaceManager: [PhoneIntfMgr] isUserDataEnabled: subId=0 phoneId=0
+2019-10-10 12:31:05.520 1158-1514/? I/WindowManager: closing apps count = 0
+2019-10-10 12:31:05.520 1964-7464/? D/PhoneInterfaceManager: [PhoneIntfMgr] isUserDataEnabled: subId=0 retVal=true
+2019-10-10 12:31:05.526 1964-7464/? D/PhoneInterfaceManager: [PhoneIntfMgr] isUserDataEnabled: subId=0 phoneId=0
+2019-10-10 12:31:05.526 1964-7464/? D/PhoneInterfaceManager: [PhoneIntfMgr] isUserDataEnabled: subId=0 retVal=true
+2019-10-10 12:31:05.527 1158-5579/? I/HwNetworkPolicy: onTransact, code = 14
+2019-10-10 12:31:05.534 1158-1272/? D/HwPhoneWindowManager: Transact:setSystemUIColor to status bar service
+2019-10-10 12:31:05.534 1690-7878/? I/CommandQueue: updateBarBgColor
+2019-10-10 12:31:05.534 1690-7878/? D/CommandQueue: CommandQueue, setBarBackgroundColor
+2019-10-10 12:31:05.535 1690-1690/? D/TintManager: navigationBarIconTint=99ffffff
+2019-10-10 12:31:05.535 1158-1272/? I/StatusBarDisable: setFlags what=0 which=1 pkg=Window{b087f20 u0 com.huawei.android.launcher/com.huawei.android.launcher.unihome.UniHomeLauncher}
+2019-10-10 12:31:05.536 1158-1272/? I/chatty: uid=1000(system) android.ui identical 4 lines
+2019-10-10 12:31:05.536 1158-1272/? I/StatusBarDisable: setFlags what=0 which=1 pkg=Window{b087f20 u0 com.huawei.android.launcher/com.huawei.android.launcher.unihome.UniHomeLauncher}
+2019-10-10 12:31:05.538 1158-1671/? I/HwNetworkPolicy: onTransact, code = 14
+2019-10-10 12:31:05.542 14136-14213/? I/StreamController: registerScope: nowcards-15-8d6515a-a5d5
+2019-10-10 12:31:05.582 14136-14213/? I/MicroDetectionState: Keep running DSP hotword
+2019-10-10 12:31:05.638 1158-1158/? I/MQoS: onSignal: mSubId=0,currDataSubID=0
+2019-10-10 12:31:05.638 1845-1845/? D/DaemonMessageAdapter: onMobileSignalStrengthChanged, subId: 0, signalStrength: SignalStrength: 0 755203440 0 0 32767 -1 32767 -1 -109 -13 -1 -1 0 2147483647 0 120 2147483647 255 gsm|lte use_rsrp_and_rssnr_for_lte_level rscp [-128, -118, -108, -98] [-115, -105, -95, -85] 0 0 0 0 0 0
+2019-10-10 12:31:05.638 1845-1845/? D/DaemonMessageAdapter: SignalStrength update result, ss: SignalStrengthInfo: 3574792 mGsmSignalStrength: 0 mWcdmaRscp: 2147483647 mWcdmaEcio: 255 mLteRsrp: -109 mLteRsrq: -13 mCdmaDbm: 0 mCdmaEcio: 0 mEvdoDbm: 32767 mEvdoEcio: -1 mLteRssnr: -1
+2019-10-10 12:31:05.639 1964-1964/? D/Mapcon  : TelephonyTracker: onSignalStrengthsChanged:phoneId=0, level=3
+2019-10-10 12:31:05.639 1158-1158/? I/MQoS: received cell-signal:4
+2019-10-10 12:31:05.640 1964-2469/? D/Mapcon  : SMVoice-0-Normal: PrepareState:defaultStatehandle msg=CMD_SIGNAL_STRENGTH_CHANED_IND
+2019-10-10 12:31:05.641 1845-1960/? I/HidataAppQoeP: handleStateChanged reason=6
+2019-10-10 12:31:05.641 14136-14146/? I/earchbox:searc: Background concurrent copying GC freed 87841(4MB) AllocSpace objects, 10(164KB) LOS objects, 50% free, 17MB/35MB, paused 136us total 147.876ms
+2019-10-10 12:31:05.643 1845-1960/? I/PreDnsQuery: handleStateChanged reason=6
+2019-10-10 12:31:05.643 1690-1829/? I/HwMobileSignalController(0): subId:0 phoneType:1 networktype:13 targetClass:3 masterLevel:3 slaveLevel:-1
+2019-10-10 12:31:05.644 1845-1960/? I/BrowserChrP: handleStateChanged
+2019-10-10 12:31:05.698 730-876/? E/dubaid: [CpuHandler.cpp] findUidEntry# Uid(10345) has not package, maybe it's already uninstalled
+2019-10-10 12:31:05.698 730-876/? E/dubaid: [CpuHandler.cpp] setUidCpuTime# Failed to find uid entry
+2019-10-10 12:31:05.751 745-765/? D/AwareLog: iawared: WorkingsetProcessCommand subCmd = 357, userId=10347, pid=5660, com.virobugs
+2019-10-10 12:31:05.751 745-765/? D/AwareLog: iawared: WorkingsetPauseCollect com.virobugs
+2019-10-10 12:31:05.895 608-4407/? I/audio_hw_primary: usb_ext_get_parameters: check show hires (false)
+2019-10-10 12:31:05.896 647-3260/? I/hash_map_utils: key: 'typec_need_show_hires' value: ''
+2019-10-10 12:31:05.896 647-3260/? I/bt_a2dp_hw: adev_get_parameters: audio a2dp receive kvpairs typec_need_show_hires ,but need not handle
+2019-10-10 12:31:05.898 1158-1611/? I/HwAudioServiceEx: check HiRes Icon false
+2019-10-10 12:31:05.900 1158-1611/? W/ActivityManager: Sending non-protected broadcast huawei.intent.action.hideHiResIcon from system 1158:system/1000 pkg android
+2019-10-10 12:31:05.958 1158-1158/? I/HwNormalizedSpline: DayMode:getBrightnessLevel lux =69.0, mDefaultBrightnessFromLux =38.13444
+2019-10-10 12:31:05.900 1158-1611/? W/ActivityManager: Sending non-protected broadcast huawei.intent.action.hideHiResIcon from system 1158:system/1000 pkg android
+2019-10-10 12:31:05.977 1158-4670/? I/MQoS: MSG_QUERY_TCP_INFO called,count:1972
+2019-10-10 12:31:05.980 1158-1582/? I/QosMonitor: postEventFromNative: msg=100,arg1=0,arg2=10
+2019-10-10 12:31:05.981 1158-1582/? I/MQoS: rtt=0,tcp_tx_pkts=0,tcp_rx_pkts=0
+2019-10-10 12:31:05.984 1158-4670/? I/TrafficMonitor: getStatic,count:0,work status:false
+2019-10-10 12:31:05.984 1158-4670/? I/MQoS: QOS_level:4(4),use RAT:4G;signalLvl:4
+2019-10-10 12:31:06.006 1979-1979/? W/HwLauncher: FolderIcon drawSelectedLabel bitmap null
+2019-10-10 12:31:06.007 1979-1979/? W/HwLauncher: FolderIcon drawSelectedLabel bitmap null
+2019-10-10 12:31:06.027 1979-2159/? W/OpenGLRenderer: Incorrectly called buildLayer on View: ShortcutAndWidgetContainer, destroying layer...
+2019-10-10 12:31:06.027 1979-2159/? W/OpenGLRenderer: Incorrectly called buildLayer on View: ShortcutAndWidgetContainer, destroying layer...
+2019-10-10 12:31:06.033 598-834/? I/GRALLOC: getCallingPid=649, shrFd=32,fmt=0x1,intFmt=0x200000001,btStrd=4352,size=9973760,pid=598
+    	 yuv=2,w=1080,h=2244,Stride u=0 v=0,offset u=0 v=0
+    	 iova_size=9973760,conUsg=0xb00,proUsg=0xb00,	 strd=1088,[afbc]HdrStrd=1088 PyldStrd=69632 Scrmbl=2,ionhnd = 1
+2019-10-10 12:31:06.047 1158-1158/? I/MQoS: onSignal: mSubId=0,currDataSubID=0
+2019-10-10 12:31:06.048 1845-1845/? D/DaemonMessageAdapter: onMobileSignalStrengthChanged, subId: 0, signalStrength: SignalStrength: 0 755203440 0 0 32767 -1 32767 -1 -109 -13 -1 -1 0 2147483647 0 120 2147483647 255 gsm|lte use_rsrp_and_rssnr_for_lte_level rscp [-128, -118, -108, -98] [-115, -105, -95, -85] 0 0 0 0 0 0
+2019-10-10 12:31:06.049 1158-1158/? I/MQoS: received cell-signal:4
+2019-10-10 12:31:06.049 1964-1964/? D/Mapcon  : TelephonyTracker: onSignalStrengthsChanged:phoneId=0, level=3
+2019-10-10 12:31:06.050 1845-1845/? D/DaemonMessageAdapter: SignalStrength update result, ss: SignalStrengthInfo: 3574792 mGsmSignalStrength: 0 mWcdmaRscp: 2147483647 mWcdmaEcio: 255 mLteRsrp: -109 mLteRsrq: -13 mCdmaDbm: 0 mCdmaEcio: 0 mEvdoDbm: 32767 mEvdoEcio: -1 mLteRssnr: -1
+2019-10-10 12:31:06.050 1964-2469/? D/Mapcon  : SMVoice-0-Normal: PrepareState:defaultStatehandle msg=CMD_SIGNAL_STRENGTH_CHANED_IND
+2019-10-10 12:31:06.053 1690-1829/? I/HwMobileSignalController(0): subId:0 phoneType:1 networktype:13 targetClass:3 masterLevel:3 slaveLevel:-1
+2019-10-10 12:31:06.054 1845-1960/? I/HidataAppQoeP: handleStateChanged reason=6
+2019-10-10 12:31:06.055 1845-1960/? I/PreDnsQuery: handleStateChanged reason=6
+2019-10-10 12:31:06.056 1845-1960/? I/BrowserChrP: handleStateChanged
+2019-10-10 12:31:06.170 622-622/? I/uniperf server: setConfig clientId=1, tagLen=1, tags[0]=10, configs[0]=332000000
+2019-10-10 12:31:06.171 642-1019/? I/PF_MT: [recordCmd:60] Pid:622 Qos:3 mode:0 suspend_mask:0x0 val=767000000
+2019-10-10 12:31:06.171 642-1019/? I/PF_MT: [recordCmd:60] Pid:622 Qos:3 mode:0 suspend_mask:0x0 val=332000000
+2019-10-10 12:31:06.171 642-696/? I/PF_FREQ_GRP: [recordLimitCmd:59] [GPU] start limit freq 237143000 ~ 332000000
+2019-10-10 12:31:06.172 1941-2227/? I/ScalingFreqAdapterUniPerf: ===success setFreq:  gpumax:10->332000000
+2019-10-10 12:31:06.405 778-814/? D/motion@1.0-service: motion-hal Motion::readEvents nread: 24
+2019-10-10 12:31:06.405 778-814/? D/motion@1.0-service: motion-hal Motion::readEvents motion_type: 7
+2019-10-10 12:31:06.405 778-814/? D/motion@1.0-service: motion-hal Motion::readEvents motion_type == MOTIONHUB_TYPE_ROTATION
+2019-10-10 12:31:06.405 778-814/? D/motion@1.0-service: motion-hal Motion::readMotionData motion_result->motion: 7
+2019-10-10 12:31:06.405 778-814/? D/motion@1.0-service: motion-hal Motion::readMotionData motions_data[0]: 1
+2019-10-10 12:31:06.405 778-814/? D/motion@1.0-service: motion-hal Motion::readMotionData motions_data[1]: -1
+2019-10-10 12:31:06.405 778-1549/? D/motion@1.0-service: pollMotionResult poll_result_return = 2
+2019-10-10 12:31:06.407 1158-1272/? I/HWExtDeviceManager: trigger onDeviceDataChanged : mListener : com.android.server.policy.HWExtMotionRotationProcessorEx$1@254489d,type : 700
+2019-10-10 12:31:06.407 1158-1272/? D/HWEMRP: onDeviceDataChanged  proposedRotation:-1
+2019-10-10 12:31:06.407 1158-1272/? D/HWEMRP: onDeviceDataChanged  oldProposedRotation:0
+2019-10-10 12:31:06.407 778-814/? D/motion@1.0-service: motion_pollresult_ready::unlock out
+2019-10-10 12:31:06.407 778-814/? D/motion@1.0-service:  actMotionCb mMotionClientVector.size = 0
+2019-10-10 12:31:06.407 778-814/? D/motion@1.0-service: actMotionCb out
+2019-10-10 12:31:06.588 1158-1271/? I/ActivityManager: App 10029/com.google.android.googlequicksearchbox targets O+, restricted
+2019-10-10 12:31:06.651 1158-1671/? I/AppWidgetServiceImpl: Widget is null when scheduleNotifyUpdateAppWidgetLocked
+2019-10-10 12:31:06.678 1158-1671/? V/BroadcastQueue: Finished with ordered broadcast BroadcastRecord{38d8064 u0 update-hint}
+2019-10-10 12:31:06.704 1158-1524/? I/HwBatteryService: quick charge status : 0
+2019-10-10 12:31:06.705 1158-1524/? D/HwBatteryService: onUEvent fcpStatus = 0
+2019-10-10 12:31:06.705 1158-1524/? D/HwBatteryService: onUEvent scpStatus = 0 ,ovpStatus = 0
+2019-10-10 12:31:06.705 1158-1524/? I/HwBatteryService: handleWirelessTxStatus
+2019-10-10 12:31:06.705 1158-1524/? I/HwBatteryService: switch not open, return, mWirelessTxFlag : 0
+2019-10-10 12:31:06.705 1158-1524/? I/UsbDeviceManager: water_intrused state= 0
+2019-10-10 12:31:06.707 598-834/? I/GRALLOC: getCallingPid=649, shrFd=32,fmt=0x1,intFmt=0x200000001,btStrd=4352,size=9973760,pid=598
+    	 yuv=2,w=1080,h=2244,Stride u=0 v=0,offset u=0 v=0
+    	 iova_size=9973760,conUsg=0xb00,proUsg=0xb00,	 strd=1088,[afbc]HdrStrd=1088 PyldStrd=69632 Scrmbl=2,ionhnd = 1
+2019-10-10 12:31:06.993 1158-1158/? V/SettingsProvider: Notifying for 0: content://settings/secure/wifiap_one_usage_stats
+2019-10-10 12:31:07.254 757-3025/? E/iMonitor: FaultDetect: DUMPTOOL_PRINTF return.
+2019-10-10 12:31:07.264 757-3025/? I/chatty: uid=0(root) RFD_TASK1 identical 3 lines
+2019-10-10 12:31:07.266 757-3025/? E/iMonitor: FaultDetect: DUMPTOOL_PRINTF return.
+2019-10-10 12:31:08.519 1158-1543/? W/AwareLog: AwareMem_MemoryUtils: trim Memory illegal arg exception, proc:5660 userId:-2 level:40 fromIAware:true
+2019-10-10 12:31:08.870 741-741/? E/Thermal-daemon: [charger_ic] temp_new :39  temp_old :38
+2019-10-10 12:31:08.873 1941-2666/? D/HwThermalStateManager: Thermal type: 2 cur_temperature:39
+2019-10-10 12:31:08.874 741-741/? E/Thermal-daemon: Report temperature: [charger_ic] temp :39  report_threshold:1
+2019-10-10 12:31:08.875 741-741/? E/Thermal-daemon: [ap] temp_new :40  temp_old :39
+2019-10-10 12:31:08.876 741-741/? E/Thermal-daemon: Report temperature: [ap] temp :40  report_threshold:1
+2019-10-10 12:31:08.877 1941-2666/? D/HwThermalStateManager: Thermal type: 0 cur_temperature:40
