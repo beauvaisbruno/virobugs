@@ -17,7 +17,7 @@ const Navigator = ()=>{
         </ViroARScene>;
       }}}
     //https://viromedia.com/signup/
-    apiKey={"BDF01DAC-4F97-4D5D-8C8A-DD8C609019B1"} />
+    apiKey={"SOME_APIKEY"} />
   </View>;
 };
 
