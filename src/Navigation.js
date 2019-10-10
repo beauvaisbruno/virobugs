@@ -89,7 +89,7 @@ const Navigation = () => {
       <View style={{flex: 1, backgroundColor: "black"}}>
         {Screen2DComp}
         {Screen3DComp}
-        {OverlayComp}
+        {/*{OverlayComp}*/}
       </View>
     </NavigationContext.Provider>
   );
